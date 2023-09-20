@@ -18,6 +18,7 @@ Indice delle materie:
   - Chimica organica
   - Principi di analisi chimica
 - Informatica
+- Economia
 - Materie applicate
   - Meccanica applicata e macchine
   - Termotecnica
