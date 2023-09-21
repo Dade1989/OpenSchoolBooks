@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[65] biber:322> INFO - === gio set 21, 2023, 00:10:33
+[77] Biber.pm:415> INFO - Reading 'main.bcf'
+[132] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[144] Biber.pm:4256> INFO - Processing section 0
+[144] Utils.pm:75> INFO - Globbing data source 'sample.bib'
+[144] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
+[152] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[153] bibtex.pm:1653> INFO - LaTeX decoding ...
+[156] bibtex.pm:1471> INFO - Found BibTeX data source 'sample.bib'
+[187] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[187] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[187] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'it-IT'
+[187] Biber.pm:4090> INFO - No sort tailoring available for locale 'it-IT'
+[189] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[190] bbl.pm:755> INFO - Output to main.bbl
