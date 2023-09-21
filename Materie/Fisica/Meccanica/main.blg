@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
-[7] Config.pm:307> INFO - Logfile is 'main.blg'
-[72] biber:322> INFO - === mer set 20, 2023, 17:53:09
-[83] Biber.pm:415> INFO - Reading 'main.bcf'
-[140] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
-[152] Biber.pm:4256> INFO - Processing section 0
-[152] Utils.pm:75> INFO - Globbing data source 'sample.bib'
-[152] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
-[160] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
-[161] bibtex.pm:1653> INFO - LaTeX decoding ...
-[164] bibtex.pm:1471> INFO - Found BibTeX data source 'sample.bib'
-[194] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[194] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[194] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[194] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[196] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[197] bbl.pm:755> INFO - Output to main.bbl
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[67] biber:322> INFO - === gio set 21, 2023, 11:27:21
+[79] Biber.pm:415> INFO - Reading 'main.bcf'
+[137] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[149] Biber.pm:4256> INFO - Processing section 0
+[149] Utils.pm:75> INFO - Globbing data source 'sample.bib'
+[149] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
+[158] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[158] bibtex.pm:1653> INFO - LaTeX decoding ...
+[162] bibtex.pm:1471> INFO - Found BibTeX data source 'sample.bib'
+[192] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[192] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[192] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[192] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[194] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[196] bbl.pm:755> INFO - Output to main.bbl

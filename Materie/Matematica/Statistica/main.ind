@@ -1,0 +1,18 @@
+\begin{theindex}
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{I}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Intelligenza Aritificale\dotfill \hyperpage{15}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{S}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Statistica
+    \subitem Introduzione\dotfill \hyperpage{9}
+    \subitem Multivariata\dotfill \hyperpage{11}
+    \subitem Processi\dotfill \hyperpage{13}
+    \subitem Univariata\dotfill \hyperpage{11}
+    \subitem Variabili\dotfill \hyperpage{11}
+
+\end{theindex}

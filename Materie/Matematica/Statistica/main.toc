@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{9}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Variabili casuali}{11}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Statistica univariata}{11}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Statistica multivariata}{11}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Processi casuali}{13}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Introduzione all'intelligenza artificiale}{15}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{17}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{19}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{21}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{21}{appendix.alph1.Alph1}%
+\contentsfinish 

@@ -1,0 +1,100 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {I}Meccanica}{11}{part.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Forze e azioni}{13}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Distribuzione di massa}{15}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Statica}{17}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Dinamica}{19}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Sectioning Examples}{21}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Section Title}{21}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Subsection Title}{21}{subsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1.1}Subsubsection Title}{22}{subsubsection.5.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Paragraph Title}{22}{paragraph*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}In-text Element Examples}{23}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Referencing Publications}{23}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Link Examples}{23}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Lists}{23}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Numbered List}{23}{subsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Bullet Point List}{23}{subsection.6.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Descriptions and Definitions}{23}{subsection.6.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}International Support}{24}{section.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Ligatures}{24}{section.6.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {II}Part Two Title}{25}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Mathematics}{27}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Theorems}{27}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Several equations}{27}{subsection.7.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Single Line}{27}{subsection.7.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Definitions}{27}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Notations}{27}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Remarks}{28}{section.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Corollaries}{28}{section.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Propositions}{28}{section.7.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.6.1}Several equations}{28}{subsection.7.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.6.2}Single Line}{28}{subsection.7.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}Examples}{28}{section.7.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.1}Equation Example}{28}{subsection.7.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.2}Text Example}{28}{subsection.7.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.8}Exercises}{28}{section.7.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.9}Problems}{29}{section.7.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.10}Vocabulary}{29}{section.7.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Presenting Information and Results with a Long Chapter Title}{31}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Table}{31}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Figure}{31}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{33}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{33}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{33}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{35}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{37}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix Chapter Title}{37}{appendix.a.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Appendix Section Title}{37}{section.a.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Appendix Chapter Title}{39}{appendix.a.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Appendix Section Title}{39}{section.a.B.1}%
+\contentsfinish 

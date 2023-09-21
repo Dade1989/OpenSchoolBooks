@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  21 SEP 2023 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  22 SEP 2023 00:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,50 +1135,83 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\@quotelevel=\count456
-\@quotereset=\count457
- (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2019/11/16 v.1.4.03 Italian support for the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count456
+\U@D=\dimen290
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count457
+)
+\it@lettering=\count458
+\it@doublequoteactive=\count459
+\it@ISOcompliance=\count460
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count461
+\@quotereset=\count462
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 31
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 34
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count458
-\scratchdimen=\dimen290
+\scratchcounter=\count463
+\scratchdimen=\dimen291
 \scratchbox=\box70
-\nofMPsegments=\count459
-\nofMParguments=\count460
+\nofMPsegments=\count464
+\nofMParguments=\count465
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count461
-\MPscratchDim=\dimen291
-\MPnumerator=\count462
-\makeMPintoPDFobject=\count463
+\MPscratchCnt=\count466
+\MPscratchDim=\dimen292
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
 \everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1218,25 +1251,25 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 31.
+LaTeX Info: Redefining \microtypecontext on input line 34.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 31.
+LaTeX Info: Redefining \showhyphens on input line 34.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+Package biblatex Info: Trying to load language 'italian'...
+Package biblatex Info: ... file 'italian.lbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
+File: italian.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1246,10 +1279,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 31.
-Package biblatex Info: Reference segment=0 on input line 31.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 \AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring ON on input line 31.
+Package hyperref Info: Link coloring ON on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1259,19 +1292,21 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count464
+\c@section@level=\count469
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
 ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \it@ocap on input line 34.
+LaTeX Info: Redefining \it@ccap on input line 34.
 <Images/background.pdf, id=7, 584.1825pt x 835.12pt>
 File: Images/background.pdf Graphic file (type pdf)
 <use Images/background.pdf>
-Package pdftex.def Info: Images/background.pdf  used on input line 47.
+Package pdftex.def Info: Images/background.pdf  used on input line 50.
 (pdftex.def)             Requested size: 597.50787pt x 854.24503pt.
-LaTeX Font Info:    Trying to load font information for T1+pag on input line 47
+LaTeX Font Info:    Trying to load font information for T1+pag on input line 50
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
@@ -1282,29 +1317,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 47.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 47.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 50.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/background.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-3.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1313,7 +1348,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 63.
+ 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1323,35 +1358,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 63.
+ 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 63.
+ 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 63.
+ 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-3.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1359,304 +1394,102 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 [2]
-<Images/orange1.jpg, id=24, 1644.1425pt x 734.745pt>
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 73.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
- [3
-
- <./Images/orange1.jpg>]
-Overfull \hbox (390.95769pt too wide) detected at line 59
-[][][][][][] [][][][][][] 
- []
-
-
-Overfull \hbox (390.95769pt too wide) detected at line 89
-[][][][][][] [][][][][][] 
- []
-
-[4])
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
+)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [5] [6
+ [3
 
-]
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 75.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
- (./main.lof)
+] [4
+
+] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
+
+ [5] [6
+
+] (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
  [7] [8
 
 ]
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 77.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
- (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
+(./contents.tex
+Capitolo 1.
+(./Sections/introduction.tex) [9
 
- [9] [10
-
-] (./contents.tex
-(./Sections/kinematics.tex
-Chapter 1.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 2.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) [11
-
-] [12
+] [10
 
 ]
-Chapter 2.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 4.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[13] [14
+Capitolo 2.
+(./Sections/variables.tex) [11] [12
 
 ]
-Chapter 3.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 7.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[15] [16
+Capitolo 3.
+(./Sections/processes.tex) [13] [14
 
 ]
-Chapter 4.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 10.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[17] [18
+Capitolo 4.
+(./Sections/ai.tex)) [15] [16
 
-]
-Chapter 5.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 13.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) (./Sections/kinematics.tex [19] [20
+] [17] [18
 
-]
-Chapter 6.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 2.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) [21] [22
+] (./main.ind [19
 
-]
-Chapter 7.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 91.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[23] [24
 
-]
-Chapter 8.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 94.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[25] [26
-
-]
-Chapter 9.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 97.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[27] [28
-
-]
-Chapter 10.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 100.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[29] [30
-
-]
-\c@ttl@toc@part=\count465
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 108.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 108.
- (./main.ptc) [31] [32]
-Chapter 11.
-<Images/orange2.jpg, id=476, 1300.86pt x 602.25pt>
-File: Images/orange2.jpg Graphic file (type jpg)
-<use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 120.
-(pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
-[33
-
- <./Images/orange2.jpg>] [34]
-Chapter 12.
-File: Images/orange2.jpg Graphic file (type jpg)
-<use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 154.
-(pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-[35
-
-] [36] (./main.ptc) [37
-
-] [38]
-Chapter 13.
-File: Images/orange2.jpg Graphic file (type jpg)
-<use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 236.
-(pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-Package mdframed Info: mdframed works in twoside mode on input line 244.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 244.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 244.
-Package mdframed Info: mdframed works in twoside mode on input line 256.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 256.
-Package mdframed Info: mdframed works in twoside mode on input line 266.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 266.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 280.
-[39
-
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
-Package mdframed Info: mdframed works in twoside mode on input line 302.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 302.
-Package mdframed Info: mdframed works in twoside mode on input line 351.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 351.
- [40] [41] [42
-
-]
-Chapter 14.
-<Images/orange3.jpg, id=612, 1409.265pt x 666.49pt>
-File: Images/orange3.jpg Graphic file (type jpg)
-<use Images/orange3.jpg>
-Package pdftex.def Info: Images/orange3.jpg  used on input line 383.
-(pdftex.def)             Requested size: 597.50787pt x 282.5782pt.
-<Images/creodocs_logo.pdf, id=614, 833.50496pt x 170.09146pt>
-File: Images/creodocs_logo.pdf Graphic file (type pdf)
-<use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 429.
-(pdftex.def)             Requested size: 213.39568pt x 43.54533pt.
-File: Images/creodocs_logo.pdf Graphic file (type pdf)
-<use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 438.
-(pdftex.def)             Requested size: 426.79135pt x 87.09326pt.
-[43 <./Images/orange3.jpg> <./Images/creodocs_logo.pdf>] [44] [45
-
-] [46
-
-]
-(./main.ind [47
-
-]) [48
+]) [20
 
 
 ]
-Appendix A.
-File: Images/orange2.jpg Graphic file (type jpg)
-<use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 494.
-(pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-[49
-
-] [50
+Appendice A.
+[21
 
 ]
-Appendix B.
-File: Images/orange2.jpg Graphic file (type jpg)
-<use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 502.
-(pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-\tf@ptc=\write9
-\openout9 = `main.ptc'.
-
-[51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 514.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 514.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 514.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 138.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29707 strings out of 483172
- 550551 string characters out of 5965817
- 1233231 words of memory out of 5000000
- 43805 multiletter control sequences out of 15000+600000
- 662685 words of font info for 285 fonts, out of 8000000 for 9000
+ 29596 strings out of 483172
+ 548004 string characters out of 5965817
+ 1231208 words of memory out of 5000000
+ 43938 multiletter control sequences out of 15000+600000
+ 599139 words of font info for 136 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,15n,83p,893b,1304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,11n,71p,805b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 820562 bytes).
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/c
+m-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/ua
+gd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (21 pages, 80388 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 161 named destinations out of 1000 (max. 500000)
- 69646 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 37986 words of extra memory for PDF output out of 42996 (max. 10000000)
 

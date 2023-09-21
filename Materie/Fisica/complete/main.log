@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  21 SEP 2023 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  21 SEP 2023 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,31 +1376,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
  (./main.toc
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
+
+Overfull \hbox (390.95769pt too wide) detected at line 3
+[][][][][][] [][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
- [3
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
 
- <./Images/orange1.jpg>]
-Overfull \hbox (390.95769pt too wide) detected at line 59
+Overfull \hbox (390.95769pt too wide) detected at line 41
 [][][][][][] [][][][][][] 
  []
 
+[3
 
-Overfull \hbox (390.95769pt too wide) detected at line 89
-[][][][][][] [][][][][][] 
- []
-
-[4])
+ <./Images/orange1.jpg>])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [5] [6
-
-]
+ [4]
 File: Images/orange1.jpg Graphic file (type jpg)
 <use Images/orange1.jpg>
 Package pdftex.def Info: Images/orange1.jpg  used on input line 75.
@@ -1409,7 +1407,9 @@ Package pdftex.def Info: Images/orange1.jpg  used on input line 75.
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [7] [8
+ [5
+
+] [6
 
 ]
 File: Images/orange1.jpg Graphic file (type jpg)
@@ -1420,29 +1420,36 @@ Package pdftex.def Info: Images/orange1.jpg  used on input line 77.
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [9] [10
-
-] (./contents.tex
-(./Sections/kinematics.tex
-Chapter 1.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 2.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) [11
-
-] [12
+ [7] [8
 
 ]
-Chapter 2.
+[9] [10
+
+]
+\c@ttl@toc@part=\count465
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 88.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 88.
+ (./main.ptc) [11] [12] (..//Meccanica/contents.tex
+
+! LaTeX Error: File `Sections/kinematics.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+Chapter 1.
 File: Images/orange1.jpg Graphic file (type jpg)
 <use Images/orange1.jpg>
 Package pdftex.def Info: Images/orange1.jpg  used on input line 4.
 (pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[13] [14
+[13
+
+] [14
 
 ]
-Chapter 3.
+Chapter 2.
 File: Images/orange1.jpg Graphic file (type jpg)
 <use Images/orange1.jpg>
 Package pdftex.def Info: Images/orange1.jpg  used on input line 7.
@@ -1450,7 +1457,7 @@ Package pdftex.def Info: Images/orange1.jpg  used on input line 7.
 [15] [16
 
 ]
-Chapter 4.
+Chapter 3.
 File: Images/orange1.jpg Graphic file (type jpg)
 <use Images/orange1.jpg>
 Package pdftex.def Info: Images/orange1.jpg  used on input line 10.
@@ -1458,186 +1465,138 @@ Package pdftex.def Info: Images/orange1.jpg  used on input line 10.
 [17] [18
 
 ]
-Chapter 5.
+Chapter 4.
 File: Images/orange1.jpg Graphic file (type jpg)
 <use Images/orange1.jpg>
 Package pdftex.def Info: Images/orange1.jpg  used on input line 13.
 (pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) (./Sections/kinematics.tex [19] [20
+) [19] [20
 
 ]
-Chapter 6.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 2.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-) [21] [22
-
-]
-Chapter 7.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 91.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[23] [24
-
-]
-Chapter 8.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 94.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[25] [26
-
-]
-Chapter 9.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 97.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[27] [28
-
-]
-Chapter 10.
-File: Images/orange1.jpg Graphic file (type jpg)
-<use Images/orange1.jpg>
-Package pdftex.def Info: Images/orange1.jpg  used on input line 100.
-(pdftex.def)             Requested size: 597.50787pt x 267.01932pt.
-[29] [30
-
-]
-\c@ttl@toc@part=\count465
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 108.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 108.
- (./main.ptc) [31] [32]
-Chapter 11.
-<Images/orange2.jpg, id=476, 1300.86pt x 602.25pt>
+Chapter 5.
+<Images/orange2.jpg, id=341, 1300.86pt x 602.25pt>
 File: Images/orange2.jpg Graphic file (type jpg)
 <use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 120.
+Package pdftex.def Info: Images/orange2.jpg  used on input line 101.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
-[33
-
- <./Images/orange2.jpg>] [34]
-Chapter 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+[21 <./Images/orange2.jpg>] [22]
+Chapter 6.
 File: Images/orange2.jpg Graphic file (type jpg)
 <use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 154.
+Package pdftex.def Info: Images/orange2.jpg  used on input line 135.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-[35
+[23
 
-] [36] (./main.ptc) [37
+] [24] (./main.ptc) [25
 
-] [38]
-Chapter 13.
+] [26]
+Chapter 7.
 File: Images/orange2.jpg Graphic file (type jpg)
 <use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 236.
+Package pdftex.def Info: Images/orange2.jpg  used on input line 217.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-Package mdframed Info: mdframed works in twoside mode on input line 244.
+Package mdframed Info: mdframed works in twoside mode on input line 225.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 244.
+(mdframed)              on input line 225.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 244.
-Package mdframed Info: mdframed works in twoside mode on input line 256.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 225.
+Package mdframed Info: mdframed works in twoside mode on input line 237.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 256.
-Package mdframed Info: mdframed works in twoside mode on input line 266.
+(mdframed)              on input line 237.
+Package mdframed Info: mdframed works in twoside mode on input line 247.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 266.
+(mdframed)              on input line 247.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 280.
-[39
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 261.
+[27
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 295.
-Package mdframed Info: mdframed works in twoside mode on input line 302.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
+Package mdframed Info: mdframed works in twoside mode on input line 283.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 302.
-Package mdframed Info: mdframed works in twoside mode on input line 351.
+(mdframed)              on input line 283.
+Package mdframed Info: mdframed works in twoside mode on input line 332.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 351.
- [40] [41] [42
+(mdframed)              on input line 332.
+ [28] [29] [30
 
 ]
-Chapter 14.
-<Images/orange3.jpg, id=612, 1409.265pt x 666.49pt>
+Chapter 8.
+<Images/orange3.jpg, id=477, 1409.265pt x 666.49pt>
 File: Images/orange3.jpg Graphic file (type jpg)
 <use Images/orange3.jpg>
-Package pdftex.def Info: Images/orange3.jpg  used on input line 383.
+Package pdftex.def Info: Images/orange3.jpg  used on input line 364.
 (pdftex.def)             Requested size: 597.50787pt x 282.5782pt.
-<Images/creodocs_logo.pdf, id=614, 833.50496pt x 170.09146pt>
+<Images/creodocs_logo.pdf, id=479, 833.50496pt x 170.09146pt>
 File: Images/creodocs_logo.pdf Graphic file (type pdf)
 <use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 429.
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 410.
 (pdftex.def)             Requested size: 213.39568pt x 43.54533pt.
 File: Images/creodocs_logo.pdf Graphic file (type pdf)
 <use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 438.
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 419.
 (pdftex.def)             Requested size: 426.79135pt x 87.09326pt.
-[43 <./Images/orange3.jpg> <./Images/creodocs_logo.pdf>] [44] [45
+[31 <./Images/orange3.jpg> <./Images/creodocs_logo.pdf>] [32] [33
 
-] [46
+] [34
 
 ]
-(./main.ind [47
+(./main.ind [35
 
-]) [48
+]) [36
 
 
 ]
 Appendix A.
 File: Images/orange2.jpg Graphic file (type jpg)
 <use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 494.
+Package pdftex.def Info: Images/orange2.jpg  used on input line 475.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
-[49
+[37
 
-] [50
+] [38
 
 ]
 Appendix B.
 File: Images/orange2.jpg Graphic file (type jpg)
 <use Images/orange2.jpg>
-Package pdftex.def Info: Images/orange2.jpg  used on input line 502.
+Package pdftex.def Info: Images/orange2.jpg  used on input line 483.
 (pdftex.def)             Requested size: 597.50787pt x 276.62482pt.
 \tf@ptc=\write9
 \openout9 = `main.ptc'.
 
-[51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 514.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
+[39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 514.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 514.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 495.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29707 strings out of 483172
- 550551 string characters out of 5965817
- 1233231 words of memory out of 5000000
- 43805 multiletter control sequences out of 15000+600000
+ 29632 strings out of 483172
+ 549653 string characters out of 5965817
+ 1232936 words of memory out of 5000000
+ 43769 multiletter control sequences out of 15000+600000
  662685 words of font info for 285 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,15n,83p,893b,1304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,15n,81p,893b,1304s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1653,10 +1612,10 @@ urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 820562 bytes).
+Output written on main.pdf (39 pages, 811171 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 161 named destinations out of 1000 (max. 500000)
- 69646 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 69454 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -19,10 +19,10 @@
     - Joule e il calorimentro
     - Clausius e le tendenze spontanee nella dissipazione e nella trasmissione del calore
   - Principi:
-    - 0. Equilibrio termico
-    - 1. Bilancio di energia totale
-    - 2. Irreversibilità
-    - 3. Temperatura assoluta
+    0. Equilibrio termico
+    1. Bilancio di energia totale
+    2. Irreversibilità
+    3. Temperatura assoluta
 - Macchine termiche
 - Trasmissione del calore
 
