@@ -621,6 +621,7 @@
 % Black theorem number and optional black title no padding above and below
 \theoremstyle{blacknumex}
 \newtheorem{exampleT}{Example}[chapter] % Examples, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{noteT}{Osservazione}[chapter] % Note
 \newtheorem{notation}{Notation}[chapter] % Notations, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
 \newtheorem{vocabulary}{Vocabulary}[chapter] % Vocabularies, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
 
@@ -710,6 +711,7 @@
 \newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}
 \newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}
 \newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}	
+\newenvironment{note}{\begin{noteT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{noteT}}	
 \newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}
 
 %----------------------------------------------------------------------------------------

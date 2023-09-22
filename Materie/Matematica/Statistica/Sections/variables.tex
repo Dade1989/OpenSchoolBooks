@@ -4,7 +4,7 @@
 
 \begin{itemize}
   \item definizione variabili casuali; variabili a valori discreti o continui
-  \item distribuzioni di probabilità: densità e proprietà cumulata
+  \item distribuzioni di probabilità: proprietà (non-negatività, unitarietà); densità e proprietà cumulata
   \item esempi di distribuzione di probabilità
   \item teoremi: teorema del limite centrale e teorema dei grandi numeri
 \end{itemize}
@@ -20,8 +20,100 @@
 \end{itemize}
 
 
+\subsection{Distribuzioni di probabilità (con variabili discrete)}
+
+Siano date due variabili casuali $X$, $Y$, che possono assumere rispettivamente i valori $x \in \{x_1, x_2,\dots\, x_{N_x}$, $y \in \{y_1, y_2,\dots, y_{N_y}\}$.
+
+\begin{definition}[Densità di probabilità congiunta $p_{X,Y}(x,y)$] 
+    \'E una funzione che ha come argomenti i valori che possono assumere le variabili casuali e rappresenta la probabilità che si verifichino insieme gli eventi $X=x$, $Y=y$.
+\end{definition}
+
+\paragraph{Unitarietà della probabilità congiunta.} La somma delle probabilità di tutte le combinazione degli eventi è uguale a 1, cioè
+\begin{equation}\label{eqn:joint:normalization}
+    1 = \sum_{i_x = 1}^{N_x} \sum_{i_y = 1}^{N_y} p(x_{i_x}, y_{i_y})
+\end{equation}
+
+\begin{definition}[Densità di probabilità marginale $p_{X}(x)$]
+   \'E una funzione che ha come argomento i valori che può assumere la variabile casuale $x$ e rappresenta la probabilità che si verifichi l'evento $X=x$, indipendentemente dal valore di $Y$.
+\end{definition}
+
+\paragraph{Proprietà marginale come somma parziale.} La proprietà marginale dell'osservazione $X=x_i$, $p(x_i)$, è la somma delle probabilità congiunte con tutte le possibili osservazioni dell'altra variabile $Y$, cioè
+\begin{equation}\label{eqn:marginal:def}
+    p(x_{i_x}) = \sum_{i_y = 1}^{N_y} p(x_{i_x}, y_{i_y}) \ ,
+\end{equation}
+così che l'equazione \ref{eqn:joint:normalization} può essere riscritta
+\begin{equation}
+    1 = \sum_{i_x = 1}^{N_x} \sum_{i_y = 1}^{N_y} p(x_{i_x}, y_{i_y}) = 
+        \sum_{i_x = 1}^{N_x} p(x_{i_x}) \ ,
+\end{equation}
+dimostrando l'unitarietà della probabilità marginale, come densità di probabilità su $x$.
+
+\begin{definition}[Densità di probabilittà condizionale $p_{Y|X}(y|x)$]
+   \'E una funzione che ha come argomenti il valori che possono assumere la variabile casuale $y$ e come ``parametero'' la variabile casuale $x$ e rappresenta la probabilità che si verifichi l'evento $Y=y$, dato l'evento $X=x$.
+\end{definition}
+Per ottenere la probabilità di osservare $Y=y_{i_y}$, condizionato all'osservazione di $X=x_{i_x}$ bisogna ``scalare'' la probabilità congiunta $p(x_{i_x},y_{i_y})$ per la probabilità marginale di aver ottenuto $X=x_{i_x}$, cioè
+\begin{equation}\label{eqn:conditional:def}
+    p(y_{i_y}|x_{i_x}) = \dfrac{p(x_{i_x},y_{i_y})}{p(x_{i_x})} \ .
+\end{equation}
+
+\begin{note} La probabilità condizionale $p(y|x)$ è ben definita quando la proprietà marginale $p(x) > 0$, ossia la probabilità di osservare il valore $x$ non è nullo.
+\end{note}
+\begin{note} La condizione di normalizzazione per la probabilità condizionale si ottiene dividendo l'espressione \ref{eqn:marginal:def} per $p(x_{i_x})$,
+\end{note}
+\begin{equation}
+    1 = \sum_{i_y = 1}^{N_y} \dfrac{p(x_{i_x}, y_{i_y})}{p(x_{i_x})} = \sum_{i_y = 1}^{N_y} p(y_{i_y}|x_{i_x}) \ .
+\end{equation}
 
 
+\subsection{Teorema di Bayes}
+\'E possibile riscrivere l'equazione \ref{eqn:conditional:def} nella forma
+\begin{equation}\label{eqn:bayes:a}
+    p(x,y) = p(y|x) p(x)
+\end{equation}
+o alternativamente
+\begin{equation}\label{eqn:bayes:b}
+   p(x,y) = p(x|y) p(y) \ .
+\end{equation}
+\begin{theorem}[Teorema di Bayes]\index{Teorema!di Bayes}
+    Usando le equazioni \ref{eqn:bayes:a}, \ref{eqn:bayes:b},
+    \begin{equation}
+        p(x,y) = p(y|x) p(x) = p(x|y) p(y) \ ,
+    \end{equation}
+    è possibile scrivere
+    \begin{equation}
+        p(x|y) = \dfrac{ p(x,y) }{ p(y) } = \dfrac{ p(y|x) p(x) }{ p(y) } \ .
+    \end{equation}
+\end{theorem}
 
+\subsection{Esempi nell'uso del teorema di Bayes}
+
+\subsection{Indicatori sintetici}
+Dopo aver raccolto le variabili casuali scalari $X_i$ in una variabile casuale vettoriale $\mathbf{X}$, usando il formalismo matriciale
+\begin{equation}
+    \mathbf{X} = \begin{bmatrix}  X_1 \\ \dots  \\ X_n \end{bmatrix}
+\end{equation}
+possiamo definire alcuni indicatori sintetici. 
+
+\subsubsection{Valore atteso (volgarmente chiamato media)}
+La media di una variabile casuale multivariata (o multidimensionale) viene definita come la media pesata di tutti i possibili valori $\mathbf{x}_I$ della variabile casuale $\mathbf{X}_I$, pesati per il valore corrispondente della densità di probabilità
+\begin{equation}
+    \mathbb{E}[\mathbf{x}] := \overline{\mathbf{X}} := \mathbf{\mu}_X = \sum_{I} f(\mathbf{x}_I) \mathbf{x}_I \ . 
+\end{equation}
+
+\subsubsection{Covarianza}
+La covarianza viene definita come il valore atteso del ``prodotto tensoriale'' della deviazione della media con sé stesso, cioé
+\begin{equation}
+    \mathbf{C}_{XX} := \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] \  .
+\end{equation}
+Usando le proprietà della media, si può riscrivere la covarianza come
+\begin{equation}
+\begin{aligned}
+    \mathbf{C}_{XX} & = \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}\overline{\mathbf{X}}^T] - \mathbf{E}[\overline{\mathbf{X}}\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T 
+\end{aligned}
+\end{equation}
 
 

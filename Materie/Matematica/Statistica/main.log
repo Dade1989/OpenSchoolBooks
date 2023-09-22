@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  22 SEP 2023 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  22 SEP 2023 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,10 +736,11 @@ Package: amsthm 2017/10/31 v2.20.4
 \c@problem=\count416
 \c@exerciseT=\count417
 \c@exampleT=\count418
-\c@notation=\count419
-\c@vocabulary=\count420
-\c@definitionT=\count421
-\c@corollaryT=\count422
+\c@noteT=\count419
+\c@notation=\count420
+\c@vocabulary=\count421
+\c@definitionT=\count422
+\c@corollaryT=\count423
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -750,14 +751,14 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count423
+\l__kernel_color_stack_int=\count424
 \l__pdf_internal_box=\box53
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count424
-\g__xparse_grabber_int=\count425
-\l__xparse_m_args_int=\count426
-\l__xparse_v_nesting_int=\count427
+\l__xparse_current_arg_int=\count425
+\g__xparse_grabber_int=\count426
+\l__xparse_m_args_int=\count427
+\l__xparse_v_nesting_int=\count428
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
@@ -768,14 +769,14 @@ Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count428
+\c@abspage=\count429
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip97
-\c@mdf@globalstyle@cnt=\count429
+\c@mdf@globalstyle@cnt=\count430
 \mdf@skipabove@length=\skip98
 \mdf@skipbelow@length=\skip99
 \mdf@leftmargin@length=\skip100
@@ -851,16 +852,16 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip161
 \mdfsubtitleheight=\skip162
 \mdfsubsubtitleheight=\skip163
-\c@mdfcountframes=\count430
+\c@mdfcountframes=\count431
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count431
-\c@mdf@env@i=\count432
-\c@mdf@env@ii=\count433
-\c@mdf@zref@counter=\count434
+\mdf@envdepth=\count432
+\c@mdf@env@i=\count433
+\c@mdf@env@ii=\count434
+\c@mdf@zref@counter=\count435
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -908,14 +909,14 @@ ex
 \pgf@yd=\dimen195
 \w@pgf@writea=\write5
 \r@pgf@reada=\read3
-\c@pgf@counta=\count435
-\c@pgf@countb=\count436
-\c@pgf@countc=\count437
-\c@pgf@countd=\count438
+\c@pgf@counta=\count436
+\c@pgf@countb=\count437
+\c@pgf@countc=\count438
+\c@pgf@countd=\count439
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count439
+\pgf@sys@id@count=\count440
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -931,8 +932,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count440
-\pgfsyssoftpath@bigbuffer@items=\count441
+\pgfsyssoftpath@smallbuffer@items=\count441
+\pgfsyssoftpath@bigbuffer@items=\count442
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -946,7 +947,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen196
-\pgfmath@count=\count442
+\pgfmath@count=\count443
 \pgfmath@box=\box60
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
@@ -970,7 +971,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count443
+\c@pgfmathroundto@lastzeros=\count444
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -1009,7 +1010,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count444
+\pgf@picture@serial@count=\count445
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1042,8 +1043,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen276
-\pgf@sys@shading@range@num=\count445
-\pgf@shadingcount=\count446
+\pgf@sys@shading@range@num=\count446
+\pgf@shadingcount=\count447
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1103,7 +1104,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count447
+\pgf@plot@mark@count=\count448
 \pgfplotmarksize=\dimen281
 )
 \tikz@lastx=\dimen282
@@ -1118,18 +1119,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box67
 \tikz@tempbox=\box68
 \tikz@tempbox@bg=\box69
-\tikztreelevel=\count448
-\tikznumberofchildren=\count449
-\tikznumberofcurrentchild=\count450
-\tikz@fig@count=\count451
+\tikztreelevel=\count449
+\tikznumberofchildren=\count450
+\tikznumberofcurrentchild=\count451
+\tikz@fig@count=\count452
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count452
-\pgfmatrixcurrentcolumn=\count453
-\pgf@matrix@numberofcolumns=\count454
+\pgfmatrixcurrentrow=\count453
+\pgfmatrixcurrentcolumn=\count454
+\pgf@matrix@numberofcolumns=\count455
 )
-\tikz@expandcount=\count455
+\tikz@expandcount=\count456
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1146,23 +1147,23 @@ Language: italian 2019/11/16 v.1.4.03 Italian support for the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count456
+\babel@savecnt=\count457
 \U@D=\dimen290
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count457
+\bbl@dirlevel=\count458
 )
-\it@lettering=\count458
-\it@doublequoteactive=\count459
-\it@ISOcompliance=\count460
+\it@lettering=\count459
+\it@doublequoteactive=\count460
+\it@ISOcompliance=\count461
 ))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count461
-\@quotereset=\count462
+\@quotelevel=\count462
+\@quotereset=\count463
 (./main.aux)
 \openout1 = `main.aux'.
 
@@ -1189,16 +1190,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count463
+\scratchcounter=\count464
 \scratchdimen=\dimen291
 \scratchbox=\box70
-\nofMPsegments=\count464
-\nofMParguments=\count465
+\nofMPsegments=\count465
+\nofMParguments=\count466
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count466
+\MPscratchCnt=\count467
 \MPscratchDim=\dimen292
-\MPnumerator=\count467
-\makeMPintoPDFobject=\count468
+\MPnumerator=\count468
+\makeMPintoPDFobject=\count469
 \everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1292,7 +1293,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count469
+\c@section@level=\count470
 )
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
@@ -1441,27 +1442,74 @@ Capitolo 1.
 
 ]
 Capitolo 2.
-(./Sections/variables.tex) [11] [12
+(./Sections/variables.tex
+Overfull \hbox (4.50084pt too wide) in paragraph at lines 25--26
+\T1/ptm/m/n/10.95 (-20) Siano da-te due va-ria-bi-li ca-sua-li $\OML/ztmcm/m/it
+/10.95 X$\T1/ptm/m/n/10.95 (-20) , $\OML/ztmcm/m/it/10.95 Y$\T1/ptm/m/n/10.95 (
+-20) , che pos-so-no as-su-me-re ri-spet-ti-va-men-te i va-lo-ri $\OML/ztmcm/m/
+it/10.95 x \OMS/ztmcm/m/n/10.95 2 f\OML/ztmcm/m/it/10.95 x[]; x[]; []  x[]$\T1/
+ptm/m/n/10.95 (-20) ,
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 27.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 27.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 36.
+
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+ [11]
+Package mdframed Info: mdframed works in twoside mode on input line 51.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 51.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
+Package mdframed Info: mdframed works in twoside mode on input line 77.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 77.
+
+[12]) [13] [14
 
 ]
 Capitolo 3.
-(./Sections/processes.tex) [13] [14
+(./Sections/processes.tex) [15] [16
 
 ]
 Capitolo 4.
-(./Sections/ai.tex)) [15] [16
+(./Sections/ai.tex
+Overfull \hbox (61.7542pt too wide) in paragraph at lines 17--18
+[] []\T1/pag/db/n/10.95 Nes-sun pa-sto è gra-tis -- com-pro-mes-so bia-s--va-ri
+an-za.[] [][]\T1/ptm/m/n/10.95 (-20) https://it.wikipedia.org/wiki/Compromesso_
+bias-
+ []
 
-] [17] [18
+[17])) [18] [19
 
-] (./main.ind [19
+] [20
+
+] (./main.ind [21
 
 
-]) [20
+]) [22
 
 
 ]
 Appendice A.
-[21
+[23
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
@@ -1474,22 +1522,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29596 strings out of 483172
- 548004 string characters out of 5965817
- 1231208 words of memory out of 5000000
- 43938 multiletter control sequences out of 15000+600000
- 599139 words of font info for 136 fonts, out of 8000000 for 9000
+ 29826 strings out of 483172
+ 551031 string characters out of 5965817
+ 1238743 words of memory out of 5000000
+ 44048 multiletter control sequences out of 15000+600000
+ 638515 words of font info for 222 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,11n,71p,805b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,71p,805b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/c
-m-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/ua
-gd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 80388 bytes).
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (23 pages, 155326 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 37986 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 53938 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -10,15 +10,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Statistica multivariata}{11}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Processi casuali}{13}{chapter.3}%
+\contentsline {subsection}{\numberline {2.2.1}Distribuzioni di probabilità (con variabili discrete)}{11}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Introduzione all'intelligenza artificiale}{15}{chapter.4}%
+\contentsline {paragraph}{Unitarietà della probabilità congiunta.}{11}{paragraph*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{17}{chapter*.4}%
+\contentsline {paragraph}{Proprietà marginale come somma parziale.}{11}{paragraph*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{19}{section*.5}%
+\contentsline {subsection}{\numberline {2.2.2}Teorema di Bayes}{12}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{21}{section*.6}%
+\contentsline {subsection}{\numberline {2.2.3}Esempi nell'uso del teorema di Bayes}{13}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{21}{appendix.alph1.Alph1}%
+\contentsline {subsection}{\numberline {2.2.4}Indicatori sintetici}{13}{subsection.2.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.4.1}Valore atteso (volgarmente chiamato media)}{13}{subsubsection.2.2.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.4.2}Covarianza}{13}{subsubsection.2.2.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Processi casuali}{15}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Introduzione all'intelligenza artificiale}{17}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Introduzione}{17}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cosa si intende per intelligenza artificiale.}{17}{paragraph*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nessun pasto è gratis -- compromesso bias-varianza.}{17}{paragraph*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{La maledizione della dimensionalità.}{17}{paragraph*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Deep learning.}{17}{paragraph*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Machine learning}{17}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Supervised learning}{17}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.1}Regressione}{17}{subsubsection.4.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Regressione lineare.}{17}{paragraph*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Regressione lineare generalizzata.}{17}{paragraph*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.2}Classificazione}{17}{subsubsection.4.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Unsupervised learning}{17}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Dimensionality reduction}{17}{subsubsection.4.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Clustering}{18}{subsubsection.4.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Reinforcement learning}{18}{subsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Deep learning}{18}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{19}{chapter*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{21}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{23}{section*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{23}{appendix.alph1.Alph1}%
 \contentsfinish 

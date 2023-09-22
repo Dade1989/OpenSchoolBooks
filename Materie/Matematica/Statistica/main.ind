@@ -1,8 +1,33 @@
 \begin{theindex}
 \nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{C}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Clustering\dotfill \hyperpage{18}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{D}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Deep learning\dotfill \hyperpage{18}
+  \item Dimensionality reduction\dotfill \hyperpage{17}
+
+  \indexspace
+\nopagebreak
 \vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{I}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Intelligenza Aritificale\dotfill \hyperpage{15}
+  \item Intelligenza Aritificale\dotfill \hyperpage{17}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{M}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Machine learning\dotfill \hyperpage{17}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{R}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Reinforcement learning\dotfill \hyperpage{18}
 
   \indexspace
 \nopagebreak
@@ -11,8 +36,22 @@
   \item Statistica
     \subitem Introduzione\dotfill \hyperpage{9}
     \subitem Multivariata\dotfill \hyperpage{11}
-    \subitem Processi\dotfill \hyperpage{13}
+    \subitem Processi\dotfill \hyperpage{15}
     \subitem Univariata\dotfill \hyperpage{11}
     \subitem Variabili\dotfill \hyperpage{11}
+  \item Supervised learning\dotfill \hyperpage{17}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{T}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Teorema
+    \subitem di Bayes\dotfill \hyperpage{12}
+
+  \indexspace
+\nopagebreak
+\vspace*{0.1cm}\tikz\node at (0pt,0pt) [draw=none, fill=ocre!50, line width=1pt, inner sep=5pt]{\parbox{0.993\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{U}}};\vspace*{0.2cm}\nopagebreak
+
+  \item Unsupervised learning\dotfill \hyperpage{17}
 
 \end{theindex}
