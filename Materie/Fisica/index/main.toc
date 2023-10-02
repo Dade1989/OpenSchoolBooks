@@ -1,0 +1,86 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {I}Storia}{5}{part.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {II}Misure}{7}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {III}Meccanica}{9}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Cinematica}{11}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Dinamica}{13}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Principi della dinamica di Newton}{13}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Equazioni cardinali della dinamica}{13}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Energia}{13}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {IV}Termodinamica}{15}{part.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Principi della termodinamica}{17}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Primo principio}{17}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Secondo principio}{17}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Terzo principio}{18}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Principio zero - Equilibrio termico}{18}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Stati della materia e leggi costitutive}{19}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Gas}{19}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Legge dei gas perfetti}{19}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Solidi}{19}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Macchine termiche}{21}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Macchina ideale di Carnot}{21}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Postulati della termodinamica di Kelvin e Planck}{21}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Cicli termodinamici e macchine termiche}{21}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Cicli termodinamici diretti}{21}{subsection.5.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1.1}Ciclo Otto}{21}{subsubsection.5.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1.2}Ciclo Diesel}{21}{subsubsection.5.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1.3}Ciclo Joule-Brayton}{21}{subsubsection.5.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1.4}Ciclo Rankine}{21}{subsubsection.5.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Cicli termodinamici inversi}{21}{subsection.5.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Trasmissione del calore}{23}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {V}Elettromagnetismo}{25}{part.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Introduzione}{27}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Carica e corrente elettrica, magneti ed elettromagneti}{27}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Magneti}{27}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}}{29}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}}{31}{chapter.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{33}{part.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{35}{part.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{37}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{39}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{39}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{39}{appendix.alph1.Alph1}%
+\contentsfinish 

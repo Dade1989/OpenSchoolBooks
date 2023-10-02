@@ -1,0 +1,78 @@
+
+% ------------------------------------------------------------------------------
+\chapter{Principi della termodinamica}\label{thermodynamics:principles}
+\section{Primo principio}
+Il primo principio della termodinamica è il bilancio di energia totale del sistema: la variazione di energia totale di un sistema è uguale alla somma del calore entrante nel sistema dall'ambiente e del lavoro delle forze esterne agenti sul sistema. In forma incrementale
+\begin{equation}
+  \Delta E^{tot} = Q^{ext} + L^{ext} \ ,
+\end{equation}
+\begin{equation}
+  \dot{E}^{tot} = \dot{Q}^{ext} + P^{ext} \ .
+\end{equation}
+%
+Usando il teorema dell'energia cinetica della meccanica,
+\begin{equation}
+  \dot{K} = P^{tot} = P^{ext} + P^{int} \ ,
+\end{equation}
+e definendo l'energia interna $U$ del sistema come differenza tra l'energia totale e l'energia cinetica,
+\begin{equation}
+  U := E^{tot} - K \ ,
+\end{equation}
+si può ricavare un'equazione per il bilancio dell'energia interna
+\begin{equation}
+  \dot{U} = \dot{Q}^{ext} - P^{int} \ .
+\end{equation}
+
+\section{Secondo principio}
+Il secondo principio della termodinamica introduce
+Il secondo principio della termodinamica ha diversi enunciati equivalenti, formulati da Clausis, Kelvin e Planck.
+L'enunciato più generale è quello di Clasius, mentre gli enunciati di Kelvin e Planck coinvolgono macchine termiche e quindi, per questi due enunciati, si rimanda al capitolo \ref{thermodynamics:thermal_machines} sulle macchine termiche.
+
+Si assume di poter separare il contributo della potenza delle forze interne $P^{int}$ nella somma della potenza delle forze reversibili e in quella delle forze irreversibili, definita dissipazione, $P^{int} = P^{int,rev} + D$
+
+\begin{equation}
+\begin{aligned}
+  d U & = \left(\dfrac{\partial U}{\partial x}\right)_S dx + \left(\dfrac{\partial U}{\partial S}\right)_x dS \\
+  d U & = \delta Q^{ext} - \delta L^{int} = \\
+      & = \delta Q^{ext} - \delta^r L^{int,r} + \underbrace{\delta^+ D}_{\ge 0} = \\
+      & = -\delta^r L^{int,r} + \delta Q^{ext} + \delta^+ D 
+\end{aligned}
+\end{equation}
+\begin{equation}
+  - \delta^r L^{int,r} =  \left(\dfrac{\partial U}{\partial x}\right)_S dx
+\qquad , \qquad
+  \delta Q^{ext} + \delta^+ D = \left(\dfrac{\partial U}{\partial S}\right)_x dS \ .
+\end{equation}
+Definendo la temperatura $T := \left(\dfrac{\partial U}{\partial S}\right)_x > 0$, per il terzo principio, si può riscrivere 
+\begin{equation}
+  T dS = \delta Q^{ext} + \delta^+ D \ge \delta Q^{ext} \qquad \rightarrow \qquad dS \ge \dfrac{\delta Q^{ext}}{T} \ .
+\end{equation}
+
+\section{Terzo principio}
+Il terzo principio della termodinamica postula la positività della temperatura
+\begin{equation}
+  T := \left(\dfrac{\partial U}{\partial S}\right)_x > 0
+\end{equation}
+
+\section{Principio zero - Equilibrio termico}
+
+% ------------------------------------------------------------------------------
+\chapter{Stati della materia e leggi costitutive}
+\section{Gas}
+\subsection{Legge dei gas perfetti}
+\section{Solidi}
+
+% ------------------------------------------------------------------------------
+\chapter{Macchine termiche}\label{thermodynamics:thermal_machines}
+\section{Macchina ideale di Carnot}
+\section{Postulati della termodinamica di Kelvin e Planck}
+\section{Cicli termodinamici e macchine termiche}
+\subsection{Cicli termodinamici diretti}
+\subsubsection{Ciclo Otto}
+\subsubsection{Ciclo Diesel}
+\subsubsection{Ciclo Joule-Brayton}
+\subsubsection{Ciclo Rankine}
+\subsection{Cicli termodinamici inversi}
+
+% ------------------------------------------------------------------------------
+\chapter{Trasmissione del calore}
