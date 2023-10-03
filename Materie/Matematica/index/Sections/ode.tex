@@ -1,0 +1,128 @@
+
+% ==============================================================================
+\chapter{Introduzione}
+\begin{definition}[Equazione differenziale ordinaria] Un'equazione differenziale ordinaria è un'equazione che ha come incognita una funzione $y(x)$, nella quale possono comparire la funzione incognita $y(x)$, le sue derivate $y^{(n)}(x)$ e la variabile indipendente $x$, che può essere scritto nella forma implicita
+\begin{equation}\label{ode:def}
+  F\left(x,y(x),y'(x), y''(x), \dots y^{(n)}(x) \right) = 0 \ , \qquad \text{con $x \in \Omega = [a,b]$}.
+\end{equation}
+L'\textbf{ordine} dell'equazione differenziale viene definito come l'ordine massimo delle derivate della funzione incognita che compaiono nell'equazione.
+\end{definition}
+
+\begin{definition}[Equazione differenziale ordinaria lineare] Un'equazione differenziale è lineare se si può scrivere come l'uguaglianza di una combinazione lineare delle derivate della funzione incognita e una funzione nota, $f(x)$. Ad esempio, la forma generale dell'equazione differenziale ordinaria di ordine $n$ può essere scritta come
+\begin{equation}
+    a_n(x) y^{(n)}(x) + a_{n-1}(x) y^{(n-1)}(x) + \dots + a_1(x) y'(x) + a_0(x) y(x) = f(x) \ , \qquad \text{con $x \in \Omega$}.
+\end{equation}
+\end{definition}
+
+\begin{definition}[Equazione differenziale ordinaria lineare a coefficienti costanti] Un'equazione differenziale lineare a coefficienti costanti è un'equazione differenziale ordinaria lineare con coefficienti $a_i(x) = a_i$, numeri che non dipendono dalla variabile indipendente $x$,
+\begin{equation}
+    a_n y^{(n)}(x) + a_{n-1} y^{(n-1)}(x) + \dots + a_1 y'(x) + a_0 y(x) = f(x) \ , \qquad \text{con $x \in \Omega$}.
+\end{equation}
+\end{definition}
+%
+\begin{definition}[Equazione differenziale ordinaria lineare omogenea a coefficienti costanti] \color{red}{Un'equazione differenziale lineare omogenea a coefficienti costanti è un'equazione differenziale ordinaria lineare a coefficienti costanti con $f(x) = 0$},
+\begin{equation}
+    a_n y^{(n)}(x) + a_{n-1} y^{(n-1)}(x) + \dots + a_1 y'(x) + a_0 y(x) = 0 \ , \qquad \text{con $x \in \Omega$}.
+\end{equation}
+\end{definition}
+%
+In generale, la soluzione dell'equazione (\ref{ode:def}) dipende da $n$ parametri indeterminati. In generale, un problema differenziale è composto da:
+\begin{itemize}
+    \item un'equazione differenziale di ordine $n$
+    \item $n$ condizioni per determinare gli $n$ parametri altrimenti indeterminati
+\end{itemize}
+
+\begin{definition}[Problema di Cauchy] Un problema di Cauchy è definito da:
+\begin{itemize}
+  \item un'equazione differenziale di ordine $n$
+  \begin{equation}
+     F\left(x,y(x),y'(x), y''(x), \dots y^{(n)}(x) \right) = 0 \ , \qquad \text{con $x \in \Omega = [a,b]$}.
+  \end{equation}
+  \item $n$ condizioni che definiscono il valore della funzione incognita e delle prime $n-1$ derivate nell'estremo inferiore dell'intervallo
+  \begin{equation}
+  \begin{aligned}
+    y(a) & = y_0 \\
+    y'(a) & = y_1 \\
+    \dots \\
+    y^{(n-1)}(a) & = y_{n-1} \\
+  \end{aligned}
+  \end{equation}
+\end{itemize}
+
+\end{definition}
+
+% ==============================================================================
+\chapter{Equazioni differenziali ordinarie lineari a coefficienti costanti}
+
+\section{Equazioni differenziali lineari a coefficienti costanti di primo ordine}
+\subsection{Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}
+\begin{equation}\label{ode:first_order}
+  a y'(x) + b y(x) = 0 \ , \qquad \text{con $x \in \Omega$ e  $a \ne 0$}
+\end{equation}
+Si cerca la soluzione nella forma $y(x) = \alpha e^{\beta x}$ e, calcolando la derivata e inserendo nell'equazione, si ottiene
+\begin{equation}
+  ( a \beta + b ) \alpha e^{\beta x} = 0 \ .
+\end{equation}
+Il prodotto di tre fattori si annulla quando si annulla uno dei tre fattori:
+\begin{itemize}
+    \item $e^{\beta x}$ non si annulla per nessun valore di $x$
+    \item se si annulla $\alpha$, $\alpha = 0$, si otterebbe la soluzione triviale $y(x) = 0$
+    \item $\rightarrow$ deve quindi annullarsi il fattore $a \beta + b$: si ottiene quindi il valore $\beta = -\dfrac{b}{a}$
+\end{itemize}
+La forma generale della soluzione dell'equazione (\ref{ode:first_order}) è quindi
+\begin{equation}
+  y(x) = \alpha e^{-\frac{b}{a}x}
+\end{equation}
+Per determinare il coefficiente $\alpha$ è necessaria una condizione che definisca il valore della funzione (o della sua derivata) in un punto del dominio o del suo contorno. 
+
+\section{Equazioni differenziali lineari a coefficienti costanti di secondo ordine}
+\subsection{Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}
+\begin{equation}
+  a y''(x) + b y'(x) + c y(x) = 0 \ , \qquad \text{con $x \in \Omega$ e  $a \ne 0$}
+\end{equation}
+Si cerca la soluzione nella forma $y(x) = \alpha e^{\beta x}$ e, calcolando le derivate e inserendo nell'equazione, si ottiene
+\begin{equation}
+  ( a \beta^2 + b \beta + c ) \alpha e^{\beta x} = 0 \ .
+\end{equation}
+I valori di $\beta$ si ottiengono dalla soluzione dell'equazione di secondo grado in $\beta$, $a \beta^2 + b \beta + c = 0$ che, a seconda del segno del discriminante $\Delta = b^2 - 4ac$, possono essere:
+\begin{itemize}
+    \item $\Delta > 0$: esistono due soluzioni reali distinte $\beta_{1,2} = \dfrac{-b\mp\sqrt{\Delta}}{2a}$.
+    \item $\Delta = 0$: esistono due soluzioni reali coincidenti $\beta_{1,2} = -\dfrac{b}{2a}$
+    \item $\Delta < 0$: esistono due soluzioni complesse coniugate $\beta_{1,2} = \dfrac{-b}{2a} \mp j \dfrac{\sqrt{-\Delta}}{2a}$
+\end{itemize}
+La soluzione dell'equazione differenziale assume quindi la forma
+\begin{itemize}
+    \item $\Delta > 0$:
+    \begin{equation}
+       y(x) = \alpha_1 e^{\beta_1 x} + \alpha_2 e^{\beta_2 x}
+    \end{equation}
+    \item $\Delta = 0$:
+    \begin{equation}
+       y(x) = \alpha_1 e^{\beta x} + \alpha_2 x e^{\beta x}
+    \end{equation}
+    \item $\Delta < 0$:
+    \begin{equation}
+    \begin{aligned}
+       y(x) & = \alpha_1 e^{\beta x} + \alpha_2 e^{\beta^* x} = \\
+            & = \alpha_1 e^{(re\{ \beta \} + i im\{\beta\})x} + \alpha_2 e^{(re\{ \beta \} - i im\{\beta\}) x} = \\
+            & = e^{re\{ \beta \}x} \left( \alpha_1 e^{i \ im\{\beta\} x} +  \alpha_2 e^{-i \ im\{\beta\}x }  \right) \ ,
+    \end{aligned}
+    \end{equation}
+    e per avere una soluzione reale, bisogna imporre $\alpha_2 = \alpha_1^*$, per ottenere la somma di due numeri complessi coniugati, uguale al doppio della somma della loro parte reale,
+    \begin{equation}
+    \begin{aligned}
+       y(x)  & = 2 e^{re\{ \beta \}x} \left( re\{ \alpha_1 \} \cos(\beta x) - im\{\alpha_1 \} \sin(\beta x) \right) \ ,
+    \end{aligned}
+    \end{equation}
+che può essere riscritta come
+    \begin{equation}
+    \begin{aligned}
+       y(x)  & = e^{re\{ \beta \}x} \left( A \cos(\beta x) + B \sin(\beta x) \right) = \\ 
+             & = C e^{re\{ \beta \}x} \cos(\beta x + \phi)  \ .
+    \end{aligned}
+    \end{equation}
+\end{itemize}
+
+% ==============================================================================
+\chapter{Metodo di separazione delle variabili}
+

@@ -28,10 +28,6 @@ L'operazione inversa, quando possibile, è definita come radice di ordine $n$,
 \begin{definition}[Potenze e radici non intere]
 \end{definition}
 
-\subsection{Esponenziali e logaritmi}
-\subsection{Funzioni armoniche}
-\subsection{Funzioni iperboliche}
-
 \section{Polinomi}
 \begin{definition}[Polinomio]
 Un polinomio reale di grado $n$ viene definito come una combinazione lineare dei monomi di grado $\le n$,
@@ -44,9 +40,163 @@ Un polinomio reale di grado $n$ viene definito come una combinazione lineare dei
 \begin{definition}[Potenze e radici intere]
 \end{definition}
 
+% ------------------------------------------------------------------------------
+\section{Esponenziali e logaritmi}
+\subsection{Esponenziale}
+\begin{definition}[Esponenziale] L'elevamento a potenza di un numero $a$
+\begin{equation}
+   y = a^x
+\end{equation}
+è un operazione che coinvolge due numeri, $a$ detto base e $x$ detto esponente.
+\end{definition}
+\subsubsection{Potenze non intere, valori ammissibili}
+\subsubsection{Proprietà}
+\paragraph{Prodotto di potenze con la stessa base}
+\begin{equation} a^m a^n = a^{m+n} \end{equation}
+\paragraph{Potenza di potenza}
+\begin{equation} (a^m)^n = a^{mn} \end{equation}
+\paragraph{Prodotto di potenze con lo stesso esponente}
+\begin{equation} a^m b^m = (ab)^{m} \end{equation}
 
+% ------------------------------------------------------------------------------
+\subsection{Logaritmo}
+\begin{definition}[Logaritmo] Il logaritmo è l'operazione inversa
+\begin{equation}
+    x = \log_a y \qquad \text{se $y = a^x$}
+\end{equation}
+\end{definition}
+\subsubsection{Potenze non intere, valori ammissibili}
+\subsubsection{Proprietà}
+\paragraph{Somma di logaritmi con la stessa base}
+\begin{equation}
+  \log_a m + \log_a n = \log_a (mn)
+\end{equation}
+Dimostrazione
+\begin{equation}
+\begin{cases}
+  m = a^{\log_a m} \\
+  n = a^{\log_a n} \\
+  mn = a^{\log_a mn}
+\end{cases}
+\rightarrow
+\begin{aligned}
+    mn & = m \cdot n \\
+    a^{\log_a mn} & = a^{\log_a m} a^{\log_a n} = a^{\log_a m + \log_a n}
+\end{aligned}
+\end{equation}
+\begin{equation}
+  \rightarrow \log_a mn = \log_a m + \log_a n
+\end{equation}
+\paragraph{Prodotto di un logaritmo per uno scalare}
+\begin{equation}
+  b \log_a m = \log_a m^{b}
+\end{equation}
+\paragraph{Cambio di base di un logaritmo}
+\begin{equation}
+     \log_b m = \log_b a \log_a m 
+\end{equation}
+Dimostrazione
+\begin{equation}
+\begin{cases}
+    m = b^{\log_b m} \\
+    a = b^{\log_b a} \\
+    m = a^{\log_a m} = \left( b^{\log_b a} \right)^{\log_a m} = b^{\log_b a \, \log_a m}
+\end{cases}
+\end{equation}
+e confrontando le due espressioni per $m$ si ottiene
+\begin{equation}
+    \rightarrow \log_b m = \log_b a \, \log_a m
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Funzioni armoniche}
+\subsection{La circonferenza e la definizione delle funzioni seno e coseno}
+
+\subsection{La definizione delle funzioni tangente, cotangente, secante e cosecante}
+
+\subsection{Formule del seno e coseno di somme e differenze}
+\begin{equation}
+\begin{aligned}
+    \cos(\alpha \pm \beta) & = \cos(\alpha) \cos(\beta) \mp \sin(\alpha) \sin(\beta) \\
+    \sin(\alpha \pm \beta) & = \sin(\alpha) \cos(\beta) \pm \cos(\alpha) \sin(\beta) \\
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    \cos(\alpha) \cos(\beta) & = \dfrac{1}{2} \left[ \cos(\alpha + \beta) + \cos(\alpha-\beta) \right] \\
+    \sin(\alpha) \sin(\beta) & = \dfrac{1}{2} \left[ \cos(\alpha + \beta) - \cos(\alpha-\beta) \right] \\
+    \sin(\alpha) \cos(\beta) & = \dfrac{1}{2} \left[ \sin(\alpha + \beta) - \sin(\alpha-\beta) \right] \\
+\end{aligned}
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Funzioni iperboliche}
+
+
+% ==============================================================================
 \chapter{Equazioni}
+\section{Equazioni polinomiali}
+\begin{definition}[Equazione polinomiale] Un'equazione polinomiale ha la forma
+    \begin{equation} p(x) = 0 \end{equation}
+dove $p(x)$ è un polinomio.
+Il \textbf{grado} dell'equazione corrisponde al grado del polinomio $p(x)$, cioé alla potenza massima dei monomi. In maniera più esplicita, quindi, si può scrivere un'equazione polinomiale di grado $n$ come
+    \begin{equation}
+        a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x + a_0 = 0 \ , \qquad \text{con $a_n \ne 0$}
+    \end{equation}
+\end{definition}
 
+\paragraph{Esistenza e numero delle soluzioni.} Un'equazione polinomiale di grado $n$ ha \textbf{al massimo} $n$ soluzioni reali. L'esistenza di soluzioni reali non è in generale garantita, mentre il \textbf{teorema fondamentale dell'algebra} assicura che esistano esattamente $n$ soluzioni complesse di un'equazione polinomiale con coefficienti complessi.
+
+\subsection{Equazioni di primo grado}
+La forma generale delle equazioni di primo grado è
+\begin{equation}
+    a x + b = 0 \ , \qquad \text{con $a \ne 0$}
+\end{equation}
+e la soluzione è
+\begin{equation}
+  x = -\dfrac{a_0}{a_1} \ .
+\end{equation}
+\subsection{Equazioni di secondo grado}
+La forma generale delle equazioni di secondo grado è
+\begin{equation}
+    a x^2 + b x + c = 0 \ , \qquad \text{con $a \ne 0$}
+\end{equation}
+%
+Un'equazione di secondo grado può ammettere nel campo dei numeri reali 2 soluzioni (distinte o coincidenti) o nessuna soluzione, a seconda del valore dell'espressione definita come \textbf{discriminante}, $\Delta := b^2 - 4 a c$:
+\begin{itemize}
+    \item $\Delta > 0$: due soluzioni reali distinte
+    \item $\Delta = 0$: due soluzioni reali coincidenti
+    \item $\Delta < 0$: nessuna soluzione reale
+\end{itemize}
+Quando il discriminante è non negativo, le soluzioni dell'equazione sono date dall'espressione
+\begin{equation}
+    x_{1,2} = \dfrac{-b \mp \sqrt{\Delta}}{2a} \ .
+\end{equation}
+%
+\subsubsection{Formula risolutiva dell'equazione di secondo grado}
+Una dimostrazione della formula risolutiva viene ricavata con la regola di completamento del quadrato
+\begin{equation}
+    \begin{aligned}
+        0 & = a x^2 + b x + c = \\
+          & = a x^2 + b x + \dfrac{b^2}{4a} - \dfrac{b^2}{4a} + c = \\
+          & = a \left(x + \dfrac{b}{2a} \right)^2 - \dfrac{b^2}{4a} + c \\
+    \end{aligned}
+\end{equation}
+\begin{equation}
+    \rightarrow \left( x + \dfrac{b}{2a} \right)^2 = \dfrac{b^2}{4 a^2} - \dfrac{c}{a} = \dfrac{b^2 - 4 a c}{4a^2} = \dfrac{\Delta}{4a^2}
+\end{equation}
+\'E ora facile notare come questa equazione ha soluzioni solo quando il discriminante è non negativo. Quando il discriminante è non negativo, è possibile estrarre la radice quadra dell'espressione
+\begin{equation}
+    x_{1,2} + \dfrac{b}{2a} = \mp \dfrac{\sqrt{\Delta}}{2a} \qquad \rightarrow \qquad 
+    x_{1,2} = \dfrac{-b  \mp \sqrt{\Delta}}{2a} \ . 
+\end{equation}
+
+
+% ==============================================================================
 \chapter{Disequazioni}
 
+
+% ==============================================================================
 \chapter{Sistemi di equazioni e di disequazioni}
+
+

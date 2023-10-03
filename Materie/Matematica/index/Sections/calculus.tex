@@ -15,9 +15,17 @@
 \end{equation}
 \end{definition}
 
+\paragraph{Interpretazione geometrica}
+
 \section{Regole di derivazione}
 \subsection{Regole}
-\paragraph{Derivata della somma di due funzioni}
+\paragraph{Derivata della somma di due funzioni e il prodotto per uno scalare}
+\begin{equation}
+\begin{aligned}
+    (f(x) + g(x))' & = f'(x) + g'(x) \\
+    (a f(x))' & = a f'(x) \\
+\end{aligned}
+\end{equation}
 \begin{property}[Operatore lineare] La derivata è un operatore lineare.
 \end{property}
 
@@ -35,10 +43,30 @@
      \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x)g(x) }{\Delta x} =  \\
  & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
  & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
+    & = \lim_{\Delta x \rightarrow 0} f(x+\Delta x) \dfrac{ g(x+\Delta x) - g(x)}{\Delta x} + \lim_{\Delta x \rightarrow 0} \dfrac{ f(x+\Delta x)  - f(x) }{\Delta x} g(x) =  f'(x)g(x) + f(x)g'(x) \ .
 \end{aligned}
 \end{equation}
 \paragraph{Derivata del rapporto di due funzioni}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dx} \left(\dfrac{f(x)}{ g(x)} \right) & =
+     \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \left[ \dfrac{f(x+\Delta x)}{ g(x+\Delta x)} - \dfrac{f(x)}{g(x)} \right] =  \\
+    & = \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \dfrac{f(x+\Delta x) g(x) - f(x)g(x+\Delta x)}{g(x+\Delta x)g(x)}  =  \\
+    & = \lim_{\Delta x \rightarrow 0} \dfrac{1}{g(x+\Delta x)g(x)} \dfrac{f(x+\Delta x) g(x) - f(x) g(x) + f(x)g(x)  - f(x)g(x+\Delta x)}{\Delta x}  =  \\
+    & = \lim_{\Delta x \rightarrow 0} \dfrac{1}{g(x+\Delta x)g(x)} \dfrac{f(x+\Delta x) - f(x)}{\Delta x} g(x) - \lim_{\Delta x \rightarrow 0} \dfrac{1}{g(x+\Delta x)g(x)} \dfrac{g(x+\Delta x) - g(x)}{\Delta x} f(x) =  \\
+    & = \dfrac{f'(x) g(x)}{g^2(x)} - \dfrac{f(x)g'(x)}{g^2(x)} = \dfrac{f'(x)g(x) - f(x) g'(x)}{g^2(x)}
+\end{aligned}
+\end{equation}
 \paragraph{Derivata di una funzione composta}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dx} f(g(x)) & =
+     \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \left[ f(g(x+\Delta x)) - f(g(x)) \right] =  \\
+    & = \lim_{\Delta x \rightarrow 0} \dfrac{f(g(x+\Delta x)) - f(g(x))}{g(x+\Delta x) - g(x)} \dfrac{g(x+\Delta x) - g(x)}{\Delta x} =  \\
+    & = \dots \\
+    & = f'(g(x)) \, g'(x) \ .
+\end{aligned}
+\end{equation}
 
 \section{Teoremi}
 \subsection{Teorema di de l'Hopital}
@@ -74,5 +102,82 @@ La serie di Taylor troncata alla $n$-esima potenza,
 % ---------------------------------------------------------------------------------------
 \chapter{Integrali}
 
-\begin{theorem}[Teorema fondmaentale del calcolo infinitesimale]
+\section{Definizioni}
+\begin{definition}[Somma di Riemann] Data una funzione continua $f:[a,b] \rightarrow \mathbb{R}$, e una partizione $\mathcal{P} = \left\{x_0, x_1, \dots, x_n | a = x_0 < x_1 < \dots x_n = b \right\}$ dell'intervallo $[a,b]$, la somma di Riemann viene definita come
+    \begin{equation}
+        \sigma_n = \sum_{i=1}^{n} f(\xi_i) \ (x_{i} - x_{i-1})
+    \end{equation}
+con $\xi_i \in [x_{i-1}, x_i]$.
+\end{definition}
+
+\begin{definition}[Integrale di Riemann] Definendo $\Delta x := \max_i(x_i - x_{i-1}) $, l'integrale di Riemann viene definito come il limite della somma di Riemann per $\Delta x  \rightarrow 0$ (e di conseguenza il numero di intervalli della partizione $n \rightarrow \infty$), e viene indicato come
+    \begin{equation}
+        \int_{x=a}^b f(x) dx = \lim_{\Delta x \rightarrow 0} \sigma_n
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Integrale definito]
+\end{definition}
+
+\paragraph{Interpretazione geometrica}
+
+\begin{definition}[Integrale indefinito]
+\end{definition}
+
+\section{Teoremi}
+\begin{theorem}[Teorema della media]
 \end{theorem}
+
+\begin{theorem}[Teorema fondmaentale del calcolo infinitesimale]
+    \begin{equation}
+        \dfrac{d}{dx} \int_{t=a}^{x} f(t) dt = f(x)
+    \end{equation}
+\end{theorem}
+\begin{equation}
+    \begin{aligned}
+        \dfrac{d}{dx} \int_{t=a}^{x} f(t) dt & = 
+        \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \left[ \int_{t=a}^{x+\Delta x} f(t) dt - \int_{t=a}^{x} f(t) dt\right] = \\
+        & = \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \int_{t=x}^{x+\Delta x} f(t) dt = \\
+        & = \lim_{\Delta x \rightarrow 0} \dfrac{1}{\Delta x} \Delta x \, f(\xi) = \qquad \qquad \qquad \text{(con $\xi \in [x, x+\Delta x]$)} \\
+        & = f(x)  \  .
+    \end{aligned}
+\end{equation}
+
+\section{Integrali fondamentali}
+
+\section{Regole di integrazione}
+\subsection{Integrazione per parti}
+\begin{itemize}
+ \item Definendo $F(x)$, $G(x)$ le primitive delle funzioni $f(x)$, e $g(x)$
+ \item Integrando in $x$ dalla regola di \textbf{derivazione del prodotto} $(F(x)G(x))' = F'(x)G(x) + F(x)G'(x)$, riscritta isolando il termine $F'(x)G(x) = (F(x)G(x))' - F(x)G'(x)$
+\end{itemize}
+si ottiene
+\begin{equation}
+\begin{aligned}
+    \int f(x) G(x) dx & = \int (F(x) G(x))' dx - \int F(x) G'(x) dx = \\
+    &= F(x)G(x) - \int F(x) G'(x) dx 
+\end{aligned}
+\end{equation}
+
+\subsection{Integrazione con sostituzione}
+\begin{itemize}
+    \item Definendo la funzione composta $\overline{F}(x) = F(y(x))$ e le derivate
+        \begin{equation}
+            \overline{f}(x) = \dfrac{d}{dx} \overline{F}(x) \qquad , \qquad f(y) = \dfrac{d}{dy}F(y)
+        \end{equation}
+    \item Partendo dalla regola di \textbf{derivazione della funzione composta}, $\overline{F}(x) = F(y(x))$
+        \begin{equation}
+            \overline{f}(x) = \dfrac{d}{dx} \overline{F}(x) = \dfrac{d}{dx} F(y(x)) = \dfrac{d F}{dy}(y(x)) \dfrac{d y}{d x}(x) = f(y(x)) y'(x)
+        \end{equation}
+\end{itemize}
+Usando il teorema fondamentale del calcolo infinitesimale
+\begin{equation}
+\begin{aligned}
+    F(y) & = \int f(y) dy \\
+    \overline{F}(x) & = \int \overline{f}(x) dx = \int f(y(x)) \ y'(x) dx
+\end{aligned}
+\end{equation}
+Se si introduce la dipendenza $y(x)$ nella prima equazione, si ottiene l'uguaglianza tra le ultime due espressioni, $F(y(x)) = \overline{F}(x)$, e quindi
+\begin{equation}
+  \int f(y) dy = \int f(y(x)) \ y'(x) dx \ .
+\end{equation}
