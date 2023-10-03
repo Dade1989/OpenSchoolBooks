@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  3 OCT 2023 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  2 OCT 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1417,67 +1417,114 @@ Overfull \hbox (390.95769pt too wide) detected at line 5
 
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 9.
 
-Overfull \hbox (390.95769pt too wide) detected at line 47
+Overfull \hbox (390.95769pt too wide) detected at line 21
 [][][][][][] [][][][][][] 
  []
 
 
-Overfull \hbox (390.95769pt too wide) detected at line 49
+Overfull \hbox (390.95769pt too wide) detected at line 23
+[][][][][][] [][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 25.
+
+Overfull \hbox (390.95769pt too wide) detected at line 51
 [][][][][][] [][][][][][] 
  []
 
 [3
 
 ]
-Overfull \hbox (390.95769pt too wide) detected at line 61
+Overfull \hbox (390.95769pt too wide) detected at line 73
 [][][][][][] [][][][][][] 
  []
 
 
-Overfull \hbox (390.95769pt too wide) detected at line 103
+Overfull \hbox (390.95769pt too wide) detected at line 121
 [][][][][][] [][][][][][] 
  []
 
 
-Overfull \hbox (390.95769pt too wide) detected at line 107
+Overfull \hbox (390.95769pt too wide) detected at line 137
 [][][][][][] [][][][][][] 
  []
 
 
-Overfull \hbox (390.95769pt too wide) detected at line 109
+Overfull \hbox (390.95769pt too wide) detected at line 143
 [][][][][][] [][][][][][] 
  []
 
-)
+[4])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4] (./contents.tex
+ [5] [6
+
+] (./contents.tex
 \c@ttl@toc@part=\count472
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 2.
- (./main.ptc) [5
+ (./main.ptc) [7
+
+] [8] (./Sections/history.tex)
+[9] [10
+
+] (./main.ptc) [11] [12]
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22.20016> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.00018> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+ (./main.ptc)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
 
 
-] [6] (./Sections/history.tex [7] [8
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+[13
+
+] [14] (./Sections/algebra.tex
+Capitolo 1.
+Package mdframed Info: mdframed works in twoside mode on input line 5.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 5.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 5.
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed works in twoside mode on input line 16.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 16.
+Package mdframed Info: mdframed works in twoside mode on input line 28.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 28.
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 36.
+[15
 
 ]
-Capitolo 1.
-
-Underfull \vbox (badness 1189) has occurred while \output is active []
-
- [9]
-[10]) [11] [12
-
-] (./main.ptc) [13] [14] (./Sections/measurements.tex)
-(./main.ptc) [15
-
-] [16] (./Sections/mechanics.tex
+Package mdframed Info: Not enough space on this page on input line 41.
+Package mdframed Info: mdframed works in twoside mode on input line 44.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 44.
+ [16]
 Capitolo 2.
 [17
 
@@ -1485,45 +1532,125 @@ Capitolo 2.
 
 ]
 Capitolo 3.
-) [19] [20
+[19] [20
 
-] (./main.ptc) [21] [22] (./Sections/thermodynamics.tex
+]
 Capitolo 4.
-[23
+) [21] [22
 
-] [24]
+] (./main.ptc)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+[23] [24] (./Sections/complex_algebra.tex
+Package mdframed Info: mdframed works in twoside mode on input line 3.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+Package mdframed Info: mdframed works in twoside mode on input line 9.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 9.
+ [25]) [26] (./main.ptc) [27
+
+] [28]
+(./Sections/calculus.tex
 Capitolo 5.
-[25
+[29
 
-] [26
+] [30
 
 ]
 Capitolo 6.
-[27] [28
-
-]
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 12.
+Package mdframed Info: mdframed works in twoside mode on input line 21.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 21.
+Package mdframed Info: mdframed works in twoside mode on input line 48.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 48.
+[31]
+Package mdframed Info: Not enough space on this page on input line 52.
+Package mdframed Info: mdframed works in twoside mode on input line 54.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 54.
+Package mdframed Info: mdframed works in twoside mode on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 65.
+ [32]
 Capitolo 7.
-) [29] [30
-
-] (./main.ptc) [31] [32] (./Sections/electromagnetism.tex
-Capitolo 8.
+Package mdframed Info: mdframed works in twoside mode on input line 76.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 76.
 ) [33
 
 ] [34
 
-] (./main.ptc) [35] [36] (./Sections/relativity.tex) (./main.ptc)
-[37
+] (./main.ptc) [35] [36] (./Sections/vectors.tex [37] [38
 
-] [38] (./Sections/quantum_mechanics.tex)) [39
+]
+Capitolo 8.
+Package mdframed Info: mdframed works in twoside mode on input line 18.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 18.
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 36.
+Package mdframed Info: mdframed works in twoside mode on input line 39.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 39.
+[39] [40
 
-] [40
+]
+Capitolo 9.
+Package mdframed Info: mdframed works in twoside mode on input line 52.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 52.
+Package mdframed Info: mdframed works in twoside mode on input line 55.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 55.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 57.
+) [41] [42
+
+] (./main.ptc) [43] [44] (./Sections/geometry.tex [45] [46
+
+]
+Capitolo 10.
+[47] [48
+
+]
+Capitolo 11.
+) [49] [50
+
+] (./main.ptc) [51] [52]) [53
+
+] [54
 
 ] (./main.ind)
 Appendice A.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-[41
+[55
 
 
 ]
@@ -1537,29 +1664,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29910 strings out of 483172
- 551705 string characters out of 5965817
- 1237030 words of memory out of 5000000
- 44048 multiletter control sequences out of 15000+600000
- 634566 words of font info for 224 fonts, out of 8000000 for 9000
+ 30079 strings out of 483172
+ 554798 string characters out of 5965817
+ 1240595 words of memory out of 5000000
+ 44181 multiletter control sequences out of 15000+600000
+ 655234 words of font info for 245 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,16n,75p,1090b,1873s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,75p,805b,1873s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (41 pages, 171745 bytes).
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (55 pages, 191259 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 52018 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 667 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 60226 words of extra memory for PDF output out of 61914 (max. 10000000)
 

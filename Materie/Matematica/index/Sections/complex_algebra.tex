@@ -1,0 +1,73 @@
+
+\section{Definizione dei numeri complessi}
+\begin{definition}[Unità immaginaria] 
+ \begin{equation}
+   i := \sqrt{-1}
+ \end{equation}
+\end{definition}
+
+\begin{definition}[Numero complesso]
+\begin{equation}
+  z = x + i y \qquad , \qquad x,y \in \mathbb{R}
+\end{equation}
+\end{definition}
+
+
+\subsection{Rappresentazione del piano complesso (di Argand--Gauss)}
+Si può definire una relazione biunivoca tra l'insieme dei numeri complessi $\mathbb{C}$ e il piano $\mathbb{R}^2$.
+
+\subsubsection{Rappresentazione cartesiana.}
+
+\subsubsection{Rappresentazione polare.}
+Trasformazione tra coordinate cartesiane e polari
+\begin{equation}
+\begin{cases}
+  x = r \cos \theta \\
+  y = r \sin \theta
+\end{cases} \qquad , \qquad
+\begin{cases}
+  r = \sqrt{x^2 + y^2} \\
+  \theta = \text{atan2}(x,y)
+\end{cases}
+\end{equation}
+e quindi
+\begin{equation}
+  z = x + i y = r \left( \cos \theta + i \sin \theta \right)
+\end{equation}
+
+\paragraph{La relazione di Eulero e la rappresentazione polare dei numeri complessi.} Usando le espansioni in serie di Taylor delle funzioni $e^{i\theta}$, $\cos \theta$ e $\sin \theta$, Eulero ricavò la formula che da lui prende il nome
+\begin{equation}
+  e^{i \theta} = \cos \theta + i \sin \theta \ .
+\end{equation}
+\begin{equation}
+\begin{array}{rll}
+   \cos \theta  & = \sum_{n=0}^{\infty} (-1)^n \dfrac{(\theta)^{2n}}{(2n)!} & = 1 - \dfrac{\theta^2}{2} + \dfrac{\theta^4}{4!} + \dots \\
+   \sin \theta  & = \sum_{n=0}^{\infty} (-1)^n \dfrac{(\theta)^{2n+1}}{(2n+1)!} & = \theta - \dfrac{\theta^3}{3!} + \dfrac{\theta^5}{5!} + \dots \\
+   e^{i \theta} & = \sum_{n=0}^{\infty} \dfrac{(i\theta)^n}{n!} & = 1 + i\theta - \dfrac{\theta^2}{2} - i \dfrac{\theta^3}{3!} + \dfrac{\theta^4}{4!} + i \dfrac{\theta^5}{5!} +  \dots = \\
+  & & = \left[  1 - \dfrac{\theta^2}{2} + \dfrac{\theta^4}{4!} + \dots \right] + i \left[ \theta - \dfrac{\theta^3}{3!} + \dfrac{\theta^5}{5!} + \dots \right]  = \\
+  & & = \cos \theta + i \sin \theta \ .
+\end{array}
+\end{equation}
+
+\section{Operazioni con i numeri complessi}
+
+\subsection{Somma e differenza}
+\begin{equation}
+   z_1 + z_2 = x_1 + x_2 + i (y_1 + y_2) \ .
+\end{equation}
+
+\subsection{Prodotto e divisione}
+\begin{equation}
+   z_1 z_2 = r_1 r_2 e^{i(\theta_1+\theta_2)} \ .
+\end{equation}
+
+\subsection{Potenze e radici}
+\begin{equation}
+  z^n = \left( r e^{i\theta} \right)^n = r^n e^{i n\theta}
+\end{equation}
+\begin{equation}
+  z^{\frac{1}{n}} = \left( r e^{i(\theta + 2\pi m)} \right)^{\frac{1}{n}} = r^{\frac{1}{n}} e^{i\left(\frac{\theta}{n} + \frac{m}{n} 2 \pi \right)}
+\end{equation}
+
+\subsection{Esponenziali e logaritmi}
+\dots

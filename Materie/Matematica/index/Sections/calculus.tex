@@ -1,0 +1,78 @@
+
+
+% ---------------------------------------------------------------------------------------
+\chapter{Limiti}
+
+\section{Infiniti e infinitesimi}
+
+% ---------------------------------------------------------------------------------------
+\chapter{Derivate}
+
+\section{Definizioni}
+\begin{definition}[Derivata]
+\begin{equation}
+  f'(x) = \dfrac{d }{dx} f(x) := \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) - f(x)}{\Delta x}
+\end{equation}
+\end{definition}
+
+\section{Regole di derivazione}
+\subsection{Regole}
+\paragraph{Derivata della somma di due funzioni}
+\begin{property}[Operatore lineare] La derivata è un operatore lineare.
+\end{property}
+
+\paragraph{Derivata del prodotto di due funzioni}
+\paragraph{Derivata del rapporto di due funzioni}
+\paragraph{Derivata di una funzione composta}
+
+\subsection{Dimostrazioni}
+
+\paragraph{Derivata della somma di due funzioni}
+\paragraph{Derivata del prodotto di due funzioni}
+\begin{equation}
+\begin{aligned}
+\dfrac{d}{dx} \left(f(x) g(x) \right) & =
+     \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x)g(x) }{\Delta x} =  \\
+ & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
+ & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
+\end{aligned}
+\end{equation}
+\paragraph{Derivata del rapporto di due funzioni}
+\paragraph{Derivata di una funzione composta}
+
+\section{Teoremi}
+\subsection{Teorema di de l'Hopital}
+
+\section{Tabella di derivate}
+
+\section{Espansioni in serie}
+\begin{definition}[Serie di Taylor] La serie di Taylor di una funzione $f(x)$ centrata in $x=x_0$ è la serie polinomiale
+\begin{equation}
+   T[f(x_0)](x) := \sum_{n=0}^{\infty} \dfrac{f^{(n)}(x_0)}{n!} (x-x_0)^n \ .
+\end{equation}
+\end{definition}
+%
+\begin{theorem}
+La serie di Taylor troncata alla $n$-esima potenza,
+\begin{equation}
+  T^n[f(x_0)](x) = \sum_{i=0}^{n} \dfrac{f^{(i)}(x_0)}{i!} (x-x_0)^i \ ,
+\end{equation}
+è un'approssimazione dell'$n$-esimo ordine della funzione $f(x)$, i.e.
+\begin{equation}
+  f(x) - T^n[f(x_0)](x) \sim o(|x-x_0|^{n})
+\end{equation}
+\end{theorem}
+
+\begin{definition}[Serie di MacLaurin] La serie di MacLaurin di una funzione $f(x)$ è definita come la sua serie di Taylor centrata in $x=0$.
+\end{definition}
+
+\section{Applicazioni}
+\subsection{Studio funzione}
+
+\subsection{Approssimazione locale di }
+
+% ---------------------------------------------------------------------------------------
+\chapter{Integrali}
+
+\begin{theorem}[Teorema fondmaentale del calcolo infinitesimale]
+\end{theorem}
