@@ -1,6 +1,9 @@
 
 % ==============================================================================
 \chapter{Introduzione}
+\section{Applicazioni}
+
+\section{Definizioni}
 \begin{definition}[Equazione differenziale ordinaria] Un'equazione differenziale ordinaria è un'equazione che ha come incognita una funzione $y(x)$, nella quale possono comparire la funzione incognita $y(x)$, le sue derivate $y^{(n)}(x)$ e la variabile indipendente $x$, che può essere scritto nella forma implicita
 \begin{equation}\label{ode:def}
   F\left(x,y(x),y'(x), y''(x), \dots y^{(n)}(x) \right) = 0 \ , \qquad \text{con $x \in \Omega = [a,b]$}.
@@ -125,4 +128,27 @@ che può essere riscritta come
 
 % ==============================================================================
 \chapter{Metodo di separazione delle variabili}
+\begin{equation}
+  y'(x) = f(x) \, g(y(x)) \ , \qquad \text{con $x \in \Omega$}
+\end{equation}
+\begin{equation}
+ \dfrac{d y}{dx} = f(x) g(y(x))
+\end{equation}
+\begin{equation} \qquad \rightarrow \qquad
+ \dfrac{d y}{g(y)} = f(x) dx  \qquad \rightarrow \qquad
+ \int \dfrac{d y}{g(y)} = \int f(x) dx
+\end{equation}
+
+\begin{example}
+ $y'(x) = x y(x)$
+\begin{equation}
+ \int \dfrac{dy}{y} = \int x dx \quad \rightarrow \quad
+ \ln|y(x)| = \dfrac{1}{2} x^2 + C \quad \rightarrow \quad
+ y(x) = K e^{\frac{1}{2} x^2}
+\end{equation}
+Verifica: $y'(x) = K \dfrac{1}{2} 2 x e^{\frac{1}{2}x^2} = K x e^{\frac{1}{2}x^2} = x y(x)$.
+\end{example}
+
+
+
 

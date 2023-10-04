@@ -1,0 +1,112 @@
+
+% ==============================================================================
+\chapter{Equazioni e sistemi di equazioni}
+\section{Equazioni}
+\subsection{Equazioni non lineari}
+\begin{equation}
+  f(x) = 0
+\end{equation}
+\subsubsection{Metodo della bisezione}
+Se la funzione $f(x)$ è continua, ed esistono due valori $x_1$, $x_2$ tali che $f(x_1)f(x_2) < 0$, allora esiste una soluzione $\overline{x} \in [x_1, x_2]$ dell'equazione $f(x) = 0$.
+\begin{equation}
+\begin{aligned}
+& \text{Algorithm parameters: } tol, \ max\_iter \\
+& \text{Initial guess: } x_1, \ x_2 \quad \text{ s.t. $f(x_1) < 0$ and $f(x_2) > 0$} \\
+& \text{Initialization: } niter = 0, \ x = 0.5(x_1 + x_2), \ f = f(x), \ res = |f| \\
+& \text{Bisection loop: } \\
+& while ( res > tol \text{ and } niter < max\_iter ): \\ 
+& \qquad if ( f < 0 ): \\
+& \qquad \qquad x_1 \leftarrow x \\
+& \qquad else: \\
+& \qquad \qquad x_2 \leftarrow x  \\
+& \qquad x = 0.5(x_1+x_2) \\
+& \qquad f = f(x) \\
+& \qquad res = |f(x)| \\
+& \qquad niter += 1
+\end{aligned}
+\end{equation}
+
+
+\subsubsection{Metodo di Newton}
+Se la funzione $f(x)$ è ``sufficientemente regolare'' e il tentativo iniziale $x_0$ è ``sufficientemente vicino'' a una soluzione dell'equazione $f(x) = 0$, il metodo di Newton
+\begin{equation}
+\begin{aligned}
+& \text{Algorithm inputs: } f(x), \ f'(x) \\
+& \text{Algorithm parameters: } tol, \ max\_iter \\
+& \text{Initial guess: } x = x^0 \\
+& \text{Initialization: } niter = 0, \ res = |f(x)| \\
+& \text{Newton loop: } \\
+& while ( res > tol \text{ and } niter < max\_iter ): \\ 
+& \qquad f'(x) \Delta x = - f(x) \\
+& \qquad x \leftarrow x + \Delta x \\
+& \qquad niter += 1, \ res = |f(x)| \\
+\end{aligned}
+\end{equation}
+converge a una soluzione dell'equazione.
+
+\section{Sistemi di equazioni}
+\subsection{Sistemi di equazioni lineari}
+{\color{red} Metodo di sostituzione}
+
+\subsection{Sistemi di equazioni non lineari}
+\subsubsection{Metodo di Newton per sistemi}
+\begin{equation}
+\begin{aligned}
+& \text{Algorithm inputs: } \mathbf{f}(\mathbf{x}), \ \mathbf{f}_\mathbf{x}(\mathbf{x}) \\
+& \text{Algorithm parameters: } tol, \ max\_iter \\
+& \text{Initial guess: } \mathbf{x} = \mathbf{x}^0 \\
+& \text{Initialization: } niter = 0, \ res = |\mathbf{f}(\mathbf{x})| \\
+& \text{Newton loop: } \\
+& while ( res > tol \text{ and } niter < max\_iter ): \\ 
+& \qquad \mathbf{f}_{\mathbf{x}}(\mathbf{x}) \Delta \mathbf{x} = - \mathbf{f}(\mathbf{x}) \\
+& \qquad \mathbf{x} \leftarrow \mathbf{x} + \Delta \mathbf{x} \\
+& \qquad niter += 1, \ res = |\mathbf{f}(\mathbf{x})| \\
+\end{aligned}
+\end{equation}
+
+% ==============================================================================
+\chapter{Derivate}
+\section{}
+
+% ==============================================================================
+\chapter{Ricerca dei massimi e ottimizzazione}
+\section{}
+
+% ==============================================================================
+\chapter{Integrali}
+\section{}
+
+% ==============================================================================
+\chapter{Equazioni differenziali ordinarie}
+\section{Riduzione a sistema di primo ordine}
+\'E possibile ridurre un'equazione differenziale ordinaria di ordine $n$, $F(x,y(x),y'(x),\dots,y^{(n)}(x))$, a un sistema di $n$ equazioni differenziali ordinarie del primo ordine. Definendo le funzioni incognite
+\begin{equation}
+\begin{aligned}
+    y_0(x) & := y(x) \\
+    y_1(x) & := y'(x) \\
+    \dots \\
+    y_{n-1}(x) & := y^{(n-1)}(x) \ ,
+\end{aligned}
+\end{equation}
+il problema differenziale originale è equivalente al sistema
+\begin{equation}
+    \begin{cases}
+        F(x,y_0(x),y_1(x),y_{n-1}(x), y_{n-1}'(x)) = 0 \\
+        y_0'(x) = y_1(x) \\
+        y_1'(x) = y_2(x) \\
+        \dots \\
+        y_{n-2}'(x) = y_{n-1}(x) \\
+    \end{cases} \ ,
+\end{equation}
+che può essere scritto in forma sintetica (vettoriale)
+\begin{equation}
+    \mathbf{F}(x, \mathbf{y}'(x), \mathbf{y}(x)) = \mathbf{0} \ .
+\end{equation}
+
+\section{Schemi numerici per problemi ai valori iniziali, o di Cauchy}
+\section{Schemi numerici per problemi ai valori al contorno}
+
+% ==============================================================================
+\chapter{Statistica}
+
+

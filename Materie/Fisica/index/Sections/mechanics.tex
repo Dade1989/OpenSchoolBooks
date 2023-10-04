@@ -1,7 +1,231 @@
 
-\chapter{Cinematica}
 
-\chapter{Dinamica}
+% ==============================================================================
+\chapter{Cinematica}
+\begin{definition}[Cinematica] La cinemcatica è quel ramo della meccanica che si occupa di descrivere il moto dei corpi, indipendentemente dalle cause del moto.
+\end{definition}
+Il moto dei corpi viene descritto usando i concetti di \textbf{tempo} e \textbf{spazio}.
+
+\section{Cinematica del punto materiale}
+\begin{definition}[Posizione]
+Una volta definito un sistema di riferimento, si può definire la posizione di un punto $P$ con il raggio vettore $\mathbf{r}_P$ che unisce l'origine del sistema di riferimento con la posizione del punto $P$.
+\end{definition}
+
+\begin{definition}[Velocità]
+    La velocità di un punto $P$ rispetto a un sistema di riferimento viene definita come la derivata nel tempo del raggio vettore $\mathbf{r}_P$,
+    \begin{equation}
+        \mathbf{v}_P = \dfrac{d}{dt}\mathbf{r}_P  =: \dot{ \mathbf{r}}_P  \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Accelerazione]
+    L'accelerazione di un punto $P$ rispetto a un sistema di riferimento viene definita come la derivata nel tempo della velocità  $\mathbf{v}_P$ del punto, equivalente alla derivata seconda della posizione
+    \begin{equation}
+        \mathbf{a}_P = \dot{ \mathbf{v}}_P = \ddot{ \mathbf{r}}_P \ .
+    \end{equation}
+\end{definition}
+
+\section{Cinematica di un insieme di punti materiali}
+
+\section{Cinematica del corpo rigido}
+
+\section{Vincoli}\label{mechanics:kinematics:constraints}
+
+% ==============================================================================
+\chapter{Massa, proprietà inerziali e dinamiche}
+
+\section{Proprietà inerziali}
+
+\begin{definition}[Massa] La massa viene definita come la quantità di materia.
+\end{definition}
+{\color{red} Per la definizione operativa della massa in dinamica si rimanda al capitolo (\ref{mechanics:dynamics}).}
+
+\subsection{Centro di massa}
+\subsection{Momento statico}
+\subsection{Momento di inerzia}
+
+\section{Quantità dinamiche}
+In questa sezione vengono definite alcune quantità dinamiche che risulteranno utili nello studio della dinamica dei corpi nel capitolo \ref{mechanics:dynamics}. In particolare, vengono definiti:
+\begin{itemize}
+  \item la quantità di moto
+  \item il momento della quantità di moto
+  \item l'energia cinetica
+\end{itemize}
+per i sistemi meccanici modellabili come punto materiale, insieme di punti materiali, e corpi rigidi.
+Queste quantità sono \textbf{grandezze additive}.
+
+\subsection{Punto materiale}
+\subsubsection{Quantità di moto}
+\begin{equation}
+  \mathbf{Q} = m \mathbf{v}
+\end{equation}
+\subsubsection{Momento della quantità di moto}
+\begin{equation}
+    \mathbf{\Gamma}_0 = \left(\mathbf{r} - \mathbf{r}_0 \right) \times \mathbf{Q}
+\end{equation}
+\subsubsection{Energia cinetica}
+\begin{equation}
+    K = \dfrac{1}{2} m | \mathbf{v} |^2
+\end{equation}
+
+\subsection{Sistema di punti materiali}
+\subsubsection{Quantità di moto}
+\begin{equation}
+    \mathbf{Q} = \sum_{i} \mathbf{Q}_i = \sum_i m_i \mathbf{v}_i
+\end{equation}
+\subsubsection{Momento della quantità di moto}
+\begin{equation}
+    \mathbf{\Gamma}_O = \sum_{i} \mathbf{\Gamma}_{O,i} = \sum_i \left( \mathbf{r}_i - \mathbf{r}_0 \right) \times \mathbf{Q}_i
+\end{equation}
+\subsubsection{Energia cinetica}
+\begin{equation}
+    K = \sum_i K_i = \sum_i \dfrac{1}{2} m_i | \mathbf{v}_i |^2
+\end{equation}
+
+\subsubsection{Corpi rigidi}
+\subsubsection{Momento della quantità di moto}
+\subsubsection{Energia cinetica}
+
+\subsection{Sistema di punti materiali}
+% ==============================================================================
+\chapter{Forza}
+\begin{definition}[Forza] Una forza è un'entità fisica vettoriale che è in grado di cambiare lo stato del moto di un sistema.
+\end{definition}
+
+\section{Momento di una forza}
+\begin{definition}[Momento di una forza] Il momento di una forza rispetto a un \textbf{polo} $O$, $\mathbf{M}_O$, viene definito coem il prodotto vettoriale tra il raggio $\Delta \mathbf{r}_{OP} = \mathbf{r}_P - \mathbf{r}_O$ tra il polo e il punto di applicazione e la forza $\mathbf{F}$,
+    \begin{equation} \mathbf{M}_O = \Delta \mathbf{r}_{OP} \times \mathbf{F} \ .
+    \end{equation}
+\end{definition}
+
+\section{Lavoro di una forza}
+\begin{definition}[Lavoro elementare di una forza] Il lavoro elementare $\delta L$ di una forza $\mathbf{F}$ è il prodotto scalare tra la forza e lo spostamento elementare $d \mathbf{r}$,
+    \begin{equation}
+        \delta L = \mathbf{F} \cdot d \mathbf{r} \ .
+    \end{equation}
+\end{definition}
+Il lavoro di una forza è la somma dei lavori elementari. Se si suddivide la storia degli spostamenti in una somma di spostamenti incrementali,
+\begin{equation}
+  \Delta \mathbf{r} = \sum_{i=1}^{n} \Delta \mathbf{r}_i \ ,
+\end{equation}
+e si considera la forza applicata costante (in intensità e direzione) a tratti su ogni spostamento incrementale $\Delta \mathbf{r}_i$, il lavoro della forza viene definito come la somma dei lavori incrementali, $\Delta L_i = \mathbf{F}_i \cdot \Delta \mathbf{r}_i$
+\begin{equation}
+  L = \sum_{i=1}^{N} \mathbf{F}_i \cdot \Delta \mathbf{r}_i \ .
+\end{equation}
+\begin{definition}[Lavoro di una forza]
+Se si fa tendere a zero la lunghezza degli spostamenti incrementali, il lavoro di una forza viene definito come l'integrale (di linea) di Riemann
+\begin{equation}
+    L = \int_{\gamma(\mathbf{r})} \mathbf{F} \cdot d \mathbf{r} \ ,
+\end{equation}
+avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corpo, sulla quale avvengono gli spostamenti elementari.
+\end{definition}
+
+\section{Impulso di una forza}
+\begin{definition}[Impulso elementare di una forza]
+    L'impulso elementare $d \mathbf{I}$ di una forza $\mathbf{F}$ viene definito come il prodotto della forza e l'intervallo elementare di tempo $dt$ per il quale agisce la forza,
+    \begin{equation}
+        \delta \mathbf{I} = \mathbf{F} dt \ .
+    \end{equation}
+\end{definition}
+\begin{definition}[Impulso di una forza] Viene definito come la somma di tutti gli impulsi elementari tra due istanti desiderati,  $t \in [t_0, t_1]$, e al limite si riduce all'integrale di Riemann
+    \begin{equation}
+        \mathbf{I} = \int_{t=t_0}^{t_1} \delta \mathbf{I} = \int_{t=t_0}^{t_1} \mathbf{F} dt \ .
+    \end{equation}
+\end{definition}
+
+\section{Esempi di forza}
+\subsection{Reazioni vincolari}
+{\color{red} Fare riferimento alla sezione \ref{mechanics:kinematics:constraints}}
+
+\subsection{Forza peso in prossimità della superficie terrestre}
+\subsection{Forza elastica}
+\subsection{Forza di attrito}
+\subsubsection{Attrito statico}
+\subsubsection{Attrito dinamico}
+
+
+
+% ==============================================================================
+\chapter{Statica}
+
+\section{Condizioni di equilibrio}
+\begin{definition}[Condizioni di equilibrio per un punto materiale]
+    \begin{equation}
+        \sum_{i=1}^{n} \mathbf{F}_i = \mathbf{0}
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Condizioni di equilibrio per un corpo rigido]
+    \begin{equation}
+    \begin{aligned}
+        \sum_{i=1}^{n} \mathbf{F}_i & = \mathbf{0} \\
+        \sum_{i=1}^{n} \mathbf{M}_{O,i} & = \mathbf{0}
+    \end{aligned}
+    \end{equation}
+\end{definition}
+
+\section{Esempi}
+
+
+
+% ==============================================================================
+\chapter{Dinamica}\label{mechanics:dynamics}
 \section{Principi della dinamica di Newton}
+\begin{enumerate}
+  \item principio di inerzia
+  \item secondo principio della dinamica
+  \item principio di azione e reazione
+\end{enumerate}
+\subsection{Primo principio della dinamica}
+Un corpo imperturbato, sul quale agisce un sistema di forza dalla risultante nulla, rimane nello stato di quiete o in moto rettilineo uniforme rispetto a un sistema di \textbf{riferimento inerziale}.
+
+\noindent
+{\color{red}{Cosa intendiamo per sistema di riferimento inerziale?}}
+
+\subsection{Secondo principio della dinamica}
+\begin{equation}
+    \Delta \mathbf{Q} = \mathbf{I}^{ext} \ ,
+\end{equation}
+o in forma differenziale
+\begin{equation}
+    \dfrac{d}{dt}\mathbf{Q} = \mathbf{R}^{ext}
+\end{equation}
+
+\subsection{Terzo principio della dinamica}
+
 \section{Equazioni cardinali della dinamica}
-\section{Energia}
+\subsection{Moto di un punto materiale}
+\paragraph{Prima equazione cardinale -- quantità di moto}
+\begin{equation}
+    \dfrac{d}{dt} \mathbf{Q} = \mathbf{R}^{ext}
+\end{equation}
+
+\paragraph{Seconda equazione cardinale -- momento della quantità di moto}
+\begin{equation} \mathbf{M}_O = \mathbf{r} \times \mathbf{Q} \end{equation}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} \mathbf{\Gamma}_O
+    & = \dfrac{d}{dt} \left( \mathbf{r} \times \mathbf{Q} \right) = \\
+    & = \dot{\mathbf{r}} \times \mathbf{Q} + \mathbf{r} \times \dot{\mathbf{Q}} = \\
+    & = \underbrace{\dot{\mathbf{r}} \times m \dot{\mathbf{r}}}_{=\mathbf{0}} + \mathbf{r} \times \mathbf{R}^{ext} = \mathbf{M}_O^{ext} \ .
+\end{aligned}
+\end{equation}
+\paragraph{Terza equazione cardinale -- energia cinetica}
+
+\begin{equation} K = \dfrac{1}{2} m |\mathbf{v}|^2 = \dfrac{1}{2} m \mathbf{v} \cdot \mathbf{v} \ .
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} K & = \underbrace{m \dot{\mathbf{v}}}_{=\dot{\mathbf{Q}}} \cdot \mathbf{v} = \\
+    & = \dot{\mathbf{Q}} \cdot \mathbf{v} = \\
+    & = \mathbf{R}^{ext} \cdot \mathbf{v} = P^{ext} = P^{tot}
+\end{aligned}
+\end{equation}
+
+
+\subsection{Moto di un corpo rigido}
+
+
+
+% ==============================================================================
+\chapter{Moti notevoli}\label{mechanics:motions}
