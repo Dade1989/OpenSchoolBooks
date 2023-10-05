@@ -100,9 +100,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Disequazioni}{21}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.1}Disequazioni algebriche}{21}{subsection.3.0.1}%
+\contentsline {section}{\numberline {3.1}Disequazioni algebriche}{21}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.2}Disequazioni algebriche}{21}{subsection.3.0.2}%
+\contentsline {section}{\numberline {3.2}Disequazioni non algebriche}{21}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Sistemi di equazioni e di disequazioni}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -248,67 +248,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {13.2.1}Coordinate cartesiane}{59}{subsection.13.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.2}Punto, retta e distanze}{59}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.2}Punto, distanze, retta}{59}{subsection.13.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.3}Coniche}{59}{subsection.13.2.3}%
+\contentsline {subsection}{\numberline {13.2.3}Trasformazioni di coordinate cartesiane e trasformazioni di curve}{60}{subsection.13.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Geometria nello spazio}{61}{chapter.14}%
+\contentsline {subsubsection}{\numberline {13.2.3.1}Traslazione dell'origine}{60}{subsubsection.13.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.1}Geometria euclidea}{61}{section.14.1}%
+\contentsline {subsubsection}{\numberline {13.2.3.2}Rotazione attorno all'origine}{60}{subsubsection.13.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.2}Geometria cartesiana}{61}{section.14.2}%
+\contentsline {subsection}{\numberline {13.2.4}Coniche}{60}{subsection.13.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IX}Statistica}{63}{part.9}%
+\contentsline {subsubsection}{\numberline {13.2.4.1}Parabola}{60}{subsubsection.13.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {X}Matematica numerica - cenni}{65}{part.10}%
+\contentsline {subsubsection}{\numberline {13.2.4.2}Ellisse}{60}{subsubsection.13.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}Equazioni e sistemi di equazioni}{67}{chapter.15}%
+\contentsline {subsubsection}{\numberline {13.2.4.3}Iperbole}{61}{subsubsection.13.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.1}Equazioni}{67}{section.15.1}%
+\contentsline {chapter}{\numberline {14}Geometria nello spazio}{63}{chapter.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.1}Equazioni non lineari}{67}{subsection.15.1.1}%
+\contentsline {section}{\numberline {14.1}Geometria euclidea}{63}{section.14.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {15.1.1.1}Metodo della bisezione}{67}{subsubsection.15.1.1.1}%
+\contentsline {section}{\numberline {14.2}Geometria cartesiana}{63}{section.14.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {15.1.1.2}Metodo di Newton}{68}{subsubsection.15.1.1.2}%
+\contentsline {part}{\numberline {IX}Statistica}{65}{part.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.2}Sistemi di equazioni}{68}{section.15.2}%
+\contentsline {part}{\numberline {X}Matematica numerica - cenni}{67}{part.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.1}Sistemi di equazioni lineari}{68}{subsection.15.2.1}%
+\contentsline {chapter}{\numberline {15}Equazioni e sistemi di equazioni}{69}{chapter.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.2}Sistemi di equazioni non lineari}{68}{subsection.15.2.2}%
+\contentsline {section}{\numberline {15.1}Equazioni}{69}{section.15.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {15.2.2.1}Metodo di Newton per sistemi}{68}{subsubsection.15.2.2.1}%
+\contentsline {subsection}{\numberline {15.1.1}Equazioni non lineari}{69}{subsection.15.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {16}Derivate}{69}{chapter.16}%
+\contentsline {subsubsection}{\numberline {15.1.1.1}Metodo della bisezione}{69}{subsubsection.15.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.1}}{69}{section.16.1}%
+\contentsline {subsubsection}{\numberline {15.1.1.2}Metodo di Newton}{70}{subsubsection.15.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {17}Ricerca dei massimi e ottimizzazione}{71}{chapter.17}%
+\contentsline {section}{\numberline {15.2}Sistemi di equazioni}{70}{section.15.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.1}}{71}{section.17.1}%
+\contentsline {subsection}{\numberline {15.2.1}Sistemi di equazioni lineari}{70}{subsection.15.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {18}Integrali}{73}{chapter.18}%
+\contentsline {subsection}{\numberline {15.2.2}Sistemi di equazioni non lineari}{70}{subsection.15.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.1}}{73}{section.18.1}%
+\contentsline {subsubsection}{\numberline {15.2.2.1}Metodo di Newton per sistemi}{70}{subsubsection.15.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {19}Equazioni differenziali ordinarie}{75}{chapter.19}%
+\contentsline {chapter}{\numberline {16}Derivate}{71}{chapter.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.1}Riduzione a sistema di primo ordine}{75}{section.19.1}%
+\contentsline {section}{\numberline {16.1}}{71}{section.16.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{75}{section.19.2}%
+\contentsline {chapter}{\numberline {17}Ricerca dei massimi e ottimizzazione}{73}{chapter.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.3}Schemi numerici per problemi ai valori al contorno}{75}{section.19.3}%
+\contentsline {section}{\numberline {17.1}}{73}{section.17.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {20}Statistica}{77}{chapter.20}%
+\contentsline {chapter}{\numberline {18}Integrali}{75}{chapter.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {XI}Appendici, indice e bibliografia}{79}{part.11}%
+\contentsline {section}{\numberline {18.1}}{75}{section.18.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{81}{chapter*.27}%
+\contentsline {chapter}{\numberline {19}Equazioni differenziali ordinarie}{77}{chapter.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{83}{section*.28}%
+\contentsline {section}{\numberline {19.1}Riduzione a sistema di primo ordine}{77}{section.19.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{83}{section*.29}%
+\contentsline {section}{\numberline {19.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{77}{section.19.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{83}{appendix.alph1.Alph1}%
+\contentsline {section}{\numberline {19.3}Schemi numerici per problemi ai valori al contorno}{77}{section.19.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {20}Statistica}{79}{chapter.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {XI}Appendici, indice e bibliografia}{81}{part.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{83}{chapter*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{85}{section*.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{85}{section*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{85}{appendix.alph1.Alph1}%
 \contentsfinish 

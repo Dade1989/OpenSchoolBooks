@@ -15,11 +15,136 @@ Introduzione storica:
 
 \section{Geometria cartesiana}
 \subsection{Coordinate cartesiane}
-\subsection{Punto, retta e distanze}
+\subsection{Punto, distanze, retta}
+\begin{definition}[Punto]
+Dato un sistema di coordinate cartesiane, un punto $P$ nel piano è individuato dalle sue due coordinate $(x,y)$.
+\end{definition}
+\begin{definition}[Distanza tra due punti]
+La distanza tra due punti nel piano viene calcolata usando il teorema di Pitagora
+\begin{equation}
+    d_{PQ}^2 = (x_Q - x_P)^2 + (y_Q - y_P)^2 \ .
+\end{equation}
+\end{definition}
+{\color{red} Perchè la distanza è data come una definizione? Geometria di Riemann: la distanza definisce tutte le proprietà di una geometria}
+
+\begin{definition}[Retta]
+    La retta può essere definita come l'insieme di punti $(x,y)$ equidistanti da due punti dati $P_1(x_1,y_1)$, $P_2(x_2,y_2)$.
+\end{definition}
+Partendo dalla definizione
+\begin{equation}
+\begin{aligned}
+    d_1^2 & = d_2^2 \\
+    (x - x_1)^2 + (y-y_1)^2 & = (x - x_2)^2 + (y-y_2)^2 \\
+    x^2 - 2 x x_1 + x_1^2 + y^2 - 2 y y_1 + y_1^2 & = x^2 - 2 x x_2 + x_2^2 + y^2 - 2 y y_2 + y_2^2 \\
+\end{aligned}
+\end{equation}
+\begin{equation}
+  \qquad \rightarrow \qquad 2(x_2 - x_1) x + 2(y_2 - y_1) y + x_1^2 + y_1^2 - x_2^2 - y_2^2 = 0 \ .
+\end{equation}
+Quindi l'equazione generale della retta può essere riscritta nella forma
+\begin{equation}
+    A x + B y + C = 0 \ .
+\end{equation}
+
+\subsection{Trasformazioni di coordinate cartesiane e trasformazioni di curve}
+\subsubsection{Traslazione dell'origine}
+Sistema di coordinate $O'x'y'$ con assi paralleli al sistema di coordinate $Oxy$ e coordinate dell'origine $x_{O'}$, $y_{O'}$
+\begin{equation}
+    \begin{cases}
+        x' = x - x_{O'} \\
+        y' = y - y_{O'} \\
+    \end{cases}
+    \qquad \qquad
+    \begin{cases}
+        x  = x'+ x_{O'} \\
+        y  = y'+ y_{O'} \\
+    \end{cases}
+\end{equation}
+\subsubsection{Rotazione attorno all'origine}
+Sistema di coordinate $O'x'y'$ origine coincidente con quella del sistema di coordinate $Oxy$ e assi rotati di un angolo $\theta$
+\begin{equation}
+    \begin{cases}
+        x' =  x \cos \theta + y \sin \theta \\
+        y' = -x \sin \theta + y \cos \theta \\
+    \end{cases}
+    \qquad \qquad
+    \begin{cases}
+        x  =  x'\cos \theta - y'\sin \theta \\
+        y  =  x'\sin \theta + y'\cos \theta \\
+    \end{cases}
+\end{equation}
+
 \subsection{Coniche}
+\subsubsection{Parabola}
+\begin{definition}[Parabola] Insieme dei punti $P$ del piano equidistanti da un punto $F$, chiamato \textbf{fuoco}, e una retta $r$ chiamata \textbf{direttrice}.
+\begin{equation}
+    \text{dist}(P,F) = \text{dist}(P,r) 
+\end{equation}
+\end{definition}
+Scegliendo il fuoco $F(0, d)$ e la retta $r: y=-d$, si ricava l'equazione della parabola con vertice nell'origine e asse coincidente con l'asse $y$ degli assi cartesiani.
+\begin{equation}
+\begin{aligned}
+    d^2_{PF} & = d^2_{Pr} \\
+    (x - x_F)^2 + (y - y_F)^2 & = (y-y_r)^2 \\
+    x^2 + (y - d)^2 & = (y+d)^2 \\
+    x^2 + y^2 - 2dy + d^2 & = y^2 + 2dy + d^2 
+\end{aligned}
+\end{equation}
+\begin{equation}
+    \rightarrow \qquad 4d y = x^2 \qquad \rightarrow \qquad y = \dfrac{1}{4d} x^2 \ .
+\end{equation}
+
+\subsubsection{Ellisse}
+\begin{definition}[Ellisse] Insieme dei punti $P$ del piano la cui somma delle distanze da due punti $F_1$, $F_2$, chiamati \textbf{fuochi} dell'ellisse, è costante.
+    \begin{equation}
+        \text{dist}(P, F_1) + \text{dist}(P, F_2) = 2a
+    \end{equation}
+\end{definition}
+Scegliendo i fuochi $F_1(-c,0)$, $F_2(c,0)$
+\begin{equation}
+\begin{aligned}
+    & \sqrt{( x - x_1 )^2 + (y-y_1)^2} + \sqrt{(x-x_2)^2 + (y-y_2)^2} = 2a \\
+    & \sqrt{( x + c )^2 + y^2} = 2a - \sqrt{(x-c)^2 + y^2} \\
+    & x^2 + 2 c x + c^2 + y^2  = 4a^2 - 4 a \sqrt{(x-c)^2 + y^2} +
+    x^2 - 2 c x + c^2 + y^2 \\
+    & 4c x = 4a^2 - 4a  \sqrt{(x-c)^2 + y^2} \\
+    & (cx - a^2)^2 = ( - a  \sqrt{(x-c)^2 + y^2})^2 \\
+    & c^2x^2 - 2a^2cx + a^4 = a^2(x-c)^2 + a^2 y^2 \\
+    & (a^2-c^2) x^2 + a^2y^2 = a^2 (a^2-c^2) 
+\end{aligned}
+\end{equation}
+Definendo $b^2 := a^2 - c^2 > 0$, si può riscrivere l'equazione dell'ellisse con il centro nell'origine e gli assi coincidenti con gli assi cartesiani come
+\begin{equation}
+  \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1 \ .
+\end{equation}
+
+
+\subsubsection{Iperbole}
+\begin{definition}[Iperbole] Insieme dei punti $P$ del piano la cui differenza delle distanze da due punti $F_1$, $F_2$, chiamati \textbf{fuochi} dell'ellisse, è costante in valore assoluto.
+    \begin{equation}
+       | \text{dist}(P, F_1) - \text{dist}(P, F_2) | = 2a
+    \end{equation}
+\end{definition}
+Scegliendo i fuochi $F_1(-c,0)$, $F_2(c,0)$
+\begin{equation}
+\begin{aligned}
+    & \sqrt{( x - x_1 )^2 + (y-y_1)^2} - \sqrt{(x-x_2)^2 + (y-y_2)^2} = \mp 2a \\
+    & \sqrt{( x + c )^2 + y^2} = \mp 2a + \sqrt{(x-c)^2 + y^2} \\
+    & x^2 + 2 c x + c^2 + y^2  = 4a^2 \mp 4 a \sqrt{(x-c)^2 + y^2} +
+    x^2 - 2 c x + c^2 + y^2 \\
+    & 4c x = 4a^2 \mp 4a  \sqrt{(x-c)^2 + y^2} \\
+    & (cx - a^2)^2 = ( \mp a  \sqrt{(x-c)^2 + y^2})^2 \\
+    & c^2x^2 - 2a^2cx + a^4 = a^2(x-c)^2 + a^2 y^2 \\
+    & (c^2-a^2) x^2 - a^2y^2 = a^2 (c^2-a^2) 
+\end{aligned}
+\end{equation}
+Definendo $b^2 := c^2 - a^2 > 0$, si può riscrivere l'equazione dell'ellisse con il centro nell'origine e gli assi coincidenti con gli assi cartesiani come
+\begin{equation}
+  \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1 \ .
+\end{equation}
+
 
 \chapter{Geometria nello spazio}
 \section{Geometria euclidea}
 \section{Geometria cartesiana}
-
 
