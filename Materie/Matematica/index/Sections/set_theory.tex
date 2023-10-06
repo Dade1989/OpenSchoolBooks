@@ -1,0 +1,379 @@
+
+\chapter{Logica}
+
+% ------------------------------------------------------------------------------
+\section{Logica proposizionale}
+\subsection{Prime definizioni}
+\begin{definition}[Proposizione] In matematica, una proposizione è un'affermazione che si può stabilire senza dubbi se è vera o falsa.
+\end{definition}
+\begin{definition}[Valore di verità] In logica classica esistono solo due valori di verità: vero (V), falso(F). Il valore di verità di una frase stabilisce se la frase è vera o falsa.
+\end{definition}
+%
+{\color{red} Ma cos'è il vero e cos'è il falso?}
+%
+\begin{definition}[Tavola di verità] Una tavola diverità rappresenta tutte le possibili combinazioni delle proposizioni coinvolte.
+\end{definition}
+\begin{example} Può risultare utile separare le proposizioni indipendenti, dalle proposizioni dipendenti da queste. Ad esempio, indicando con $p_1$, $p_2$ due proposizioni indipendenti, e $f_1(p_1,p_2)$,  $f_2(p_1,p_2)$, $f_3(p_1,p_2)$ tre proposizioni dipendenti da queste
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|}
+  \hline
+  $p_1$ & $p_2$ & $f_1(p_1,p_2)$ & $f_2(p_1,p_2)$ & $f_3(p_1,p_2)$ \\
+  \hline
+  V & V & $f_1$(V,V) & $f_2$(V,V) & $f_3$(V,V) \\
+  V & F & $f_1$(V,F) & $f_2$(V,F) & $f_3$(V,F) \\
+  F & V & $f_1$(F,V) & $f_2$(F,V) & $f_3$(F,V) \\
+  F & F & $f_1$(F,F) & $f_2$(F,F) & $f_3$(F,F) \\
+  \hline
+\end{tabular}
+\end{center}
+\end{example}
+
+\paragraph{Uso delle tavole di verità.} Le tavole di verità sono utili per stabilire se due espressioni sono logicamente equivalenti.
+
+\begin{definition}[Identità] Un'identità è una proposizione che è sempre vera.
+\end{definition}
+
+\begin{definition}[Contraddizione] Una contraddizione è una proposizione che è sempre falsa.
+\end{definition}
+
+\subsection{Connettivi logici e calcolo proposizionale}
+\begin{definition}[Negazione] La negazione $\overline{p}$ di una proposizione $p$ ne inverte il valore di verità.
+\end{definition}
+\begin{center}
+\begin{tabular}{|c||c|}
+  \hline
+  $p$ & $\overline{p}$ \\
+  \hline
+  V & F \\
+  F & V \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{definition}[Congiunzione] La congiunzione $p \land q$ di due proposizioni è vera se e solo se entrambe sono vere. 
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p$ & $q$ & $p\land q$\\
+  \hline
+  V & V & V \\
+  V & F & F \\
+  F & V & F \\
+  F & F & F \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{definition}[Disgiunzione] La disgiunzione $p \lor q$ di due proposizioni è falsa se e solo se entrambe sono false.
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p$ & $q$ & $p\lor q$\\
+  \hline
+  V & V & V \\
+  V & F & V \\
+  F & V & V \\
+  F & F & F \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{definition}[Implicazione logica] L'implicazione logica $p \rightarrow q$ produce una proposizione falsa se e solo se $p$ è vera e $q$ è falsa.
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p$ & $q$ & $p\rightarrow q$\\
+  \hline
+  V & V & V \\
+  V & F & F \\
+  F & V & V \\
+  F & F & V \\
+  \hline
+\end{tabular}
+\end{center}
+\paragraph{Condizione sufficiente e condizione necessaria.} L'implicazione logica $p \rightarrow q$ tra due proposizioni $p$, $q$ consente di dare una definizione di condizione sufficiente e condizione necessaria:
+\begin{itemize}
+    \item $p$ come \textbf{condizione sufficiente} per $q$.
+    \item $q$ come \textbf{condizione necessaria} per $p$.
+\end{itemize}
+\begin{definition}[Co-implicazione o equivalenza logica] La coimplicazione (o equivalenza) logica $p \leftrightarrow q$ produce una proposizione vera se e solo se $p$ e $q$ hanno lo stesso valore di verità.
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p$ & $q$ & $p\leftrightarrow q$\\
+  \hline
+  V & V & V \\
+  V & F & F \\
+  F & V & F \\
+  F & F & V \\
+  \hline
+\end{tabular}
+\end{center}
+\paragraph{Condizione necessaria e sufficiente -- equivalenza logica.} L'equivalenza logica $p \rightarrow q$ tra due proposizioni $p$, $q$ consente di dare una definizione di condizione necessaria e sufficiente:
+\begin{itemize}
+    \item $p$ come \textbf{condizione necessaria e sufficiente} per $q$, e viceversa.
+\end{itemize}
+
+% ------------------------------------------------------------------------------
+\subsection{Teoremi e proposizioni}
+\begin{theorem}[Leggi di De Morgan] Le due leggi di De Morgan sono:
+\begin{itemize}
+    \item prima legge di De Morgan: $\overline{p \land q} \leftrightarrow \overline{p} \lor  \overline{q}$
+    \item seconda legge di De Morgan: $\overline{p \lor  q} \leftrightarrow \overline{p} \land \overline{q}$
+\end{itemize}
+\end{theorem}
+Dimostrazione con le tavole della verità della prima legge,
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|c|}
+  \hline
+  $p$ & $q$ & $p \land q$ & $\overline{p \land q}$ & $\overline{p} \lor \overline{q}$ & $\overline{p \land q} \leftrightarrow \overline{p} \lor \overline{q}$\\
+  \hline
+  V & V & V & F & F & V \\
+  V & F & F & V & V & V \\
+  F & V & F & V & V & V \\
+  F & F & F & V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+e della seconda legge,
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|c|}
+  \hline
+  $p$ & $q$ & $p \lor q$ & $\overline{p \lor q}$ & $\overline{p} \land \overline{q}$ & $\overline{p \lor q} \leftrightarrow \overline{p} \land \overline{q}$\\
+  \hline
+  V & V & V & F & F & V \\
+  V & F & V & F & F & V \\
+  F & V & V & F & F & V \\
+  F & F & F & V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+% ------------------------------------------------------------------------------
+\subsection{Tecniche dimostrative}
+\begin{definition}[Deduzione] La deduzione $a \Rightarrow b$ è un processo che, a partire da una proposizione vera $a$, tramite un processo logico valido, permette di ricavare una proposizione vera $b$.
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $a \rightarrow b$ & $a$ & $b$\\
+  \hline
+  V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+\begin{definition}[Dimostrazione diretta] Partendo da un'ipotesi $I$, si dimostra la tesi $T$ tramite un numero finito di deduzioni di proposizioni intermedie $\{p_i\}_{i=1:n}$
+\begin{equation}
+    I \Rightarrow p_1 \Rightarrow p_2 \Rightarrow \dots \Rightarrow p_n \Rightarrow T
+\end{equation}
+\end{definition}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $I \rightarrow p_1$ & $I$ & $p_1$\\
+  \hline
+  V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p_1 \rightarrow p_2$ & $p_1$ & $p_2$\\
+  \hline
+  V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $\dots$ & $\dots$ & $\dots$\\
+  \hline
+  V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{|c|c||c|}
+  \hline
+  $p_n \rightarrow T$ & $p_n$ & $T$\\
+  \hline
+  V & V & V \\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{definition}[Dimostrazione della contronominale] Partendo da un ipotesi $I$ vera e invertendo l'implicazione logica, $I \Rightarrow T$, si vuole quindi dimostrare con dimostrazione diretta la proposizione $\overline{T} \Rightarrow \overline{I}$, detta \textbf{contronominale} di $I \Rightarrow T$.
+\end{definition}
+\begin{equation}
+    ( \overline{T} \Rightarrow \overline{I} ) \Rightarrow ( I \Rightarrow T )
+\end{equation}
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|}
+  \hline
+  $I$ & $\overline{T} \rightarrow \overline{I}$ & $\overline{I}$ & $\overline{T}$ & $T$ \\
+  \hline
+  V & V & F & F & V \\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{definition}[Dimostrazione per assurdo] Se partendo dall'ipotesi $I$ vera e negando la tesi $\overline{T}$, si arriva a una contraddizione $C$ (una proposizione falsa), allora è veriticata la tesi.
+\end{definition}
+\begin{equation}
+    \left( ( I \land \overline{T} ) \Rightarrow C \right) \Rightarrow ( I \Rightarrow T )
+\end{equation}
+\begin{center}
+\begin{tabular}{|c|c|c||c|c|c|}
+  \hline
+  $I$ & $C$ & $(I \land \overline{T}) \rightarrow C$ & $(I \land \overline{T})$ & $\overline{T}$ & $T$ \\
+  \hline
+  V & F & V & F & F & V \\
+  \hline
+\end{tabular}
+\end{center}
+
+% ------------------------------------------------------------------------------
+{\color{red}
+\section{Logica predicativa}
+\paragraph{Quantificatori}
+}
+
+% ==============================================================================
+\chapter{Insiemistica}
+\section{Definizioni di base}
+\begin{definition}[Insieme] Un insieme è un gruppo di elementi, oggetti che possono essere di qualsiasi tipo.
+\end{definition}
+
+\paragraph{Rappresentazioni, notazione ed esempi.}
+Si è soliti indicare gli insiemi con lettere maiuscole. Un insieme $S$ può essere rappresentato
+\begin{itemize}
+    \item per \textbf{elencazione}: vengono elencati, di solito tra parentesi graffe, tutti gli elementi dell'insieme
+    \begin{equation}
+        S = \{ \text{elemento}_1, \text{elemento}_2, \dots, \text{elemento}_N \}
+    \end{equation}
+    \item per \textbf{caratteristica}: viene descritta la condizione che determina gli elementi dell'insieme
+    \begin{equation}
+        S = \{ x \ | \ \text{condiizone che determina $x$} \}
+    \end{equation}
+\end{itemize}
+
+{\color{red} La condizione può essere una condizione composta da diverse condizioni. Si rimanda agli operatori logici}
+
+\begin{example}[Insieme dei mesi] L'insieme $M$ dei (nomi dei) mesi dell'anno può essere rappresentato come:
+\begin{equation}
+\begin{aligned}
+    M & = \{ x \ | \ \text{$x$ è (il nome di) un mese dell'anno} \} = \\
+      & = \{ \text{gennaio}, \text{febbraio}, \text{marzo}, \text{aprile}, \text{maggio}, \text{giugno}, \\
+      & \qquad \text{luglio}, \text{agosto}, \text{settembre}, \text{ottobre}, \text{novembre}, \text{dicembre}  \} 
+\end{aligned}
+\end{equation}
+\end{example}
+\begin{example}[Insieme dei numeri naturali minori di 5] L'insieme $S$ dei numeri
+\begin{equation}
+\begin{aligned}
+    S & = \{ x \ | \ \text{$x$ è un numero naturale minore di 5} \} = \\
+      & = \{ x \ | \ x \in \mathbb{N} \land x < 5 \} = \\
+      & = \{ 0, 1, 2, 3, 4 \}
+\end{aligned}
+\end{equation}
+\end{example}
+
+\section{Operazioni}
+
+\section{Funzioni}
+
+\chapter{Insiemi numerici}
+\section{Insieme dei numeri naturali, $\mathbb{N}$}
+\begin{equation}
+    \mathbb{N} = \{ 0, 1, 2, 3, \dots \}
+\end{equation}
+Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri naturali:
+\begin{itemize}
+    \item addizione
+    \item moltiplicazione
+\end{itemize}
+
+\section{Insieme dei numeri interi, $\mathbb{Z}$}
+\begin{equation}
+    \mathbb{Z} = \{ \dots, -3, -2, -1, 0, 1, 2, 3, \dots \}
+\end{equation}
+Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri interi:
+\begin{itemize}
+    \item addizione
+    \item sottrazione
+    \item moltiplicazione
+\end{itemize}
+
+\section{Insieme dei numeri razionali, $\mathbb{Q}$}
+\begin{equation}
+    \mathbb{Q} = \left\{ x | x = \dfrac{m}{n}, \ m \in \mathbb{Z}, \ n \in \mathbb{Z}\backslash\{0\} \right\}
+\end{equation}
+Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri razionali:
+\begin{itemize}
+    \item addizione
+    \item sottrazione
+    \item moltiplicazione
+    \item divisione, esclusa la divisione per $0$
+\end{itemize}
+
+
+\section{Insieme dei numeri reali, $\mathbb{R}$}
+Esistono dei numeri che non possono essere rappresentati come frazioni di numeri interi. Alcuni di questi numeri compaiono in semplici problemi di geometria, come il calcolo della lunghezza della diagonale di un quadrato di lato unitario  $\sqrt{2}$ o la lunghezza della circonferenza con raggio unitario $\pi$.
+
+\begin{example}[Irrazionalità di $\sqrt{2}$] Si vuole dimostrare che il numero $\sqrt{2}$ è irrazionale, e quindi non essere scritto come rapporto di due numeri interi $m$, $n$. La dimostrazione procede per assurdo: supponiamo che la tesi sia falsa, e arriviamo a una contraddizione.
+
+Per assurdo, quindi supponiamo che si possa scrivere
+\begin{equation}
+\sqrt{2} = \dfrac{m}{n} \ ,
+\end{equation}
+in forma ridotta ai minimi termini. Questo implica che i numeri $m$, $n$ non possano essere contemporaneamente numeri pari, poiché altrimenti la frazione potrebbe essere ulteriormente semplificata.
+
+Elevando alla seconda potenza, possiamo scrivere
+\begin{equation}
+  2 n^2 = m^2
+\end{equation}
+e quindi il numero $m$ deve essere pari, poiché il suo quadrato è pari. Il numero $n$ dovrà allora essere dispari.
+Poiché il numero $m$ è pari, può essere scritto come $m = 2k$ con $k \in \mathbb{N}$ e quindi
+\begin{equation}
+  2 n^2 = m^2 = (2k)^2 = 4 k^2 \qquad \rightarrow \qquad n^2 = 2 k^2 \ .
+\end{equation}
+Dall'ultima espressione, dobbiamo concludere che il numero $n$ sia anch'esso pari. In questo modo si arriva a una contraddizione, poiché il numero $n$ non può essere contemporaneamente pari e dispari.
+
+Dobbiamo concludedere che la tesi sia vera, e che quindi il numero $\sqrt{2}$ è un numero irrazionale.
+\end{example}
+
+\begin{example}[Irrazionalità della radice $\sqrt{p}$ di ogni numero primo $p$] Si vuole dimostrare che il numero $\sqrt{p}$, con $p$ numero primo, è irrazionale e quindi non può essere scritto come rapporto di due numeri interi $m$, $n$. La dimostrazione procede per assurdo: supponiamo che la tesi sia falsa, e arriviamo a una contraddizione.
+
+Per assurdo, quindi supponiamo che si possa scrivere
+\begin{equation}
+\sqrt{p} = \dfrac{m}{n} \ ,
+\end{equation}
+in forma ridotta ai minimi termini. Questo implica che i numeri $m$, $n$ non possano avere divisori comuni.
+
+Elevando alla seconda potenza, possiamo scrivere
+\begin{equation}
+  p n^2 = m^2
+\end{equation}
+e quindi il numero $m$ deve essere un multiplo di $p$, poiché il suo quadrato contiene il fattore $p$. Il numero $n$ allora non potrà contenere il fattore $p$, poiché $m$ ed $n$ non possono avere fattori comuni.
+Poiché il numero $m$ è pari, può essere scritto come $m = p k$ con $k \in \mathbb{N}$ e quindi
+\begin{equation}
+  p n^2 = m^2 = (pk)^2 = p^2 k^2 \qquad \rightarrow \qquad n^2 = p k^2 \ .
+\end{equation}
+Dall'ultima espressione, dobbiamo concludere che il numero $n$ ha un fattore $p$ poiché il suo quadrato contiene  il fattore $p$. In questo modo si arriva a una contraddizione, poiché il numero $n$ non può contemporaneamente avere e non avere un sottomultiplo $p$.
+
+Dobbiamo concludedere che la tesi sia vera, e che quindi il numero $\sqrt{p}$, con $p$ primo, è un numero irrazionale.
+\end{example}
+
+\section{Insieme dei numeri complessi, $\mathbb{C}$}
+\begin{equation}
+    \mathbb{C} = \left\{ z | z = x + i y, \ x, y \in \mathbb{R} \right\}
+\end{equation}
+
+
+

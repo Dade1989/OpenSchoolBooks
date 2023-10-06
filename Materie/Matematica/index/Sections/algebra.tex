@@ -196,13 +196,92 @@ Una dimostrazione della formula risolutiva viene ricavata con la regola di compl
 \end{equation}
 
 \subsection{Equazioni algebriche razionali}
+\begin{definition}[Equazioni algebriche razionali] Le equazioni algebriche razionali sono equazioni che contengono polinomi, loro rapporti e potenze intere.
+\end{definition}
+\begin{example}[Esempi di equazioni algebriche razionali]
+\begin{equation}
+    \dfrac{(x + 3)^2}{(x-1)} = 4 x 
+\end{equation}
+\begin{equation}
+    \dfrac{2x}{x^2+1} = -\dfrac{1}{x}
+\end{equation}
+\end{example}
+
+\subsubsection{Metodo di soluzione}
+\begin{enumerate}
+    \item Per prima cosa è necessario determinare le \textbf{condizioni di esistenza} di una soluzione. Poiché nelle equazioni può comparire la \textbf{divisione} tra polinomi, bisogna richiedere che questa e tutte le operazioni scritte nel problema abbiano senso: ad esempio, nelle condizioni di esistenza bisogna richiedere che non avvengano divisioni per zero.
+    \item Successivamente, è possibile procedere con le semplificazioni per la ricerca della soluzione.
+\end{enumerate}
+
+\paragraph{Esempi}
+Seguendo questo metodo di soluzione, procediamo a risolvere le equazioni dell'esempio {\color{red} cit}.
+\begin{equation}
+    \dfrac{(x + 3)^2}{(x-1)} = 4 x  \qquad \qquad \text{C.E.: } x \ne 1 \quad \rightarrow \quad x \in \mathbb{R}\backslash \{1\}
+\end{equation}
+\begin{equation}
+    \begin{aligned}
+        & (x + 3)^2 = 4x(x-1) \\
+        & x^2+6x+9 = 4x^2 -4x \\
+        & 3x^2-10x-9 = 0 \\
+        & \rightarrow \quad x_{1,2} = \dfrac{5 \mp \sqrt{25+3\cdot9}}{6} = \dfrac{5 \mp \sqrt{52}}{3}
+    \end{aligned}
+\end{equation}
+\begin{equation}
+    \dfrac{2x}{x^2+1} = -\dfrac{1}{x} \qquad \qquad \text{C.E.: } x \ne 0 \quad \rightarrow \quad x \in \mathbb{R}\backslash \{0\}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    & 2x^2= - x^2 - 1 \\
+    & 3x^2= - 1 \quad \rightarrow \quad \nexists x \in \mathbb{R}
+\end{aligned}
+\end{equation}
+
 \subsection{Equazioni algebriche irrazionali}
+\begin{definition}[Equazioni algebriche irrazionali] Le equazioni algebriche razionali sono equazioni che contengono polinomi, loro rapporti e potenze intere e non.
+\end{definition}
+\begin{example}[Esempi di equazioni algebriche irrazionali]
+\begin{equation}
+    \sqrt[3]{x-3} = 2 \qquad , \qquad \dfrac{2 x}{(x-1)^{\frac{1}{2}}} = - 2
+\end{equation}
+\end{example}
+\subsubsection{Metodo di soluzione}
+\begin{enumerate}
+    \item Per prima cosa è necessario determinare le \textbf{condizioni di esistenza} di una soluzione. Bisogna richiedere che questa e tutte le operazioni scritte nel problema abbiano senso: bisogna richiedere che
+        \begin{itemize}
+            \item che non avvengano \textbf{divisioni} per zero;
+            \item che siano non negativi i radicandi di eventuali \textbf{radici} con indice intero pari o non intero.
+        \end{itemize}
+    \item Successivamente, è possibile procedere con le semplificazioni per la ricerca della soluzione.
+\end{enumerate}
+
+\paragraph{Esempi}
+\begin{equation}
+    \sqrt[3]{x-3} = 2 \qquad \qquad \text{C.E.: } x \in \mathbb{R}
+\end{equation}
+\begin{equation}
+    x-3 = 8 \qquad \rightarrow \qquad x = 11
+\end{equation}
+\begin{equation}
+    \dfrac{2 x}{(x-1)^{\frac{1}{2}}} = - 2 \qquad \qquad \text{C.E.: } x-1>0 \quad \rightarrow \quad x \in (1,+\infty)
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    &  x = -  (x-1)^{\frac{1}{2}} \\
+    &  x^2 =   x-1  \\
+    & x^2 - x + 1 = 0 \\
+    & \Delta = (-1)^2 - 4 \cdot 1 \cdot 1 = -3 < 0 \qquad \rightarrow \qquad \nexists x \in \mathbb{R}
+\end{aligned}
+\end{equation}
 
 \section{Equazioni non algebriche o trascendenti}
 \subsection{Equazioni con i valori assoluti}
 \subsection{Equazioni con esponenti e logaritmi}
 \subsection{Equazioni con le funzioni armoniche}
 
+\section{Metodi di soluzione approssimati}
+\subsection{Metodo grafico}
+\subsection{Metodi numerici}
+{\color{red} Riferimento al capitolo dei metodi numerici}
 
 % ==============================================================================
 \chapter{Disequazioni}
