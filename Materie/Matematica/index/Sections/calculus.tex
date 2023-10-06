@@ -1,7 +1,75 @@
 
 
 % ---------------------------------------------------------------------------------------
-\chapter{Limiti}
+\chapter{Limiti di funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$}
+
+\section{Definizioni}
+{\color{red}
+\begin{itemize}
+    \item Limite destro e limite sinistro
+    \item Funzioni continue
+\end{itemize}
+}
+\begin{definition}[Limite finito al finito] Il limite finito della funzione $f(x)$  per $x$ che tende a $x_0$,
+    \begin{equation}
+      \lim_{x \rightarrow x_0} f(x) = \ell
+    \end{equation}
+    è definito dalla condizione
+    \begin{equation}
+        \text{Per $\forall \varepsilon > 0$ tale che $|x-x_0| < \varepsilon$, $\exists \delta > 0$ tale che $|f(x) - \ell|< \delta$.}
+    \end{equation}
+\end{definition}
+\begin{definition}[Limite infinito al finito] Il limite infinito della funzione $f(x)$  per $x$ che tende a $x_0$,
+    \begin{equation}
+      \lim_{x \rightarrow x_0} f(x) = \mp \infty
+    \end{equation}
+    è definito dalla condizione
+    \begin{equation}
+        \text{Per $\forall \varepsilon > 0$ tale che $|x-x_0| < \varepsilon$, $\exists M \lessgtr 0$ tale che $f(x) \lessgtr M$.}
+    \end{equation}
+\end{definition}
+\begin{definition}[Limite finito al infinito] Il limite finito della funzione $f(x)$ per $x$ che tende all'infinito
+    \begin{equation}
+      \lim_{x \rightarrow \mp \infty} f(x) = \ell
+    \end{equation}
+    è definito dalla condizione
+    \begin{equation}
+        \text{Per $\forall N \lessgtr 0$ tale che $x \lessgtr  N$, $\exists \delta > 0$ tale che $|f(x) - \ell| < \delta$.}
+    \end{equation}
+\end{definition}
+\begin{definition}[Limite infinito al infinito] Il limite infinito della funzione $f(x)$ per $x$ che tende all'infinito
+    \begin{equation}
+        \lim_{x \rightarrow \mp^{(1)} \infty} f(x) = \mp^{(2)} \infty
+    \end{equation}
+    è definito dalla condizione
+    \begin{equation}
+        \text{Per $\forall N \lessgtr^{(1)} 0$ tale che $x \lessgtr^{(1)} N$, $\exists M \lessgtr^{(2)} 0$ tale che $f(x) \lessgtr^{(2)} M$.}
+    \end{equation}
+\end{definition}
+
+{\color{red}Grafici}
+
+\section{Funzioni continue}
+{\color{red}
+Definizioni:
+\begin{itemize}
+    \item punto di accumulazione
+    \item punto isolato
+    \item intorno
+    \item attenzione a insiemi aperti e chiusi
+\end{itemize}
+}
+\begin{definition}[Funzione continua in un punto] Una funzione $f: \Omega \rightarrow \mathbb{R}$ è continua in un punto $x_0 \in \Omega$ se 
+    \begin{equation}
+        \lim_{x \rightarrow x_0}f(x) = f(x_0) \ .
+    \end{equation}
+\end{definition}
+\begin{definition}[Funzione continua in un intervallo] Una funzione $f: \Omega \rightarrow \mathbb{R}$ è continua in un intervallo $[a, b] \subset \Omega$, se è una funzione continua in tutti i punti $x \in [a, b]$.
+\end{definition}
+
+\subsection{Teoremi sulle funzioni continue}
+
+\section{Teoremi sui limiti}
 
 \section{Infiniti e infinitesimi}
 

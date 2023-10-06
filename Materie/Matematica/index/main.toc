@@ -196,9 +196,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {V}Calcolo infinitesimale}{45}{part.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Limiti}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Limiti di funzioni $f:\mathbb {R} \rightarrow \mathbb {R}$}{47}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Infiniti e infinitesimi}{47}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Definizioni}{47}{section.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.2}Funzioni continue}{48}{section.11.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.1}Teoremi sulle funzioni continue}{48}{subsection.11.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.3}Teoremi sui limiti}{48}{section.11.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.4}Infiniti e infinitesimi}{48}{section.11.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}Derivate}{49}{chapter.12}%
 \defcounter {refsection}{0}\relax 
