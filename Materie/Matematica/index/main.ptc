@@ -5,7 +5,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {I}Introduzione}{9}{part.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Aspetti studiati in matematica}{11}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Strumenti e discipline in matematica}{11}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Quantità}{11}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Discipline}{11}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Matematica pura}{11}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1.1}Fondamenti}{11}{subsubsection.1.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1.2}Algebra e matematica discreta}{11}{subsubsection.1.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1.3}Analisi}{11}{subsubsection.1.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1.4}Geometria e topologia}{12}{subsubsection.1.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Matematica applicata}{12}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Statistica}{12}{subsubsection.1.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.2}Fisica}{12}{subsubsection.1.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.3}Altre scienze naturali}{12}{subsubsection.1.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.4}Scienze sociali e del comportamento}{12}{subsubsection.1.2.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.5}Matematica numerica e informatica}{12}{subsubsection.1.2.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.6}Ottimizzazione}{12}{subsubsection.1.2.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.7}Teoria dei sistemi e controllo}{12}{subsubsection.1.2.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2.8}Didattica}{12}{subsubsection.1.2.2.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Approccio alla matematica}{13}{chapter.2}%
 \defcounter {refsection}{0}\relax 
@@ -91,43 +123,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Polinomi}{29}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Potenze e radici}{30}{section.7.3}%
+\contentsline {subsection}{\numberline {7.2.1}Scomposizioni notevoli}{30}{subsection.7.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Esponenziali e logaritmi}{30}{section.7.4}%
+\contentsline {paragraph}{Quadrato della somma}{30}{paragraph*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Esponenziale}{30}{subsection.7.4.1}%
+\contentsline {paragraph}{Cubo della somma}{30}{paragraph*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.1.1}Potenze non intere, valori ammissibili}{30}{subsubsection.7.4.1.1}%
+\contentsline {paragraph}{Potenza di un binomio}{30}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.1.2}Proprietà}{30}{subsubsection.7.4.1.2}%
+\contentsline {paragraph}{Differenza di quadrati}{30}{paragraph*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prodotto di potenze con la stessa base}{30}{paragraph*.14}%
+\contentsline {paragraph}{Somma e differenza di cubi}{30}{paragraph*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Potenza di potenza}{30}{paragraph*.15}%
+\contentsline {paragraph}{Differenza di potenze di grado qualsiasi}{30}{paragraph*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prodotto di potenze con lo stesso esponente}{30}{paragraph*.16}%
+\contentsline {paragraph}{Somma di potenze di grado dispari}{30}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Logaritmo}{30}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.2.2}Divisione tra polinomi e resto}{31}{subsection.7.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.2.1}Potenze non intere, valori ammissibili}{30}{subsubsection.7.4.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Divisione esatta e scomposizone di polinomi: regola di Ruffini}{31}{subsubsection.7.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.4.2.2}Proprietà}{30}{subsubsection.7.4.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Formule di Viete e Newton}{31}{subsection.7.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Somma di logaritmi con la stessa base}{30}{paragraph*.17}%
+\contentsline {section}{\numberline {7.3}Potenze e radici}{31}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prodotto di un logaritmo per uno scalare}{31}{paragraph*.18}%
+\contentsline {section}{\numberline {7.4}Esponenziali e logaritmi}{31}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cambio di base di un logaritmo}{31}{paragraph*.19}%
+\contentsline {subsection}{\numberline {7.4.1}Esponenziale}{31}{subsection.7.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Funzioni armoniche}{31}{section.7.5}%
+\contentsline {subsubsection}{\numberline {7.4.1.1}Potenze non intere, valori ammissibili}{31}{subsubsection.7.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.1}La circonferenza e la definizione delle funzioni seno e coseno}{31}{subsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.2}Proprietà}{31}{subsubsection.7.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.2}La definizione delle funzioni tangente, cotangente, secante e cosecante}{31}{subsection.7.5.2}%
+\contentsline {paragraph}{Prodotto di potenze con la stessa base}{31}{paragraph*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.3}Formule del seno e coseno di somme e differenze}{31}{subsection.7.5.3}%
+\contentsline {paragraph}{Potenza di potenza}{31}{paragraph*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Funzioni iperboliche}{31}{section.7.6}%
+\contentsline {paragraph}{Prodotto di potenze con lo stesso esponente}{31}{paragraph*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.2}Logaritmo}{31}{subsection.7.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.4.2.1}Potenze non intere, valori ammissibili}{31}{subsubsection.7.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.4.2.2}Proprietà}{31}{subsubsection.7.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Somma di logaritmi con la stessa base}{31}{paragraph*.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Prodotto di un logaritmo per uno scalare}{32}{paragraph*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cambio di base di un logaritmo}{32}{paragraph*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Funzioni armoniche}{32}{section.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}La circonferenza e la definizione delle funzioni seno e coseno}{32}{subsection.7.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}La definizione delle funzioni tangente, cotangente, secante e cosecante}{32}{subsection.7.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.3}Formule del seno e coseno di somme e differenze}{32}{subsection.7.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Funzioni iperboliche}{32}{section.7.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Equazioni}{33}{chapter.8}%
 \defcounter {refsection}{0}\relax 
@@ -135,25 +189,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.1}Equazioni polinomiali}{33}{subsection.8.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esistenza e numero delle soluzioni.}{33}{paragraph*.20}%
+\contentsline {paragraph}{Esistenza e numero delle soluzioni.}{33}{paragraph*.27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.1.1}Equazioni di primo grado}{33}{subsubsection.8.1.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.1.2}Equazioni di secondo grado}{33}{subsubsection.8.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formula risolutiva dell'equazione di secondo grado.}{34}{paragraph*.21}%
+\contentsline {paragraph}{Formula risolutiva dell'equazione di secondo grado.}{34}{paragraph*.28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.2}Equazioni algebriche razionali}{34}{subsection.8.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.2.1}Metodo di soluzione}{34}{subsubsection.8.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi}{35}{paragraph*.22}%
+\contentsline {paragraph}{Esempi}{35}{paragraph*.29}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.3}Equazioni algebriche irrazionali}{35}{subsection.8.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.3.1}Metodo di soluzione}{35}{subsubsection.8.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi}{35}{paragraph*.23}%
+\contentsline {paragraph}{Esempi}{35}{paragraph*.30}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Equazioni non algebriche o trascendenti}{36}{section.8.2}%
 \defcounter {refsection}{0}\relax 
@@ -189,7 +243,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {10.1.1.2}Rappresentazione polare.}{43}{subsubsection.10.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{La relazione di Eulero e la rappresentazione polare dei numeri complessi.}{43}{paragraph*.24}%
+\contentsline {paragraph}{La relazione di Eulero e la rappresentazione polare dei numeri complessi.}{43}{paragraph*.31}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.2}Operazioni con i numeri complessi}{43}{section.10.2}%
 \defcounter {refsection}{0}\relax 
@@ -205,65 +259,71 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {V}Calcolo infinitesimale}{45}{part.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Limiti di funzioni $f:\mathbb {R} \rightarrow \mathbb {R}$}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Funzioni $f:\mathbb {R} \rightarrow \mathbb {R}$ e limiti}{47}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Definizioni}{47}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Funzioni}{47}{section.11.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Funzioni continue}{48}{section.11.2}%
+\contentsline {section}{\numberline {11.2}Limiti}{47}{section.11.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Teoremi sulle funzioni continue}{48}{subsection.11.2.1}%
+\contentsline {section}{\numberline {11.3}Funzioni continue}{48}{section.11.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Teoremi sui limiti}{48}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Teoremi sulle funzioni continue}{48}{subsection.11.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Infiniti e infinitesimi}{48}{section.11.4}%
+\contentsline {section}{\numberline {11.4}Teoremi sui limiti}{48}{section.11.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.5}Infiniti e infinitesimi}{48}{section.11.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}Derivate}{49}{chapter.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.1}Definizioni}{49}{section.12.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Interpretazione geometrica}{49}{paragraph*.25}%
+\contentsline {paragraph}{Interpretazione geometrica.}{49}{paragraph*.32}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.2}Regole di derivazione}{49}{section.12.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {12.2.1}Regole}{49}{subsection.12.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata della somma di due funzioni e il prodotto per uno scalare}{49}{paragraph*.26}%
+\contentsline {paragraph}{Derivata della somma di due funzioni e il prodotto per uno scalare}{49}{paragraph*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata del prodotto di due funzioni}{49}{paragraph*.27}%
+\contentsline {paragraph}{Derivata del prodotto di due funzioni}{49}{paragraph*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata del rapporto di due funzioni}{49}{paragraph*.28}%
+\contentsline {paragraph}{Derivata del rapporto di due funzioni}{49}{paragraph*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata di una funzione composta}{49}{paragraph*.29}%
+\contentsline {paragraph}{Derivata di una funzione composta}{49}{paragraph*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Dimostrazioni}{49}{subsection.12.2.2}%
+\contentsline {paragraph}{Derivata della funzione inversa}{50}{paragraph*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata della somma di due funzioni}{49}{paragraph*.30}%
+\contentsline {subsection}{\numberline {12.2.2}Dimostrazioni}{50}{subsection.12.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata del prodotto di due funzioni}{49}{paragraph*.31}%
+\contentsline {paragraph}{Derivata della somma di due funzioni}{50}{paragraph*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata del rapporto di due funzioni}{50}{paragraph*.32}%
+\contentsline {paragraph}{Derivata del prodotto di due funzioni}{50}{paragraph*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Derivata di una funzione composta}{50}{paragraph*.33}%
+\contentsline {paragraph}{Derivata del rapporto di due funzioni}{50}{paragraph*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Derivata di una funzione composta}{50}{paragraph*.41}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.3}Teoremi}{50}{section.12.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.1}Teorema di de l'Hopital}{50}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.1}Teoremi di Fermat, Rolle, Cauchy e Lagrange}{50}{subsection.12.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.4}Tabella di derivate}{50}{section.12.4}%
+\contentsline {subsection}{\numberline {12.3.2}Teorema di de l'Hopital}{51}{subsection.12.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.5}Espansioni in serie}{50}{section.12.5}%
+\contentsline {section}{\numberline {12.4}Tabella di derivate}{52}{section.12.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.6}Applicazioni}{51}{section.12.6}%
+\contentsline {section}{\numberline {12.5}Derivate di ordine superiore}{52}{section.12.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.1}Studio funzione}{51}{subsection.12.6.1}%
+\contentsline {section}{\numberline {12.6}Espansioni in serie}{52}{section.12.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.6.2}Approssimazione locale di }{51}{subsection.12.6.2}%
+\contentsline {section}{\numberline {12.7}Applicazioni}{52}{section.12.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.7.1}Studio funzione}{52}{subsection.12.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {13}Integrali}{53}{chapter.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {13.1}Definizioni}{53}{section.13.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Interpretazione geometrica}{53}{paragraph*.34}%
+\contentsline {paragraph}{Interpretazione geometrica}{53}{paragraph*.42}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {13.2}Proprietà}{53}{section.13.2}%
 \defcounter {refsection}{0}\relax 
@@ -279,143 +339,181 @@
 \ttl@stoptoc {part@5}
 \ttl@starttoc {part@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VI}Equazioni differenziali ordinarie}{55}{part.6}%
+\contentsline {part}{\numberline {VI}Equazioni differenziali ordinarie}{57}{part.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Introduzione}{57}{chapter.14}%
+\contentsline {chapter}{\numberline {14}Introduzione}{59}{chapter.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.1}Applicazioni}{57}{section.14.1}%
+\contentsline {section}{\numberline {14.1}Applicazioni}{59}{section.14.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.2}Definizioni}{57}{section.14.2}%
+\contentsline {section}{\numberline {14.2}Definizioni}{59}{section.14.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}Equazioni differenziali ordinarie lineari a coefficienti costanti}{59}{chapter.15}%
+\contentsline {chapter}{\numberline {15}Equazioni differenziali ordinarie lineari a coefficienti costanti}{61}{chapter.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.1}Equazioni differenziali lineari a coefficienti costanti di primo ordine}{59}{section.15.1}%
+\contentsline {section}{\numberline {15.1}Equazioni differenziali lineari a coefficienti costanti di primo ordine}{61}{section.15.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.1}Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}{59}{subsection.15.1.1}%
+\contentsline {subsection}{\numberline {15.1.1}Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}{61}{subsection.15.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.2}Equazioni differenziali lineari a coefficienti costanti di secondo ordine}{59}{section.15.2}%
+\contentsline {section}{\numberline {15.2}Equazioni differenziali lineari a coefficienti costanti di secondo ordine}{61}{section.15.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.1}Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}{59}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.1}Equazioni differenziali lineari omogenee a coefficienti costanti di primo ordine}{61}{subsection.15.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {16}Metodo di separazione delle variabili}{61}{chapter.16}%
+\contentsline {chapter}{\numberline {16}Metodo di separazione delle variabili}{63}{chapter.16}%
 \ttl@stoptoc {part@6}
 \ttl@starttoc {part@7}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}Vettori}{63}{part.7}%
+\contentsline {part}{\numberline {VII}Vettori}{65}{part.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {17}Algebra vettoriale}{67}{chapter.17}%
+\contentsline {chapter}{\numberline {17}Algebra vettoriale}{69}{chapter.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.1}Definizioni}{67}{section.17.1}%
+\contentsline {section}{\numberline {17.1}Introduzione}{69}{section.17.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {17.1.1}Spazi vettoriali con prodotto interno}{67}{subsection.17.1.1}%
+\contentsline {section}{\numberline {17.2}Definizioni}{69}{section.17.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.2}Applicazioni}{67}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Spazi vettoriali con prodotto interno}{70}{section.17.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {17.2.1}Geometria}{67}{subsection.17.2.1}%
+\contentsline {section}{\numberline {17.4}Spazi vettoriali bi- e tri-dimenisonali}{70}{section.17.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {17.2.2}Fisica}{67}{subsection.17.2.2}%
+\contentsline {subsection}{\numberline {17.4.1}Spazio vettoriale bidimensionale}{70}{subsection.17.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {18}Coordinate in spazi euclidei e cenni di calcolo vettoriale}{69}{chapter.18}%
+\contentsline {subsection}{\numberline {17.4.2}Spazio vettoriale tridimensionale}{71}{subsection.17.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {17.5}Applicazioni}{71}{section.17.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.5.1}Geometria}{71}{subsection.17.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.5.2}Fisica}{71}{subsection.17.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {18}Coordinate in spazi euclidei e cenni di calcolo vettoriale}{73}{chapter.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {18.1}Introduzione}{73}{section.18.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {18.2}Funzioni di più variabili - campi}{73}{section.18.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.2.1}Limiti e funzioni continue}{73}{subsection.18.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.2.2}Derivate}{73}{subsection.18.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.2.3}Integrali}{73}{subsection.18.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {18.2.3.1}Integrali di linea}{73}{subsubsection.18.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {18.2.3.2}Integrali di superficie}{74}{subsubsection.18.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {18.2.3.3}Integrali di volume}{74}{subsubsection.18.2.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.2.4}Operatori differenziali}{74}{subsection.18.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.2.5}Teoremi}{75}{subsection.18.2.5}%
 \ttl@stoptoc {part@7}
 \ttl@starttoc {part@8}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VIII}Geometria}{71}{part.8}%
+\contentsline {part}{\numberline {VIII}Geometria}{77}{part.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {19}Geomteria nel piano}{75}{chapter.19}%
+\contentsline {chapter}{\numberline {19}Geometria nel piano}{81}{chapter.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.1}Geometria euclidea}{75}{section.19.1}%
+\contentsline {section}{\numberline {19.1}Geometria euclidea}{81}{section.19.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.1}Introduzione}{75}{subsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.1.1}Introduzione}{81}{subsection.19.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.2}Rette e angoli}{75}{subsection.19.1.2}%
+\contentsline {subsection}{\numberline {19.1.2}Rette e angoli}{81}{subsection.19.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.3}Triangoli}{75}{subsection.19.1.3}%
+\contentsline {subsection}{\numberline {19.1.3}Triangoli}{81}{subsection.19.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.4}Circonferenza}{75}{subsection.19.1.4}%
+\contentsline {subsection}{\numberline {19.1.4}Circonferenza}{81}{subsection.19.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.2}Geometria cartesiana}{75}{section.19.2}%
+\contentsline {section}{\numberline {19.2}Geometria cartesiana}{81}{section.19.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.2.1}Coordinate cartesiane}{75}{subsection.19.2.1}%
+\contentsline {subsection}{\numberline {19.2.1}Coordinate cartesiane}{81}{subsection.19.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.2.2}Punto, distanze, retta}{75}{subsection.19.2.2}%
+\contentsline {subsection}{\numberline {19.2.2}Punto, distanze, retta}{81}{subsection.19.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.2.3}Trasformazioni di coordinate cartesiane e trasformazioni di curve}{76}{subsection.19.2.3}%
+\contentsline {subsection}{\numberline {19.2.3}Trasformazioni di coordinate cartesiane e trasformazioni di curve}{82}{subsection.19.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.2.3.1}Traslazione dell'origine}{76}{subsubsection.19.2.3.1}%
+\contentsline {subsubsection}{\numberline {19.2.3.1}Traslazione dell'origine}{82}{subsubsection.19.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.2.3.2}Rotazione attorno all'origine}{76}{subsubsection.19.2.3.2}%
+\contentsline {subsubsection}{\numberline {19.2.3.2}Rotazione attorno all'origine}{82}{subsubsection.19.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.2.4}Coniche}{76}{subsection.19.2.4}%
+\contentsline {subsection}{\numberline {19.2.4}Coniche}{82}{subsection.19.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.2.4.1}Parabola}{76}{subsubsection.19.2.4.1}%
+\contentsline {subsubsection}{\numberline {19.2.4.1}Parabola}{82}{subsubsection.19.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.2.4.2}Ellisse}{76}{subsubsection.19.2.4.2}%
+\contentsline {subsubsection}{\numberline {19.2.4.2}Ellisse}{82}{subsubsection.19.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.2.4.3}Iperbole}{77}{subsubsection.19.2.4.3}%
+\contentsline {subsubsection}{\numberline {19.2.4.3}Iperbole}{83}{subsubsection.19.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {20}Geometria nello spazio}{79}{chapter.20}%
+\contentsline {chapter}{\numberline {20}Geometria nello spazio}{85}{chapter.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20.1}Geometria euclidea}{79}{section.20.1}%
+\contentsline {section}{\numberline {20.1}Geometria euclidea}{85}{section.20.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20.2}Geometria cartesiana}{79}{section.20.2}%
+\contentsline {section}{\numberline {20.2}Geometria cartesiana}{85}{section.20.2}%
 \ttl@stoptoc {part@8}
 \ttl@starttoc {part@9}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IX}Statistica}{81}{part.9}%
+\contentsline {part}{\numberline {IX}Statistica}{87}{part.9}%
 \ttl@stoptoc {part@9}
 \ttl@starttoc {part@10}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {X}Matematica numerica - cenni}{83}{part.10}%
+\contentsline {part}{\numberline {X}Matematica numerica - cenni}{89}{part.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {21}Equazioni e sistemi di equazioni}{85}{chapter.21}%
+\contentsline {chapter}{\numberline {21}Equazioni e sistemi di equazioni}{91}{chapter.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21.1}Equazioni}{85}{section.21.1}%
+\contentsline {section}{\numberline {21.1}Equazioni}{91}{section.21.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {21.1.1}Equazioni non lineari}{85}{subsection.21.1.1}%
+\contentsline {subsection}{\numberline {21.1.1}Equazioni non lineari}{91}{subsection.21.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {21.1.1.1}Metodo della bisezione}{85}{subsubsection.21.1.1.1}%
+\contentsline {subsubsection}{\numberline {21.1.1.1}Metodo della bisezione}{91}{subsubsection.21.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {21.1.1.2}Metodo di Newton}{86}{subsubsection.21.1.1.2}%
+\contentsline {subsubsection}{\numberline {21.1.1.2}Metodo di Newton}{92}{subsubsection.21.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21.2}Sistemi di equazioni}{86}{section.21.2}%
+\contentsline {section}{\numberline {21.2}Sistemi di equazioni}{92}{section.21.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {21.2.1}Sistemi di equazioni lineari}{86}{subsection.21.2.1}%
+\contentsline {subsection}{\numberline {21.2.1}Sistemi di equazioni lineari}{92}{subsection.21.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {21.2.2}Sistemi di equazioni non lineari}{86}{subsection.21.2.2}%
+\contentsline {subsection}{\numberline {21.2.2}Sistemi di equazioni non lineari}{92}{subsection.21.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {21.2.2.1}Metodo di Newton per sistemi}{86}{subsubsection.21.2.2.1}%
+\contentsline {subsubsection}{\numberline {21.2.2.1}Metodo di Newton per sistemi}{92}{subsubsection.21.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {22}Derivate}{87}{chapter.22}%
+\contentsline {chapter}{\numberline {22}Approssimazione di funzioni}{93}{chapter.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {22.1}}{87}{section.22.1}%
+\contentsline {section}{\numberline {22.1}}{93}{section.22.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {23}Ricerca dei massimi e ottimizzazione}{89}{chapter.23}%
+\contentsline {chapter}{\numberline {23}Derivate}{95}{chapter.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23.1}}{89}{section.23.1}%
+\contentsline {section}{\numberline {23.1}}{95}{section.23.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {24}Integrali}{91}{chapter.24}%
+\contentsline {chapter}{\numberline {24}Ricerca dei massimi e ottimizzazione}{97}{chapter.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24.1}}{91}{section.24.1}%
+\contentsline {section}{\numberline {24.1}Ottimizzazione libera}{97}{section.24.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {25}Equazioni differenziali ordinarie}{93}{chapter.25}%
+\contentsline {subsection}{\numberline {24.1.1}Algoritmi}{97}{subsection.24.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25.1}Riduzione a sistema di primo ordine}{93}{section.25.1}%
+\contentsline {paragraph}{Discesa lungo il gradiente.}{97}{paragraph*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{93}{section.25.2}%
+\contentsline {section}{\numberline {24.2}Ottimizzazione vincolata}{97}{section.24.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25.3}Schemi numerici per problemi ai valori al contorno}{93}{section.25.3}%
+\contentsline {chapter}{\numberline {25}Integrali}{99}{chapter.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {26}Statistica}{95}{chapter.26}%
+\contentsline {section}{\numberline {25.1}}{99}{section.25.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {26}Equazioni differenziali ordinarie}{101}{chapter.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {26.1}Riduzione a sistema di primo ordine}{101}{section.26.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {26.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{101}{section.26.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {26.3}Schemi numerici per problemi ai valori al contorno}{101}{section.26.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {27}Statistica}{103}{chapter.27}%
 \ttl@stoptoc {part@10}
 \ttl@starttoc {part@11}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {XI}Appendici, indice e bibliografia}{97}{part.11}%
+\contentsline {part}{\numberline {XI}Appendici, indice e bibliografia}{105}{part.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{99}{chapter*.35}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{107}{chapter*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{101}{section*.36}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{109}{section*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{101}{section*.37}%
+\contentsline {chapter}{Appendices}{109}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{101}{appendix.alph1.Alph1}%
+\contentsline {chapter}{\numberline {A}Prima appendice}{109}{appendix.alph1.Alph1}%
 \contentsfinish 

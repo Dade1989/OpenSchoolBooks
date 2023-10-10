@@ -1,9 +1,14 @@
 
 
 % ---------------------------------------------------------------------------------------
-\chapter{Limiti di funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$}
+\chapter{Funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$ e limiti}
 
-\section{Definizioni}
+\section{Funzioni}
+\begin{definition}[Funzione a variabile e valori reali]
+\end{definition}
+
+
+\section{Limiti}
 {\color{red}
 \begin{itemize}
     \item Limite destro e limite sinistro
@@ -68,6 +73,9 @@ Definizioni:
 \end{definition}
 
 \subsection{Teoremi sulle funzioni continue}
+\begin{theorem}[Teorema di Weierstrass]\label{thm:weierstrass} Una funzione continua definita su un intervallo chiuso e limitato $[a, b]$ ammette in esso un massimo e un minimo assoluto.
+\end{theorem}
+
 
 \section{Teoremi sui limiti}
 
@@ -77,13 +85,22 @@ Definizioni:
 \chapter{Derivate}
 
 \section{Definizioni}
+\begin{definition}[Rapporto incrementale]
+\begin{equation}
+    \dfrac{f(x+\Delta x) - f(x)}{\Delta x}
+\end{equation}
+\end{definition}
+
 \begin{definition}[Derivata]
 \begin{equation}
   f'(x) = \dfrac{d }{dx} f(x) := \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) - f(x)}{\Delta x}
 \end{equation}
 \end{definition}
 
-\paragraph{Interpretazione geometrica}
+\begin{definition}
+\end{definition}
+
+\paragraph{Interpretazione geometrica.}
 
 \section{Regole di derivazione}
 \subsection{Regole}
@@ -98,8 +115,20 @@ Definizioni:
 \end{property}
 
 \paragraph{Derivata del prodotto di due funzioni}
+\begin{equation}
+    (f(x) g(x))' = f'(x) g(x) + f(x) g'(x)
+\end{equation}
 \paragraph{Derivata del rapporto di due funzioni}
+\begin{equation}
+    \left( \dfrac{f(x)}{g(x)} \right)' = \dfrac{f'(x)g(x) - f(x)g'(x)}{g^2(x)}
+\end{equation}
 \paragraph{Derivata di una funzione composta}
+\begin{equation}
+    \dfrac{d}{dx} f(g(x)) = \dfrac{d}{dy} f(y) \bigg|_{y=g(x)} \dfrac{d}{dx} g(x)
+\end{equation}
+\paragraph{Derivata della funzione inversa}
+\begin{equation}
+\end{equation}
 
 \subsection{Dimostrazioni}
 
@@ -137,9 +166,65 @@ Definizioni:
 \end{equation}
 
 \section{Teoremi}
+\begin{theorem}[Teorema di Fermat]\label{thm:fermat} Sia $f: \ (a,b) \rightarrow \mathbb{R}$ una funzione definita sull'intervallo $(a,b)$ e derivabile nel punto $x_0 \in (a,b)$, punto di estremo locale. Allora $f'(x_0) = 0$.
+\end{theorem}
+
+\subsection{Teoremi di Fermat, Rolle, Cauchy e Lagrange}
+\begin{theorem}[Teorema di Rolle]\label{thm:rolle} Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua e derivabile in ogni punto dell'intervallo $[a,b]$ che assume valori uguali $f(a) = f(b)$, allora esiste almeno un punto $c \in (a,b)$ in cui la derivata della funzione si annulla, $f'(c) = 0$.
+\end{theorem}
+\begin{proof}
+    Secondo il teorema di Weierstrass (\ref{thm:weierstrass}) sulle funzioni continue, la funzione $f$ ammette punti $c \in [a,b]$ di massimo e un minimo globali. Si possono riconoscere ora due casi:
+    \begin{itemize}
+        \item se i punti di massimo e minimo globali coincidono entrambi con gli estremi dell'intervallo, si può scrivere
+            \begin{equation} m = f(a) = f(b) \le f(x) \le M = f(a) = f(b) \end{equation}
+                e quindi la funzione è costante, $f(x) = f(a) = f(b)$, e la sua derivata è nulla in tutti i punti dell'intervallo,$f'(x) = 0, \ \forall x \in (a,b)$;
+            \item altrimenti, esiste un punto di massimo o minimo globale $x=c \in (a,b)$ interno all'intervallo; i punti di massimo o minimo globali globali sono anche punti di massimo o minimo locali e quindi, per il teorema di Fermat (\ref{thm:fermat}), $f'(c) = 0$.
+    \end{itemize} 
+\end{proof}
+
+\begin{theorem}[Teorema di Cauchy]\label{thm:cauchy} Siano $f, g: \ [a,b] \rightarrow \mathbb{R}$ due funzioni continue in $[a,b]$ e derivabili su $(a,b)$, allora esiste un punto $c \in (a,b)$ tale che
+    \begin{equation}
+        \left[ f(b) - f(a)  \right]g'(c) = \left[ g(b) - g(a)  \right]f'(c) \ .
+    \end{equation}
+\end{theorem}
+\begin{proof}
+  La dimostrazione del teorema di Cauchy può essere svolta con un'opportuna scelta della funzione alla quale applicare il teorema di Rolle (\ref{thm:rolle}). Ad esempio, la funzione
+    \begin{equation}
+       h(x) = [f(b) - f(a)] [ g(x) - g(a)] - [g(b)-g(a)] [f(x) - f(a)] \ ,
+    \end{equation}
+    soddisfa le ipotesi del teoremda di Rolle, poichè
+    \begin{itemize}
+        \item $h(x)$ è continua su $[a,b]$ e derivabile su $(a,b)$
+        \item $h(a) = h(b)$, dal calcolo diretto
+            \begin{equation}
+                \begin{aligned}
+                    h(a) & = [f(b) - f(a)] [ g(a) - g(a)] - [g(b)-g(a)] [f(a) - f(a)] = 0 \\ 
+                    h(b) & = [f(b) - f(a)] [ g(b) - g(a)] - [g(b)-g(a)] [f(b) - f(a)] = 0  \ .
+                \end{aligned}
+            \end{equation}
+    \end{itemize}
+    Applicando il teorema di Rolle alla funzione $h(x)$, possiamo concludere che esiste un punto $c \in (a,b)$ tale che $h'(c) = 0$ e quindi
+    \begin{equation}
+        0 = h'(c) = [f(b) - f(a)] g'(x) - [g(b)-g(a)] f'(x) \ .
+    \end{equation}
+\end{proof}
+
+\begin{theorem}[Teorema di Lagrange] Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua in $[a,b]$ e derivabile in $(a,b)$, allora esiste un punto $c \in (a,b)$ tale che
+    \begin{equation}
+        f(b) - f(a) = f'(c) (b-a) \ .
+    \end{equation}
+\end{theorem}
+\begin{proof}
+    La dimostrazione del teorema di Lagrange segue direttamente dalla dimostrazione del teorema di Cauchy (\ref{thm:cauchy}), usando le funzioni $f(x)$ e $g(x) = x$, la cui derivata è $g'(x) = 1$.
+\end{proof}
+
 \subsection{Teorema di de l'Hopital}
+\begin{theorem}[Teorema di de l'Hopital]
+\end{theorem}
 
 \section{Tabella di derivate}
+
+\section{Derivate di ordine superiore}
 
 \section{Espansioni in serie}
 \begin{definition}[Serie di Taylor] La serie di Taylor di una funzione $f(x)$ centrata in $x=x_0$ è la serie polinomiale
@@ -162,10 +247,10 @@ La serie di Taylor troncata alla $n$-esima potenza,
 \begin{definition}[Serie di MacLaurin] La serie di MacLaurin di una funzione $f(x)$ è definita come la sua serie di Taylor centrata in $x=0$.
 \end{definition}
 
+
 \section{Applicazioni}
 \subsection{Studio funzione}
 
-\subsection{Approssimazione locale di }
 
 % ---------------------------------------------------------------------------------------
 \chapter{Integrali}
@@ -195,10 +280,25 @@ con $\xi_i \in [x_{i-1}, x_i]$.
 \section{Proprietà}
 
 \section{Teoremi}
-\begin{theorem}[Teorema della media]
-\end{theorem}
+\begin{definition}[Media]
+    \begin{equation}
+        M(f, [a,b]) = \dfrac{1}{b-a} \int_{x=a}^{b} f(x) dx
+    \end{equation}
+\end{definition}
 
-\begin{theorem}[Teorema fondmaentale del calcolo infinitesimale]
+\begin{theorem}[Teorema della media]
+    Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua su $[a,b]$, allora esiste un punto $c \in [a,b]$ tale che
+    \begin{equation}
+        \int_{x=a}^{b} f(x) dx = f(c) (b-a) \ .
+    \end{equation}
+\end{theorem}
+La dimostrazione è immediata, applicando il teorema di Lagrange alla primitiva $F(x)$ della funzione $f(x)$, $F(x) = \int_{t=x_0}^{x} f(t) dt$ 
+\begin{equation}
+    \int_{t=a}^{b} f(x) dx = F(b) - F(a) = F'(c) (b-a) = f(c) (b-a) \ .
+\end{equation}
+
+
+\begin{theorem}[Teorema fondamentale del calcolo infinitesimale]
     \begin{equation}
         \dfrac{d}{dx} \int_{t=a}^{x} f(t) dt = f(x)
     \end{equation}

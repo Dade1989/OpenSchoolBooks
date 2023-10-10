@@ -65,12 +65,66 @@ converge a una soluzione dell'equazione.
 \end{equation}
 
 % ==============================================================================
+\chapter{Approssimazione di funzioni}
+\section{}
+
+% ==============================================================================
 \chapter{Derivate}
 \section{}
 
 % ==============================================================================
 \chapter{Ricerca dei massimi e ottimizzazione}
-\section{}
+\section{Ottimizzazione libera}
+Un problema di ottimizzazione libera può essere formulato come il problema di ricerca del massimo di una funzione $f: \mathbb{R}^n \rightarrow \mathbb{R}$, cioè il punto $\mathbf{x}^*$ tale che
+\begin{equation}
+  f(\mathbf{x}^*) \ge f(\mathbf{x}) \ , \ \forall \mathbf{x} \in \mathbb{R}^n \ .
+\end{equation}
+
+\subsection{Algoritmi}
+\paragraph{Discesa lungo il gradiente.}
+\begin{equation}
+    \begin{aligned}
+        & \text{Tentativo iniziale $\mathbf{x^{(0)}}$ } \\
+        & \text{while \ ( \ not stopping \ ):} \\
+        & \qquad \mathbf{x}^{n+1} = \mathbf{x}^n - \alpha \nabla_\mathbf{x} f(\mathbf{x}^{(n)})
+    \end{aligned}
+\end{equation}
+
+\section{Ottimizzazione vincolata}
+Un problema di ottimizzazione può essere soggetto ad alcuni vincoli, come:
+\begin{itemize}
+    \item vincoli esprimibili con un'equazione, $\mathbf{g}(\mathbf{x}) = \mathbf{0}$
+    \item vincoli sul valore delle variabili indipendenti, $x_{i,min} \le x_i \le x_{i,max}$
+    \item altri vincoli esprimibili con una disequazione,  $\mathbf{h}(\mathbf{x}) \le \mathbf{0}$
+\end{itemize}
+
+
+
+\begin{example} Data la funzione $f(x,y) = 1 - x^2 - y^2$, e l'equazione $g(x,y) = -2x + y - 1 = 0$ viene chiesto di 
+\begin{equation}
+\begin{aligned}
+    \text{Trovare } \max_{x,y} f(x,y) \qquad s.t. \qquad g(x,y) = 0
+\end{aligned}
+\end{equation}
+    Usando il metodo dei moltiplicatori di Lagrange, si definisce la funzione $\tilde{f}(x,y) = f(x,y) - \lambda g(x,y)$ e si cercano i valori delle variabili indipendenti e del moltiplicatore di Lagrange che ne annullano il gradiente,
+    \begin{equation}
+        \begin{cases}
+            0 = \dfrac{\partial \tilde{f}}{\partial x      } = -2x + 2 \lambda\\ 
+            0 = \dfrac{\partial \tilde{f}}{\partial y      } = -2y - \lambda \\ 
+            0 = \dfrac{\partial \tilde{f}}{\partial \lambda} = 2x - y + 1 \\ 
+        \end{cases}
+    \end{equation}
+    In questo problema si è ottenuto un sistema lineare di 3 equazioni in 3 incognite, la cui soluzione è 
+    \begin{equation}
+        x^* = -\frac{2}{5} \ , \quad y^* = \frac{1}{5} \ , \quad \lambda^* = -\frac{2}{5} \ . 
+    \end{equation}
+\end{example}
+
+\begin{example}
+\end{example}
+
+\begin{example}
+\end{example}
 
 % ==============================================================================
 \chapter{Integrali}

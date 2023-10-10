@@ -1,6 +1,7 @@
 
 \chapter{Algebra simbolica - Calcolo letterale}
 
+% ------------------------------------------------------------------------------
 \section{Monomi}
 \begin{definition}[Monomio] Un monomio è un'espressione matematica costituita dal prodotto di un coefficiente esplicitamente numerico e una parte letterale, nella quale compaiono unicamente moltiplicazioni e potenze intere.
 \end{definition}
@@ -28,6 +29,7 @@ L'operazione inversa, quando possibile, è definita come radice di ordine $n$,
 \begin{definition}[Potenze e radici non intere]
 \end{definition}
 
+% ------------------------------------------------------------------------------
 \section{Polinomi}
 \begin{definition}[Polinomio]
 Un polinomio reale di grado $n$ viene definito come una combinazione lineare dei monomi di grado $\le n$,
@@ -36,6 +38,77 @@ Un polinomio reale di grado $n$ viene definito come una combinazione lineare dei
 \end{equation}
 \end{definition}
 
+\begin{definition}[Zero di un polinomio] Viene definito zero -- o radice -- (reale) di un polinomio un numero $\overline{x}$ ($\in \mathbb{R}$) tale che $p(\overline{x}) = 0$.
+\end{definition}
+
+\begin{definition}[Scomposizione in fattori]
+    Ogni polinomio di variabile reale e coefficienti reali può essere scomposto in fattori polinomiali di primo e secondo grado. Ad esempio un polinomio di grado $n$, può essere scomposto nel prodotto di $p_1$ polinomi di primo grado e $p_2$ polinomi di secondo grado,
+    \begin{equation}
+        \begin{aligned}
+            P(x) & = a_0 + a_1 x + \dots + a_n x^n = \\
+            & = (A_1 x+B_1) \dots (A_{p_1}x+B_{p_1}) (C_1 x^2+D_1 x+E_1) \dots (C_{p_2} x^2 + D_{p_2} x + E_{p_2} ) = \\
+            & = K (x+\tilde{B}_1) \dots (x+\tilde{B}_{p_1}) (x^2 + \tilde{D}_1 x + \tilde{E}_1) \dots (x^2 + \tilde{D}_{p_2} x + \tilde{E}_{p_2})
+        \end{aligned}
+    \end{equation}
+    con $p_1 + 2 p_2 = n$.
+\end{definition}
+
+\subsection{Scomposizioni notevoli}
+La dimostrazione di queste identità viene ricavata facilmente tramite calcolo diretto.
+\paragraph{Quadrato della somma}
+\begin{equation}
+    (a+b)^2 = a^2 + 2 ab + b^2
+\end{equation}
+\paragraph{Cubo della somma}
+\begin{equation}
+    (a+b)^3 = a^3 + 3 a^2 b + 3 a b^2 + b^3
+\end{equation}
+\paragraph{Potenza di un binomio}
+\begin{equation}
+    (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^{k}
+\end{equation}
+\paragraph{Differenza di quadrati}
+\begin{equation}
+    a^2 - b^2 = (a+b)(a-b)
+\end{equation}
+\paragraph{Somma e differenza di cubi}
+\begin{equation}
+    a^3 \mp b^3 = (a \mp b)(a^2 \pm ab + b^2)
+\end{equation}
+\paragraph{Differenza di potenze di grado qualsiasi}
+\begin{equation}
+\begin{aligned}
+    a^n - b^n & =
+        (a-b) \sum_{k=0}^{n-1} a^{n-1-k} b^k = \\
+    & = (a-b)(a^{n-1} + a^{n-2}b + a^{n-3}b^2 + \dots + a b^{n-2} + b^{n-1})
+\end{aligned}
+\end{equation}
+\paragraph{Somma di potenze di grado dispari}
+Per ogni numero dispari $n = 2m + 1$, $m \in \mathbb{N}$, si può dimostrare che
+\begin{equation}
+\begin{aligned}
+    a^{2m+1} + b^{2m+1} & =
+        (a + b) \sum_{k=0}^{2m} (-1)^k a^{n-1-k} b^k = \\
+    & = (a + b)(a^{n-1} - a^{n-2}b + a^{n-3}b^2 + \dots - a b^{n-2} + b^{n-1})
+\end{aligned}
+\end{equation}
+
+\subsection{Divisione tra polinomi e resto}
+\begin{definition}[Divisione tra polinomi]
+    Dati due polinomi $P(x)$, $D(x)$ esistono due polinomi $Q(x)$, $R(x)$ tali che
+    \begin{equation}
+        P(x) = D(x) Q(x) + R(x) \ ,
+    \end{equation}
+    con il grado di $R(x)$ minore del grado di $Q(x)$. I polinomi $Q(x)$ e $R(x)$ vengono definiti rispettivamente \textbf{quoziente} e \textbf{resto} della divisione.
+\end{definition}
+
+\subsubsection{Divisione esatta e scomposizone di polinomi: regola di Ruffini}
+
+\subsection{Formule di Viete e Newton}
+{\color{red} Relazioni tra i coefficienti di un polinomio e le sue radici}
+
+
+% ------------------------------------------------------------------------------
 \section{Potenze e radici}
 \begin{definition}[Potenze e radici intere]
 \end{definition}

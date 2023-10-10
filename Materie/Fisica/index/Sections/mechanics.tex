@@ -41,6 +41,9 @@ Una volta definito un sistema di riferimento, si può definire la posizione di u
 {\color{red} Per la definizione operativa della massa in dinamica si rimanda al capitolo (\ref{mechanics:dynamics}).}
 
 \subsection{Centro di massa}
+\begin{equation}
+    \mathbf{r}_G = \dfrac{1}{m} \sum_{i=1}^n m_i \mathbf{r}_i \ .
+\end{equation}
 \subsection{Momento statico}
 \subsection{Momento di inerzia}
 
@@ -88,7 +91,7 @@ Queste quantità sono \textbf{grandezze additive}.
 
 \subsection{Sistema di punti materiali}
 % ==============================================================================
-\chapter{Forza}
+\chapter{Azioni}
 \begin{definition}[Forza] Una forza è un'entità fisica vettoriale che è in grado di cambiare lo stato del moto di un sistema.
 \end{definition}
 
@@ -193,7 +196,9 @@ o in forma differenziale
 
 \subsection{Terzo principio della dinamica}
 
+% ------------------------------------------------------------------------------
 \section{Equazioni cardinali della dinamica}
+% ------------------------------------------------------------------------------
 \subsection{Moto di un punto materiale}
 \paragraph{Prima equazione cardinale -- quantità di moto}
 \begin{equation}
@@ -205,9 +210,9 @@ o in forma differenziale
 \begin{equation}
 \begin{aligned}
     \dfrac{d}{dt} \mathbf{\Gamma}_O
-    & = \dfrac{d}{dt} \left( \mathbf{r} \times \mathbf{Q} \right) = \\
-    & = \dot{\mathbf{r}} \times \mathbf{Q} + \mathbf{r} \times \dot{\mathbf{Q}} = \\
-    & = \underbrace{\dot{\mathbf{r}} \times m \dot{\mathbf{r}}}_{=\mathbf{0}} + \mathbf{r} \times \mathbf{R}^{ext} = \mathbf{M}_O^{ext} \ .
+    & = \dfrac{d}{dt} \left( (\mathbf{r} - \mathbf{r}_O ) \times \mathbf{Q} \right) = \\
+    & = \dot{\mathbf{r}} \times \mathbf{Q} - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{r} \times \dot{\mathbf{Q}} = \\
+    & = \underbrace{\dot{\mathbf{r}} \times m \dot{\mathbf{r}}}_{=\mathbf{0}} - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{r} \times \mathbf{R}^{ext} = - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{M}_O^{ext} \ .
 \end{aligned}
 \end{equation}
 \paragraph{Terza equazione cardinale -- energia cinetica}
@@ -222,10 +227,186 @@ o in forma differenziale
 \end{aligned}
 \end{equation}
 
+% ------------------------------------------------------------------------------
+\subsection{Moto di un sistema di punti materiali}
+\paragraph{Prima equazione cardinale}
+L'equazione cardinale per il punto $i$-esimo,
+\begin{equation}
+\begin{aligned}
+    m_i \ddot{\mathbf{r}}_i & = \mathbf{R}^{ext,i}_i = \\
+    & = \mathbf{R}^{ext}_i + \mathbf{R}^{int}_i = \\
+    & = \mathbf{R}^{ext}_i + \sum_{j \ne i} \mathbf{F}_{ij} \\
+\end{aligned}
+\end{equation}
+Sommando le equazioni di tutti i punti, si ottiene
+\begin{equation}
+    \underbrace{\sum_{i} m_i \ddot{\mathbf{r}}_i}_{m \ddot{\mathbf{r}}_G = \dot{\mathbf{Q}} } = \underbrace{\sum_{i} \mathbf{R}^{ext}_i}_{\mathbf{R}^{ext}} + \underbrace{\sum_{i} \sum_{j \ne i} \mathbf{F}_{ij}}_{=\mathbf{0}} \\
+\end{equation}
+\begin{equation}
+    \dot{\mathbf{Q}} = \mathbf{R}^{ext} 
+\end{equation}
 
+\paragraph{Seconda equazione cardinale}
+\begin{equation}
+\begin{aligned}
+    & \dfrac{d}{dt} \left( (\mathbf{r}_i-\mathbf{r}_O) \times m_i \dot{\mathbf{r}}_i \right) = (\mathbf{r}_i-\mathbf{r}_O) \times \mathbf{R}^{ext,i}_i \\
+    & ( \dot{\mathbf{r}}_i - \dot{\mathbf{r}}_O ) \times m_i \dot{\mathbf{r}}_i + (\mathbf{r}_i-\mathbf{r}_O) \times m_i \ddot{\mathbf{r}}_i =  (\mathbf{r}_i-\mathbf{r}_O) \times \left( \mathbf{R}^{ext}_i + \sum_{j\ne i} \mathbf{F}_{ij} \right) \\
+    & \sum_i (\mathbf{r}_i-\mathbf{r}_O) \times m_i \ddot{\mathbf{r}}_i = \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{M}_O^{ext}
+\end{aligned}
+\end{equation}
+%
+Per sistemi rigidi, per i quali vale $\mathbf{v}_i - \mathbf{v}_j = \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_j)$
+\begin{equation}
+\begin{aligned}
+    \mathbf{\Gamma}_O & = \sum_{i} \left( \mathbf{r}_i - \mathbf{r}_O \right) \times m_i \mathbf{v}_i = \\
+    & = \sum_i \left( \mathbf{r}_i - \mathbf{r}_G + \mathbf{r}_G - \mathbf{r}_O \right) \times m_i \left[ \mathbf{v}_G + \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_G) \right] = \\
+    & = \underbrace{\sum_i m_i (\mathbf{r}_i - \mathbf{r}_G)}_{m \mathbf{r}_G - m \mathbf{r}_G=\mathbf{0}} \times \mathbf{v}_G +
+        \underbrace{\sum_i m_i}_{=m} (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{v}_G + \\
+    & \quad + (\mathbf{r}_G - \mathbf{r}_0) \times \bigg( \mathbf{\Omega} \times \underbrace{\sum_i m_i (\mathbf{r}_i - \mathbf{r}_G)}_{m \mathbf{r}_G - m \mathbf{r}_G=\mathbf{0}} \bigg)
+    \underbrace{- \sum_i m_i (\mathbf{r}_i - \mathbf{r}_G ) \times [ (\mathbf{r}_i - \mathbf{r}_G ) \times }_{=\mathbb{I}_G} \mathbf{\Omega} ]
+\end{aligned}
+\end{equation}
+\begin{equation}
+    \mathbf{\Gamma}_O = (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{Q} + \mathbb{I}_G \cdot \mathbf{\Omega}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} \left( (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{Q}  \right) & = ( \mathbf{v}_G - \dot{\mathbf{r}}_O ) \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_O) \times \dot{\mathbf{Q}} = \\
+    & = - \dot{\mathbf{r}}_O \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_O) \times \dot{\mathbf{Q}}
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} \left( \mathbb{I}_G \cdot \mathbf{\Omega} \right) & =
+    \dfrac{d}{dt} \left( - \sum_i m_i (\mathbf{r}_i - \mathbf{r}_G ) \times \left[ (\mathbf{r}_i - \mathbf{r}_G ) \times \mathbf{\Omega} \right]  \right) = \\
+    & = - \sum_i  m_i (\mathbf{v}_i - \mathbf{v}_G ) \times \left[ (\mathbf{r}_i - \mathbf{r}_G ) \times \mathbf{\Omega} \right] + \\
+    & \quad - \sum_i  m_i (\mathbf{r}_i - \mathbf{r}_G ) \times \left[ (\mathbf{v}_i - \mathbf{v}_G ) \times \mathbf{\Omega} \right] + \\
+    & \quad - \sum_i  m_i (\mathbf{r}_i - \mathbf{r}_G ) \times \left[ (\mathbf{r}_i - \mathbf{r}_G ) \times \dot{\mathbf{\Omega}} \right] = \\
+    & = - \sum_i  m_i \underbrace{\left[ (\mathbf{r}_i - \mathbf{r}_G ) \times \mathbf{\Omega} \right]  \times \left[ (\mathbf{r}_i - \mathbf{r}_G ) \times \mathbf{\Omega} \right]}_{= \mathbf{0}} + \\
+    & \quad - \sum_i  m_i (\mathbf{r}_i - \mathbf{r}_G ) \times \left[ (\mathbf{v}_i - \mathbf{v}_G ) \times \mathbf{\Omega} \right] + \\
+    & \quad + \mathbb{I}_G \cdot \dot{\mathbf{\Omega}} \\
+    & = + \sum_i  m_i \mathbf{\Omega} \times [ (\mathbf{r}_i - \mathbf{r}_G) \times \underbrace{(\mathbf{v}_i - \mathbf{v}_G)}_{\mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_G) } ] + \\
+    & \quad + \sum_i  m_i \underbrace{(\mathbf{v}_i - \mathbf{v}_G) \times [ \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_G ) ]}_{= \mathbf{0}}  + \\
+    & \quad + \mathbb{I}_G \cdot \dot{\mathbf{\Omega}} \\
+    & = \mathbf{\Omega} \times \left( - \sum_i (\mathbf{r}_i - \mathbf{r}_G) \times [ (\mathbf{r}_i - \mathbf{r}_G) \times \mathbf{\Omega} ] \right) + \mathbb{I}_G \cdot \dot{\mathbf{\Omega}} = \\
+    & = \mathbb{I}_G \cdot \dot{\mathbf{\Omega}} + \mathbf{\Omega} \times \left( \mathbb{I}_G \cdot \mathbf{\Omega} \right)
+\end{aligned}
+\end{equation}
+
+\paragraph{Terza equazione cardinale}
+\begin{equation}
+\begin{aligned}
+    \mathbf{v}_i \cdot m_i \dot{\mathbf{v}_i} & = \mathbf{v}_i \cdot \mathbf{R}_i^{ext,i} \\
+    \dfrac{d}{d t} \left( \dfrac{1}{2} m_i |\mathbf{v}_i|^2  \right) & = \mathbf{v}_i \cdot \mathbf{R}_i^{ext} + \mathbf{v}_i \cdot \mathbf{R}_i^{int} =  \mathbf{v}_i \cdot \mathbf{R}_i^{ext} + \mathbf{v}_i \cdot \sum_{j \ne i} \mathbf{F}_{ij} \\
+    \dfrac{d}{d t} K_i & = P_i^{ext} + P_i^{int}
+\end{aligned}
+\end{equation}
+e sommando su tutti i punti,
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} K & = P^{ext} + P^{int} \\
+\end{aligned}
+\end{equation}
+dove la potenza delle forze interne in generale non è nulla
+\begin{equation}
+\begin{aligned}
+    P^{int} & =  \sum_i  \mathbf{v}_i \cdot  \sum_{j \ne i} \mathbf{F}_{ij} =  \sum_{\{i,j\}} ( \mathbf{v}_i - \mathbf{v}_j ) \cdot \mathbf{F}_{ij} \ .
+\end{aligned}
+\end{equation}
+{\color{red} Nel caso di corpo rigido, si ottiene \dots}
+
+% ------------------------------------------------------------------------------
 \subsection{Moto di un corpo rigido}
+\paragraph{Prima equazione cardinale}
+\paragraph{Seconda equazione cardinale}
+\paragraph{Terza equazione cardinale}
 
 
 
 % ==============================================================================
 \chapter{Moti notevoli}\label{mechanics:motions}
+In questo capitolo vengono indagati alcuni moti notevoli, espicitando le espressioni della quantità di moto, del momento angolare, le azioni esterne, e le condizioni iniziali proprie di ogni moto.
+Ogni moto verrà indagato dopo aver introdotto il \textbf{sistema di coordinate} più \textbf{adeguato} allo studio del sistema.
+\section{Moti di punti materiali}
+\subsection{Moto rettilineo uniforme}
+Se la risultante delle forze esterne è nulla, la derivata nel tempo della quantità di moto è nulla. Il secondo principio della dinamica si riduce a
+\begin{equation}
+m \ddot{\mathbf{r}} = \mathbf{0} \qquad
+\begin{cases}
+    \mathbf{r}(0) = \mathbf{r}_0 \\
+    \dot{\mathbf{r}}(0) = \mathbf{v}_0 
+\end{cases}
+\end{equation}
+Introducendo un sistema di coordinate cartesiane $Oxy$, si può scrivere
+\begin{equation}
+    \begin{cases}
+        m \ddot{x} = 0 \\
+        m \ddot{y} = 0 \\
+    \end{cases} \qquad
+    \begin{cases}
+        x(0) = x_0 \quad , \qquad  \dot{x}(0) = v_{x,0} \\
+        y(0) = y_0 \quad , \qquad  \dot{y}(0) = v_{y,0}
+    \end{cases}
+\end{equation}
+Legge del moto
+\begin{equation}
+    \begin{cases}
+        x(t) = v_{x,0} t + x_0 \\
+        y(t) = v_{y,0} t + y_0
+    \end{cases}
+\end{equation}
+
+\subsection{Moto di un proiettile in prossimità della superficie terrestre}
+Introducendo un sistema di coordinate cartesiane $Oxy$, con l'asse $x$ diretto in direzione orizzontale, l'asse $y$ in direzione verticale verso l'alto, si può scrivere
+\begin{itemize}
+    \item la posizione del punto come $\mathbf{r} = x \mathbf{\hat{x}} + y \mathbf{\hat{y}}$
+    \item il campo di gravità come $\mathbf{g} = -g \mathbf{\hat{y}}$
+\end{itemize}
+\begin{equation}
+m \ddot{\mathbf{r}} = m \mathbf{g} \qquad
+\begin{cases}
+    \mathbf{r}(0) = \mathbf{r}_0 \\
+    \dot{\mathbf{r}}(0) = \mathbf{v}_0 
+\end{cases}
+\end{equation}
+Utilizzando questo sistema di coordinate, si possono scrivere le coordinate dell'equazione della quantità di moto e delle condizioni iniziali,
+\begin{equation}
+    \begin{cases}
+        m \ddot{x} = 0 \\
+        m \ddot{y} = -m g \\
+    \end{cases} \qquad
+    \begin{cases}
+        x(0) = x_0 \quad , \qquad  \dot{x}(0) = v_{x,0} \\
+        y(0) = y_0 \quad , \qquad  \dot{y}(0) = v_{y,0}
+    \end{cases}
+\end{equation}
+Legge del moto
+\begin{equation}
+    \begin{cases}
+        x(t) = v_{x,0} t + x_0 \\
+        y(t) = -\dfrac{1}{2} g t^2 + v_{y,0} t + y_0
+    \end{cases}
+\end{equation}
+\subsection{Sistema massa-molla-smorzatore}
+Usando il secondo principio della dinamica
+\begin{equation}
+\begin{aligned}
+    &  m \ddot{x}(t) + c \dot{x}(t) + k x(t) = F(t) \\
+    & x(0) = x_0 \\
+    & \dot{x}(0) = v_0 \\
+\end{aligned}
+\end{equation}
+\subsection{Moto circolare}
+
+\subsection{Moto del pendolo}
+Usando la seconda equazione cardinale della dinamica
+\begin{equation}
+    m L^2 \ddot{\theta}(t) = - m g L \sin \theta(t) \ .
+\end{equation}
+
+\subsection{Moto di sistemi di punti}
+\subsection{Moti dei corpi celesti}
+
+\section{Moti di corpi estesi}
+
+

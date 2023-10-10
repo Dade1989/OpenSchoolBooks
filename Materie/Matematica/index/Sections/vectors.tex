@@ -14,6 +14,9 @@ Storia:
 
 \chapter{Algebra vettoriale}
 
+\section{Introduzione}
+Nello studio della Fisica e delle scienze in generale, si incontrano alcune grandezze che non possono essere rappresentate adeguatamente con un numero, opportunamente accompagnato dalle unità di misura se necessario. Alcuni esempi sono la posizione, la velocità o l'accelerazione di un punto nello spazio, o una forza; {\color{red} Esempi \dots Esempi di tensori: rotazioni, inerzia \dots}
+
 \section{Definizioni}
 \begin{definition}[Spazio vettoriale] Uno spazio vettoriale è una struttura matematica composta da:
     \begin{itemize}
@@ -36,19 +39,94 @@ Storia:
 \begin{property}[Proprietà delle operazioni]
 \end{property}
 
-\begin{definition}[Base e dimensione di uno spazio]
+\begin{definition}[Combinazione lineare di vettori] Una combinazione lineare dei vettori $\{ \mathbf{v}_k \}_{k=1:K}$ è un vettore la cui espressione che può essere scritto come
+    \begin{equation}
+        a_1 \mathbf{v}_1 + a_2 \mathbf{v}_2 + \dots + a_K \mathbf{v}_K \ , 
+    \end{equation}
+    dove i coefficienti $a_k$, $k=1:K$, sono degli scalari appartenenti al campo $F$.
 \end{definition}
 
+\begin{definition}[Vettori linearmente indipendenti] Un insieme di vettori $\{ \mathbf{v}_k \}_{k = 1:K}$ è un insieme di vettori linearmente indipendenti, se una loro combinazione lineare ha come risultato il vettore nullo solo se tutti i coefficienti della combinazione sono nulli, cioé
+    \begin{equation}
+        \mathbf{0} = a_1 \mathbf{v}_1 + \dots + a_K \mathbf{v}_K \qquad \rightarrow \qquad a_k = 0 \ , \quad \forall k = 1:K \ . 
+    \end{equation}
+\end{definition}
+Dalla definizione, segue immediatamente che nessun vettore dell'insieme può essere scritto come una combinazione lineare degli altri vettori. {\color{red} Se così non fosse,\dots}
 
-\subsection{Spazi vettoriali con prodotto interno}
+\begin{definition}[Base e dimensione di uno spazio] Una base di uno spazio lineare è un insieme massimo di vettori linearmente indipendenti, $\mathcal{B} = \{ \mathbf{b}_k \}_{k=1:N}$. La dimensione dello spazio lineare è definita come il numero degli elementi della base.
+\end{definition}
 
+\begin{definition}[Componenti di un vettore rispetto a una base] Le componenti $\{ v^k \}_{k = 1:N}$ di un vettore $\mathbf{v}$ nella base $\mathcal{B} = \{ \mathbf{b}_k \}_{k=1:N}$ vengono definite come i coefficienti della combinazione lineare
+    \begin{equation}
+        \mathbf{v} = v_1 \mathbf{b}_1 + \dots + v_N \mathbf{b}_N = \sum_{k=1}^N v^k \mathbf{b}_k \ .
+    \end{equation}
+\end{definition}
+
+{\color{red} Un vettore è \textbf{invariante} rispetto alla base usata per descriverlo: se si cambia la base, le componenti cambiano di conseguenza.}
+
+\section{Spazi vettoriali con prodotto interno}
+\begin{definition}[Prodotto interno] Il prodotto interno $\cdot: V \times V \rightarrow F$ è un'operazione lineare tra due elementi dello spazio vettoriale, che restituisce uno scalare non negativo, con le seguenti proprietà
+    \begin{itemize}
+        \item simmetria: $\mathbf{v} \cdot \mathbf{w} = \mathbf{w} \cdot \mathbf{v}$ 
+        \item linearità: $( a \mathbf{u} + b \mathbf{v} ) \cdot \mathbf{w} = a \mathbf{u} \cdot \mathbf{w} + b \mathbf{v} \cdot \mathbf{w}$
+        \item non-negatività: $\mathbf{v} \cdot \mathbf{v} \ge 0$, con l'uguaglianza che vale solo se $\mathbf{v} = \mathbf{0}$
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[Norma indotta dal prodotto interno] La norma di un vettore $\mathbf{v}$ indotta da un prodotto interno è definita come
+    \begin{equation}
+        \| \mathbf{v} \|^2 = \mathbf{v} \cdot \mathbf{v} \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Base ortonormale] Una base ortonormale $\{ \mathbf{\hat{e}}_k \}_{k=1:N}$, è una base i cui vettori sono legati dalla relazione
+    \begin{equation}
+        \mathbf{\hat{e}}_i \cdot \mathbf{\hat{e}}_k = \delta_{ik} =
+        \begin{cases} 1 \ , \qquad i = k \\ 0 \ , \qquad i \ne k \end{cases}
+    \end{equation}
+\end{definition}
+
+\section{Spazi vettoriali bi- e tri-dimenisonali}
+\subsection{Spazio vettoriale bidimensionale}
+{\color{red} \dots}
+\begin{equation}
+    \mathbf{u} \cdot \mathbf{v} =
+    ( u^1 \mathbf{\hat{e}}_1 + u^2 \mathbf{\hat{e}}_2) \cdot ( v^1 \mathbf{\hat{e}}_1 + v^2 \mathbf{\hat{e}}_2) = u^1 v^1 + u^2 v^2 \ . 
+\end{equation}
+Usando una base ortogonale $\{ \mathbf{\hat{E}}_i \}_{i=1:2}$ che ha il primo vettore orientato come $\mathbf{u}$, si può scrivere
+\begin{equation}
+    \mathbf{u} \cdot \mathbf{v} =
+      U^1 \mathbf{\hat{E}}_1 \cdot ( V^1 \mathbf{\hat{E}}_1 + V^2 \mathbf{\hat{E}}_2) = U^1 V^1 = U V \cos \theta_{\mathbf{u} \mathbf{v}} \ . 
+\end{equation}
+{\color{red} \dots}
+
+\subsection{Spazio vettoriale tridimensionale}
+
+\begin{equation}
+    \mathbf{u} \cdot \mathbf{v} =
+    ( u^1 \mathbf{\hat{e}}_1 + u^2 \mathbf{\hat{e}}_2 + u^3 \mathbf{\hat{e}}_3) \cdot ( v^1 \mathbf{\hat{e}}_1 + v^2 \mathbf{\hat{e}}_2 + v^3 \mathbf{\hat{e}}_3) = u^1 v^1 + u^2 v^2 + u^3 v^3 \ . 
+\end{equation}
+Usando una base ortogonale $\{ \mathbf{\hat{E}}_i \}_{i=1:3}$ che ha:
+\begin{itemize}
+    \item il primo vettore orientato come $\mathbf{u}$, tale che il vettore $\mathbf{u}$ può essere scritto come $\mathbf{u} = U^1 \mathbf{\hat{E}}_1$
+    \item il secondo vettore $\mathbf{\hat{E}}_2$ tale che il vettore $\mathbf{v}$ può essere scritto come $\mathbf{v} = V^1 \mathbf{\hat{E}}_1 + V^2 \mathbf{\hat{E}}_2$
+    \item il terzo vettore $\mathbf{\hat{E}}_3$ orientato di conseguenza, ortogonale ai due vettori $\mathbf{u}$, $\mathbf{v}$
+\end{itemize}
+Risulta ancora una volta dimostrata la relazione
+\begin{equation}
+    \mathbf{u} \cdot \mathbf{v} =
+      U^1 \mathbf{\hat{E}}_1 \cdot ( V^1 \mathbf{\hat{E}}_1 + V^2 \mathbf{\hat{E}}_2) = U^1 V^1 = U V \cos \theta_{\mathbf{u} \mathbf{v}} \ . 
+\end{equation}
+{\color{red} \dots}
 
 \section{Applicazioni}
 \subsection{Geometria}
 \subsection{Fisica}
 
-
+% ==============================================================================
 \chapter{Coordinate in spazi euclidei e cenni di calcolo vettoriale}
+
+\section{Introduzione}
 \begin{definition}[Vettore posizione]
 \end{definition}
 
@@ -60,4 +138,111 @@ Storia:
 \end{example}
 \begin{example}[Coordinate sferiche e superficie terrestre]
 \end{example}
+
+\section{Funzioni di più variabili - campi}
+\subsection{Limiti e funzioni continue}
+
+\subsection{Derivate}
+\begin{definition}[Funzione derivabile]
+\end{definition}
+\begin{definition}[Derivata direzionale] La derivata direzionale di un campo $f(\mathbf{r})$ nel punto $\mathbf{r}_0$ nella direzione identificata dal versore $\mathbf{\hat{t}}$ è definita come,
+    \begin{equation}
+        \nabla_{\mathbf{\hat{t}}} f(\mathbf{r}_0) = \lim_{\varepsilon \rightarrow 0} \dfrac{f(\mathbf{r}_0+\varepsilon \mathbf{\hat{t}})-f(\mathbf{r}_0)}{\varepsilon} \ ,
+    \end{equation}
+    cioè come il limite del rapporto incrementale del valore della funzione $f(\mathbf{r})$, muovendosi dal punto $\mathbf{r}_0$ al punto $\mathbf{r}_0 + \varepsilon \mathbf{\hat{t}}$.
+\end{definition}
+
+\subsection{Integrali}
+\subsubsection{Integrali di linea}
+\begin{definition}[Lavoro] L'integrale ``del lavoro'' del campo vettoriale ``di forza'' $\mathbf{F}(\mathbf{r})$ lungo la linea $\gamma$ è definito come
+    \begin{equation}
+        L = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot d \mathbf{r} = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ . 
+    \end{equation}
+\end{definition}
+\begin{definition}[Circuitazione] La circuitazione di un campo vettoriale $\mathbf{F}(\mathbf{r})$ è definito come il suo integrale del lavoro lungo una linea chiusa $\gamma$,
+    \begin{equation}
+        \Gamma_{\gamma}(\mathbf{F}) := \oint_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ .
+    \end{equation}
+\end{definition}
+\subsubsection{Integrali di superficie}
+\begin{definition}[Flusso]
+    \begin{equation}
+        \Phi_S(\mathbf{F}) = \int_S \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{n}} \ .
+    \end{equation}
+\end{definition}
+\subsubsection{Integrali di volume}
+
+\subsection{Operatori differenziali}
+\begin{definition}[Gradiente]
+    \begin{equation}
+        \nabla_{\mathbf{\hat{t}}} f =: \mathbf{\hat{t}} \cdot \mathbf{\nabla} f
+    \end{equation}
+\end{definition}
+\begin{property}[Operatore nabla, $\nabla$ -- vettore formale]
+\end{property}
+\begin{property}[Coordinate cartesiane]
+\end{property}
+\begin{property}[Direzione di massima crescita]
+\end{property}
+
+\begin{definition}[Divergenza] La divergenza viene definita come l'operatore differenziale del primo ordine che prende un campo vettoriale $\mathbf{F}(\mathbf{r})$ e restituisce un campo scalare, che può essere rappresentato con il prodotto scalare tra il vettore formale nabla $\nabla$ e il campo vettoriale $\mathbf{F}(\mathbf{r})$
+    \begin{equation}
+        \nabla \cdot \mathbf{F}(\mathbf{r}) \ ,
+    \end{equation}
+\end{definition}
+
+\begin{property}[Coordinate cartesiane]
+L'espressione in coordinate cartesiane della divergenza di un campo vettoriale $\mathbf{F}(\mathbf{r})$ è
+    \begin{equation}
+        \begin{aligned}
+            \nabla \cdot \mathbf{F}(\mathbf{r}) & = \left( \mathbf{\hat{x}} \dfrac{\partial}{\partial x} + \mathbf{\hat{y}} \dfrac{\partial}{\partial y} + \mathbf{\hat{z}} \dfrac{\partial}{\partial z} \right) \cdot (F_x \mathbf{\hat{x}} + F_y \mathbf{\hat{y}} + F_z \mathbf{\hat{z}} ) = \\
+        & = \dfrac{\partial F_x}{\partial x} + \dfrac{\partial F_y}{\partial y} + \dfrac{\partial F_z}{\partial z} \ .
+        \end{aligned}
+    \end{equation}
+\end{property}
+
+\begin{property}[Flusso elementare]
+\end{property}
+
+\begin{definition}[Rotore] Il rotore viene definito come l'operatore differenziale del primo ordine che prende un campo vettoriale $\mathbf{F}(\mathbf{r})$ e restituisce un campo vettoriale, che può essere rappresentato con il prodotto vettore tra il vettore formale nabla $\nabla$ e il campo vettoriale $\mathbf{F}(\mathbf{r})$
+    \begin{equation}
+        \nabla \times \mathbf{F}(\mathbf{r}) \ ,
+    \end{equation}
+\end{definition}
+\begin{property}[Coordinate cartesiane]
+L'espressione in coordinate cartesiane del rotore di un campo vettoriale $\mathbf{F}(\mathbf{r})$ è
+    \begin{equation}
+        \begin{aligned}
+            \nabla \times \mathbf{F}(\mathbf{r}) & = \left( \mathbf{\hat{x}} \dfrac{\partial}{\partial x} + \mathbf{\hat{y}} \dfrac{\partial}{\partial y} + \mathbf{\hat{z}} \dfrac{\partial}{\partial z} \right) \times (F_x \mathbf{\hat{x}} + F_y \mathbf{\hat{y}} + F_z \mathbf{\hat{z}} ) = \\
+            & = \begin{vmatrix} \mathbf{\hat{x}} & \mathbf{\hat{y}} & \mathbf{\hat{z}} \\
+            \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+            F_x & F_y & F_z \end{vmatrix} = \\
+            & = \mathbf{\hat{x}} \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) +  
+                \mathbf{\hat{y}} \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) +  
+                \mathbf{\hat{z}} \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right)    
+        \end{aligned}
+    \end{equation}
+\end{property}
+\begin{property}[Circuitazione elementare]
+\end{property}
+
+
+\subsection{Teoremi}
+\begin{theorem}[Teorema del gradiente]
+    \begin{equation}
+        \oint_{\partial V} f(\mathbf{r}) \mathbf{\hat{n}}(\mathbf{r}) = \int_V \mathbf{\nabla} f(\mathbf{r})
+    \end{equation}
+\end{theorem}
+
+\begin{theorem}[Teorema della divergenza]
+    \begin{equation}
+        \Phi_{\partial V}(\mathbf{F}) = \oint_{\partial V} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{n}}(\mathbf{r}) = \int_V \mathbf{\nabla} \cdot \mathbf{F}(\mathbf{r})
+    \end{equation}
+\end{theorem}
+
+\begin{theorem}[Teorema del rotore]
+    \begin{equation}
+        \Gamma_{\partial S}(\mathbf{F}) = \oint_{\partial S} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}}(\mathbf{r}) = \int_S \mathbf{\nabla} \times \mathbf{F}(\mathbf{r})
+    \end{equation}
+\end{theorem}
 
