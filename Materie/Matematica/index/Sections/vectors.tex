@@ -88,6 +88,7 @@ Dalla definizione, segue immediatamente che nessun vettore dell'insieme può ess
 
 \section{Spazi vettoriali bi- e tri-dimenisonali}
 \subsection{Spazio vettoriale bidimensionale}
+\paragraph{Prodotto interno.}
 {\color{red} \dots}
 \begin{equation}
     \mathbf{u} \cdot \mathbf{v} =
@@ -98,10 +99,11 @@ Usando una base ortogonale $\{ \mathbf{\hat{E}}_i \}_{i=1:2}$ che ha il primo ve
     \mathbf{u} \cdot \mathbf{v} =
       U^1 \mathbf{\hat{E}}_1 \cdot ( V^1 \mathbf{\hat{E}}_1 + V^2 \mathbf{\hat{E}}_2) = U^1 V^1 = U V \cos \theta_{\mathbf{u} \mathbf{v}} \ . 
 \end{equation}
-{\color{red} \dots}
+\paragraph{Prodotto vettoriale.}
 
 \subsection{Spazio vettoriale tridimensionale}
 
+\paragraph{Prodotto interno.}
 \begin{equation}
     \mathbf{u} \cdot \mathbf{v} =
     ( u^1 \mathbf{\hat{e}}_1 + u^2 \mathbf{\hat{e}}_2 + u^3 \mathbf{\hat{e}}_3) \cdot ( v^1 \mathbf{\hat{e}}_1 + v^2 \mathbf{\hat{e}}_2 + v^3 \mathbf{\hat{e}}_3) = u^1 v^1 + u^2 v^2 + u^3 v^3 \ . 
@@ -117,6 +119,8 @@ Risulta ancora una volta dimostrata la relazione
     \mathbf{u} \cdot \mathbf{v} =
       U^1 \mathbf{\hat{E}}_1 \cdot ( V^1 \mathbf{\hat{E}}_1 + V^2 \mathbf{\hat{E}}_2) = U^1 V^1 = U V \cos \theta_{\mathbf{u} \mathbf{v}} \ . 
 \end{equation}
+
+\paragraph{Prodotto vettoriale.}
 {\color{red} \dots}
 
 \section{Applicazioni}
@@ -130,47 +134,44 @@ Risulta ancora una volta dimostrata la relazione
 \begin{definition}[Vettore posizione]
 \end{definition}
 
-\begin{definition}[Coordinate]
+\begin{definition}[Coordinate] Il vettore posizione in uno spazio euclideo $N$-dimensionale può essere espresso come una funzione di $N$ variabili indipendenti $\{ q^i \}_{i=1:N}$, dette coordinate,
+    \begin{equation}
+        \mathbf{r}(q^i) \ .
+    \end{equation}
+    Se ogni combinazione di coordinate identifica un punto nello spazio, le coordinate vengono definite \textbf{regolari}.
 \end{definition}
 \begin{example}[Coordinate cartesiane]
 \end{example}
-\begin{example}[Coordinate polari]
+\begin{example}[Coordinate polari nel piano]
 \end{example}
-\begin{example}[Coordinate sferiche e superficie terrestre]
+\begin{example}[Coordinate sferiche]
 \end{example}
 
 \section{Funzioni di più variabili - campi}
+\begin{equation}
+    f(\mathbf{r}) = f(\mathbf{r}(q^i)) = F(q^i)
+\end{equation}
+
 \subsection{Limiti e funzioni continue}
 
 \subsection{Derivate}
 \begin{definition}[Funzione derivabile]
 \end{definition}
+
+
+\begin{definition}[Derivate parziali] La derivata parziale di una funzione viene definita come la derivata della funzione rispetto a una delle variabili indipendenti, mantenendo costanti le altre variabili,
+    \begin{equation}
+        \dfrac{\partial f}{\partial q^i} = \lim_{\varepsilon \rightarrow 0} \dfrac{f(q^1, \dots, q^i+\varepsilon, \dots, q^N) - f(q^1, \dots, q^i, \dots, q^N) }{\varepsilon}
+    \end{equation}
+\end{definition}
+
+
 \begin{definition}[Derivata direzionale] La derivata direzionale di un campo $f(\mathbf{r})$ nel punto $\mathbf{r}_0$ nella direzione identificata dal versore $\mathbf{\hat{t}}$ è definita come,
     \begin{equation}
         \nabla_{\mathbf{\hat{t}}} f(\mathbf{r}_0) = \lim_{\varepsilon \rightarrow 0} \dfrac{f(\mathbf{r}_0+\varepsilon \mathbf{\hat{t}})-f(\mathbf{r}_0)}{\varepsilon} \ ,
     \end{equation}
     cioè come il limite del rapporto incrementale del valore della funzione $f(\mathbf{r})$, muovendosi dal punto $\mathbf{r}_0$ al punto $\mathbf{r}_0 + \varepsilon \mathbf{\hat{t}}$.
 \end{definition}
-
-\subsection{Integrali}
-\subsubsection{Integrali di linea}
-\begin{definition}[Lavoro] L'integrale ``del lavoro'' del campo vettoriale ``di forza'' $\mathbf{F}(\mathbf{r})$ lungo la linea $\gamma$ è definito come
-    \begin{equation}
-        L = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot d \mathbf{r} = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ . 
-    \end{equation}
-\end{definition}
-\begin{definition}[Circuitazione] La circuitazione di un campo vettoriale $\mathbf{F}(\mathbf{r})$ è definito come il suo integrale del lavoro lungo una linea chiusa $\gamma$,
-    \begin{equation}
-        \Gamma_{\gamma}(\mathbf{F}) := \oint_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ .
-    \end{equation}
-\end{definition}
-\subsubsection{Integrali di superficie}
-\begin{definition}[Flusso]
-    \begin{equation}
-        \Phi_S(\mathbf{F}) = \int_S \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{n}} \ .
-    \end{equation}
-\end{definition}
-\subsubsection{Integrali di volume}
 
 \subsection{Operatori differenziali}
 \begin{definition}[Gradiente]
@@ -225,6 +226,41 @@ L'espressione in coordinate cartesiane del rotore di un campo vettoriale $\mathb
 \end{property}
 \begin{property}[Circuitazione elementare]
 \end{property}
+
+\subsection{Integrali}
+\subsubsection{Integrali di linea}
+\begin{definition}[Massa] L'integrale ``della massa'' $m$ di una curva $\gamma$, viene definito come l'integrale sulla curva di una funzione scalare $f(\mathbf{r})$, definita densità lineare,
+    \begin{equation}
+        m = \int_{\gamma} f(\mathbf{r})
+    \end{equation}
+\end{definition}
+\begin{definition}[Lavoro] L'integrale ``del lavoro'' del campo vettoriale ``di forza'' $\mathbf{F}(\mathbf{r})$ lungo la linea $\gamma$ è definito come
+    \begin{equation}
+        L = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot d \mathbf{r} = \int_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ . 
+    \end{equation}
+\end{definition}
+\begin{definition}[Circuitazione] La circuitazione di un campo vettoriale $\mathbf{F}(\mathbf{r})$ è definito come il suo integrale del lavoro lungo una linea chiusa $\gamma$,
+    \begin{equation}
+        \Gamma_{\gamma}(\mathbf{F}) := \oint_{\gamma} \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{t}} \ .
+    \end{equation}
+\end{definition}
+\subsubsection{Integrali di superficie}
+\begin{definition}[Massa] L'integrale ``della massa'' $m$ di una superficie $S$, viene definito come l'integrale sulla superficie di una funzione scalare $f(\mathbf{r})$, definita densità superficiale,
+    \begin{equation}
+        m = \int_{S} f(\mathbf{r})
+    \end{equation}
+\end{definition}
+\begin{definition}[Flusso]
+    \begin{equation}
+        \Phi_S(\mathbf{F}) = \int_S \mathbf{F}(\mathbf{r}) \cdot \mathbf{\hat{n}} \ .
+    \end{equation}
+\end{definition}
+\subsubsection{Integrali di volume}
+\begin{definition}[Massa] L'integrale ``della massa'' $m$ di una superficie $V$, viene definito come l'integrale sul volume di una funzione scalare $f(\mathbf{r})$, definita densità volumetrica,
+    \begin{equation}
+        m = \int_{V} f(\mathbf{r})
+    \end{equation}
+\end{definition}
 
 
 \subsection{Teoremi}

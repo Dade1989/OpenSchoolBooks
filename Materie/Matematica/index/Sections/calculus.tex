@@ -81,7 +81,7 @@ Definizioni:
 
 \section{Infiniti e infinitesimi}
 
-% ---------------------------------------------------------------------------------------
+% =======================================================================================
 \chapter{Derivate}
 
 \section{Definizioni}
@@ -209,7 +209,7 @@ Definizioni:
     \end{equation}
 \end{proof}
 
-\begin{theorem}[Teorema di Lagrange] Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua in $[a,b]$ e derivabile in $(a,b)$, allora esiste un punto $c \in (a,b)$ tale che
+\begin{theorem}[Teorema di Lagrange]\label{thm:lagrange} Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua in $[a,b]$ e derivabile in $(a,b)$, allora esiste un punto $c \in (a,b)$ tale che
     \begin{equation}
         f(b) - f(a) = f'(c) (b-a) \ .
     \end{equation}
@@ -252,7 +252,7 @@ La serie di Taylor troncata alla $n$-esima potenza,
 \subsection{Studio funzione}
 
 
-% ---------------------------------------------------------------------------------------
+% =======================================================================================
 \chapter{Integrali}
 
 \section{Definizioni}
@@ -263,13 +263,13 @@ La serie di Taylor troncata alla $n$-esima potenza,
 con $\xi_i \in [x_{i-1}, x_i]$.
 \end{definition}
 
-\begin{definition}[Integrale di Riemann] Definendo $\Delta x := \max_i(x_i - x_{i-1}) $, l'integrale di Riemann viene definito come il limite della somma di Riemann per $\Delta x  \rightarrow 0$ (e di conseguenza il numero di intervalli della partizione $n \rightarrow \infty$), e viene indicato come
+\begin{definition}[Integrale di Riemann]\label{def:riemann-integral} Definendo $\Delta x := \max_i(x_i - x_{i-1}) $, l'integrale di Riemann viene definito come il limite della somma di Riemann per $\Delta x  \rightarrow 0$ (e di conseguenza il numero di intervalli della partizione $n \rightarrow \infty$), e viene indicato come
     \begin{equation}
         \int_{x=a}^b f(x) dx = \lim_{\Delta x \rightarrow 0} \sigma_n
     \end{equation}
 \end{definition}
 
-\begin{definition}[Integrale definito]
+\begin{definition}[Integrale definito] L'integrale della definizione (\ref{def:riemann-integral}) svolto tra due valori di $x$ viene definito integrale definito. 
 \end{definition}
 
 \paragraph{Interpretazione geometrica}
@@ -278,6 +278,12 @@ con $\xi_i \in [x_{i-1}, x_i]$.
 \end{definition}
 
 \section{Proprietà}
+\begin{equation}
+    \int_{x=a}^{b} \left[ A f(x) + B g(x) \right] dx = A \int_{x=a}^{b} f(x) dx + B \int_{x=a}^{b} g(x) dx
+\end{equation}
+\begin{equation}
+    \int_{x=a}^{b} f(x) dx = \int_{x=a}^{c} f(x) dx + \int_{x=c}^{b} f(x) dx
+\end{equation}
 
 \section{Teoremi}
 \begin{definition}[Media]
@@ -292,10 +298,12 @@ con $\xi_i \in [x_{i-1}, x_i]$.
         \int_{x=a}^{b} f(x) dx = f(c) (b-a) \ .
     \end{equation}
 \end{theorem}
-La dimostrazione è immediata, applicando il teorema di Lagrange alla primitiva $F(x)$ della funzione $f(x)$, $F(x) = \int_{t=x_0}^{x} f(t) dt$ 
+\begin{proof}
+    La dimostrazione è immediata, applicando il teorema di Lagrange (\ref{thm:lagrange}) alla primitiva $F(x)$ della funzione $f(x)$, $F(x) = \int_{t=x_0}^{x} f(t) dt$ 
 \begin{equation}
     \int_{t=a}^{b} f(x) dx = F(b) - F(a) = F'(c) (b-a) = f(c) (b-a) \ .
 \end{equation}
+\end{proof}
 
 
 \begin{theorem}[Teorema fondamentale del calcolo infinitesimale]
@@ -329,6 +337,9 @@ si ottiene
 \end{aligned}
 \end{equation}
 
+\begin{example}
+\end{example}
+
 \subsection{Integrazione con sostituzione}
 \begin{itemize}
     \item Definendo la funzione composta $\overline{F}(x) = F(y(x))$ e le derivate
@@ -351,3 +362,6 @@ Se si introduce la dipendenza $y(x)$ nella prima equazione, si ottiene l'uguagli
 \begin{equation}
   \int f(y) dy = \int f(y(x)) \ y'(x) dx \ .
 \end{equation}
+
+\begin{example}
+\end{example}
