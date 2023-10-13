@@ -1,0 +1,142 @@
+
+% ==============================================================================
+\chapter{Variabili casuali}
+% ------------------------------------------------------------------------------
+\section{Statistica univariata}
+% ------------------------------------------------------------------------------
+\subsection{Variabili casuali discrete e continue}
+% ..............................................................................
+\subsection{Funzioni di probabilità}
+% ..............................................................................
+\subsection{Momenti di una distribuzione}
+% ..............................................................................
+
+% ------------------------------------------------------------------------------
+\section{Statistica multivariata}
+% ------------------------------------------------------------------------------
+\subsection{Variabili casuali discrete e continue}
+% ..............................................................................
+
+% ..............................................................................
+\subsection{Funzioni di probabilità}
+% ..............................................................................
+\subsection{Teorema di Bayes}\label{ch:bayes-thm}
+% ..............................................................................
+\subsection{Momenti di una distribuzione}
+% ..............................................................................
+Dopo aver raccolto le variabili casuali scalari $X_i$ in una variabile casuale vettoriale $\mathbf{X}$, usando il formalismo matriciale
+\begin{equation}
+    \mathbf{X} = \begin{bmatrix}  X_1 \\ \dots  \\ X_n \end{bmatrix}
+\end{equation}
+possiamo definire alcuni indicatori sintetici. 
+
+% \subsubsection{Valore atteso (volgarmente chiamato media)}
+\begin{definition}[Valore atteso (volgarmente chiamato media)]
+Il valore atteso di una variabile casuale multivariata (o multidimensionale) viene definita come la media pesata di tutti i possibili valori $\mathbf{x}_I$ della variabile casuale $\mathbf{X}_I$, pesati per il valore corrispondente della densità di probabilità
+\begin{equation}
+    \mathbb{E}[\mathbf{x}] := \overline{\mathbf{X}} := \mathbf{\mu}_X = \sum_{I} f(\mathbf{x}_I) \mathbf{x}_I \ . 
+\end{equation}
+\end{definition}
+
+%\subsubsection{Covarianza}
+\begin{definition}[Covarianza]
+La covarianza viene definita come il valore atteso del ``prodotto tensoriale'' della deviazione della media con sé stesso, cioé
+\begin{equation}
+    \mathbf{C}_{XX} := \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] \  .
+\end{equation}
+\end{definition}
+
+Usando le proprietà della media, si può riscrivere la covarianza come
+\begin{equation}
+\begin{aligned}
+    \mathbf{C}_{XX} & = \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}\overline{\mathbf{X}}^T] - \mathbf{E}[\overline{\mathbf{X}}\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T 
+\end{aligned}
+\end{equation}
+
+
+
+% ==============================================================================
+\chapter{Processi casuali}
+% ------------------------------------------------------------------------------
+
+
+% ==============================================================================
+\chapter{Approcci alla statistica}
+% ------------------------------------------------------------------------------
+\section{Statistica descrittiva}
+% ------------------------------------------------------------------------------
+\begin{definition}[Statistica descrittiva]
+La statistica descrittiva si occupa principalmente di una \textbf{rappresentazione riassuntiva}, tramite indicatori statistici o grafici.
+La statistica descrittiva non si preoccupa di costruire un modello del fenomeno che si sta osservando, ma piuttosto di rappresentare i dati in forma non parametrica.
+\end{definition}
+
+Di solito, un approccio descrittivo al problema costituisce una fase preliminare a un approccio inferenziale: prima di scegliere un tipo di modello adatto a rappresentare il problema, è meglio dare un'occhiata ai dati disponibili. \vspace{10pt}
+
+\paragraph{Variabili aleatorie univariate.} La rappresentazione descrittiva delle osservazioni di una variabile casuale prevede:
+\begin{itemize}
+  \item la rappresentazione grafica della distribuzione della probabilità (istogrammi,...)
+  \item indicatori statistici sintetici di:
+  \begin{itemize}
+    \item di tendenza: media, mediana, moda
+    \item di dispersione: varianza, deviazione standard, intervalli e quartili
+    \item di forma: simmetria (skewness), curtosi (kurtosis)
+  \end{itemize}
+\end{itemize}
+\paragraph{Variabili aleatorie multivariate.} La rappresentazione simultanea di più variabili casuali prevede anch'essa
+\begin{itemize}
+  \item la rappresentazione grafica delle probabilità congiunte, condizionali o marginali, in forma tabulare o grafica
+  \item indicatori statistici sintetici
+  \begin{itemize}
+    \item indicatori di tendenza, dispersione e forma
+    \item indicatori di relazione tra le variabili: dipendenza, correlazione e covarianza
+  \end{itemize}
+\end{itemize}
+
+% ------------------------------------------------------------------------------
+\section{Statistica inferenziale}
+% ------------------------------------------------------------------------------
+\begin{definition}[Statistica inferenziale] L'approccio inferenziale alla statistica prevede l'uso dei dati per la \textbf{costruzione di un modello} del fenomeno osservato, che permetta di formulare delle proposizioni sul fenomeno osservato, come:
+\begin{itemize}
+    \item la stima di valori, con un certo intervallo di confidenza, ad esempio tramite regressione
+    \item la classificazione, o il raggruppamento di osservazioni in gruppi
+    \item la conferma o la confutazione di un'ipotesi
+\end{itemize}
+\end{definition}
+
+\subsection{Modelli statistici}
+Un modello statistico del fenomeno osservato spesso si riduce a un modello matematico della distribuzione di probabilità, e il problema di allenamento/taratura del modello si riduce a un problema di approssimazione di una funzione. A seconda del numero di parametri liberi (gradi di libertà) del modello da tarare, e dalla rigidità delle ipotesi sul modello si possono distinguere:
+\begin{itemize}
+    \item \textbf{modelli parametrici}: modelli costruiti su ipotesi che possono essere stringenti, e che hanno un numero finito di parametri liberi di cui calcolare il valore. Ad esempio, si può assumere che la funzione densità di probabilità possa essere stimata con una combinazione di funzioni appartenenti a una famiglia di funzioni. Il valore dei parametri del modello viene calcolato risolvendo il problema di approssimazione di una funzione, che meglio rappresenti i dati disponibili. Esempi molto comuni di questo tipo di modelli sono:
+    \begin{itemize}
+        \item i modelli lineari generalizzati
+        \item le reti neurali, che permettono una combinazione non lineare di funzioni
+    \end{itemize}
+    \item \textbf{modelli non parametrici}: modelli costruiti senza alcuna ipotesi particolare, che spesso si basano su stimatori non parametrici dei valori di tendenza e dispersione
+    \item \textbf{modelli semi-parametrici}: una via di mezzo tra i due
+\end{itemize}
+
+{\color{red}
+\vspace{10pt}
+\noindent
+Quando si progetta e si calcolano i parametri di un modello, bisogna prestare attenzione a:
+\begin{itemize}
+    \item modello sufficientemente generale da poter rappresentare il fenomeno
+    \item modello che permetta degli adeguati livelli di \textbf{accuratezza} e \textbf{generalizzazione}: \textbf{tradeoff bias-variance}
+    \item valutazione della bontà del modello
+\end{itemize}
+}
+
+
+% ==============================================================================
+\chapter{Esempi di applicazioni}
+% ------------------------------------------------------------------------------
+
+% ==============================================================================
+\chapter{Introduzione all'intelligenza artificiale}
+% ------------------------------------------------------------------------------
+
+

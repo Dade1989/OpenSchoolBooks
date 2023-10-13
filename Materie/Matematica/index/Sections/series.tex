@@ -1,0 +1,87 @@
+
+
+% ==============================================================================
+\chapter{Successioni e serie di numeri reali}\label{ch:series}
+% ------------------------------------------------------------------------------
+\section{Successioni}
+\begin{definition}[Serie di numeri reali]
+\end{definition}
+
+% ------------------------------------------------------------------------------
+\section{Serie}
+\begin{definition}[Serie di numeri reali]
+\end{definition}
+\begin{definition}[Serie infinite di numeri reali]
+\end{definition}
+\begin{definition}[Carattere di una serie] Una serie può essere
+\begin{itemize}
+    \item convergente
+    \item divergente
+    \item indeterminata
+\end{itemize}
+\end{definition}
+
+\subsection{Serie notevoli}
+\subsubsection{Serie armonica}
+\begin{definition}[Serie armonica]
+\begin{equation}
+    \sum_{k=0}^{+\infty} \dfrac{1}{k}
+\end{equation}
+\end{definition}
+\subsubsection{Serie geometrica}
+\begin{definition}[Serie geometrica]
+\begin{equation}
+    \sum_{k=0}^{+\infty} \dfrac{1}{a^k}
+\end{equation}
+\end{definition}
+\subsubsection{La costante di Napier}
+\begin{definition}[La costante di Napier, o il numero di Euler -- $e$]
+La successione di numeri $\{ e_n \}$,
+\begin{equation}
+    e_n = \sum_{k=0}^{n} \frac{1}{k!} \ ,
+\end{equation}
+è una serie monotona crescente e superiormente limitata, e quindi esiste il limite finito il cui valore viene definito costante di Napier, o numero di Eulero
+\begin{equation}
+   e := \lim_{n \rightarrow +\infty} e_n = \sum_{k=0}^{+\infty} \frac{1}{k!} \ . 
+\end{equation}
+\end{definition}
+\begin{proof}
+\'E immediato riconoscere che la successione $e_n$ è crescente, essendo definito come una somma di numeri positivi,
+\begin{equation}
+    e_{n+1} = \sum_{k=0}^{n+1} \dfrac{1}{k!} = \sum_{k=0}^{n} \dfrac{1}{k!} + \dfrac{1}{(n+1)!} = e_n + \dfrac{1}{(n+1)!} > e_n \ .
+\end{equation}
+Per dimostrare che è limitata superiormente, si può osservare che ogni termine della serie è minore del termine rispettivo della serie armonica di base $\frac{1}{2}$
+\begin{equation}
+\begin{aligned}
+    e_{n}
+    & = 1 + 1 + \dfrac{1}{2} + \dfrac{1}{3!} + \dfrac{1}{4!}  + \dfrac{1}{5!}  + \dots < \\
+    & < 1 + 1 + \dfrac{1}{2} + \dfrac{1}{2^2}+ \dfrac{1}{2^3} + \dfrac{1}{2^4} + \dots = \\
+    & = 1 + \sum_{k=0}^{n} \dfrac{1}{2^k} = 1 + S_n\left(\frac{1}{2}\right) 
+      = 1 + \dfrac{1 - \left(\frac{1}{2}\right)^{n+1}}{1 - \frac{1}{2}} \ ,
+\end{aligned}
+\end{equation}
+e per il limite $n \rightarrow +\infty$, si ottiene
+\begin{equation}
+    e_{\infty} = \lim_{n \rightarrow +\infty} e_n = \sum_{k=0}^{+\infty} \dfrac{1}{k!} < 1 + S\left(\dfrac{1}{2}\right) = 1 + 2 = 3 \ .
+\end{equation}
+\end{proof}
+\begin{definition}[Definizioni equivalenti di $e$]
+\begin{equation}
+    e = 
+    \begin{cases}
+        \displaystyle\sum_{k=0}^{+\infty} \dfrac{1}{k!} \\
+        \displaystyle\lim_{n \rightarrow +\infty} \left( 1 + \dfrac{1}{n} \right)^n \\ 
+    \end{cases}
+\end{equation}
+\end{definition}
+
+% ==============================================================================
+\chapter{Serie di funzioni}
+% ------------------------------------------------------------------------------
+\section{Serie di potenze}
+\subsection{Serie di Taylor}
+
+% ------------------------------------------------------------------------------
+\section{Serie di Fourier}\label{ch:fourier-series}
+
+% ==============================================================================

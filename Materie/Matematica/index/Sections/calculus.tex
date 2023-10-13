@@ -78,11 +78,90 @@ Definizioni:
 
 
 \section{Teoremi sui limiti}
+\begin{theorem}[Teorema del confronto]\label{thm:comparison}
+\end{theorem}
 
 \section{Infiniti e infinitesimi}
 
+\section{Limiti notevoli}
+\begin{center}
+\begin{tabular}{ll}
+    Potenza            & $\displaystyle\lim_{x \rightarrow 0} \dfrac{(1+x)^a - 1}{x} = a$ \\
+    Seno               & $\displaystyle\lim_{x \rightarrow 0} \dfrac{\sin}{x} = 1$ \\
+    Coseno             & $\displaystyle\lim_{x \rightarrow 0} \dfrac{1 - \cos x}{x^2} = \frac{1}{2}$ \\
+    Esponenziale - def & $\displaystyle\lim_{x \rightarrow \infty} \left( 1 + \dfrac{1}{x} \right)^x = e$ \\
+    \qquad " \qquad (1)& $\displaystyle\lim_{x \rightarrow 0} \dfrac{e^x - 1}{x} = 1$ \\
+    \qquad " \qquad (2)& $\displaystyle\lim_{x \rightarrow 0} \dfrac{e^{x}}{1+x} = 1$ \\
+    Logaritmo naturale & $\displaystyle\lim_{x \rightarrow 0} \dfrac{\ln (1+x)}{x} = 1$ \\
+\end{tabular}
+\end{center}
+
+\subsection{Dimostrazioni}
+\begin{proof}[Limite notevole del seno] Il limite viene calcolato usando il teorema del confronto (\ref{thm:comparison}), con le funzioni $x$, $\sin x$ e $\tan x$
+    \begin{equation}
+        \sin x \le x \le \tan x \qquad \rightarrow \qquad 1 \le \dfrac{x}{\sin{x}} \le \dfrac{1}{\cos x} \ .
+    \end{equation}
+    Per $x \rightarrow 0$, $\displaystyle\lim_{x \rightarrow 0} 1 = 1$ e $\displaystyle\lim_{x \rightarrow 0} \frac{1}{\cos x} = 1$ e quindi $ \lim_{x \rightarrow 0} \dfrac{ x }{\sin x} = 1 $.
+\end{proof}
+\begin{proof}[Limite notevole del coseno] Il limite viene calcolato usando il limite notevole del seno,
+    \begin{equation}
+        \begin{aligned}
+            \lim_{x \rightarrow 0} \dfrac{1 - \cos x}{x^2} 
+            & = \lim_{x \rightarrow 0} \dfrac{1 - \cos x}{x^2} \dfrac{1+\cos x}{1+\cos x} = \\
+            & = \lim_{x \rightarrow 0} \dfrac{1 - \cos^2 x}{x^2} \dfrac{1}{1+\cos x} = \\ 
+            & = \lim_{x \rightarrow 0} \underbrace{\dfrac{\sin^2 x}{x^2}}_{\left( \frac{\sin x}{x} \right)^2 \rightarrow 1} \underbrace{\dfrac{1}{1+\cos x}}_{\rightarrow \frac{1}{2}} = \frac{1}{2}
+        \end{aligned}
+    \end{equation}
+\end{proof}
+\begin{definition}[Il numero di Nepero, $e$] Il numero di Nepero, $e$ può essere definito come il limite
+    \begin{equation}
+        e := \lim_{n \rightarrow \infty} \left( 1 + \dfrac{1}{n} \right)^n \ .
+    \end{equation}
+\end{definition}
+Si prova l'esistenza al finito di questo limite, dimostrando che la serie $a_n := \left( 1 + \frac{1}{n} \right)^n $ è:
+\begin{itemize}
+    \item crescente in maniera monotona, i.e. $a_{n+1} > a_n$, $\forall n$
+    \item limitata superiormente, i.e. $\exists M s.t. a_n < M$, $\forall n$
+\end{itemize}
+Per dimostrare che la serie è crescente, cerchiamo il legame tra due termini successivi.
+Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$.
+
+\begin{proof}[Limite notevole dell'esponenziale - definizione] Questo limite non è nient'altro che una delle definizioni del numero $e$.
+\end{proof}
+\begin{proof}[Limite notevole dell'esponenziale - (1)]
+    \begin{equation}
+        \begin{aligned}
+            \lim_{x \rightarrow 0} \dfrac{e^x - 1}{x} 
+            & = \lim_{x \rightarrow 0} \dfrac{1}{x}\sum_{k=0}^{\infty} \left( \dfrac{x^k}{k!} - 1 \right) = \\
+            & = \lim_{x \rightarrow 0} \dfrac{1}{x}\sum_{k=1}^{\infty} \dfrac{x^k}{k!} = \\
+            & = \lim_{x \rightarrow 0} \dfrac{1}{x} \left( x + \dfrac{x^2}{2} + \dfrac{x^3}{3!} + \dots  \right) = \\
+            & = \lim_{x \rightarrow 0} \left( 1 + \dfrac{x}{2} + \dfrac{x^2}{3!} + \dots  \right) = 1 
+        \end{aligned}
+    \end{equation}
+\end{proof}
+\begin{proof}[Limite notevole dell'esponenziale - (2)]
+    \begin{equation}
+        \begin{aligned}
+            \lim_{x \rightarrow 0} \dfrac{e^x}{1+x} 
+            & = \lim_{x \rightarrow 0} \dfrac{1}{1+x}\sum_{k=0}^{\infty} \dfrac{x^k}{k!} = \\
+            & = \lim_{x \rightarrow 0} \dfrac{1}{1+x}\left( 1 + x + \dfrac{x^2}{2} + \dfrac{x^3}{3!} + \dots \right) = \\
+            & = \lim_{x \rightarrow 0} \bigg[ 1 + \underbrace{\dfrac{x^2}{1+x} \left( \dfrac{1}{2} + \dfrac{x}{3!} + \dots \right)}_{\rightarrow 0} \bigg] = 1 \\
+        \end{aligned}
+    \end{equation}
+\end{proof}
+\begin{proof}[Limite notevole del logaritmo]
+    \begin{equation}
+        \begin{aligned}
+            \lim_{x \rightarrow 0} \dfrac{e^x}{1+x} 
+            & = \lim_{x \rightarrow 0} \dfrac{1}{1+x}\sum_{k=0}^{\infty} \dfrac{x^k}{k!} = \\
+            & = \lim_{x \rightarrow 0} \dfrac{1}{1+x}\left( 1 + x + \dfrac{x^2}{2} + \dfrac{x^3}{3!} + \dots \right) = \\
+            & = \lim_{x \rightarrow 0} \bigg[ 1 + \underbrace{\dfrac{x^2}{1+x} \left( \dfrac{1}{2} + \dfrac{x}{3!} + \dots \right)}_{\rightarrow 0} \bigg] = 1 \\
+        \end{aligned}
+    \end{equation}
+\end{proof}
+
 % =======================================================================================
-\chapter{Derivate}
+\chapter{Derivate}\label{ch:derivatives}
 
 \section{Definizioni}
 \begin{definition}[Rapporto incrementale]
@@ -165,6 +244,7 @@ Definizioni:
 \end{aligned}
 \end{equation}
 
+
 \section{Teoremi}
 \begin{theorem}[Teorema di Fermat]\label{thm:fermat} Sia $f: \ (a,b) \rightarrow \mathbb{R}$ una funzione definita sull'intervallo $(a,b)$ e derivabile nel punto $x_0 \in (a,b)$, punto di estremo locale. Allora $f'(x_0) = 0$.
 \end{theorem}
@@ -222,11 +302,78 @@ Definizioni:
 \begin{theorem}[Teorema di de l'Hopital]
 \end{theorem}
 
-\section{Tabella di derivate}
+\section{Derivate fondamentali}
+\begin{center}
+    \begin{tabular}{lll}
+        Potenza      & $f(x) = x^a$       & $f'(x) = a x^{a-1}$    \\
+        Esponenziale & $f(x) = e^x$       & $f'(x) = e^x$          \\
+        Logaritmo    & $f(x) = \ln x$     & $f'(x) = \frac{1}{x}$  \\
+        Seno         & $f(x) = \sin x$    & $f'(x) = \cos x$       \\
+        Coseno       & $f(x) = \cos x$    & $f'(x) =-\sin x$       \\
+    \end{tabular}
+\end{center}
+\subsection{Dimostrazioni}
+\begin{proof}[Derivata della potenza]
+\begin{equation}
+    \begin{aligned}
+    (x^n)'
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{(x+\varepsilon)^n - x^n}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{ \left( 1 + \frac{\varepsilon}{x} \right)^n - 1 }{\varepsilon} x^n = \\
+        & = \underbrace{\lim_{\varepsilon \rightarrow 0 } \dfrac{ \left( 1 + \frac{\varepsilon}{x} \right)^n - 1 }{\frac{\varepsilon}{x}}}_{=n} x^{n-1} = \\
+        & = n x^{n-1}
+    \end{aligned}
+\end{equation}
+\end{proof}
+
+\begin{proof}[Derivata della funzione esponenziale]
+\begin{equation}
+    \begin{aligned}
+        (e^x)' 
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{e^{x+\varepsilon} - e^x}{\varepsilon} = \\
+        & = \underbrace{\lim_{\varepsilon \rightarrow 0 } \dfrac{(e^{\varepsilon} - 1)}{\varepsilon}}_{= 1} e^{x} = \\
+        & = e^x
+    \end{aligned}
+\end{equation}
+\end{proof}
+\begin{proof}[Derivata della funzione logaritmo] {\color{red} Il dominio della funzione logaritmo è $\mathbb{R}^+$, ossia l'insieme dei numeri reali positivi. Essendo l'argomento del logaritmo diverso da zero, si può dividere per esso senza il timore di incorrere in espressioni non definite}
+\begin{equation}
+    \begin{aligned}
+        (\ln x)' 
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\ln(x+\varepsilon) - \ln x}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\ln \left( x\left( 1 + \frac{\varepsilon}{x} \right) \right) - \ln x}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\ln  x + \ln \left( 1 + \frac{\varepsilon}{x}  \right) - \ln x}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{ \ln \left( 1 + \frac{\varepsilon}{x}  \right) }{\varepsilon} = \\
+        & = \underbrace{\lim_{ \small\begin{matrix} \varepsilon \rightarrow 0 \\  \varepsilon / x \rightarrow 0  \end{matrix}} \dfrac{ \ln \left( 1 + \frac{\varepsilon}{x}  \right) }{\frac{\varepsilon}{x}}}_{=1} \dfrac{1}{x} = \\
+        & = \dfrac{1}{x}
+    \end{aligned}
+\end{equation}
+\end{proof}
+\begin{proof}[Derivata della funzione seno]
+\begin{equation}
+    \begin{aligned}
+        (\sin x)' 
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\sin(x+\varepsilon) - \sin x}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\sin x \cos\varepsilon + \sin \varepsilon \cos x - \sin x}{\varepsilon} = \\
+        & = \underbrace{\lim_{\varepsilon \rightarrow 0 } \left( \dfrac{ \cos\varepsilon - 1}{\varepsilon} \right) }_{\lim_{\varepsilon \rightarrow 0} \left(-\frac{1}{2} \varepsilon \right) = 0 } \sin x +  \underbrace{\lim_{\varepsilon \rightarrow 0 } \dfrac{\sin \varepsilon}{\varepsilon} }_{= 1} \cos x  = \\
+        & = \cos x 
+    \end{aligned}
+\end{equation}
+\end{proof}
+\begin{proof}[Derivata della funzione coseno]
+\begin{equation}
+    \begin{aligned}
+        (\cos x)' 
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\cos(x+\varepsilon) - \cos x}{\varepsilon} = \\
+        & = \lim_{\varepsilon \rightarrow 0 } \dfrac{\cos x \cos\varepsilon - \sin \varepsilon \sin x - \cos x}{\varepsilon} = \\
+        & = \underbrace{\lim_{\varepsilon \rightarrow 0 } \left( \dfrac{ \cos\varepsilon - 1}{\varepsilon} \right) }_{\lim_{\varepsilon \rightarrow 0} \left(-\frac{1}{2} \varepsilon \right) = 0 } \cos x -  \underbrace{\lim_{\varepsilon \rightarrow 0 } \dfrac{\sin \varepsilon}{\varepsilon} }_{= 1} \sin x  = \\
+        & = - \sin x 
+    \end{aligned}
+\end{equation}
+\end{proof}
 
 \section{Derivate di ordine superiore}
 
-\section{Espansioni in serie}
+\section{Espansioni in serie di Taylor e MacLaurin}\label{ch:taylor}
 \begin{definition}[Serie di Taylor] La serie di Taylor di una funzione $f(x)$ centrata in $x=x_0$ è la serie polinomiale
 \begin{equation}
    T[f(x_0)](x) := \sum_{n=0}^{\infty} \dfrac{f^{(n)}(x_0)}{n!} (x-x_0)^n \ .
@@ -253,7 +400,7 @@ La serie di Taylor troncata alla $n$-esima potenza,
 
 
 % =======================================================================================
-\chapter{Integrali}
+\chapter{Integrali}\label{ch:integrals}
 
 \section{Definizioni}
 \begin{definition}[Somma di Riemann] Data una funzione continua $f:[a,b] \rightarrow \mathbb{R}$, e una partizione $\mathcal{P} = \left\{x_0, x_1, \dots, x_n | a = x_0 < x_1 < \dots x_n = b \right\}$ dell'intervallo $[a,b]$, la somma di Riemann viene definita come
