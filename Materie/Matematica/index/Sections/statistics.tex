@@ -71,62 +71,307 @@
                 \end{equation}
         \end{itemize}
 \end{itemize}
+\begin{notation}[] Indichiamo con $\mathbb{E}[\cdot]$ l'operatore definito come:
+    \begin{itemize}
+        \item nel caso agisca su una variabile discreta 
+            \begin{equation}
+                \mathbb{E}[f(X)] = \sum_k f(x_k) p(x_k)
+            \end{equation}
+        \item nel caso agisca su variabili continue $F$ che assume valori $f(x)$
+            \begin{equation}
+                \mathbb{E}[f(X)] = \int_E f(x) p(x) dx
+            \end{equation}
+    \end{itemize}
+\end{notation}
 % ..............................................................................
 \subsection{Indicatori statistici}
+% ..............................................................................
+\begin{definition}[Valore atteso]
+    Il valore atteso di una variabile casuale $X$ è definita come
+    \begin{equation}
+        \overline{X} := \mathbb{E}[X]
+    \end{equation}
+\end{definition}
+\begin{definition}[Varianza]
+    La varianza di una variabile casuale $X$ è definita come
+    \begin{equation}
+        \sigma_{X}^2 := \mathbb{E}\left[(X-\overline{X})^2\right]
+    \end{equation}
+\end{definition}
+% ..............................................................................
+\subsection{Distribuzioni di probabilità notevoli}
+% ..............................................................................
+\subsubsection{Distribuzioni discrete}
+\begin{definition}[Variabile uniforme] La densità di probabilità uniforme sull' insieme dei valore $\{x_1, x_2, \dots, x_N \}$ che può assumere una variabile casuale discreta, è definita come
+    \begin{equation}
+        p(x_i) = \begin{cases}
+            \dfrac{1}{N} \ , \qquad x_i \in \{x_1, \dots, x_N\} \\
+            \ 0        \ \ , \qquad \text{altrimenti}
+        \end{cases}
+    \end{equation}
+\end{definition}
+\begin{definition}[Variabile di Bernoulli] La densità di probabilità di Bernoulli è una variabile casuale discreta che può assumere due valori, qui chiamati $\{0, 1\}$, con probabilità
+    \begin{equation}
+        p(x) = \begin{cases}
+            \ \ \alpha \qquad , \qquad x = 0 \\
+            1- \alpha   \quad , \qquad x = 1
+        \end{cases}
+    \end{equation}
+\end{definition}
+\begin{definition}[Variabile binomiale]
+\end{definition}
+\begin{definition}[Variabile di Poisson]
+\end{definition}
+
+\subsubsection{Distribuzioni continue}
+\begin{definition}[Variabile uniforme] La densità di probabilità uniforme in un intervallo limitato $E \in [a,b]$ è definita come
+    \begin{equation}
+        p(x) = \begin{cases}
+            \dfrac{1}{b-a} \ , \qquad x \in [a,b] \\
+            \ 0     \qquad   , \qquad \text{altrimenti}
+        \end{cases}
+    \end{equation}
+\end{definition}
+\begin{definition}[Variabile normale]\label{def:normal-distribution} 
+    \begin{equation}
+       \mathcal{N}[\mu,\sigma^2](x) = \dfrac{1}{\sqrt{2 \pi \sigma^2}} \ e^{-\frac{x-\mu}{2\sigma^2}}
+    \end{equation}
+\end{definition}
+\begin{definition}[Variabile Gamma]
+\end{definition}
+\begin{definition}[Variabile t di Student]
+\end{definition}
+
+% ..............................................................................
+\subsection{Trasformazioni di funzioni di probabilità}
 % ..............................................................................
 
 % ------------------------------------------------------------------------------
 \section{Statistica multivariata}
 % ------------------------------------------------------------------------------
+La statistica multivariata o multivariabile si occupa dello studio di più variabili casuali e delle loro relazioni. Le $N$ variabili di interesse possono essere raccolte in un vettore $N$-dimensionale di variabili casuali,
+\begin{equation}
+    \mathbf{X}(\omega) = \begin{bmatrix} X_1(\omega) \\ \dots \\ X_N(\omega) \end{bmatrix} \ .
+\end{equation}
+% ..............................................................................
 \subsection{Variabili casuali discrete e continue}
 % ..............................................................................
-
 % ..............................................................................
 \subsection{Funzioni di probabilità}
 % ..............................................................................
+Per semplicità, vengono fornite le definizioni di una varaibile casuale bidimensionale, 
+\begin{equation}
+    \mathbf{X} = \begin{bmatrix} X \\ Y \end{bmatrix}
+\end{equation}
+\begin{definition}[Funzione cumulativa di probabilità]
+    \begin{equation}
+        P_{\mathbf{X}}(A) = P(\mathbf{X} \in A) = P((X,Y) \in A)
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Distribuzione di probabilità congiunta -- variabile discreta] 
+    \begin{equation}
+        p(\mathbf{x}) = P(\mathbf{X} = \mathbf{x}) \quad , \qquad p(x,y) = P(X=x, Y=y)
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Distribuzione di probabilità congiunta -- variabile continua]
+    \begin{equation}
+        P(\mathbf{X} \in A) = \int_{A} p(\mathbf{x}) d \mathbf{x} = \int_A p(x,y) dx dy
+    \end{equation}
+\end{definition}
+
+{\color{red} Proprietà: positività e normalizzazione}
+
+\begin{definition}[Distribuzione di probabilità marginale, p(x) -- variabile discreta]
+    Rappresenta la densità di probabilità che si osservi il valore della varabile $X = x$, indipendentemente dal valore della variabile $Y$, e si ottiene sommando la probabilità congiunta su tutti i valori di $Y$ per il valore di $X$ dato,
+    \begin{equation}
+        p(x) = \sum_{y} p(x,y) \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Distribuzione di probabilità marginale -- variabile continua]
+    Rappresenta la densità di probabilità che si osservi il valore della varabile $X = x$, indipendentemente dal valore della variabile $Y$, e si ottiene integrando (l'integrale è la somma per valori continui) la probabilità congiunta su tutti i valori di $Y$ per il valore di $X$ dato,
+    \begin{equation}
+        p(x) = \int p(x,y) dy \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Distribuzione di probabilità condizionale, $p(x|y)$] La distribuzione di probabilità condizionale $p(x|y)$ rappresenta la densità di probabilità di osservare il valore $X=x$, una volta che si è osservato l'evento $Y=y$. La probabilità condizionale $p(x|y)$ è definita per valori $Y=y$ che avvengono con probabilità marginale non nulla, come
+    \begin{equation}\label{eqn:conditional:def}
+        p(x|y) = \dfrac{p(x,y)}{p(y)} \ .
+    \end{equation}
+\end{definition}
+{\color{red} Giustificazione della definizione}
+\begin{example}
+\end{example}
+\begin{example}
+\end{example}
+% ..............................................................................
 \subsection{Teorema di Bayes}\label{ch:bayes-thm}
 % ..............................................................................
-\subsection{Momenti di una distribuzione}
-% ..............................................................................
-Dopo aver raccolto le variabili casuali scalari $X_i$ in una variabile casuale vettoriale $\mathbf{X}$, usando il formalismo matriciale
-\begin{equation}
-    \mathbf{X} = \begin{bmatrix}  X_1 \\ \dots  \\ X_n \end{bmatrix}
+Utilizzando l'eq.(\ref{eqn:conditional:def}), è possibile esprimere la probabilità congiunta in termini della probabilità condizionale $p(y|x)$,
+\begin{equation}\label{eqn:bayes:a}
+    p(x,y) = p(y|x) p(x)
 \end{equation}
-possiamo definire alcuni indicatori sintetici. 
-
-% \subsubsection{Valore atteso (volgarmente chiamato media)}
+o alternativamente in funzione della probabilità condizionale $p(x|y)$
+\begin{equation}\label{eqn:bayes:b}
+   p(x,y) = p(x|y) p(y) \ .
+\end{equation}
+Da queste relazioni segue immediatamente il teorema di Bayes.
+\begin{theorem}[Teorema di Bayes]\index{Teorema!di Bayes}
+    Per un osservazione $Y=y$ con probabilità marginale non nulla, vale la relazione
+    \begin{equation}
+        p(x|y) = \dfrac{ p(y|x) p(x) }{ p(y) } \ .
+    \end{equation}
+\end{theorem}
+\begin{proof}
+    Usando le eq.(\ref{eqn:bayes:a}-\ref{eqn:bayes:b}),
+    \begin{equation}
+        p(x,y) = p(y|x) p(x) = p(x|y) p(y) \ ,
+    \end{equation}
+    è possibile scrivere
+    \begin{equation}
+        p(x|y) = \dfrac{ p(x,y) }{ p(y) } = \dfrac{ p(y|x) p(x) }{ p(y) } \ .
+    \end{equation}
+\end{proof}
+\begin{example}[Falsi positivi e falsi negativi] Si vuole studiare l'accuratezza di un test nella verifica di un'ipotesi. Il problema può essere impostato come un problema con due variabili casuali discrete, 
+    \begin{itemize}
+        \item $X$ variabile che rappresenta l'esito del test, che può assumere due valori $X(\omega) \in \{ \text{Positivo}, \text{Negativo} \}$
+        \item $Y$ variabile che rappresenta la validità dell'ipotesi, che può assumere due valori $Y(\omega) \in \{ \text{Vero}, \text{Falso} \}$
+    \end{itemize}
+    In totale si possono quindi verificare quattro condizioni.
+    \FloatBarrier
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+                                  & \textbf{Ipotesi vera}   & \textbf{Ipotesi falsa}  \\
+        \hline
+         \textbf{Test positivo}   & Vero positivo           & Falso positivo          \\
+        \hline
+         \textbf{Test negativo}   & Falso negativo          & Vero negativo           \\
+        \hline
+    \end{tabular}
+    \end{table}
+    \FloatBarrier
+    Vengono definiti alcuni indicatori che misurano la bontà del test:
+    \begin{itemize}
+        \item \textbf{specificità}: $\text{Sp} = \frac{VN}{VN+FP}$
+        \item \textbf{predittività}: $\text{Pr} = \frac{VP}{VP+FN}$
+        \item \textbf{significatività}: $\text{Si} = \frac{FN}{FN+VP}$
+    \end{itemize}
+\end{example}
+\begin{example}
+\end{example}
+% ..............................................................................
+\subsection{Indicatori statistici}
+% ..............................................................................
 \begin{definition}[Valore atteso (volgarmente chiamato media)]
 Il valore atteso di una variabile casuale multivariata (o multidimensionale) viene definita come la media pesata di tutti i possibili valori $\mathbf{x}_I$ della variabile casuale $\mathbf{X}_I$, pesati per il valore corrispondente della densità di probabilità
 \begin{equation}
-    \mathbb{E}[\mathbf{x}] := \overline{\mathbf{X}} := \mathbf{\mu}_X = \sum_{I} f(\mathbf{x}_I) \mathbf{x}_I \ . 
+    \mathbb{E}[\mathbf{X}] := \overline{\mathbf{X}} := \boldsymbol{\mu}_X = \sum_{I} f(\mathbf{x}_I) \mathbf{x}_I \ . 
 \end{equation}
 \end{definition}
 
-%\subsubsection{Covarianza}
 \begin{definition}[Covarianza]
 La covarianza viene definita come il valore atteso del ``prodotto tensoriale'' della deviazione della media con sé stesso, cioé
 \begin{equation}
     \mathbf{C}_{XX} := \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] \  .
 \end{equation}
 \end{definition}
-
+%
+\begin{example}
+\end{example}
+%
 Usando le proprietà della media, si può riscrivere la covarianza come
 \begin{equation}
 \begin{aligned}
     \mathbf{C}_{XX} & = \mathbb{E}[(\mathbf{X} - \overline{\mathbf{X}})(\mathbf{X} - \overline{\mathbf{X}})^T] = \\
-    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}\overline{\mathbf{X}}^T] - \mathbf{E}[\overline{\mathbf{X}}\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
-    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
-    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbf{E}[\mathbf{X}]\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\mathbf{E}[\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \mathbb{E}[\mathbf{X}\overline{\mathbf{X}}^T] - \mathbb{E}[\overline{\mathbf{X}}\mathbf{X}^T] + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
+    & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \underbrace{\mathbb{E}[\mathbf{X}]}_{= \overline{\mathbf{X}}}\overline{\mathbf{X}}^T - \overline{\mathbf{X}}\underbrace{\mathbb{E}[\mathbf{X}^T]}_{= \overline{\mathbf{X}}} + \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T = \\
     & = \mathbb{E}[\mathbf{X} \mathbf{X}^T] - \overline{\mathbf{X}} \, \overline{\mathbf{X}}^T 
 \end{aligned}
 \end{equation}
 
+% ..............................................................................
+\subsection{Distribuzione di probabilità notevoli}
+% ..............................................................................
+% ..............................................................................
+\subsection{Trasformazioni di funzioni di probabilità}
+% ..............................................................................
 
 
 % ==============================================================================
-\chapter{Processi casuali}
+\chapter{Variabili indipendenti identicamente distribuite e campionamento}
 % ------------------------------------------------------------------------------
+\section{Variabili indipendenti identicamente distribuite}
+% ------------------------------------------------------------------------------
+\begin{definition}[Variabili indipendenti identicamente distribuite]
+\end{definition}
+\begin{equation}
+    \overline{X}_n := \dfrac{X_1 + X_2 + \dots + X_n}{n} = \dfrac{1}{n} \sum_{k=1}^{n} X_k
+\end{equation}
+\subsection{Teorema dei grandi numeri}
+\begin{theorem}[Teorema dei grandi numeri (legge debole)] Per ogni epsilon,
+    \begin{equation}
+        \lim_{n \rightarrow +\infty} P(|\overline{X}_n - \mu| < \varepsilon) = 1 \ ,
+    \end{equation}
+    ossia la media $\overline{X}_n$ \textbf{converge in probabilità} al valore atteso $\mu = \mathbb{E}[X_k]$ delle variabili i.i.d. $X_k$.
+\end{theorem}
 
+\subsection{Teorema del limite centrale}
+\begin{theorem}[Teorema del limite centrale]  La media $\overline{X}_n$ \textbf{converge in distribuzione} alla distribuzione normale $\mathcal{N}[\mu, \sigma^2/N]$,
+\begin{equation}
+    \lim_{n \rightarrow +\infty} \overline{X}_n \sim \mathcal{N}[\mu, \sigma^2/N] \ .
+\end{equation}
+\end{theorem}
+
+\begin{example}
+\end{example}
+
+% ------------------------------------------------------------------------------
+\section{Campionamento e stimatori}
+% ------------------------------------------------------------------------------
+\begin{definition}[Stimatore statistico corretto \textit{(Unbiased estimator)}]
+\end{definition}
+
+\subsection{Stimatore della media corretto}
+\begin{equation}
+    \widehat{\mu} = \dfrac{1}{n} \sum_{k=1}^{n} x_n
+\end{equation}
+
+\begin{proof}[Unbiased average estimator]
+\begin{equation}
+\begin{aligned}
+    \mathbb{E}[\widehat{\mu}]
+    & = \mathbb{E}\left[\dfrac{1}{n} \sum_{k=1}^n x_n \right] = \\
+    & = \dfrac{1}{n} \sum_{k=1}^n \mathbb{E}\left[ x_n \right] = \\
+    & = \dfrac{1}{n} n \, \underbrace{\mathbb{E}\left[ x_n \right]}_{=\mu} = \mu
+\end{aligned}
+\end{equation}
+\end{proof}
+
+\subsection{Stimatore della varianza corretto}
+\begin{equation}
+    \widehat{\sigma^2} = \dfrac{1}{n-1} \sum_{k=1}^{n} ( x_n - \hat{\mu} )^2
+\end{equation}
+\begin{proof}[Unbiased variance estimator]
+\begin{equation}
+\begin{aligned}
+    \mathbb{E}\left[\widehat{\sigma^2}\right]
+    & = \mathbb{E}\left[\dfrac{1}{n-1} \sum_{k=1}^n (x_k - \widehat{\mu} )^2 \right] = \\
+    & = \dfrac{1}{n-1} \mathbb{E}\left[ \sum_{k=1}^n (x_k - \widehat{\mu} )^2 \right] = \\
+    & = \dfrac{1}{n-1} \mathbb{E}\left[ \sum_{k=1}^n x_k^2 - 2 x_n \widehat{\mu} + \widehat{\mu}^2 \right] = \\
+    & = \dfrac{1}{n-1} \mathbb{E}\left[ \sum_{k=1}^n x_k^2 - 2\widehat{\mu} \underbrace{\sum_{k=1}^n x_k}_{n \widehat{\mu}} +  n \widehat{\mu}^2 \right] = \\
+    & = \dfrac{1}{n-1} \mathbb{E}\left[ \sum_{k=1}^n x_k^2 - n \widehat{\mu}^2  \right] = \\
+    & = \dfrac{1}{n-1} \left( \sum_{k=1}^n \mathbb{E}[x_k^2] - n \mathbb{E}[\widehat{\mu}^2]  \right) = \\
+    & = \dfrac{n}{n-1} \left( \mathbb{E}[x_1^2] - n \mathbb{E}[\widehat{\mu}^2]  \right) = \\
+    & = \dfrac{n}{n-1} \left( \sigma^2 + {\underbrace{\mathbb{E}[x_1]}_{=\mu}}^2 - \dfrac{\sigma^2}{n} -  {\underbrace{\mathbb{E}[\widehat{\mu}]}_{=\mu}}^2 \right) = \\
+    & = \dfrac{n}{n-1} \left( \sigma^2 - \dfrac{\sigma^2}{n}  \right) = \dfrac{n}{n-1}\cdot\dfrac{n-1}{n} \sigma^2 = \sigma^2 \ .
+\end{aligned}
+\end{equation}
+\end{proof}
 
 % ==============================================================================
 \chapter{Approcci alla statistica}
@@ -194,13 +439,112 @@ Quando si progetta e si calcolano i parametri di un modello, bisogna prestare at
 \end{itemize}
 }
 
-
 % ==============================================================================
 \chapter{Esempi di applicazioni}
 % ------------------------------------------------------------------------------
+\section{Campionamento e stime}
+
+\section{Progetto di esperimenti}
+
+\section{Regressione}
+
+\section{Classificazione}
+
+\section{Teoria della decisione}
+{\color{red}
+\begin{itemize}
+    \item valutazione di una policy
+    \item ottimizzazione di una policy
+\end{itemize}}
+
+\section{Conferma o confutazione di ipotesi}
+
+% ==============================================================================
+\chapter{Processi casuali}
+% ------------------------------------------------------------------------------
+{\color{red}
+\begin{itemize}
+    \item ragioni storiche: \textbf{random walk} e moto browniano, oggetto di studio di uno degli articoli pubblicati da Einstein nel 1905, suo \textit{annus mirabilis}, per il legame tra questi processi casuali e i processi di diffusione
+    \item ragioni pratiche contemporanee: \textbf{Markov process} (MP) e Markov decision process (MDP) nella formulazione di problemi di machine learning
+\end{itemize}
+}
+
+\begin{definition}[Processo causale o stocastico] Un processo stocastico è una famiglia di variabili casuali,
+    \begin{equation}
+        \{ X_t(\omega): \Omega \rightarrow E, \ t \in T \}
+    \end{equation}
+    parammetrizzate dalla variabile tempo $t \in T$, definite sullo spazio campione $\Omega$ e che assumono valori nello spazio degli stati $E$.
+\end{definition}
+I processi casuali possono essere:
+\begin{itemize}
+    \item discreti o continui, a seconda che le variabili $X_t(\omega)$ possano assumere valori discreti o continui
+    \item a tempo discreto o continuo, a seconda che la famiglia di variabili sia definita su un insieme discreto di instanti temporali $t \in \{t_0, t_1, \dots, t_N \}$ o continuo $t \in T = \{ t| \ t \in \mathbb{R} \land t \in [t_0, t_{fin}] \}$
+\end{itemize}
+
+\section{Esempi di processi stocastici}
+\subsection{Random walk}
+\subsection{Markov process}
 
 % ==============================================================================
 \chapter{Introduzione all'intelligenza artificiale}
 % ------------------------------------------------------------------------------
+\begin{itemize}
+  \item introduzione intelligenza artificiale
+  \item machine learning:
+  \begin{itemize}
+    \item supervised learning: regressione, classificazione
+    \item unsupervised learning: clustering, riduzione della dimensionalità
+    \item reinforcement learning
+  \end{itemize}
+  \item deep learning: neural networks
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+\section{Introduzione}
+\paragraph{Cosa si intende per intelligenza artificiale.}
+\paragraph{Nessun pasto è gratis -- compromesso bias-varianza.}
+\href{https://it.wikipedia.org/wiki/Compromesso\_bias-varianza}{https://it.wikipedia.org/wiki/Compromesso\_bias-varianza}
+\paragraph{La maledizione della dimensionalità.}
+\paragraph{Deep learning.}
+
+%-------------------------------------------------------------------------------
+\section{Machine learning}\index{Machine learning}
+
+
+\subsection{Supervised learning}\index{Supervised learning}
+Il supervised learning (o apprendimento supervisionato) è un paradigma che permette di allenare un modello.
+
+\subsubsection{Regressione}
+La regressione consiste nell'approssimazione di funzioni continue.
+\paragraph{Regressione lineare.}
+\paragraph{Regressione lineare generalizzata.}
+
+\subsubsection{Classificazione}
+La classificazione consiste nell'identificazione di una categoria alla quale appartiene un oggetto.
+
+
+\subsection{Unsupervised learning}\index{Unsupervised learning}
+
+\subsubsection{Dimensionality reduction}\index{Dimensionality reduction}
+La riduzione delle dimensioni di un problema consente di:
+\begin{itemize}
+    \item ridurre la complessità del problema
+    \item mantenendo solo le informazioni principali
+\end{itemize}
+
+\begin{example}[Compressione immagini]
+\end{example}
+
+\subsubsection{Clustering}\index{Clustering}
+Il clustering è il raggruppamento di oggetti in insiemi che dimostrano caratteristiche simili.
+
+
+\subsection{Reinforcement learning}\index{Reinforcement learning}
+
+%-------------------------------------------------------------------------------
+\section{Deep learning}\index{Deep learning}
+\dots
+
+
 
 

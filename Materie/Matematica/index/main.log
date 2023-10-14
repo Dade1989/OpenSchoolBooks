@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  14 OCT 2023 02:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.9)  15 OCT 2023 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -67,6 +67,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box45
 \@float@everytoks=\toks16
 \@floatcapt=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -606,11 +609,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip90
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 507.
+Package hyperref Info: Option `colorlinks' set `true' on input line 508.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 507.
+(hyperref)                setting the option has no effect on input line 508.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -1397,16 +1400,16 @@ Overfull \hbox (390.95769pt too wide) detected at line 479
  []
 
 [7]
-Overfull \hbox (390.95769pt too wide) detected at line 521
+Overfull \hbox (390.95769pt too wide) detected at line 597
 [][][][][][] [][][][][][] 
  []
 
-
-Overfull \hbox (390.95769pt too wide) detected at line 573
+[8]
+Overfull \hbox (390.95769pt too wide) detected at line 649
 [][][][][][] [][][][][][] 
  []
 
-[8])
+)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2262,71 +2265,186 @@ Package mdframed Info: mdframed works in twoside mode on input line 50.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 50.
-Package mdframed Info: mdframed works in twoside mode on input line 98.
+Package mdframed Info: mdframed works in twoside mode on input line 89.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 98.
+(mdframed)              on input line 89.
+Package mdframed Info: Not enough space on this page on input line 94.
 
 [106]
-Package mdframed Info: Not enough space on this page on input line 103.
-Package mdframed Info: mdframed works in twoside mode on input line 106.
+Package mdframed Info: Not enough space on this page on input line 94.
+Package mdframed Info: mdframed works in twoside mode on input line 95.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 106.
- [107] [108
-
-]
-Capitolo 26.
-[109] [110
-
-]
-Capitolo 27.
-Package mdframed Info: mdframed works in twoside mode on input line 136.
+(mdframed)              on input line 95.
+Package mdframed Info: mdframed works in twoside mode on input line 105.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 136.
+(mdframed)              on input line 105.
+Package mdframed Info: mdframed works in twoside mode on input line 113.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 113.
+Package mdframed Info: mdframed works in twoside mode on input line 121.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 121.
+Package mdframed Info: mdframed works in twoside mode on input line 123.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 123.
+Package mdframed Info: mdframed works in twoside mode on input line 127.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 127.
+Package mdframed Info: mdframed works in twoside mode on input line 135.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 135.
+Package mdframed Info: mdframed works in twoside mode on input line 140.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 140.
+Package mdframed Info: mdframed works in twoside mode on input line 142.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 142.
+
+Underfull \vbox (badness 7203) has occurred while \output is active []
+
+ [107]
 Package mdframed Info: mdframed works in twoside mode on input line 166.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 166.
-[111] [112]
-Capitolo 28.
+Package mdframed Info: mdframed works in twoside mode on input line 172.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 172.
+Package mdframed Info: mdframed works in twoside mode on input line 178.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 178.
+Package mdframed Info: mdframed works in twoside mode on input line 186.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 186.
+Package mdframed Info: mdframed works in twoside mode on input line 193.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 193.
+Package mdframed Info: mdframed works in twoside mode on input line 200.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 200.
+
+[108]
+Package mdframed Info: mdframed works in twoside mode on input line 222.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 222.
+Package mdframed Info: mdframed works in twoside mode on input line 270.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 270.
+ [109]
+Package mdframed Info: mdframed works in twoside mode on input line 277.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 277.
+ [110]
+Capitolo 26.
+Package mdframed Info: mdframed works in twoside mode on input line 310.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 310.
+Package mdframed Info: mdframed works in twoside mode on input line 316.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 316.
+Package mdframed Info: mdframed works in twoside mode on input line 324.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 324.
+Package mdframed Info: mdframed works in twoside mode on input line 336.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 336.
+LaTeX Font Info:    Font shape `T1/pag/b/it' in size <10> not available
+(Font)              Font shape `T1/pag/db/it' tried instead on input line 336.
+LaTeX Font Info:    Font shape `T1/pag/db/it' in size <10> not available
+(Font)              Font shape `T1/pag/db/sl' tried instead on input line 336.
+
+Underfull \vbox (badness 2856) has occurred while \output is active []
+
+ [111
+
+]
+[112]
+Capitolo 27.
+Package mdframed Info: mdframed works in twoside mode on input line 381.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 381.
+Package mdframed Info: mdframed works in twoside mode on input line 411.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 411.
 [113
 
-] [114
+] [114]
+Capitolo 28.
+[115
+
+] [116
 
 ]
 Capitolo 29.
-) [115] [116
+Package mdframed Info: mdframed works in twoside mode on input line 472.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 472.
+[117] [118
 
-] (./main.ptc) [117] [118] (./Sections/numerical.tex
+]
 Capitolo 30.
+
+Overfull \hbox (85.88704pt too wide) in paragraph at lines 506--507
+[] []\T1/pag/db/n/10.95 Nes-sun pa-sto è gra-tis -- com-pro-mes-so bia-s--va-ri
+an-za.[] [][]\T1/cmr/m/n/10.95 (-20) https://it.wikipedia.org/wiki/Compromesso_
+bias-
+ []
+
+[119]) [120] (./main.ptc) [121
+
+] [122] (./Sections/numerical.tex
+Capitolo 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119
+ [123
 
 ]
-[120]
-Capitolo 31.
-[121
-
-] [122
-
-]
+[124]
 Capitolo 32.
-[123] [124
+[125
+
+] [126
 
 ]
 Capitolo 33.
-[125] [126]
-Capitolo 34.
-[127
-
-] [128
+[127] [128
 
 ]
+Capitolo 34.
+[129] [130]
 Capitolo 35.
+[131
+
+] [132
+
+]
+Capitolo 36.
 
 Overfull \hbox (14.10194pt too wide) in paragraph at lines 136--137
 \T1/cmr/m/n/10.95 (-20) É pos-si-bi-le ri-dur-re un'e-qua-zio-ne dif-fe-ren-zia
@@ -2338,23 +2456,28 @@ Overfull \hbox (14.10194pt too wide) in paragraph at lines 136--137
 5 x\OT1/cmr/m/n/10.95 (-20) ))$\T1/cmr/m/n/10.95 (-20) ,
  []
 
-[129] [130
+[133] [134
 
 ]
-Capitolo 36.
-) [131] [132
+Capitolo 37.
+) [135] [136
 
-] (./main.ptc) [133] [134]) [135
+] (./main.ptc) [137] [138]) [139
 
-] [136
+] [140
 
-] (./main.ind)
+] (./main.ind [141
+
+
+]) [142
+
+
+]
 Appendice A.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-[137
-
+[143
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
@@ -2372,45 +2495,48 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31024 strings out of 483172
- 568446 string characters out of 5965817
- 1257781 words of memory out of 5000000
- 44429 multiletter control sequences out of 15000+600000
- 610918 words of font info for 228 fonts, out of 8000000 for 9000
+ 31222 strings out of 483172
+ 571506 string characters out of 5965817
+ 1258849 words of memory out of 5000000
+ 44504 multiletter control sequences out of 15000+600000
+ 616384 words of font info for 241 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,24n,75p,1596b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/
-enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-s
+uper/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/avantgar/uagk8a.pfb>
-Output written on main.pdf (137 pages, 643727 bytes).
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm08
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm172
+8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/avantgar/uagdo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/u
+agk8a.pfb>
+Output written on main.pdf (143 pages, 697089 bytes).
 PDF statistics:
- 2920 PDF objects out of 2984 (max. 8388607)
- 2407 compressed objects within 25 object streams
- 803 named destinations out of 1000 (max. 500000)
- 49178 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 3246 PDF objects out of 3580 (max. 8388607)
+ 2683 compressed objects within 27 object streams
+ 905 named destinations out of 1000 (max. 500000)
+ 49794 words of extra memory for PDF output out of 51595 (max. 10000000)
 

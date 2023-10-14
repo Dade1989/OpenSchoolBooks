@@ -35,6 +35,7 @@
 \graphicspath{{Images/}} % Specifies the directory where pictures are stored
 
 \usepackage{float} % Allows more precisely positioning floats e.g. \begin{figure}[H]
+\usepackage{placeins}
 
 \usepackage[usenames, svgnames, table]{xcolor} % Required for defining and using custom colors
 
