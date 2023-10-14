@@ -2,13 +2,77 @@
 % ==============================================================================
 \chapter{Variabili casuali}
 % ------------------------------------------------------------------------------
-\section{Statistica univariata}
+\begin{definition}[$\sigma$-algebra, $\mathcal{F}$]
+\end{definition}
+\begin{definition}[Misura di probabilità, $\nu$]
+\end{definition}
+\begin{definition}[Spazio misurabile, $(\Omega, \mathcal{F})$]
+\end{definition}
+\begin{definition}[Spazio di probabilità, $(\Omega, \mathcal{F}, \nu)$]
+\end{definition}
+\begin{definition}[Variabile casuale, $X:(\Omega, \mathcal{F}, \nu) \rightarrow (E, \mathcal{E})$]
+    Una variabile casuale può essere definita come una funzione $X: \Omega \rightarrow E$, che ha come:
+    \begin{itemize}
+        \item dominio l'insieme degli eventi (o spazio campionario), $\Omega$,
+        \item codominio lo spazio dei risultati o delle osservazioni, $E$
+    \end{itemize}
+\end{definition}
 % ------------------------------------------------------------------------------
-\subsection{Variabili casuali discrete e continue}
+\section{Statistica univariata}
 % ..............................................................................
+\subsection{Variabili casuali, discrete e continue}
+% ------------------------------------------------------------------------------
+\begin{definition}[Variabile casuale discreta] Una variabile aleatoria è discreta, se l'insieme dei suoi possibili valori (discreti) è finito o numerabile, cioé può essere messo in corrispondenza biunivoca con i numeri naturali.
+\end{definition}
+\begin{example} La variabile casuale che descrive il lancio di un dado a sei facce può i valori $\{1,2,3,4,5,6\}$ e quindi è una variabile casuale discreta.
+\end{example}
+\begin{example} Una variabile casuale che ha come possibili valori i numeri interi $\mathbb{Z} = \{\dots,-2,-1,0,1,2,\dots\}$ è una variabile discreta, poiché l'insieme dei suoi valori è numerabile.
+\end{example}
+\begin{definition}[Variabile casuale continua] Una variabile aleatoria è continua, se l'insieme dei suoi possibili valori ha la potenza del continuo, come i numeri reali.
+\end{definition}
+\begin{example} Una variabile casuale che rappresenta la distanza di un lancio di freccia dal centro di un bersaglio è una variabile casuale continua, poiché può assumere tutti i valori reali non nulli, $X(\omega) \in \mathbb{R}^+$.
+\end{example}
+\begin{example} Una variabile casuale che ha come possibili valori i numeri reali dell'intervallo limitato $E = [0, 1] \subset \mathbb{R}$ è una variabile continua.
+\end{example}
+% ------------------------------------------------------------------------------
 \subsection{Funzioni di probabilità}
+% ------------------------------------------------------------------------------
+\begin{definition}[Funzione cumulativa di probabilità] La funzione cumulativa di probabilità valuta la probabilità totale che un evento $\omega$ abbia un valore osservato $X(\omega)$ appartenente a un sottoinsieme del codominio, $A \subseteq E$
+\begin{equation}
+    P_X(A) = \nu \{\omega \in \Omega: X(\omega) \in A \} = P(X \in A)
+\end{equation}
+\end{definition}
+\begin{definition}[Distribuzione di probabilità -- variabile discreta] Per una variabile discreta $X$, la funzione distribuzione di probabilità rappresenta la probabilità dei singoli valori osservabili,
+    \begin{equation}
+        p(x) = P(X = x)
+    \end{equation}
+\end{definition}
+\begin{definition}[Distribuzione di probabilità -- variabile continua] Per una variabile continua $X$, la funzione cumulativa $P(X \in A)$ può essere rappresentata come l'integrale sull'insieme $A$ della funzione distribuzione di probabilità $p(x)$,
+    \begin{equation}
+       P(X\in A) = \int_{A} p(x)
+    \end{equation}
+\end{definition}
+
+\paragraph{Proprietà delle funzioni di probabilità.}
+\begin{itemize}
+    \item \textbf{Non-negatività}: la probabilità di un evento è non negativa. Da questo segue che la distribuzione di probabilità è non negativa,
+        \begin{equation}
+            p(x) \ge 0 \ .
+        \end{equation}
+    \item \textbf{Unitarietà}: la probabilità cumulativa su tutti i possibili valori che può assumere la variabile casuale è unitaria, 100\%. Questo risultato implica che non si possono verificare eventi che implichino un valore della variabile casuale al di fuori del suo codominio;
+        \begin{itemize}
+            \item per una variabile discreta:
+                \begin{equation}
+                    \sum_{k} p(x_k) = 1
+                \end{equation}
+            \item per una variabile continua:
+                \begin{equation}
+                    \int_E p(x) dx = 1
+                \end{equation}
+        \end{itemize}
+\end{itemize}
 % ..............................................................................
-\subsection{Momenti di una distribuzione}
+\subsection{Indicatori statistici}
 % ..............................................................................
 
 % ------------------------------------------------------------------------------
