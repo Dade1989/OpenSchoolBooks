@@ -1,13 +1,73 @@
 
 
-% ---------------------------------------------------------------------------------------
+% =======================================================================================
 \chapter{Funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$ e limiti}
 
+% ---------------------------------------------------------------------------------------
+\section{Cenni di topologia per l'analisi}
+\begin{definition}[Intervallo] Un intervallo è un sottoinsieme di $\mathbb{R}$, l'insieme dei numeri reali.
+\end{definition}
+\begin{definition}[Estremi superiore e inferiore] Se esiste, l'\textbf{estremo superiore} $M \in \mathbb{R}$ di un intervallo $E$ è il più piccolo maggiorante (cioè un numero uguale o maggiore di tutti i numeri dell'intervallo $E$), cioè:
+    \begin{itemize}
+        \item $M \ge x$ ,$\forall x \in E$
+        \item $\nexists z$ maggiorante di $E$, con $z < M$
+    \end{itemize}
+    Se esiste, l'\textbf{estremo inferiore} $m \in \mathbb{R}$ di un intervallo $E$ è il più grande minorante (cioè un numero uguale o minore di tutti i numeri dell'intervallo $E$), cioè:
+    \begin{itemize}
+        \item $m \le x$ ,$\forall x \in E$
+        \item $\nexists z$ minorante di $E$, con $z > m$
+    \end{itemize}
+\end{definition}
+\begin{definition}[Intervallo aperto] Un intervallo aperto è un intervallo che non include nessuno dei suoi estremi.
+\end{definition}
+\begin{definition}[Intervallo chiuso] Un intervallo chiuso è un intervallo che include tutti i suoi estremi.
+\end{definition}
+Punti: accumulazione/isolato, interni/esterni/frontiera
+Intervalli: limitati/illimitati, aperti/chiusi, intorno
+\begin{definition}[Intorno di un punto] L'intorno completo $B(x_0, \varepsilon)$ del punto $x_0$ di raggio $\varepsilon$ è l'intervallo aperto
+    \begin{equation}
+        B(x_0, \varepsilon) = (x_0 - \varepsilon, x_0 + \varepsilon)  
+    \end{equation}
+\end{definition}
+\begin{definition}[Intorno destro e sinisto] L'intorno destro di un punto $x_0$ della retta reale è l'insieme aperto
+    \begin{equation}
+        B^+(x_0,\varepsilon) = (x_0, x_0+\varepsilon) \ .
+    \end{equation}
+L'intorno destro di un punto $x_0$ della retta reale è l'insieme aperto
+    \begin{equation}
+        B^-(x_0,\varepsilon) = (x_0-\varepsilon, x_0) \ .
+    \end{equation}
+\end{definition}
+\begin{definition}[Intorno di infinito]
+L'intorno di $-\infty$ viene definito come l'insieme aperto
+    \begin{equation}
+        B(-\infty,M) = (-\infty,M)
+    \end{equation}
+L'intorno di $+\infty$ viene definito come l'insieme aperto
+    \begin{equation}
+        B(+\infty,M) = (M,+\infty)
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Punto di accumulazione] 
+\end{definition}
+\begin{definition}[Punto interno]
+\end{definition}
+
+\begin{definition}[{\color{red} Intervallo chiuso}] {\color{red} Un intervallo è chiuso se contiene tutti i suoi punti di accumulazione.}
+\end{definition}
+\begin{definition}[{\color{red} Intervallo aperto}] {\color{red} Un intervallo è aperto se ogni suo punto è un punto interno.}
+\end{definition}
+
+\begin{definition}[]
+\end{definition}
+
+% ---------------------------------------------------------------------------------------
 \section{Funzioni}
 \begin{definition}[Funzione a variabile e valori reali]
 \end{definition}
 
-
+% ---------------------------------------------------------------------------------------
 \section{Limiti}
 {\color{red}
 \begin{itemize}
@@ -54,16 +114,8 @@
 
 {\color{red}Grafici}
 
+% ---------------------------------------------------------------------------------------
 \section{Funzioni continue}
-{\color{red}
-Definizioni:
-\begin{itemize}
-    \item punto di accumulazione
-    \item punto isolato
-    \item intorno
-    \item attenzione a insiemi aperti e chiusi
-\end{itemize}
-}
 \begin{definition}[Funzione continua in un punto] Una funzione $f: \Omega \rightarrow \mathbb{R}$ è continua in un punto $x_0 \in \Omega$ se 
     \begin{equation}
         \lim_{x \rightarrow x_0}f(x) = f(x_0) \ .
@@ -76,13 +128,27 @@ Definizioni:
 \begin{theorem}[Teorema di Weierstrass]\label{thm:weierstrass} Una funzione continua definita su un intervallo chiuso e limitato $[a, b]$ ammette in esso un massimo e un minimo assoluto.
 \end{theorem}
 
-
+% ---------------------------------------------------------------------------------------
 \section{Teoremi sui limiti}
 \begin{theorem}[Teorema del confronto]\label{thm:comparison}
 \end{theorem}
 
+\begin{theorem}[Teorema di de l'Hopital -- anticipazione]\label{thm:hopital:0} Il teorema di de l'Hopital riguarda il calcolo delle forme indeterminate $\frac{0}{0}$, $\frac{\infty}{\infty}$, cioè i limiti che possono essere scritti nella forma
+    \begin{equation}
+        \lim_{x \rightarrow x_0} \dfrac{f(x)}{g(x)}
+    \end{equation}
+    con
+    \begin{itemize}
+        \item $\lim_{x \rightarrow x_0} f(x) = \lim_{x \rightarrow x_0} g(x) = 0$ oppure
+        \item $\lim_{x \rightarrow x_0} |f(x)| = \lim_{x \rightarrow x_0} |g(x)| = +\infty$
+    \end{itemize}
+\end{theorem}
+    Per l'enunciato completo e la dimostrazione del teorema di de l'Hopital si rimanda al teorema \S\ref{thm:hopital} cap.\S\ref{ch:derivatives} sulle derivate.
+
+% ---------------------------------------------------------------------------------------
 \section{Infiniti e infinitesimi}
 
+% ---------------------------------------------------------------------------------------
 \section{Limiti notevoli}
 \begin{center}
 \begin{tabular}{ll}
@@ -163,6 +229,7 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 % =======================================================================================
 \chapter{Derivate}\label{ch:derivatives}
 
+% ---------------------------------------------------------------------------------------
 \section{Definizioni}
 \begin{definition}[Rapporto incrementale]
 \begin{equation}
@@ -181,6 +248,7 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 
 \paragraph{Interpretazione geometrica.}
 
+% ---------------------------------------------------------------------------------------
 \section{Regole di derivazione}
 \subsection{Regole}
 \paragraph{Derivata della somma di due funzioni e il prodotto per uno scalare}
@@ -244,12 +312,11 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 \end{aligned}
 \end{equation}
 
-
+% ---------------------------------------------------------------------------------------
 \section{Teoremi}
 \begin{theorem}[Teorema di Fermat]\label{thm:fermat} Sia $f: \ (a,b) \rightarrow \mathbb{R}$ una funzione definita sull'intervallo $(a,b)$ e derivabile nel punto $x_0 \in (a,b)$, punto di estremo locale. Allora $f'(x_0) = 0$.
 \end{theorem}
 
-\subsection{Teoremi di Fermat, Rolle, Cauchy e Lagrange}
 \begin{theorem}[Teorema di Rolle]\label{thm:rolle} Sia $f: \ [a,b] \rightarrow \mathbb{R}$ una funzione continua e derivabile in ogni punto dell'intervallo $[a,b]$ che assume valori uguali $f(a) = f(b)$, allora esiste almeno un punto $c \in (a,b)$ in cui la derivata della funzione si annulla, $f'(c) = 0$.
 \end{theorem}
 \begin{proof}
@@ -299,9 +366,10 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 \end{proof}
 
 \subsection{Teorema di de l'Hopital}
-\begin{theorem}[Teorema di de l'Hopital]
+\begin{theorem}[Teorema di de l'Hopital]\label{thm:hopital}
 \end{theorem}
 
+% ------------------------------------------------------------------------------
 \section{Derivate fondamentali}
 \begin{center}
     \begin{tabular}{lll}
@@ -396,6 +464,7 @@ La serie di Taylor troncata alla $n$-esima potenza,
 
 
 \section{Applicazioni}
+\subsection{Ricerca minimi e massimi locali}
 \subsection{Studio funzione}
 
 
