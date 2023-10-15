@@ -239,14 +239,76 @@ Queste quantità sono \textbf{grandezze additive}.
 % ------------------------------------------------------------------------------
 \section{Esempi di forza}
 \subsection{Forza peso in prossimità della superficie terrestre}
+In prossimità della superficie terrestre, su un corpo di massa $m$ agisce la sua forza peso,
+\begin{equation}
+    \mathbf{F} = m \mathbf{g} \ ,
+\end{equation}
+dove $\mathbf{g}$ rappresenta il campo gravitazionale nei pressi della superficie terrestre ed è diretto verso il centro {\color{red} (di massa?)} della Terra. La sua intensità nei pressi della superficie terrestre è circa $9.8 \frac{m}{s^2}$.
+
+In una regione sufficientemente limitata dello spazio nella quale si può approssimare la superficie terrestre come piatta e piana, il campo di gravità e il peso dei corpi hanno quindi direzione verticale verso il basso.
+
 \subsection{Legge di gravitazione universale di Newton}
+Secondo la legge di gravitazione universale di Newton, due corpi di massa $m_1$, $m_2$ si attraggono con una forza di intensirà proporzionale al prodotto delle masse, inversamente proporzionale al quadrato della distanza tra i centri di massa dei due corpi e con una direzione lungo la congiunngente tra i due centri di massa.
+
+La forza agente sul corpo di massa $m_2$, dovuta all'attrazione gravitazionale del corpo di massa $m_1$, è quindi
+\begin{equation}
+    \mathbf{F}_{21} = G \dfrac{m_1 m_2}{|\mathbf{r}_{21}|^2} \mathbf{\hat{r}}_{21} \ ,
+\end{equation}
+essendo $G$ la \textbf{costante di gravitazione universale},
+\begin{equation}
+    G = 6.673 \cdot 10^{-11} \dfrac{m^3}{kg \ s^2} \ ,
+\end{equation}
+il vettore $\mathbf{r}_{21} = \mathbf{r}_1 - \mathbf{r}_2$ il vettore che congiunge il corpo 1 con il corpo 2, $\mathbf{\hat{r}}_{21}$ il versore in quella direzione. La formula può quindi essere riscritta con espressioni equivalenti
+\begin{equation}
+    \mathbf{F}_{21} = G \dfrac{m_1 m_2}{|\mathbf{r}_{21}|^2} \mathbf{\hat{r}}_{21} = 
+    G m_1 m_2 \dfrac{\mathbf{r}_1 - \mathbf{r}_2}{|\mathbf{r}_1 - \mathbf{r}_2|^3} \ .
+\end{equation}
+
+\begin{example}[Attrazione gravitazionale terrestre nei pressi della superficie terrestre] Prendendo il raggio e la massa della Terra, 
+    \begin{equation}
+        R_T = 6.378 \cdot 10^6 \, m \qquad , \qquad  m_T = 5.972 \cdot 10^{24} \, kg
+    \end{equation}
+    possiamo calcolare l'intensità della forza che percepisce un corpo di massa $m$ nei pressi della superficie terrestre come
+    \begin{equation}
+        F = \dfrac{G \, m_T}{R_T^2} m = \dfrac{ 6.673 \cdot 10^{-11} \frac{m^3}{kg \ s^2} \cdot  5.972 \cdot 10^{24} \, kg }{\left(6.378 \cdot 10^6 \, m \right)^2} = m \cdot 9.797 \dfrac{m}{s^2} \ .
+    \end{equation}
+    Abbiamo ritrovato il valore della forza per unità di massa uguale al valore dell'intensità del campo gravitazionale nei pressi della superficie terrestre.
+\end{example}
+
+\begin{example}[Attrazione gravitazionale terrestre sulla ISS]
+\end{example}
+
 \subsection{Molla lineare e forza elastica}
+Una molla ideale lineare senza massa ha una \textbf{legge costitutiva elastica} che rappresenta un legame proporzionale tra la forza impressa agli estremi della molla e l'allungamento della molla stessa,
+\begin{equation}
+    F = k \, \Delta x \ ,
+\end{equation}
+essendo $k$ la costante elastica della molla, che ha le dimensioni fisiche $\frac{N}{m} = \frac{kg}{s^2}$, e il cui valore dipende dalla struttura della molla.
+.
+Le forze applicate ai due estremi sono di intensità uguale e verso contrario, e hanno la direzione dell'asse della molla. In forma vettoriale, assumento una lunghezza a riposo nulla, e indicando con $\mathbf{r}_1$, $\mathbf{r}_2$ le posizioni degli estremi della molla, le forze agenti sugli estremi si possono scrivere come
+\begin{equation}
+    \mathbf{F}_{12} = - \mathbf{F}_{21} =  k \left( \mathbf{r}_2 - \mathbf{r}_1 \right) \ ,
+\end{equation}
+essendo la forza $\mathbf{F}_{12}$ la forza agente sul punto 1 a causa della molla che la collega al punto 2.
+
 \subsection{Smorzatore lineare e forza viscosa}
+Uno smorzatore ideale lineare senza massa ha una \textbf{legge costitutiva viscosa} che rappresenta un legame proporzionale tra la forza impressa agli estremi dello smorzatore e la velocità di allungamento dello smorzatore,
+\begin{equation}
+    F = c \, \Delta v = c \, \Delta \dot{x} \ ,
+\end{equation}
+essendo $c$ la costante viscosa (di smorzamento) dello smorzatore, che ha le dimensioni fisiche $\frac{N}{\frac{m}{s}} = \frac{kg}{s}$, e il cui valore dipende dalla struttura dello smorzatore.
+.
+Le forze applicate ai due estremi sono di intensità uguale e verso contrario, e hanno la direzione dell'asse dello smorzatore. In forma vettoriale, indicando con $\mathbf{r}_1$, $\mathbf{r}_2$ le posizioni degli estremi della molla, le forze agenti sugli estremi si possono scrivere come
+\begin{equation}
+    \mathbf{F}_{12} = - \mathbf{F}_{21} = c \left( \mathbf{v}_2 - \mathbf{v}_1 \right)  = c \left( \dot{\mathbf{r}}_2 - \dot{\mathbf{r}}_1 \right) \ ,
+\end{equation}
+essendo la forza $\mathbf{F}_{12}$ la forza agente sul punto 1 a causa dello smorzatore che lo collega al punto 2.
 \subsection{Reazioni vincolari}
 {\color{red} Fare riferimento alla sezione \ref{mechanics:kinematics:constraints} e rimandare a una sezione del capitolo della dinamica dove verrà spiegato il calcolo delle reazioni vincolari}
 \subsection{Forza di attrito}
 \subsubsection{Attrito statico}
 \subsubsection{Attrito dinamico}
+\subsubsection{Attrito volvente}
 
 % ------------------------------------------------------------------------------
 \section{Momento di una forza}
@@ -287,7 +349,7 @@ e si considera la forza applicata costante (in intensità e direzione) a tratti 
 \begin{definition}[Lavoro di una forza]
 Se si fa tendere a zero la lunghezza degli spostamenti incrementali, il lavoro di una forza viene definito come l'integrale (di linea) di Riemann
 \begin{equation}
-    L = \int_{\gamma(\mathbf{r})} \mathbf{F} \cdot d \mathbf{r} \ ,
+    L = \int_{\gamma(\mathbf{r})} \mathbf{F} \cdot d \mathbf{r} =  \int_{\gamma(\mathbf{r})} \mathbf{F} \cdot \mathbf{\hat{t}} \ ,
 \end{equation}
 avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corpo, sulla quale avvengono gli spostamenti elementari.
 \end{definition}
@@ -298,9 +360,92 @@ avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corp
 \end{definition}
 
 \subsection{Campi di forze centrali}
+\begin{definition}[Campo di forza centrale] Un campo di forza centrale è un campo di forze che ha direzione radiale rispetto a un punto, il centro.
+
+\noindent
+Ponendo l'origine del sistema di riferimento nel centro, è possibile scrivere l'espressione di un campo centrale come
+    \begin{equation}
+        \mathbf{F}(\mathbf{r}) = F(\mathbf{r}) \mathbf{\hat{r}} \ .
+    \end{equation}
+\end{definition}
+
+\begin{example}[Legge di gravitazione universale] La forza gravitazionale agente su un corpo puntiforme di massa $m$ con posizione $\mathbf{r}$ dovuta a un corpo di massa $M$ in corrispondenza del quale viene posto l'origine delle coordinate, ha l'espressione
+    \begin{equation}
+        \mathbf{F}(\mathbf{r}) = - G \dfrac{m \, M}{r^2} \mathbf{\hat{r}} = - G m M \dfrac{\mathbf{r}}{|\mathbf{r}|^3} \ .
+    \end{equation}
+\end{example}
+
+\begin{example}[Forza elastica da una molla lineare] La forza elastica agente sul punto $\mathbf{r}$ collegato all'origine con una molla lineare di costante elastica $k$ e lunghezza a riposo nulla, ha l'espressione
+    \begin{equation}
+        \mathbf{F}(\mathbf{r}) = - k \, \mathbf{r}
+    \end{equation}
+\end{example}
+
+
 \subsection{Campi di forze conservativi}
+\begin{definition}[Campo di forza conservativo] Un campo di forza è conservativo in una regione dello spazio $\Omega$ se l'integrale del lavoro lungo un percorso $\gamma$ qualsiasi in quella regione non dipende dal percorso ma solo dai suoi estremi.
+\end{definition}
+In questo caso, se il percorso $\gamma$ va dal punto $\mathbf{r}_A$ al punto $\mathbf{r}_B$, si può scrivere
+\begin{equation}
+    L = \int_{\gamma} \mathbf{F} \cdot \mathbf{\hat{t}} = \int_{\mathbf{r}_A}^{\mathbf{r}_B} \mathbf{F} \cdot \mathbf{\hat{t}} =: L_{A \rightarrow B}
+\end{equation}
+\begin{definition}[Energia potenziale] Per un campo di forze conservative è possibile definire una funzione scalare dello spazio, $V(\mathbf{r})$, chiamata \textbf{energia potenziale}, che permette di calcolare il lavoro del campo di forze conservative come
+\begin{equation}
+    L_{A \rightarrow B} = - \Delta V_{A \rightarrow B} = - \left[ V(\mathbf{r}_B) - V(\mathbf{r}_A) \right]
+\end{equation}
+\end{definition}
 
+{\color{red} EXTRA?
+\begin{itemize}
+    \item dall'indipendendza del lavoro dal percorso, è possibile scrivere il campo di forze come (meno) il gradiente della funzione energia potenziale, $\mathbf{F}(\mathbf{r}) = - \nabla V(\mathbf{r})$
+\begin{equation}
+    \int_{\mathbf{r}_A}^{\mathbf{r}_B} \mathbf{F} \cdot \mathbf{r} = L = -\left[  V(\mathbf{r}_B) - V(\mathbf{r}_A) \right] = - \int_{\mathbf{r}_A}^{\mathbf{r}_B} dV = -\int_{\mathbf{r}_A}^{\mathbf{r}_B} \nabla V \cdot d \mathbf{r} 
+\end{equation}
+\begin{equation}
+    \rightarrow \qquad \mathbf{F}(\mathbf{r}) = - \nabla V(\mathbf{r}) \ .
+\end{equation}
+    \item poiché si può scrivere il campo di forze come un gradiente, per le identità vettoriali ($\nabla \times \nabla f \equiv 0$, $\forall f(\mathbf{r})$), si può dire che i campi di forze conservativi sono irrotazionali, $\nabla \times \mathbf{F} = \mathbf{0}$.
+\end{itemize}
+}
 
+\begin{example}[Energia potenziale di campi uniformi]
+    \begin{equation}
+        \mathbf{F}(\mathbf{r}) = \mathbf{F} \qquad \rightarrow \qquad V(\mathbf{r}) = - \mathbf{F} \cdot ( \mathbf{r} - \mathbf{r}_0 ) + V_0
+    \end{equation}
+\end{example}
+\begin{example}[Energia potenziale di campi centrali]
+    \begin{equation}
+        \mathbf{F}(\mathbf{r}) = F(\mathbf{r}) \mathbf{\hat{r}} = - \nabla V(\mathbf{r}) = - \dfrac{\partial V}{\partial r} \mathbf{\hat{r}}
+    \end{equation}
+    Se il campo di forze ha simmetria radiale, il campo di forze e l'energia potenziale dipende solo dalla distanza dall'origine $r$, e vale
+    \begin{equation}
+        v'(r) = - F(r) \qquad \rightarrow \qquad V(r) - V(r_0) = - \int_{r_0}^{r} F(t) dt \ ,
+    \end{equation}
+    dove {\color{red} $r_0$, $V(r_0)$ si usano per fissare il valore della funzione potenziale; \textbf{la funzione potenziale è definita a meno di costanti additive}}
+\end{example}
+\begin{example}[Energia potenziale del campo gravitazionale uniforme] Definendo la direzione verticale con il versore $\mathbf{\hat{z}}$ diretto verso l'alto, la forza peso su un corpo di massa $m$ vale $\mathbf{F} = m \mathbf{g} = - m g \mathbf{\hat{z}}$, e quindi l'energia potenziale gravitazionale in prossimità della superficie terrestre vale
+    \begin{equation}
+        V(\mathbf{r}) - V(\mathbf{r}_0) = m g \mathbf{\hat{z}} \cdot ( \mathbf{r} - \mathbf{r}_0 ) = m g ( z - z_0 ) \ .
+    \end{equation}
+\end{example}
+\begin{example}[Energia potenziale del campo gravitazionale centrale] Per la legge di gravitazione universale, $F(r) = -\frac{G M m}{r^2}$, l'energia potenziale vale
+    \begin{equation}
+        V(r) - V(r_0) = G M m \int_{r_0}^{r} t^{-2} dt = G M m \left[ -\dfrac{1}{r} + \dfrac{1}{r_0} \right] \ .
+    \end{equation}
+Si è soliti definire la costante additiva arbitraria nell'energia potenziale gravitazionale con la condizione $\lim_{r \rightarrow \infty} V(r) = 0$, e quindi
+    \begin{equation}
+        V(r) = - \dfrac{G M m}{r} \ .
+    \end{equation}
+\end{example}
+\begin{example}[Energia potenziale del campo elastico centrale] Per la forza elastica dovuta a una molla lineare con lunghezza a riposo nulla, $F(r) = - k r$, l'energia potenziale vale
+    \begin{equation}
+        V(r) - V(r_0) = k \int_{r_0}^{r} t \, dt = \dfrac{1}{2} k \left( r^2 - r_0^2 \right) \ .
+    \end{equation}
+Si è soliti definire la costante additiva arbitraria nell'energia elastica con la condizione $V(0) = 0$, e quindi
+    \begin{equation}
+        V(r) = \dfrac{1}{2} \, k \, r^2 \ .
+    \end{equation}
+\end{example}
 
 % ==============================================================================
 \chapter{Statica}
