@@ -52,191 +52,217 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {III}Meccanica}{21}{part.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Cinematica}{23}{chapter.4}%
+\contentsline {paragraph}{La modellazione.}{23}{paragraph*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Cinematica del punto materiale}{23}{section.4.1}%
+\contentsline {paragraph}{Cinematica.}{23}{paragraph*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Cinematica di un insieme di punti materiali}{23}{section.4.2}%
+\contentsline {paragraph}{Proprietà inerziali e quantità dinamiche.}{23}{paragraph*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Cinematica del corpo rigido}{23}{section.4.3}%
+\contentsline {paragraph}{Azioni: forze e momenti.}{23}{paragraph*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Vincoli}{23}{section.4.4}%
+\contentsline {paragraph}{Statica.}{23}{paragraph*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Massa, proprietà inerziali e dinamiche}{25}{chapter.5}%
+\contentsline {paragraph}{Dinamica -- Formulazione di Newton.}{24}{paragraph*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Proprietà inerziali}{25}{section.5.1}%
+\contentsline {chapter}{\numberline {4}Cinematica}{25}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Centro di massa}{25}{subsection.5.1.1}%
+\contentsline {section}{\numberline {4.1}Cinematica del punto materiale}{25}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Momento statico}{25}{subsection.5.1.2}%
+\contentsline {section}{\numberline {4.2}Cinematica di un sistema esteso rigido}{25}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Momento di inerzia}{25}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {4.2.1}Cinematica nel piano}{26}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Quantità dinamiche}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {4.2.2}Cinematica nello spazio -- cenni}{26}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Punto materiale}{25}{subsection.5.2.1}%
+\contentsline {section}{\numberline {4.3}Cinematica di un sistema esteso deformabile -- cenni}{26}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.1}Quantità di moto}{25}{subsubsection.5.2.1.1}%
+\contentsline {section}{\numberline {4.4}Vincoli}{26}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.2}Momento della quantità di moto}{25}{subsubsection.5.2.1.2}%
+\contentsline {chapter}{\numberline {5}Proprietà inerziali e quantità dinamiche}{27}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.3}Energia cinetica}{25}{subsubsection.5.2.1.3}%
+\contentsline {section}{\numberline {5.1}Proprietà inerziali}{27}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Sistema di punti materiali}{26}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.1.1}Centro di massa}{27}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.1}Quantità di moto}{26}{subsubsection.5.2.2.1}%
+\contentsline {subsection}{\numberline {5.1.2}Momento statico}{27}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.2}Momento della quantità di moto}{26}{subsubsection.5.2.2.2}%
+\contentsline {subsection}{\numberline {5.1.3}Momento di inerzia}{27}{subsection.5.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.3}Energia cinetica}{26}{subsubsection.5.2.2.3}%
+\contentsline {section}{\numberline {5.2}Quantità dinamiche}{27}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.4}Corpi rigidi}{26}{subsubsection.5.2.2.4}%
+\contentsline {subsection}{\numberline {5.2.1}Punto materiale}{27}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.5}Momento della quantità di moto}{26}{subsubsection.5.2.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Quantità di moto}{27}{subsubsection.5.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2.6}Energia cinetica}{26}{subsubsection.5.2.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Momento della quantità di moto}{27}{subsubsection.5.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Sistema di punti materiali}{26}{subsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.1.3}Energia cinetica}{27}{subsubsection.5.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Azioni}{27}{chapter.6}%
+\contentsline {subsection}{\numberline {5.2.2}Sistema di punti materiali}{28}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Momento di una forza}{27}{section.6.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Quantità di moto}{28}{subsubsection.5.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Lavoro di una forza}{27}{section.6.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Momento della quantità di moto}{28}{subsubsection.5.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Impulso di una forza}{28}{section.6.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}Energia cinetica}{28}{subsubsection.5.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Esempi di forza}{28}{section.6.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}Corpi rigidi}{28}{subsubsection.5.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Reazioni vincolari}{28}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}Momento della quantità di moto}{28}{subsubsection.5.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Forza peso in prossimità della superficie terrestre}{28}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.6}Energia cinetica}{28}{subsubsection.5.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Forza elastica}{28}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {5.2.3}Sistema di punti materiali}{28}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Forza di attrito}{28}{subsection.6.4.4}%
+\contentsline {chapter}{\numberline {6}Azioni}{29}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.4.1}Attrito statico}{28}{subsubsection.6.4.4.1}%
+\contentsline {section}{\numberline {6.1}Esempi di forza}{29}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.4.2}Attrito dinamico}{28}{subsubsection.6.4.4.2}%
+\contentsline {subsection}{\numberline {6.1.1}Forza peso in prossimità della superficie terrestre}{29}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Statica}{29}{chapter.7}%
+\contentsline {subsection}{\numberline {6.1.2}Legge di gravitazione universale di Newton}{29}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Condizioni di equilibrio}{29}{section.7.1}%
+\contentsline {subsection}{\numberline {6.1.3}Molla lineare e forza elastica}{29}{subsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Esempi}{29}{section.7.2}%
+\contentsline {subsection}{\numberline {6.1.4}Smorzatore lineare e forza viscosa}{29}{subsection.6.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Dinamica}{31}{chapter.8}%
+\contentsline {subsection}{\numberline {6.1.5}Reazioni vincolari}{29}{subsection.6.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Principi della dinamica di Newton}{31}{section.8.1}%
+\contentsline {subsection}{\numberline {6.1.6}Forza di attrito}{29}{subsection.6.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}Primo principio della dinamica}{31}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.6.1}Attrito statico}{29}{subsubsection.6.1.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.2}Secondo principio della dinamica}{31}{subsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.6.2}Attrito dinamico}{29}{subsubsection.6.1.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.3}Terzo principio della dinamica}{31}{subsection.8.1.3}%
+\contentsline {section}{\numberline {6.2}Momento di una forza}{29}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Equazioni cardinali della dinamica}{31}{section.8.2}%
+\contentsline {section}{\numberline {6.3}Impulso di una forza}{29}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Moto di un punto materiale}{31}{subsection.8.2.1}%
+\contentsline {section}{\numberline {6.4}Lavoro di una forza}{30}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prima equazione cardinale -- quantità di moto}{31}{paragraph*.4}%
+\contentsline {section}{\numberline {6.5}Campo di forze}{30}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Seconda equazione cardinale -- momento della quantità di moto}{31}{paragraph*.5}%
+\contentsline {subsection}{\numberline {6.5.1}Campi di forze centrali}{30}{subsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Terza equazione cardinale -- energia cinetica}{32}{paragraph*.6}%
+\contentsline {subsection}{\numberline {6.5.2}Campi di forze conservativi}{30}{subsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Moto di un sistema di punti materiali}{32}{subsection.8.2.2}%
+\contentsline {chapter}{\numberline {7}Statica}{31}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prima equazione cardinale}{32}{paragraph*.7}%
+\contentsline {section}{\numberline {7.1}Condizioni di equilibrio}{31}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Seconda equazione cardinale}{32}{paragraph*.8}%
+\contentsline {section}{\numberline {7.2}Esempi}{31}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Terza equazione cardinale}{34}{paragraph*.9}%
+\contentsline {chapter}{\numberline {8}Dinamica}{33}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}Moto di un corpo rigido}{34}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.1}Principi della dinamica di Newton}{33}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prima equazione cardinale}{34}{paragraph*.10}%
+\contentsline {subsection}{\numberline {8.1.1}Primo principio della dinamica}{33}{subsection.8.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Seconda equazione cardinale}{34}{paragraph*.11}%
+\contentsline {subsection}{\numberline {8.1.2}Secondo principio della dinamica}{33}{subsection.8.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Terza equazione cardinale}{34}{paragraph*.12}%
+\contentsline {subsection}{\numberline {8.1.3}Terzo principio della dinamica}{33}{subsection.8.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Moti notevoli}{35}{chapter.9}%
+\contentsline {section}{\numberline {8.2}Equazioni cardinali della dinamica}{33}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Moti di punti materiali}{35}{section.9.1}%
+\contentsline {subsection}{\numberline {8.2.1}Moto di un punto materiale}{33}{subsection.8.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Moto rettilineo uniforme}{35}{subsection.9.1.1}%
+\contentsline {paragraph}{Prima equazione cardinale -- quantità di moto}{33}{paragraph*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.2}Moto di un proiettile in prossimità della superficie terrestre}{35}{subsection.9.1.2}%
+\contentsline {paragraph}{Seconda equazione cardinale -- momento della quantità di moto}{33}{paragraph*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}Sistema massa-molla-smorzatore}{36}{subsection.9.1.3}%
+\contentsline {paragraph}{Terza equazione cardinale -- energia cinetica}{34}{paragraph*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Moto circolare}{36}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {8.2.2}Moto di un sistema di punti materiali}{34}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.5}Moto del pendolo}{36}{subsection.9.1.5}%
+\contentsline {paragraph}{Prima equazione cardinale}{34}{paragraph*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.6}Moto di sistemi di punti}{36}{subsection.9.1.6}%
+\contentsline {paragraph}{Seconda equazione cardinale}{34}{paragraph*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.7}Moti dei corpi celesti}{36}{subsection.9.1.7}%
+\contentsline {paragraph}{Terza equazione cardinale}{36}{paragraph*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Moti di corpi estesi}{36}{section.9.2}%
+\contentsline {subsection}{\numberline {8.2.3}Moto di un corpo rigido}{36}{subsection.8.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Termodinamica}{37}{part.4}%
+\contentsline {paragraph}{Prima equazione cardinale}{36}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Principi della termodinamica}{39}{chapter.10}%
+\contentsline {paragraph}{Seconda equazione cardinale}{36}{paragraph*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Primo principio}{39}{section.10.1}%
+\contentsline {paragraph}{Terza equazione cardinale}{36}{paragraph*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Secondo principio}{39}{section.10.2}%
+\contentsline {chapter}{\numberline {9}Moti notevoli ed esempi}{37}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Terzo principio}{40}{section.10.3}%
+\contentsline {section}{\numberline {9.1}Moti di punti materiali}{37}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{40}{section.10.4}%
+\contentsline {subsection}{\numberline {9.1.1}Moto rettilineo uniforme}{37}{subsection.9.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Stati della materia e leggi costitutive}{41}{chapter.11}%
+\contentsline {subsection}{\numberline {9.1.2}Moto di un proiettile in prossimità della superficie terrestre}{37}{subsection.9.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Gas}{41}{section.11.1}%
+\contentsline {subsection}{\numberline {9.1.3}Sistema massa-molla-smorzatore}{38}{subsection.9.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Legge dei gas perfetti}{41}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {9.1.4}Moto circolare}{38}{subsection.9.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Solidi}{41}{section.11.2}%
+\contentsline {subsection}{\numberline {9.1.5}Moto del pendolo}{38}{subsection.9.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Macchine termiche}{43}{chapter.12}%
+\contentsline {subsection}{\numberline {9.1.6}Moto di sistemi di punti}{38}{subsection.9.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Macchina ideale di Carnot}{43}{section.12.1}%
+\contentsline {section}{\numberline {9.2}Moto di corpi estesi}{38}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Postulati della termodinamica di Kelvin e Planck}{43}{section.12.2}%
+\contentsline {section}{\numberline {9.3}Moto dei corpi celesti}{38}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Cicli termodinamici e macchine termiche}{43}{section.12.3}%
+\contentsline {part}{\numberline {IV}Termodinamica}{39}{part.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.1}Cicli termodinamici diretti}{43}{subsection.12.3.1}%
+\contentsline {chapter}{\numberline {10}Principi della termodinamica}{41}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.1}Ciclo Otto}{43}{subsubsection.12.3.1.1}%
+\contentsline {section}{\numberline {10.1}Primo principio}{41}{section.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.2}Ciclo Diesel}{43}{subsubsection.12.3.1.2}%
+\contentsline {section}{\numberline {10.2}Secondo principio}{41}{section.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.3}Ciclo Joule-Brayton}{43}{subsubsection.12.3.1.3}%
+\contentsline {section}{\numberline {10.3}Terzo principio}{42}{section.10.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.4}Ciclo Rankine}{43}{subsubsection.12.3.1.4}%
+\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{42}{section.10.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.2}Cicli termodinamici inversi}{43}{subsection.12.3.2}%
+\contentsline {chapter}{\numberline {11}Stati della materia e leggi costitutive}{43}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Trasmissione del calore}{45}{chapter.13}%
+\contentsline {section}{\numberline {11.1}Gas}{43}{section.11.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {V}Elettromagnetismo}{47}{part.5}%
+\contentsline {subsection}{\numberline {11.1.1}Legge dei gas perfetti}{43}{subsection.11.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Introduzione}{49}{chapter.14}%
+\contentsline {section}{\numberline {11.2}Solidi}{43}{section.11.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{51}{part.6}%
+\contentsline {chapter}{\numberline {12}Macchine termiche}{45}{chapter.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{53}{part.7}%
+\contentsline {section}{\numberline {12.1}Macchina ideale di Carnot}{45}{section.12.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{55}{chapter*.13}%
+\contentsline {section}{\numberline {12.2}Postulati della termodinamica di Kelvin e Planck}{45}{section.12.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{57}{section*.14}%
+\contentsline {section}{\numberline {12.3}Cicli termodinamici e macchine termiche}{45}{section.12.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{57}{section*.15}%
+\contentsline {subsection}{\numberline {12.3.1}Cicli termodinamici diretti}{45}{subsection.12.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{57}{appendix.alph1.Alph1}%
+\contentsline {subsubsection}{\numberline {12.3.1.1}Ciclo Otto}{45}{subsubsection.12.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.3.1.2}Ciclo Diesel}{45}{subsubsection.12.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.3.1.3}Ciclo Joule-Brayton}{45}{subsubsection.12.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {12.3.1.4}Ciclo Rankine}{45}{subsubsection.12.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.2}Cicli termodinamici inversi}{45}{subsection.12.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {13}Trasmissione del calore}{47}{chapter.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {V}Elettromagnetismo}{49}{part.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {14}Introduzione}{51}{chapter.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{53}{part.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{55}{part.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{57}{chapter*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{59}{section*.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{59}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{59}{appendix.alph1.Alph1}%
 \contentsfinish 

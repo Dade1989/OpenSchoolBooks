@@ -1,11 +1,116 @@
 
+% ==============================================================================
+\begin{definition}[Meccanica] La meccanica è la branca della fisica che studia il moto di corpi e le sue cause.
+\end{definition}
+
+\section*{Argomenti}
+\paragraph{La modellazione.} I corpi vengono rappresentati con \textbf{modelli} astratti o semplificati. I principali modelli che si usano in meccanica sono:
+\begin{itemize}
+    \item corpo puntiforme
+    \item corpo esteso rigido
+    \item corpo esteso deformabile
+\end{itemize}
+
+\noindent
+Si possono riconoscere diversi aspetti della meccanica.
+
+\vspace{8pt}
+\paragraph{Cinematica.} La cinematica si occupa della descrizione del moto dei corpi, senza indagare le cause del moto. La cinematica dei sistemi meccanici è descritta completamente quando sono note alcune quantità del sistema in funzione del tempo. Per i diversi modelli di sistemi meccanici queste quantità sono:
+\begin{itemize}
+    \item punto: posizione
+    \item corpo esteso rigido: posizione di un punto materiale e orientazione del corpo
+    \item corpo esteso deformabile: posizione di tutti i punti del corpo
+\end{itemize}
+Calcolando la derivata rispetto al tempo di queste quantità si trovano la velocità e l'accelerazione dei punti, e la velocità e accelerazione angolare dei corpi estesi rigidi.
+
+\vspace{8pt}
+\paragraph{Proprietà inerziali e quantità dinamiche.} La massa può essere definita come quantità di materia. La distribuzione di massa nello spazio determina le proprietà inerziali di un sistema.
+Le proprietà inerziali per i diversi modelli sono:
+\begin{itemize}
+    \item punto: massa
+    \item corpi estesi (inclusi sistemi di punti): massa totale, momento statico e momento di inerzia
+\end{itemize}
+Una volta note la cinematica e le proprietà inerziali di un sistema, si possono definire le quantità dinamiche che svolgono un ruolo principale nelle equazioni che governano la dinamica dei corpi. Queste quantità sono:
+\begin{itemize}
+    \item quantità di moto, $\mathbf{Q}$
+    \item momento della quantità di moto rispetto al polo $H$, $\mathbf{\Gamma}_H$
+    \item energia cinetica, $K$
+\end{itemize}
+La loro espressione per un corpo puntiforme è:
+\begin{itemize}
+    \item quantità di moto, $\mathbf{Q} = m \mathbf{v}$
+    \item momento della quantità di moto, $\mathbf{\Gamma}_H = ( \mathbf{r} - \mathbf{r}_H ) \times m \mathbf{v}$
+    \item energia cinetica, $K = \frac{1}{2} m |\mathbf{v}|^2$
+\end{itemize}
+Per definizione (si veda come vengono ricavate le equazioni del moto), queste quantità dinamiche sono \textbf{additive}. Le quantità dinamiche per corpi estesi possono quindi essere ricavate come la somma (grazie all'integrazione, per corpi continui) delle quantità dinamiche elementari delle loro singole parti
+
+\vspace{8pt}
+\paragraph{Azioni: forze e momenti.} Le forze e i momenti sono il modello delle azioni agenti sui sistemi e delle interazioni tra di essi.
+
+\vspace{8pt}
+\paragraph{Statica.} La statica è caso particolare della dinamica, e si occupa dell'equilibrio dei corpi. Le leggi della statica descrivono le condizioni di equilibrio di un sistema, e si ottengono come caso particolare delle equazioni della dinamica annullando tutte le derivate temporali
+\begin{itemize}
+    \item corpo puntiforme: % equilibrio delle forze $\mathbf{R}^{ext} = \mathbf{0}$
+        \begin{equation}
+            \mathbf{0} = \mathbf{R}^{ext} \qquad \qquad \text{(equilibrio delle forze)}
+        \end{equation}
+    \item corpo esteso: % equilibrio delle forze $\mathbf{R}^{ext} = \mathbf{0}$, e dei momenti $\mathbf{M}_H^{ext} = \mathbf{0}$
+        \begin{equation}
+        \begin{aligned}
+            \mathbf{0} & = \mathbf{R}^{ext}   \qquad \qquad \text{(equilibrio delle forze)} \\
+            \mathbf{0} & = \mathbf{M}^{ext}_H \qquad \qquad \text{(equilibrio dei momenti)} \\
+        \end{aligned}
+        \end{equation}
+\end{itemize}
+
+\vspace{8pt}
+\paragraph{Dinamica -- Formulazione di Newton.} La dinamica si occupa della descrizione del moto dei corpi e delle sue cause, legando la cinematica e le quantità dinamiche di un sistema alle azioni agenti su di esso: in generale, le azioni agenti su un sistema causano una variazione delle quantità dinamiche.
+
+La dinamica classica può essere formulata a partire dai tre \textbf{principi della dinamica} di Newton:
+\begin{enumerate}
+    \item principio di inerzia, che riassume la \textbf{relatività di Galileo}: rispetto a un sistema di \textit{riferimento inerziale}, un sistema sul quale non agiscono forze esterne mantiene il suo stato di moto
+    \item secondo principio della dinamica: la variazione della quantità di moto di un sistema è uguale all'impulso delle forze esterne agenti sul sistema
+        \begin{equation}
+            \Delta \mathbf{Q} = \mathbf{I}^{ext} \ ,
+        \end{equation}
+        o per una variazione in un intervallo di tempo infinitesimo, la derivata nel tempo della quantità di moto è uguale alla risultante dele forze esterne,
+        \begin{equation}
+            \dot{\mathbf{Q}} = \mathbf{R}^{ext} \ ,
+        \end{equation}
+    \item principio di \textbf{azione e reazione}: nell'interazione tra due sistemi $i$, $j$, la forza $\mathbf{F}_{ij}$ agente sul sistema $i$ dovuta al sistema $j$ è \textit{uguale e contraria} alla forza agente $\mathbf{F}_{ji}$ sul sistema $j$ dovuta al sistema $i$,
+        \begin{equation}
+           \mathbf{F}_{ij} = - \mathbf{F}_{ji} \ ,
+        \end{equation}
+\end{enumerate}
+dai quali si possono ricavare le \textbf{equazioni cardinali del moto}, che assumono la stessa forma generale per ogni tipo di sistema meccanico
+\begin{enumerate}
+    \item l'equazione della quantità di moto coincide con il secondo principio della dinamica
+        \begin{equation}
+            \dot{\mathbf{Q}} = \mathbf{R}^{ext}
+        \end{equation}
+    \item l'equazione del momento della quantità di moto mette in relazione, a meno di un termine dipendente dall'eventuale moto del polo $H$, la derivata temporale del momento della quantità di moto con la risultante dei momenti esterni agenti sul sistema
+        \begin{equation}
+            \dot{\mathbf{\Gamma}}_H = -\dot{\mathbf{x}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext}
+        \end{equation}
+    \item il teorema dell'energia cinetica, mette in relazione la derivata temporale dell'energia cinetica con la potenza totale delle forze agenti sul sistema
+        \begin{equation}
+            \dot{K} = P^{tot}
+        \end{equation}
+\end{enumerate}
+
+\section*{Strumenti matematici}
 
 % ==============================================================================
 \chapter{Cinematica}
+% ==============================================================================
+{\color{red} La cinematica studia il moto dei corpi senza preoccuparsi delle cause del moto \dots}
+% ==============================================================================
+
 \begin{definition}[Cinematica] La cinemcatica è quel ramo della meccanica che si occupa di descrivere il moto dei corpi, indipendentemente dalle cause del moto.
 \end{definition}
 Il moto dei corpi viene descritto usando i concetti di \textbf{tempo} e \textbf{spazio}.
 
+% ------------------------------------------------------------------------------
 \section{Cinematica del punto materiale}
 \begin{definition}[Posizione]
 Una volta definito un sistema di riferimento, si può definire la posizione di un punto $P$ con il raggio vettore $\mathbf{r}_P$ che unisce l'origine del sistema di riferimento con la posizione del punto $P$.
@@ -25,14 +130,47 @@ Una volta definito un sistema di riferimento, si può definire la posizione di u
     \end{equation}
 \end{definition}
 
-\section{Cinematica di un insieme di punti materiali}
+% ------------------------------------------------------------------------------
+\section{Cinematica di un sistema esteso rigido}
+\begin{definition}[Vincolo di moto rigido] Un corpo viene definito rigido se la distanza di ogni coppia di suoi punti rimane costante nel moto,
+    \begin{equation}
+        d_{PQ} := | \mathbf{r}_P(t) - \mathbf{r}_Q(t) | = \text{cost} \ .
+    \end{equation}
+\end{definition}
+Questa definizione, implica che rimangano costanti le distanze e gli angoli tra punti materiali di un corpo che compie un atto di moto rigido.
 
-\section{Cinematica del corpo rigido}
+\begin{equation}
+    \left( \mathbf{v}_P - \mathbf{v}_Q \right) \perp \left( \mathbf{r}_P - \mathbf{r}_Q \right)
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    0 & = \dfrac{d}{dt} | \mathbf{r}_P - \mathbf{r}_Q |^2 = \\
+    & = \dfrac{d}{dt} \left[ \left( \mathbf{r}_P - \mathbf{r}_Q \right) \cdot \left( \mathbf{r}_P - \mathbf{r}_Q \right) \right] = \\
+    & = 2 \dfrac{d}{dt} \left( \mathbf{r}_P - \mathbf{r}_Q \right) \cdot \left( \mathbf{r}_P - \mathbf{r}_Q \right) = 2 \left( \mathbf{v}_P - \mathbf{v}_Q \right) \cdot \left( \mathbf{r}_P - \mathbf{r}_Q \right)
+\end{aligned}
+\end{equation}
 
+\begin{definition}[Velocità angolare di un corpo rigido] Si può dimostrare che esiste un vettore $\mathbf{\omega}$, definito \textbf{velocità angolare}, tale che vale la relazione 
+\begin{equation}
+    \left( \mathbf{v}_P - \mathbf{v}_Q \right) = \boldsymbol{\omega} \times \left( \mathbf{r}_P - \mathbf{r}_Q \right) \ ,
+\end{equation}
+tra la differenze di velocità e di posizione tra ogni coppia di punti $P$, $Q$ del corpo rigido.
+\end{definition}
+
+\subsection{Cinematica nel piano}
+\subsection{Cinematica nello spazio -- cenni}
+
+% ------------------------------------------------------------------------------
+\section{Cinematica di un sistema esteso deformabile -- cenni}
+
+% ------------------------------------------------------------------------------
 \section{Vincoli}\label{mechanics:kinematics:constraints}
 
 % ==============================================================================
-\chapter{Massa, proprietà inerziali e dinamiche}
+\chapter{Proprietà inerziali e quantità dinamiche}
+% ==============================================================================
+La massa può essere definita come la quantità di materia \dots
+% ==============================================================================
 
 \section{Proprietà inerziali}
 
@@ -90,17 +228,48 @@ Queste quantità sono \textbf{grandezze additive}.
 \subsubsection{Energia cinetica}
 
 \subsection{Sistema di punti materiali}
+
 % ==============================================================================
 \chapter{Azioni}
+% ==============================================================================
+% ==============================================================================
 \begin{definition}[Forza] Una forza è un'entità fisica vettoriale che è in grado di cambiare lo stato del moto di un sistema.
 \end{definition}
 
+% ------------------------------------------------------------------------------
+\section{Esempi di forza}
+\subsection{Forza peso in prossimità della superficie terrestre}
+\subsection{Legge di gravitazione universale di Newton}
+\subsection{Molla lineare e forza elastica}
+\subsection{Smorzatore lineare e forza viscosa}
+\subsection{Reazioni vincolari}
+{\color{red} Fare riferimento alla sezione \ref{mechanics:kinematics:constraints} e rimandare a una sezione del capitolo della dinamica dove verrà spiegato il calcolo delle reazioni vincolari}
+\subsection{Forza di attrito}
+\subsubsection{Attrito statico}
+\subsubsection{Attrito dinamico}
+
+% ------------------------------------------------------------------------------
 \section{Momento di una forza}
 \begin{definition}[Momento di una forza] Il momento di una forza rispetto a un \textbf{polo} $O$, $\mathbf{M}_O$, viene definito coem il prodotto vettoriale tra il raggio $\Delta \mathbf{r}_{OP} = \mathbf{r}_P - \mathbf{r}_O$ tra il polo e il punto di applicazione e la forza $\mathbf{F}$,
     \begin{equation} \mathbf{M}_O = \Delta \mathbf{r}_{OP} \times \mathbf{F} \ .
     \end{equation}
 \end{definition}
 
+% ------------------------------------------------------------------------------
+\section{Impulso di una forza}
+\begin{definition}[Impulso elementare di una forza]
+    L'impulso elementare $\delta \mathbf{I}$ di una forza $\mathbf{F}$ viene definito come il prodotto della forza e l'intervallo elementare di tempo $dt$ per il quale agisce la forza,
+    \begin{equation}
+        \delta \mathbf{I} = \mathbf{F} dt \ .
+    \end{equation}
+\end{definition}
+\begin{definition}[Impulso di una forza] Viene definito come la somma di tutti gli impulsi elementari tra due istanti desiderati,  $t \in [t_0, t_1]$, e al limite si riduce all'integrale di Riemann
+    \begin{equation}
+        \mathbf{I} = \int_{t=t_0}^{t_1} \delta \mathbf{I} = \int_{t=t_0}^{t_1} \mathbf{F} dt \ .
+    \end{equation}
+\end{definition}
+
+% ------------------------------------------------------------------------------
 \section{Lavoro di una forza}
 \begin{definition}[Lavoro elementare di una forza] Il lavoro elementare $\delta L$ di una forza $\mathbf{F}$ è il prodotto scalare tra la forza e lo spostamento elementare $d \mathbf{r}$,
     \begin{equation}
@@ -123,33 +292,20 @@ Se si fa tendere a zero la lunghezza degli spostamenti incrementali, il lavoro d
 avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corpo, sulla quale avvengono gli spostamenti elementari.
 \end{definition}
 
-\section{Impulso di una forza}
-\begin{definition}[Impulso elementare di una forza]
-    L'impulso elementare $d \mathbf{I}$ di una forza $\mathbf{F}$ viene definito come il prodotto della forza e l'intervallo elementare di tempo $dt$ per il quale agisce la forza,
-    \begin{equation}
-        \delta \mathbf{I} = \mathbf{F} dt \ .
-    \end{equation}
-\end{definition}
-\begin{definition}[Impulso di una forza] Viene definito come la somma di tutti gli impulsi elementari tra due istanti desiderati,  $t \in [t_0, t_1]$, e al limite si riduce all'integrale di Riemann
-    \begin{equation}
-        \mathbf{I} = \int_{t=t_0}^{t_1} \delta \mathbf{I} = \int_{t=t_0}^{t_1} \mathbf{F} dt \ .
-    \end{equation}
+% ------------------------------------------------------------------------------
+\section{Campo di forze}
+\begin{definition}[Campo di forze - definizione operativa]
 \end{definition}
 
-\section{Esempi di forza}
-\subsection{Reazioni vincolari}
-{\color{red} Fare riferimento alla sezione \ref{mechanics:kinematics:constraints}}
-
-\subsection{Forza peso in prossimità della superficie terrestre}
-\subsection{Forza elastica}
-\subsection{Forza di attrito}
-\subsubsection{Attrito statico}
-\subsubsection{Attrito dinamico}
+\subsection{Campi di forze centrali}
+\subsection{Campi di forze conservativi}
 
 
 
 % ==============================================================================
 \chapter{Statica}
+% ==============================================================================
+% ==============================================================================
 
 \section{Condizioni di equilibrio}
 \begin{definition}[Condizioni di equilibrio per un punto materiale]
@@ -158,11 +314,11 @@ avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corp
     \end{equation}
 \end{definition}
 
-\begin{definition}[Condizioni di equilibrio per un corpo rigido]
+\begin{definition}[Condizioni di equilibrio per un corpo esteso]
     \begin{equation}
     \begin{aligned}
         \sum_{i=1}^{n} \mathbf{F}_i & = \mathbf{0} \\
-        \sum_{i=1}^{n} \mathbf{M}_{O,i} & = \mathbf{0}
+        \sum_{i=1}^{n} \mathbf{M}_{H,i} & = \mathbf{0}
     \end{aligned}
     \end{equation}
 \end{definition}
@@ -170,9 +326,11 @@ avendo indicato con $\gamma(\mathbf{r})$ la curva nello spazio percorsa dal corp
 \section{Esempi}
 
 
-
 % ==============================================================================
 \chapter{Dinamica}\label{mechanics:dynamics}
+% ==============================================================================
+La dinamica studia il moto dei corpi e le sue cause \dots
+% ==============================================================================
 \section{Principi della dinamica di Newton}
 \begin{enumerate}
   \item principio di inerzia
@@ -324,7 +482,8 @@ dove la potenza delle forze interne in generale non è nulla
 
 
 % ==============================================================================
-\chapter{Moti notevoli}\label{mechanics:motions}
+\chapter{Moti notevoli ed esempi}\label{mechanics:motions}
+% ==============================================================================
 In questo capitolo vengono indagati alcuni moti notevoli, espicitando le espressioni della quantità di moto, del momento angolare, le azioni esterne, e le condizioni iniziali proprie di ogni moto.
 Ogni moto verrà indagato dopo aver introdotto il \textbf{sistema di coordinate} più \textbf{adeguato} allo studio del sistema.
 \section{Moti di punti materiali}
@@ -405,8 +564,16 @@ Usando la seconda equazione cardinale della dinamica
 \end{equation}
 
 \subsection{Moto di sistemi di punti}
-\subsection{Moti dei corpi celesti}
 
-\section{Moti di corpi estesi}
+\section{Moto di corpi estesi}
 
+\section{Moto dei corpi celesti}
+Per ragioni di importanza storica, e per la rilevanza che ha avuto la \textit{dinamica celeste} negli sviluppi della dinamica, viene riservata un'intera sezione al moto dei corpi celesti.
 
+{\color{red}
+\begin{itemize}
+    \item legge di gravitazione universale di Newton
+    \item moto dei due corpi
+    \item moto dei tre corpi -- cenni
+\end{itemize}
+}
