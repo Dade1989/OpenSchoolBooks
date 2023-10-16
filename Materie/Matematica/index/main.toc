@@ -344,9 +344,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {16.7}Applicazioni}{70}{section.16.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.7.1}Ricerca minimi e massimi locali}{70}{subsection.16.7.1}%
+\contentsline {subsection}{\numberline {16.7.1}Punti in cui $f'(x) = 0$: punti di estremo locale e flessi orizzontali}{70}{subsection.16.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.7.2}Studio funzione}{70}{subsection.16.7.2}%
+\contentsline {subsection}{\numberline {16.7.2}Punti in cui $f''(x) = 0$: punti di flesso}{70}{subsection.16.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.7.3}Studio funzione}{70}{subsection.16.7.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {17}Integrali}{71}{chapter.17}%
 \defcounter {refsection}{0}\relax 

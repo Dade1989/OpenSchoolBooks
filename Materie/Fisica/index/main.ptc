@@ -145,13 +145,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Impulso di una forza}{31}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Lavoro di una forza}{31}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Lavoro di una forza}{32}{section.6.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}Campo di forze}{32}{section.6.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.1}Campi di forze centrali}{32}{subsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.2}Campi di forze conservativi}{32}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.2}Campi di forze conservativi}{33}{subsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Statica}{35}{chapter.7}%
 \defcounter {refsection}{0}\relax 
@@ -203,81 +203,89 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.2}Moto di un proiettile in prossimità della superficie terrestre}{41}{subsection.9.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}Sistema massa-molla-smorzatore}{42}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.3}Moto sul piano inclinato}{42}{subsection.9.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Moto circolare}{42}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.4}Sistema massa-molla-smorzatore}{42}{subsection.9.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.5}Moto del pendolo}{42}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.5}Moto circolare}{42}{subsection.9.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.6}Moto di sistemi di punti}{42}{subsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.1.6}Moto del pendolo}{42}{subsection.9.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.7}Moti impulsivi}{42}{subsection.9.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {9.1.7.1}Collisioni tra punti materiali}{42}{subsubsection.9.1.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {9.1.7.2}Collisioni tra punti materiali e superfici fisse}{42}{subsubsection.9.1.7.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Moto di corpi estesi}{42}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Moto dei corpi celesti}{42}{section.9.3}%
+\contentsline {subsection}{\numberline {9.2.1}Rotolamento di un disco}{42}{subsection.9.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Moto dei corpi celesti}{44}{section.9.3}%
 \ttl@stoptoc {part@3}
 \ttl@starttoc {part@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Termodinamica}{43}{part.4}%
+\contentsline {part}{\numberline {IV}Termodinamica}{45}{part.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Principi della termodinamica}{45}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Principi della termodinamica}{47}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Primo principio}{45}{section.10.1}%
+\contentsline {section}{\numberline {10.1}Primo principio}{47}{section.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Secondo principio}{45}{section.10.2}%
+\contentsline {section}{\numberline {10.2}Secondo principio}{47}{section.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Terzo principio}{46}{section.10.3}%
+\contentsline {section}{\numberline {10.3}Terzo principio}{48}{section.10.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{46}{section.10.4}%
+\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{48}{section.10.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Stati della materia e leggi costitutive}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Stati della materia e leggi costitutive}{49}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Gas}{47}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Gas}{49}{section.11.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Legge dei gas perfetti}{47}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.1}Legge dei gas perfetti}{49}{subsection.11.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Solidi}{47}{section.11.2}%
+\contentsline {section}{\numberline {11.2}Solidi}{49}{section.11.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Macchine termiche}{49}{chapter.12}%
+\contentsline {chapter}{\numberline {12}Macchine termiche}{51}{chapter.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Macchina ideale di Carnot}{49}{section.12.1}%
+\contentsline {section}{\numberline {12.1}Macchina ideale di Carnot}{51}{section.12.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Postulati della termodinamica di Kelvin e Planck}{49}{section.12.2}%
+\contentsline {section}{\numberline {12.2}Postulati della termodinamica di Kelvin e Planck}{51}{section.12.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Cicli termodinamici e macchine termiche}{49}{section.12.3}%
+\contentsline {section}{\numberline {12.3}Cicli termodinamici e macchine termiche}{51}{section.12.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.1}Cicli termodinamici diretti}{49}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.1}Cicli termodinamici diretti}{51}{subsection.12.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.1}Ciclo Otto}{49}{subsubsection.12.3.1.1}%
+\contentsline {subsubsection}{\numberline {12.3.1.1}Ciclo Otto}{51}{subsubsection.12.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.2}Ciclo Diesel}{49}{subsubsection.12.3.1.2}%
+\contentsline {subsubsection}{\numberline {12.3.1.2}Ciclo Diesel}{51}{subsubsection.12.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.3}Ciclo Joule-Brayton}{49}{subsubsection.12.3.1.3}%
+\contentsline {subsubsection}{\numberline {12.3.1.3}Ciclo Joule-Brayton}{51}{subsubsection.12.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.4}Ciclo Rankine}{49}{subsubsection.12.3.1.4}%
+\contentsline {subsubsection}{\numberline {12.3.1.4}Ciclo Rankine}{51}{subsubsection.12.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.2}Cicli termodinamici inversi}{49}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.2}Cicli termodinamici inversi}{51}{subsection.12.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Trasmissione del calore}{51}{chapter.13}%
+\contentsline {chapter}{\numberline {13}Trasmissione del calore}{53}{chapter.13}%
 \ttl@stoptoc {part@4}
 \ttl@starttoc {part@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {V}Elettromagnetismo}{53}{part.5}%
+\contentsline {part}{\numberline {V}Elettromagnetismo}{55}{part.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Introduzione}{55}{chapter.14}%
+\contentsline {chapter}{\numberline {14}Introduzione}{57}{chapter.14}%
 \ttl@stoptoc {part@5}
 \ttl@starttoc {part@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{57}{part.6}%
+\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{59}{part.6}%
 \ttl@stoptoc {part@6}
 \ttl@starttoc {part@7}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{59}{part.7}%
+\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{61}{part.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{61}{chapter*.19}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{63}{chapter*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{63}{section*.20}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{65}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{63}{section*.21}%
+\contentsline {chapter}{Appendices}{65}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{63}{appendix.alph1.Alph1}%
+\contentsline {chapter}{\numberline {A}Prima appendice}{65}{appendix.alph1.Alph1}%
 \contentsfinish 

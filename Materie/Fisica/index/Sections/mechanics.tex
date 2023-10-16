@@ -305,10 +305,29 @@ Le forze applicate ai due estremi sono di intensità uguale e verso contrario, e
 essendo la forza $\mathbf{F}_{12}$ la forza agente sul punto 1 a causa dello smorzatore che lo collega al punto 2.
 \subsection{Reazioni vincolari}
 {\color{red} Fare riferimento alla sezione \ref{mechanics:kinematics:constraints} e rimandare a una sezione del capitolo della dinamica dove verrà spiegato il calcolo delle reazioni vincolari}
+
 \subsection{Forza di attrito}
 \subsubsection{Attrito statico}
+La forza di attrito statico agisce tra due corpi tra i quali non c'è moto relativo, in direzione tangenziale alla superficie del vincolo. Il suo valore è determinato dalla condizione di equilibrio 
+\begin{equation}
+    \mathbf{F}^s_{\mu} = F^s_{\mu} \mathbf{\hat{t}} \ , \qquad \text{con } |\mathbf{F}^s_{\mu}| \le \mu_s N \ ,
+\end{equation}
+essendo $\mu_s$ il coefficiente di attrito statico, tipico delle superfici (e del loro stato: materiale, rugosità e finiture superficiali, lubrificazione, superficie sporche,\dots) e $N$ il modulo della reazione normale.
+
 \subsubsection{Attrito dinamico}
+La forza di attrito dinamico agisce tra due corpi a contatto in moto relativo con velocità $\mathbf{v}^{rel}$, $|\mathbf{v}^{rel}| \ne 0$, in direzione tangenziale alla superficie di contatto. Il modello di attrito di Coulomb prevede l'espressione
+\begin{equation}
+    \mathbf{F}^d_{\mu} = - \mu_d N \dfrac{\mathbf{v}^{rel}}{|\mathbf{v}^{rel}|}
+\end{equation}
+essendo $\mu_d$ il coefficiente di attrito dinamico, tipico delle superfici (e del loro stato: materiale, rugosità e finiture superficiali, lubrificazione, superficie sporche,\dots) e $N$ il modulo della reazione normale.
+
 \subsubsection{Attrito volvente}
+{\color{red}
+\begin{itemize}
+    \item Modello dell'azione che fa rallentare il moto di una corpo circolare in rotolamento puro su una superficie piana.Perché no, non è l'attrito statico
+    \item Rimandare a esercizio su rotolamento puro di un disco, con e senza attrito volvente
+\end{itemize}
+}
 
 % ------------------------------------------------------------------------------
 \section{Momento di una forza}
@@ -691,6 +710,46 @@ Legge del moto
         y(t) = -\dfrac{1}{2} g t^2 + v_{y,0} t + y_0
     \end{cases}
 \end{equation}
+
+\subsection{Moto sul piano inclinato}
+\begin{example}[Statica sul piano inclinato]
+    {\color{red} Disegno e diagramma delle forze}
+\begin{equation}
+    \begin{cases}
+        0 & = m g \sin \alpha - \mu_s N  \\
+        0 & = -m g \cos \alpha + N
+    \end{cases} \qquad \rightarrow \qquad
+    N = m g \cos \alpha
+\end{equation}
+La condizione di equilibrio può esistere solo se 
+    $\mu_{s, max} \ge \mu_s = \tan \alpha$
+\end{example}
+
+\begin{example}[Moto sul piano inclinato scabro]
+    {\color{red} Disegno e diagramma delle forze}
+\begin{equation}
+    \dot{\mathbf{Q}} = \mathbf{R}^{ext}
+\end{equation}
+\begin{equation}
+    \begin{cases}
+        m \ddot{x} & = m g \sin \alpha R - \mu_d N \frac{\dot{x}}{|\dot{x}|} \\
+    0 = m \ddot{y} & = -m g \cos \alpha + N
+    \end{cases} \qquad \rightarrow \qquad
+    N = m g \cos \alpha
+\end{equation}
+\begin{equation}
+    m \ddot{x} = mg \left( \sin \alpha - \mu_d \frac{\dot{x}}{|\dot{x}|} \cos \alpha  \right)
+\end{equation}
+\end{example}
+
+\begin{example}[Moto sul piano inclinato con carrucola] 
+    {\color{red} Disegno e diagramma delle forze}
+\end{example}
+
+\begin{example}[Moto sul piano inclinato libero di muoversi] 
+    {\color{red} Disegno e diagramma delle forze}
+\end{example}
+
 \subsection{Sistema massa-molla-smorzatore}
 Usando il secondo principio della dinamica
 \begin{equation}
@@ -708,9 +767,92 @@ Usando la seconda equazione cardinale della dinamica
     m L^2 \ddot{\theta}(t) = - m g L \sin \theta(t) \ .
 \end{equation}
 
-\subsection{Moto di sistemi di punti}
+\subsection{Moti impulsivi}
+{\color{red}
+\subsubsection{Collisioni tra punti materiali}
+\subsubsection{Collisioni tra punti materiali e superfici fisse}
+}
 
 \section{Moto di corpi estesi}
+
+\subsection{Rotolamento di un disco}
+\begin{example}[Rotolamento puro su superficie orizzontale, in assenza di attrito volvente]
+    {\color{red} Disegno e diagramma delle forze}
+
+    \noindent
+    \textbf{Gradi di libertà e di vincolo.} Studiando un corpo esteso nel piano, il problema ha al massimo 3 gradi di libertà. I vincoli in questo problema introducono 2 gradi di vincolo: la superficie orizzontale impone che il punto inferiore del disco sia sempre a contatto con la superficie, mentre l'ipotesi di puro rotolamento puro (senza strisciamento) impone che non ci sia velocità relativa tra il punto di contatto e la superficie.
+
+    \noindent
+    \textbf{Vincolli cinematici.}
+    \begin{equation}
+        x_G(t) = R \theta(t)
+    \end{equation}
+
+    \noindent
+    \textbf{Equazioni del moto -- approccio con equazione cardinale del momento angolare.}
+    \begin{equation}
+        \dot{\mathbf{\Gamma}}_H = - \dot{\mathbf{x}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext}
+    \end{equation}
+    \begin{equation}
+        \begin{aligned}
+            \mathbf{\Gamma}_H & = I_H \dot{\theta} \, \mathbf{\hat{z}} = \left( I_G + m R^2 \right) \dot{\theta} \, \mathbf{\hat{z}} \\
+            \mathbf{x}_H & = R \theta \, \mathbf{\hat{x}} \\
+            \mathbf{Q}   & = m \mathbf{v}_G = m R \, \dot{\theta} \, \mathbf{\hat{x}} \\
+            \mathbf{M}_H^{ext} & = \mathbf{0} \\
+        \end{aligned}
+    \end{equation}
+    %
+    \begin{equation}
+        \begin{cases}
+            I_H \ddot{\theta} = 0 \\
+            \theta(0) = 0 \\
+            \dot{\theta}(0) = \Omega \\
+        \end{cases}
+        \qquad \rightarrow \qquad
+        \begin{cases}
+            \ddot{\theta}(t) = 0 \\
+            \dot{ \theta}(t) = \Omega \\
+                  \theta (t) = \Omega t \\
+        \end{cases}
+        \qquad \rightarrow \qquad
+        \begin{cases}
+            \ddot{x}_{G}(t) = 0 \\
+            \dot{ x}_{G}(t) = R \Omega \\
+                 {x}_{G}(t) = R \Omega t \\
+        \end{cases}
+    \end{equation}
+
+\end{example}
+\begin{example}[Rotolamento puro su superficie orizzontale, con attrito volvente]
+    {\color{red} Disegno e diagramma delle forze}
+
+\end{example}
+\begin{example}[Rotolamento puro su suferficie inclinata]
+    {\color{red} Disegno e diagramma delle forze}
+    \begin{equation}
+        \dot{\mathbf{\Gamma}}_H = - \dot{\mathbf{x}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext}
+    \end{equation}
+    \begin{equation}
+        \mathbf{M}_H^{ext} = (\mathbf{r}_G - \mathbf{r}_H) \times m \mathbf{g} = R \, \mathbf{\hat{y}} \times (-m g \sin(\alpha) \mathbf{\hat{x}} - m g \cos(\alpha) \mathbf{\hat{y}}) = m g R \sin (\alpha) \, \mathbf{\hat{z}}
+    \end{equation}
+    %
+    \begin{equation}
+        \begin{cases}
+            I_H \ddot{\theta} = m g R \sin \alpha \\
+            \theta(0) = 0 \\
+            \dot{\theta}(0) = \Omega \\
+        \end{cases}
+        \qquad \rightarrow \qquad
+        \begin{cases}
+            \ddot{\theta}(t) = \dfrac{ m g R}{I_H} \sin (\alpha) \\
+            \dot{ \theta}(t) = \dfrac{ m g R}{I_H} \sin (\alpha) \, t + \Omega \\
+                  \theta (t) = \dfrac{1}{2} \dfrac{ m g R}{I_H} \sin(\alpha) \, t^2 + \Omega \, t \\
+        \end{cases}
+    \end{equation}
+\end{example}
+
+\begin{example}[Attrito statico e attrito dinamico in frenata -- ossia, perché non bloccare le ruote quando si frena]
+\end{example}
 
 \section{Moto dei corpi celesti}
 Per ragioni di importanza storica, e per la rilevanza che ha avuto la \textit{dinamica celeste} negli sviluppi della dinamica, viene riservata un'intera sezione al moto dei corpi celesti.
@@ -719,6 +861,6 @@ Per ragioni di importanza storica, e per la rilevanza che ha avuto la \textit{di
 \begin{itemize}
     \item legge di gravitazione universale di Newton
     \item moto dei due corpi
-    \item moto dei tre corpi -- cenni
+    \item moto dei tre corpi -- cenni: punti lagrangiani, telescopio Webb 
 \end{itemize}
 }

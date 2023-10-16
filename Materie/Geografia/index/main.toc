@@ -1,0 +1,20 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {I}Parte prima}{5}{part.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {II}Parte seconda}{7}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {III}Parte terza}{9}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {IV}Parte quarta}{11}{part.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{13}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{15}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{15}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{15}{appendix.alph1.Alph1}%
+\contentsfinish 

@@ -179,6 +179,10 @@ L'intorno di $+\infty$ viene definito come l'insieme aperto
         \end{aligned}
     \end{equation}
 \end{proof}
+
+{\color{red}
+\noindent
+REMOVE from here, MOVE to chapter about series
 \begin{definition}[Il numero di Nepero, $e$] Il numero di Nepero, $e$ può essere definito come il limite
     \begin{equation}
         e := \lim_{n \rightarrow \infty} \left( 1 + \dfrac{1}{n} \right)^n \ .
@@ -191,8 +195,9 @@ Si prova l'esistenza al finito di questo limite, dimostrando che la serie $a_n :
 \end{itemize}
 Per dimostrare che la serie è crescente, cerchiamo il legame tra due termini successivi.
 Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$.
+}
 
-\begin{proof}[Limite notevole dell'esponenziale - definizione] Questo limite non è nient'altro che una delle definizioni del numero $e$.
+\begin{proof}[Limite notevole dell'esponenziale - definizione] Questo limite non è nient'altro che una delle definizioni del numero $e$, come mostrato nella Sez.\S\ref{sec:napier}.
 \end{proof}
 \begin{proof}[Limite notevole dell'esponenziale - (1)]
     \begin{equation}
@@ -451,7 +456,7 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 \begin{theorem}
 La serie di Taylor troncata alla $n$-esima potenza,
 \begin{equation}
-  T^n[f(x_0)](x) = \sum_{i=0}^{n} \dfrac{f^{(i)}(x_0)}{i!} (x-x_0)^i \ ,
+  T^n[f(x_0)](x) = \sum_{k=0}^{n} \dfrac{f^{(k)}(x_0)}{i!} (x-x_0)^k \ ,
 \end{equation}
 è un'approssimazione dell'$n$-esimo ordine della funzione $f(x)$, i.e.
 \begin{equation}
@@ -464,9 +469,41 @@ La serie di Taylor troncata alla $n$-esima potenza,
 
 
 \section{Applicazioni}
-\subsection{Ricerca minimi e massimi locali}
-\subsection{Studio funzione}
+\subsection{Punti in cui $f'(x) = 0$: punti di estremo locale e flessi orizzontali}
+Per una funzione derivabile, i punti in cui si annulla la derivata prima di una funzione $f(x)$ possono essere:
+\begin{itemize}
+    \item punti di massimo locale
+    \item punti di minimo locale
+    \item punti di flesso orizzontale
+\end{itemize}
+\begin{definition}[Punto di massimo locale]
+\end{definition}
+\begin{theorem}[Condizioni per un punto di massimo locale] Il punto $x_0$ è un punto di massimo locale per una funzione $f(x)$ derivabile se
+    \begin{itemize}
+        \item $f'(x_0) = 0$
+        \item la prima derivata di ordine superiore valutata in $x_0$ diversa da zero, è una derivata di \textbf{ordine pari} ed è \textbf{negativa}, $f^{(n)}(x_0) < 0$
+    \end{itemize}
+\end{theorem}
+\begin{definition}[Punto di minimo locale]
+\end{definition}
+\begin{theorem}[Condizioni per un punto di minimo locale] Il punto $x_0$ è un punto di mimimo locale per una funzione $f(x)$ derivabile se
+    \begin{itemize}
+        \item $f'(x_0) = 0$
+        \item la prima derivata di ordine superiore valutata in $x_0$ diversa da zero, è una derivata di \textbf{ordine pari}, ed è \textbf{positiva}, $f^{(n)}(x_0) > 0$
+    \end{itemize}
+\end{theorem}
+\begin{definition}[Punto di flesso orizzontale]
+\end{definition}
+\begin{theorem}[Condizioni per un punto di flesso orizzontale] Il punto $x_0$ è un punto di flesso orizzontale per una funzione $f(x)$ derivabile se
+    \begin{itemize}
+        \item $f'(x_0) = 0$
+        \item la prima derivata di ordine superiore valutata in $x_0$ diversa da zero, è una derivata di \textbf{ordine dispari}
+    \end{itemize}
+\end{theorem}
 
+\subsection{Punti in cui $f''(x) = 0$: punti di flesso}
+
+\subsection{Studio funzione}
 
 % =======================================================================================
 \chapter{Integrali}\label{ch:integrals}
