@@ -480,183 +480,185 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {24.2}Geometria nello spazio}{103}{section.24.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {X}Statistica}{105}{part.10}%
+\contentsline {part}{\numberline {X}Calcolo combinatorio}{105}{part.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {25}Variabili casuali}{107}{chapter.25}%
+\contentsline {part}{\numberline {XI}Statistica}{109}{part.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25.1}Statistica univariata}{107}{section.25.1}%
+\contentsline {chapter}{\numberline {25}Variabili casuali}{111}{chapter.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.1.1}Variabili casuali, discrete e continue}{107}{subsection.25.1.1}%
+\contentsline {section}{\numberline {25.1}Statistica univariata}{111}{section.25.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.1.2}Funzioni di probabilità}{108}{subsection.25.1.2}%
+\contentsline {subsection}{\numberline {25.1.1}Variabili casuali, discrete e continue}{111}{subsection.25.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proprietà delle funzioni di probabilità.}{108}{paragraph*.48}%
+\contentsline {subsection}{\numberline {25.1.2}Funzioni di probabilità}{112}{subsection.25.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.1.3}Indicatori statistici}{108}{subsection.25.1.3}%
+\contentsline {paragraph}{Proprietà delle funzioni di probabilità.}{112}{paragraph*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.1.4}Distribuzioni di probabilità notevoli}{109}{subsection.25.1.4}%
+\contentsline {subsection}{\numberline {25.1.3}Indicatori statistici}{112}{subsection.25.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {25.1.4.1}Distribuzioni discrete}{109}{subsubsection.25.1.4.1}%
+\contentsline {subsection}{\numberline {25.1.4}Distribuzioni di probabilità notevoli}{113}{subsection.25.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {25.1.4.2}Distribuzioni continue}{109}{subsubsection.25.1.4.2}%
+\contentsline {subsubsection}{\numberline {25.1.4.1}Distribuzioni discrete}{113}{subsubsection.25.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.1.5}Trasformazioni di funzioni di probabilità}{109}{subsection.25.1.5}%
+\contentsline {subsubsection}{\numberline {25.1.4.2}Distribuzioni continue}{113}{subsubsection.25.1.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25.2}Statistica multivariata}{109}{section.25.2}%
+\contentsline {subsection}{\numberline {25.1.5}Trasformazioni di funzioni di probabilità}{114}{subsection.25.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.1}Variabili casuali discrete e continue}{110}{subsection.25.2.1}%
+\contentsline {section}{\numberline {25.2}Statistica multivariata}{114}{section.25.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.2}Funzioni di probabilità}{110}{subsection.25.2.2}%
+\contentsline {subsection}{\numberline {25.2.1}Variabili casuali discrete e continue}{114}{subsection.25.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.3}Teorema di Bayes}{111}{subsection.25.2.3}%
+\contentsline {subsection}{\numberline {25.2.2}Funzioni di probabilità}{114}{subsection.25.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.4}Indicatori statistici}{112}{subsection.25.2.4}%
+\contentsline {subsection}{\numberline {25.2.3}Teorema di Bayes}{115}{subsection.25.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.5}Distribuzione di probabilità notevoli}{112}{subsection.25.2.5}%
+\contentsline {subsection}{\numberline {25.2.4}Indicatori statistici}{116}{subsection.25.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {25.2.6}Trasformazioni di funzioni di probabilità}{112}{subsection.25.2.6}%
+\contentsline {subsection}{\numberline {25.2.5}Distribuzione di probabilità notevoli}{116}{subsection.25.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {26}Variabili indipendenti identicamente distribuite e campionamento}{113}{chapter.26}%
+\contentsline {subsection}{\numberline {25.2.6}Trasformazioni di funzioni di probabilità}{116}{subsection.25.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26.1}Variabili indipendenti identicamente distribuite}{113}{section.26.1}%
+\contentsline {chapter}{\numberline {26}Variabili indipendenti identicamente distribuite e campionamento}{117}{chapter.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {26.1.1}Teorema dei grandi numeri}{113}{subsection.26.1.1}%
+\contentsline {section}{\numberline {26.1}Variabili indipendenti identicamente distribuite}{117}{section.26.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {26.1.2}Teorema del limite centrale}{113}{subsection.26.1.2}%
+\contentsline {subsection}{\numberline {26.1.1}Teorema dei grandi numeri}{117}{subsection.26.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26.2}Campionamento e stimatori}{113}{section.26.2}%
+\contentsline {subsection}{\numberline {26.1.2}Teorema del limite centrale}{117}{subsection.26.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {26.2.1}Stimatore della media corretto}{113}{subsection.26.2.1}%
+\contentsline {section}{\numberline {26.2}Campionamento e stimatori}{117}{section.26.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {26.2.2}Stimatore della varianza corretto}{114}{subsection.26.2.2}%
+\contentsline {subsection}{\numberline {26.2.1}Stimatore della media corretto}{117}{subsection.26.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {27}Approcci alla statistica}{115}{chapter.27}%
+\contentsline {subsection}{\numberline {26.2.2}Stimatore della varianza corretto}{118}{subsection.26.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27.1}Statistica descrittiva}{115}{section.27.1}%
+\contentsline {chapter}{\numberline {27}Approcci alla statistica}{119}{chapter.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Variabili aleatorie univariate.}{115}{paragraph*.49}%
+\contentsline {section}{\numberline {27.1}Statistica descrittiva}{119}{section.27.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Variabili aleatorie multivariate.}{115}{paragraph*.50}%
+\contentsline {paragraph}{Variabili aleatorie univariate.}{119}{paragraph*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27.2}Statistica inferenziale}{115}{section.27.2}%
+\contentsline {paragraph}{Variabili aleatorie multivariate.}{119}{paragraph*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {27.2.1}Modelli statistici}{116}{subsection.27.2.1}%
+\contentsline {section}{\numberline {27.2}Statistica inferenziale}{119}{section.27.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {28}Esempi di applicazioni}{117}{chapter.28}%
+\contentsline {subsection}{\numberline {27.2.1}Modelli statistici}{120}{subsection.27.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.1}Campionamento e stime}{117}{section.28.1}%
+\contentsline {chapter}{\numberline {28}Esempi di applicazioni}{121}{chapter.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.2}Progetto di esperimenti}{117}{section.28.2}%
+\contentsline {section}{\numberline {28.1}Campionamento e stime}{121}{section.28.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.3}Regressione}{117}{section.28.3}%
+\contentsline {section}{\numberline {28.2}Progetto di esperimenti}{121}{section.28.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.4}Classificazione}{117}{section.28.4}%
+\contentsline {section}{\numberline {28.3}Regressione}{121}{section.28.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.5}Teoria della decisione}{117}{section.28.5}%
+\contentsline {section}{\numberline {28.4}Classificazione}{121}{section.28.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28.6}Conferma o confutazione di ipotesi}{117}{section.28.6}%
+\contentsline {section}{\numberline {28.5}Teoria della decisione}{121}{section.28.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {29}Processi casuali}{119}{chapter.29}%
+\contentsline {section}{\numberline {28.6}Conferma o confutazione di ipotesi}{121}{section.28.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {29.1}Esempi di processi stocastici}{119}{section.29.1}%
+\contentsline {chapter}{\numberline {29}Processi casuali}{123}{chapter.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {29.1.1}Random walk}{119}{subsection.29.1.1}%
+\contentsline {section}{\numberline {29.1}Esempi di processi stocastici}{123}{section.29.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {29.1.2}Markov process}{119}{subsection.29.1.2}%
+\contentsline {subsection}{\numberline {29.1.1}Random walk}{123}{subsection.29.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {30}Introduzione all'intelligenza artificiale}{121}{chapter.30}%
+\contentsline {subsection}{\numberline {29.1.2}Markov process}{123}{subsection.29.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {30.1}Introduzione}{121}{section.30.1}%
+\contentsline {chapter}{\numberline {30}Introduzione all'intelligenza artificiale}{125}{chapter.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cosa si intende per intelligenza artificiale.}{121}{paragraph*.51}%
+\contentsline {section}{\numberline {30.1}Introduzione}{125}{section.30.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Nessun pasto è gratis -- compromesso bias-varianza.}{121}{paragraph*.52}%
+\contentsline {paragraph}{Cosa si intende per intelligenza artificiale.}{125}{paragraph*.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{La maledizione della dimensionalità.}{121}{paragraph*.53}%
+\contentsline {paragraph}{Nessun pasto è gratis -- compromesso bias-varianza.}{125}{paragraph*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Deep learning.}{121}{paragraph*.54}%
+\contentsline {paragraph}{La maledizione della dimensionalità.}{125}{paragraph*.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {30.2}Machine learning}{121}{section.30.2}%
+\contentsline {paragraph}{Deep learning.}{125}{paragraph*.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {30.2.1}Supervised learning}{121}{subsection.30.2.1}%
+\contentsline {section}{\numberline {30.2}Machine learning}{125}{section.30.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {30.2.1.1}Regressione}{121}{subsubsection.30.2.1.1}%
+\contentsline {subsection}{\numberline {30.2.1}Supervised learning}{125}{subsection.30.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Regressione lineare.}{121}{paragraph*.55}%
+\contentsline {subsubsection}{\numberline {30.2.1.1}Regressione}{125}{subsubsection.30.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Regressione lineare generalizzata.}{121}{paragraph*.56}%
+\contentsline {paragraph}{Regressione lineare.}{125}{paragraph*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {30.2.1.2}Classificazione}{121}{subsubsection.30.2.1.2}%
+\contentsline {paragraph}{Regressione lineare generalizzata.}{125}{paragraph*.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {30.2.2}Unsupervised learning}{121}{subsection.30.2.2}%
+\contentsline {subsubsection}{\numberline {30.2.1.2}Classificazione}{125}{subsubsection.30.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {30.2.2.1}Dimensionality reduction}{121}{subsubsection.30.2.2.1}%
+\contentsline {subsection}{\numberline {30.2.2}Unsupervised learning}{125}{subsection.30.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {30.2.2.2}Clustering}{122}{subsubsection.30.2.2.2}%
+\contentsline {subsubsection}{\numberline {30.2.2.1}Dimensionality reduction}{125}{subsubsection.30.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {30.2.3}Reinforcement learning}{122}{subsection.30.2.3}%
+\contentsline {subsubsection}{\numberline {30.2.2.2}Clustering}{126}{subsubsection.30.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {30.3}Deep learning}{122}{section.30.3}%
+\contentsline {subsection}{\numberline {30.2.3}Reinforcement learning}{126}{subsection.30.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {XI}Matematica numerica - cenni}{123}{part.11}%
+\contentsline {section}{\numberline {30.3}Deep learning}{126}{section.30.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {31}Equazioni e sistemi di equazioni}{125}{chapter.31}%
+\contentsline {part}{\numberline {XII}Matematica numerica - cenni}{127}{part.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {31.1}Equazioni}{125}{section.31.1}%
+\contentsline {chapter}{\numberline {31}Equazioni e sistemi di equazioni}{129}{chapter.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {31.1.1}Equazioni non lineari}{125}{subsection.31.1.1}%
+\contentsline {section}{\numberline {31.1}Equazioni}{129}{section.31.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {31.1.1.1}Metodo della bisezione}{125}{subsubsection.31.1.1.1}%
+\contentsline {subsection}{\numberline {31.1.1}Equazioni non lineari}{129}{subsection.31.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {31.1.1.2}Metodo di Newton}{126}{subsubsection.31.1.1.2}%
+\contentsline {subsubsection}{\numberline {31.1.1.1}Metodo della bisezione}{129}{subsubsection.31.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {31.2}Sistemi di equazioni}{126}{section.31.2}%
+\contentsline {subsubsection}{\numberline {31.1.1.2}Metodo di Newton}{130}{subsubsection.31.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {31.2.1}Sistemi di equazioni lineari}{126}{subsection.31.2.1}%
+\contentsline {section}{\numberline {31.2}Sistemi di equazioni}{130}{section.31.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {31.2.2}Sistemi di equazioni non lineari}{126}{subsection.31.2.2}%
+\contentsline {subsection}{\numberline {31.2.1}Sistemi di equazioni lineari}{130}{subsection.31.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {31.2.2.1}Metodo di Newton per sistemi}{126}{subsubsection.31.2.2.1}%
+\contentsline {subsection}{\numberline {31.2.2}Sistemi di equazioni non lineari}{130}{subsection.31.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {32}Approssimazione di funzioni}{127}{chapter.32}%
+\contentsline {subsubsection}{\numberline {31.2.2.1}Metodo di Newton per sistemi}{130}{subsubsection.31.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {32.1}}{127}{section.32.1}%
+\contentsline {chapter}{\numberline {32}Approssimazione di funzioni}{131}{chapter.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {33}Derivate}{129}{chapter.33}%
+\contentsline {section}{\numberline {32.1}}{131}{section.32.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {33.1}}{129}{section.33.1}%
+\contentsline {chapter}{\numberline {33}Derivate}{133}{chapter.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {34}Ricerca dei massimi e ottimizzazione}{131}{chapter.34}%
+\contentsline {section}{\numberline {33.1}}{133}{section.33.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {34.1}Ottimizzazione libera}{131}{section.34.1}%
+\contentsline {chapter}{\numberline {34}Ricerca dei massimi e ottimizzazione}{135}{chapter.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {34.1.1}Algoritmi}{131}{subsection.34.1.1}%
+\contentsline {section}{\numberline {34.1}Ottimizzazione libera}{135}{section.34.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Discesa lungo il gradiente.}{131}{paragraph*.57}%
+\contentsline {subsection}{\numberline {34.1.1}Algoritmi}{135}{subsection.34.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {34.2}Ottimizzazione vincolata}{131}{section.34.2}%
+\contentsline {paragraph}{Discesa lungo il gradiente.}{135}{paragraph*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {35}Integrali}{133}{chapter.35}%
+\contentsline {section}{\numberline {34.2}Ottimizzazione vincolata}{135}{section.34.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {35.1}}{133}{section.35.1}%
+\contentsline {chapter}{\numberline {35}Integrali}{137}{chapter.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {36}Equazioni differenziali ordinarie}{135}{chapter.36}%
+\contentsline {section}{\numberline {35.1}}{137}{section.35.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {36.1}Riduzione a sistema di primo ordine}{135}{section.36.1}%
+\contentsline {chapter}{\numberline {36}Equazioni differenziali ordinarie}{139}{chapter.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {36.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{135}{section.36.2}%
+\contentsline {section}{\numberline {36.1}Riduzione a sistema di primo ordine}{139}{section.36.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {36.3}Schemi numerici per problemi ai valori al contorno}{135}{section.36.3}%
+\contentsline {section}{\numberline {36.2}Schemi numerici per problemi ai valori iniziali, o di Cauchy}{139}{section.36.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {37}Statistica}{137}{chapter.37}%
+\contentsline {section}{\numberline {36.3}Schemi numerici per problemi ai valori al contorno}{139}{section.36.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {XII}Appendici, indice e bibliografia}{139}{part.12}%
+\contentsline {chapter}{\numberline {37}Statistica}{141}{chapter.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{141}{chapter*.58}%
+\contentsline {part}{\numberline {XIII}Appendici, indice e bibliografia}{143}{part.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{143}{section*.59}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{145}{chapter*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{145}{section*.60}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{147}{section*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{145}{appendix.alph1.Alph1}%
+\contentsline {chapter}{Appendices}{149}{section*.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{149}{appendix.alph1.Alph1}%
 \contentsfinish 

@@ -220,59 +220,91 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {IV}Termodinamica}{45}{part.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Principi della termodinamica}{47}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Principi della termodinamica}{49}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Primo principio}{47}{section.10.1}%
+\contentsline {section}{\numberline {10.1}Primo principio}{49}{section.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Secondo principio}{47}{section.10.2}%
+\contentsline {section}{\numberline {10.2}Secondo principio}{49}{section.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Terzo principio}{48}{section.10.3}%
+\contentsline {subsection}{\numberline {10.2.1}Conseguenze del secondo principio della termodinamica}{50}{subsection.10.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{48}{section.10.4}%
+\contentsline {subsection}{\numberline {10.2.2}Integrale di Clausius}{50}{subsection.10.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Stati della materia e leggi costitutive}{49}{chapter.11}%
+\contentsline {subsection}{\numberline {10.2.3}Secondo principio della dinamica per sistemi non omogenei}{51}{subsection.10.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Gas}{49}{section.11.1}%
+\contentsline {section}{\numberline {10.3}Terzo principio}{51}{section.10.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Legge dei gas perfetti}{49}{subsection.11.1.1}%
+\contentsline {section}{\numberline {10.4}Principio zero - Equilibrio termico}{51}{section.10.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Solidi}{49}{section.11.2}%
+\contentsline {chapter}{\numberline {11}Relazioni e coefficienti termodinamici}{53}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Macchine termiche}{51}{chapter.12}%
+\contentsline {chapter}{\numberline {12}Stati della materia e leggi costitutive}{55}{chapter.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Macchina ideale di Carnot}{51}{section.12.1}%
+\contentsline {section}{\numberline {12.1}Stati della materia, variabili termodinamaiche e diagramma di stato}{55}{section.12.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Postulati della termodinamica di Kelvin e Planck}{51}{section.12.2}%
+\contentsline {section}{\numberline {12.2}Gas}{55}{section.12.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Cicli termodinamici e macchine termiche}{51}{section.12.3}%
+\contentsline {subsection}{\numberline {12.2.1}Leggi sui gas: Boyle, Gay-Lussac, Charles}{55}{subsection.12.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.1}Cicli termodinamici diretti}{51}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.2.2}Equazione di stato dei gas perfetti}{55}{subsection.12.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.1}Ciclo Otto}{51}{subsubsection.12.3.1.1}%
+\contentsline {subsection}{\numberline {12.2.3}Equazione di stato di Van der Waals -- equazione di stato dei gas reali}{55}{subsection.12.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.2}Ciclo Diesel}{51}{subsubsection.12.3.1.2}%
+\contentsline {subsection}{\numberline {12.2.4}Teoria cinetica dei gas -- cenni}{55}{subsection.12.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.3}Ciclo Joule-Brayton}{51}{subsubsection.12.3.1.3}%
+\contentsline {subsubsection}{\numberline {12.2.4.1}Equipartizione dell'energia}{55}{subsubsection.12.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.3.1.4}Ciclo Rankine}{51}{subsubsection.12.3.1.4}%
+\contentsline {paragraph}{Gradi di libertà delle molecole}{55}{paragraph*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.3.2}Cicli termodinamici inversi}{51}{subsection.12.3.2}%
+\contentsline {section}{\numberline {12.3}Liquidi}{56}{section.12.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Trasmissione del calore}{53}{chapter.13}%
+\contentsline {section}{\numberline {12.4}Solidi}{56}{section.12.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {V}Elettromagnetismo}{55}{part.5}%
+\contentsline {section}{\numberline {12.5}Miscele}{56}{section.12.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Introduzione}{57}{chapter.14}%
+\contentsline {section}{\numberline {12.6}Vapore e aria umida}{56}{section.12.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{59}{part.6}%
+\contentsline {chapter}{\numberline {13}Macchine termiche}{57}{chapter.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{61}{part.7}%
+\contentsline {section}{\numberline {13.1}Macchina ideale di Carnot}{58}{section.13.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{63}{chapter*.19}%
+\contentsline {section}{\numberline {13.2}Enunciati del secondo principio della termodinamica di Kelvin-Planck e Clausius}{58}{section.13.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{65}{section*.20}%
+\contentsline {section}{\numberline {13.3}Cicli termodinamici e macchine termiche}{59}{section.13.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{65}{section*.21}%
+\contentsline {subsection}{\numberline {13.3.1}Cicli termodinamici diretti}{59}{subsection.13.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{65}{appendix.alph1.Alph1}%
+\contentsline {subsubsection}{\numberline {13.3.1.1}Ciclo Otto}{59}{subsubsection.13.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {13.3.1.2}Ciclo Diesel}{59}{subsubsection.13.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {13.3.1.3}Ciclo Joule-Brayton}{59}{subsubsection.13.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {13.3.1.4}Ciclo Rankine}{59}{subsubsection.13.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.3.2}Cicli termodinamici inversi}{59}{subsection.13.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {14}Trasmissione del calore}{61}{chapter.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.1}Conduzione}{61}{section.14.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.2}Convezione}{61}{section.14.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.3}Irraggiamento}{61}{section.14.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {V}Elettromagnetismo}{63}{part.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {15}Introduzione}{65}{chapter.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VI}Relatività di Einstein - cenni}{67}{part.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {VII}Meccanica quantistica - cenni}{69}{part.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{71}{chapter*.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{73}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{73}{section*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{73}{appendix.alph1.Alph1}%
 \contentsfinish 

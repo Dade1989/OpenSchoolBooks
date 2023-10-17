@@ -113,13 +113,18 @@
 \begin{definition}[Variabile di Bernoulli] La densità di probabilità di Bernoulli è una variabile casuale discreta che può assumere due valori, qui chiamati $\{0, 1\}$, con probabilità
     \begin{equation}
         p(x) = \begin{cases}
-            \ \ \alpha \qquad , \qquad x = 0 \\
-            1- \alpha   \quad , \qquad x = 1
+            1 - p   \quad , \qquad x = 0 \\
+            \ \ p  \qquad , \qquad x = 1
         \end{cases}
     \end{equation}
 \end{definition}
 \begin{definition}[Variabile binomiale]
+    La variabile binomiale rappresenta la probabilità che, in un processo di Bernoulli di dimensione $n$, si verifichino $k$ successi. La distribuzione di probabilità è quindi
+    \begin{equation}
+        p(k) = \binom{n}{k} p^k ( 1 - p )^{n-k} \ , \qquad \text{per $k \in \{0, 1, \dots, n\}$}
+    \end{equation}
 \end{definition}
+
 \begin{definition}[Variabile di Poisson]
 \end{definition}
 

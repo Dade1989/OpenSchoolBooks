@@ -1,4 +1,37 @@
 
+\begin{itemize}
+    \item \textbf{Robert Boyle} (1627-1691) formula una teoria atomistica della materia. Compie studi sulle pompe ad aria insieme a \textbf{Robert Hooke}, usate negli esperimenti sulle proprietà dei gas, che gli permettono di formulare la legge che prenderà il suo nome e e che formula la relazione inversa tra pressione e volume occupato da un gas a temperatura costante.
+    \item Newcomen (1664-1729) presenta la sua macchina a vapore, come prima applicazione industriale del vapore.
+    \item \textbf{Daniel Bernoulli} (1700-1782) pubblica nel 1738 il lavoro \textit{Hydodynamica}, opera sullo studio dei fluidi, che contiene una prima formulazione della \textbf{teoria cinetica dei gas}
+    \item \textbf{James Watt} (1736-1819) all'università di Glasgow, conduce esperimenti sul vapore, insieme a Joseph Black, che introduce i concetti di calore latente e del calore specifico. Watt migliora la macchina di Newcomen e presenta il suo modello di macchina a vapore. Con l'introduzione della distribuzione a cassetti e del meccanismo biell-manovella per creare un moto rotatorio dal moto alternativo del pistone, la macchina a vapore diventa una macchina motrice a utilizzo generalizzato in molti settori, protagonista della rivoluzione industriale inglese
+    \item esperimenti sui gas permettono a \textbf{Jacques Charles}, \textbf{Alessandro Volta} di formulare indipendentemente la legge che verrà pubblicata nel 1802 dal \textbf{Joseph Louis Gay-Lussac}, sulla proporzionalità diretta tra temperatura e volume occupato da un gas in un sistema chiuso durante una trasformazione isobara. Gay-Lussac formula poi la legge sulla proporzionalità diretta tra pressione e temperatura di un gas in un sistema chiuso a volume costante.
+    \item \textbf{Sadi Carnot} (1796-1832), interessato allo studio e al miglioramento dell'efficienza dei motori termici, pubblica nel 1824 \textit{Riflessioni sulla forza motrice del fuoco}, testo che getta le basi per lo studio della termodinamica. {\color{red} cosa c'è in questo testo di interessante?}
+    \item \textbf{Benoit Paul Emile Clapeyron} (1799-1864) sviluppa il lavoro di Carnot, introducendo una descrizione analitica e grafica dei processi termodinamici. Indaga i cicli termodinamici nel \textbf{piano $P-V$} che prende il suo nome. Riprende e sviluppa l'idea di Carnot di \textbf{trasformazione reversibile} e riformula il \textbf{prinicipio di Carnot} sull'efficienza massima di delle macchine termiche, fornendo una prima formulazione di quello che diventerà il secondo principio della termodinamica. Lavora inoltre sulle transizioni di fase, e sulla statica delle strutture elastiche.
+    \item gli studi \textbf{James Prescott Joule} (1818-1889) sulla natura del calore mettono in relazione il calore e il lavoro meccanico, 
+    \item \textbf{Rudolf Clausius} (1822-1888)
+        \begin{itemize} 
+            \item formula i principi della termodinamica. 
+                \begin{itemize}
+                    \item Nel 1850 formula il \textbf{primo principio della termodinamica}, introducendo il concetto di \textbf{energia interna} come variabile di stato del sistema: il primo principio della termodinamica rappresenta un bilancio dell'energia totale e, come caso particolare, la prima formulazione della \textbf{legge della conservazione dell'energia}.
+                    \item Nel 1865 riformula il principio di Carnot e introduce il concetto di \textbf{entropia} per la distinzione tra processi reversibili e irreversibili, e la formulazione del \textbf{secondo principio della termodinamica};
+                \end{itemize} 
+            \item è autore di sviluppi nella teoria cinetica dei gas, introducendo i gradi di libertà molecolari e il concetto di cammino libero medio di una particella.
+       \end{itemize}
+   \item \textbf{William Rankine} (1820-1872), a Glasgow, dopo i primi anni dedicati alla scienza delle costruzioni e alla meccanica, si concentra sulla termodinamica e lo studio del moto dei fluidi (interessi su onde d'urto e vortici):
+       \begin{itemize}
+           \item compie studi sul bilancio di energia, coniando il termine \textit{energia potenziale}, e dando la definizione di \textit{energia come la capacità di compiere lavoro}
+           \item compie studi sull'evaporazione di un liquido, e sul vapore, fornendo l'espressione del calore latente di exaporazione
+           \item applica i suoi studi ai motori termici, proponendo il \textbf{ciclo termodinamico} che prende il suo nome
+       \end{itemize}
+    \item \textbf{William Thomson} (1824-1907), anche noto come \textbf{Lord Kelvin}, è autore di importanti ricerche nell'ambito dell'analisi dell'elettromagnetismo e della termodinamica, oltre ad aver partecipato tra le sue tante attività alla progettazione alla posa dei cavi transatlantici per la trasmissione delle informazioni. In termodinamica, si possono ricordare:
+        \begin{itemize}
+            \item la \textbf{scala di temperatura assoluta}, e l'introduzione del concetto di \textbf{zero assoluto}
+            \item l'enunciato della seconda legge della termodinamica
+            \item la scoperta dell'effetto Joule-Thomson
+        \end{itemize}
+\end{itemize}
+
+
 % ------------------------------------------------------------------------------
 \chapter{Principi della termodinamica}\label{thermodynamics:principles}
 \section{Primo principio}
@@ -48,6 +81,45 @@ Definendo la temperatura $T := \left(\dfrac{\partial U}{\partial S}\right)_x > 0
   T dS = \delta Q^{ext} + \delta^+ D \ge \delta Q^{ext} \qquad \rightarrow \qquad dS \ge \dfrac{\delta Q^{ext}}{T} \ .
 \end{equation}
 
+\subsection{Conseguenze del secondo principio della termodinamica}
+Nello scambio di calore tra due sistemi $S_1$, $S_2$, si manifesta un flusso di calore positivo dal corpo a temperatura maggiore a quello a temperatura minore. Chiamando $Q_{21}$ il flusso di calore tra i due sistemi, scegliendo il segno positivo se fa aumentare l'energia del sistema $2$,
+\begin{equation}
+\begin{aligned}
+    &  Q_{21} > 0 \qquad \text{se $T_1 > T_2$} \\ 
+    &  Q_{21} < 0 \qquad \text{se $T_1 < T_2$} \\ 
+\end{aligned}
+\end{equation}
+possiamo riassumere queste condizioni sulla trasmissione del calore con l'unica relazione
+\begin{equation}
+    Q_{21} \left( \dfrac{1}{T_2} - \dfrac{1}{T_1} \right) > 0 \ ,
+\end{equation}
+o, introducendo il flusso di calore ``in direzione opposta'' $Q_{12} = -Q_{21}$,
+\begin{equation}
+    \dfrac{Q_{21}}{T_2} + \dfrac{Q_{12}}{T_1} > 0 \ .
+\end{equation}
+
+\subsection{Integrale di Clausius}
+Chiamando $\delta Q$ il flusso di calore tra l'ambiente esterno e un sistema omogeneo, positivo se ``entrante'' nel sistema,
+si può scrivere
+\begin{equation}
+    \dfrac{\delta Q}{T} - \dfrac{\delta Q}{T^{ext}} > 0
+\end{equation}
+\begin{equation}
+    0 = \oint dS \ge \oint \dfrac{\delta Q}{T} \ge \oint \dfrac{\delta Q}{T^{ext}} 
+\end{equation}
+
+\subsection{Secondo principio della dinamica per sistemi non omogenei}
+
+\begin{equation}
+\begin{aligned}
+    dS = \sum_i dS_i
+    & = \sum_i \left( \dfrac{\delta Q^{i,ext(i)}}{T_i} + \dfrac{\delta^+ D_i}{T_i} \right) = \\
+    & = \sum_i \left( \dfrac{\delta Q^{i,ext} + \sum_{j \ne i} \delta Q_{ij}}{T_i} + \dfrac{\delta^+ D_i}{T_i} \right) = \\
+    & = \sum_i \underbrace{ \dfrac{\delta Q^{i,ext}}{T_i} }_{\ge \frac{\delta Q^{i,ext}}{T_i^{ext}}} +  \underbrace{ \sum_i \sum_{j \ne i} \dfrac{\delta Q_{ij}}{T_i} }_{\ge 0} + \sum_i \underbrace{ \dfrac{\delta^+ D_i}{T_i}}_{\ge 0} \ge \sum_i \dfrac{\delta Q^{i,ext}}{T_i^{ext}}
+\end{aligned}
+\end{equation}
+
+
 \section{Terzo principio}
 Il terzo principio della termodinamica postula la positività della temperatura
 \begin{equation}
@@ -56,23 +128,164 @@ Il terzo principio della termodinamica postula la positività della temperatura
 
 \section{Principio zero - Equilibrio termico}
 
-% ------------------------------------------------------------------------------
+% ==============================================================================
+\chapter{Relazioni e coefficienti termodinamici}
+
+% ==============================================================================
 \chapter{Stati della materia e leggi costitutive}
+% ------------------------------------------------------------------------------
+\section{Stati della materia, variabili termodinamaiche e diagramma di stato}
+% ------------------------------------------------------------------------------
 \section{Gas}
-\subsection{Legge dei gas perfetti}
-\section{Solidi}
+\subsection{Leggi sui gas: Boyle, Gay-Lussac, Charles}
+\begin{equation}
+    P V = \text{cost} \qquad \text{con $T$ costante (legge di Boyle)}
+\end{equation}
+\begin{equation}
+    \dfrac{V}{T} = \text{cost} \qquad \text{con $P$ costante (legge di Charles)}
+\end{equation}
+\begin{equation}
+    \dfrac{P}{T} = \text{cost} \qquad \text{con $V$ costante (legge di Gay-Lussac)}
+\end{equation}
+\subsection{Equazione di stato dei gas perfetti}
+\begin{equation}
+    P V = n R T
+\end{equation}
+con $n$ numero di moli, $R$ \textbf{costante dei gas}.
+
+La costante dei gas è legata alla \textbf{costante di Boltzmann} $k_B$ dal \textbf{numero di Avogadro} $N_A$,
+\begin{equation}
+    R = k_B N_A
+\end{equation}
+\begin{equation}
+    P V = n R T = \underbrace{n N_A}_{= N} k_B T = N k_B T
+\end{equation}
+con $N$ numero di particelle (molecole) del sistema.
+
+\subsection{Equazione di stato di Van der Waals -- equazione di stato dei gas reali}
+
+\subsection{Teoria cinetica dei gas -- cenni}
+
+\subsubsection{Equipartizione dell'energia}
+
+\paragraph{Gradi di libertà delle molecole}
+
 
 % ------------------------------------------------------------------------------
+\section{Liquidi}
+% ------------------------------------------------------------------------------
+\section{Solidi}
+% ------------------------------------------------------------------------------
+\section{Miscele}
+% ------------------------------------------------------------------------------
+\section{Vapore e aria umida}
+
+% ==============================================================================
 \chapter{Macchine termiche}\label{thermodynamics:thermal_machines}
+% ------------------------------------------------------------------------------
+\begin{definition}[Ciclo termodinamico] Un ciclo termodinamico è un insieme di trasformazioni termodinamiche che riporta il sistema allo stato di partenza.
+\end{definition}
+Trascurando i termini dinamici, $E^{tot} = K + U \simeq U$, il primo principio della termodinamica
+\begin{equation}
+    \Delta U = L + Q
+\end{equation}
+tra lo stato iniziale e finale del ciclo, coincidenti, prevede $\Delta U = 0$, e quindi
+\begin{equation}
+    0 = L + Q \ ,
+\end{equation}
+o distinguendo i contributi di calore entrante $Q^{in} > 0$ e uscente $Q^{out} < 0$, si può riscrivere
+\begin{equation}
+    0 = L + Q^{in} + Q^{out} \ .
+\end{equation}
+
+\begin{definition}[Ciclo termodinamico diretto] In un ciclo termodinamico diretto, si fornisce calore $Q^{in}$ alla macchina per ottenere un lavoro meccanico, $L<0$.
+\end{definition}
+\begin{example}[Motori a combustione interna -- alternativi]
+\end{example}
+\begin{example}[Motori a combustione interna -- continui]
+\end{example}
+\begin{example}[Macchina a vapore]
+\end{example}
+
+\begin{definition}[Ciclo termodinamico inverso] In un ciclo termodinamico inverso, si fornisce lavoro (e quindi $L < 0$) a una macchina termica per sottrarre calore a un sistema.
+\end{definition}
+\begin{example}[Frigorifero]
+\end{example}
+
+\begin{definition}[Efficienza di un ciclo termodinamico]
+    \begin{equation}
+        \eta = \dfrac{\text{Effetto utile}}{\text{Ingresso del sistema}}
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Efficienza di un ciclo termodinamico diretto] L'efficienza $\eta$ di un ciclo termodinamico è il rapporto tra il lavoro utile ottenuto $L$ e il calore fornito $Q^{in}$ (che rappresenta il massimo lavoro ottenibile)
+    \begin{equation}
+        \eta = \dfrac{-L}{Q^{in}} = \dfrac{Q^{in}+Q^{out}}{Q^{in}} = 1 + \dfrac{Q^{out}}{Q^{in}} =  1 - \dfrac{|Q^{out}|}{Q^{in}} \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Efficienza di un ciclo termodinamico inverso] $L > 0$
+    \begin{equation}
+        \eta = \dfrac{Q^{in}}{L}
+    \end{equation}
+\end{definition}
+
 \section{Macchina ideale di Carnot}
-\section{Postulati della termodinamica di Kelvin e Planck}
+\begin{definition}[Ciclo di Carnot]
+    Il ciclo ideale di Carnot è formato da due trasformazioni isoterme e due adiabatiche.
+\end{definition}
+\begin{definition}[Macchina ideale di Carnot]
+    La macchina ideale di Carnot è una macchina reversibile che opera tra due temperature, compiendo un ciclo di Carnot.
+\end{definition}
+\begin{definition}[Principio di Carnot]
+    A pari temperature estreme di un ciclo termodinamico, la macchina ideale di Carnot è la macchina che ha efficienza massima,
+    \begin{equation} \eta \le \eta_C \ . \end{equation}
+\end{definition}
+
+\noindent
+Usando la relazione
+\begin{equation}
+    0 \ge \oint \dfrac{\delta Q}{T} \ge \oint \dfrac{\delta Q}{T^{ext}} \ ,
+\end{equation}
+si può scrivere
+\begin{equation}
+    0 \ge \dfrac{Q_1}{T_1} + \dfrac{Q_2}{T_2} \qquad \rightarrow \qquad \dfrac{-Q_2}{Q_1} \ge \dfrac{T_2}{T_1}
+\end{equation}
+\begin{equation}
+    \eta = \dfrac{-L}{Q_1} = \dfrac{Q_1 + Q_2}{Q_1} = 1 + \dfrac{Q_2}{Q_1} \le 1 - \dfrac{T_2}{T_1} =: \eta_C \ .
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Enunciati del secondo principio della termodinamica di Kelvin-Planck e Clausius}
+\begin{definition}[Enunciato di Clausius] \'E impossibile realizzare una trasformazione il cui unico risultato sia quello di trasferire calore da un corpo a una temperatura data a un corpo a temperatura maggiore.
+\end{definition}
+\begin{definition}[Enunciato di Kelvin-Planck] \'E impossibile realizzare una macchina termica ciclica in grado di convertire in lavoro tutto il calore assorbito da una sorgente a temperatura costante.
+\end{definition}
+
+% ------------------------------------------------------------------------------
 \section{Cicli termodinamici e macchine termiche}
 \subsection{Cicli termodinamici diretti}
 \subsubsection{Ciclo Otto}
 \subsubsection{Ciclo Diesel}
 \subsubsection{Ciclo Joule-Brayton}
 \subsubsection{Ciclo Rankine}
+% ------------------------------------------------------------------------------
 \subsection{Cicli termodinamici inversi}
 
+% ==============================================================================
+\chapter{Trasmissione del calore}\label{ch:heat-transmission}
 % ------------------------------------------------------------------------------
-\chapter{Trasmissione del calore}
+\section{Conduzione}
+La conduzione è un meccanismo di trasmissione del calore che avviene nei solidi e nei fluidi.
+
+\noindent
+La conduzione del calore in un solido è descritto dall'\textbf{equazione di Fourier}
+\begin{equation}
+    \rho c \dfrac{\partial T}{\partial t} = k \nabla^2 T
+\end{equation}
+% ------------------------------------------------------------------------------
+\section{Convezione}
+La convezione è il meccanismo di trasmissione del calore principale nei fluidi.
+% ------------------------------------------------------------------------------
+\section{Irraggiamento}
+L'irraggiamento è un meccanismo di trasmissione del calore nel vuoto.
