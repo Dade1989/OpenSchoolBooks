@@ -29,6 +29,10 @@
             \item l'enunciato della seconda legge della termodinamica
             \item la scoperta dell'effetto Joule-Thomson
         \end{itemize}
+    {\color{red}
+    \item \textbf{James Clerk Maxwell}
+    \item \textbf{Ludwig Boltzmann}
+    }
 \end{itemize}
 
 
@@ -257,10 +261,41 @@ si può scrivere
 
 % ------------------------------------------------------------------------------
 \section{Enunciati del secondo principio della termodinamica di Kelvin-Planck e Clausius}
-\begin{definition}[Enunciato di Clausius] \'E impossibile realizzare una trasformazione il cui unico risultato sia quello di trasferire calore da un corpo a una temperatura data a un corpo a temperatura maggiore.
+
+\begin{definition}[Enunciato di Kelvin] \'E impossibile realizzare una macchina termica ciclica in grado di convertire in lavoro tutto il calore assorbito da una sorgente a temperatura costante.
 \end{definition}
-\begin{definition}[Enunciato di Kelvin-Planck] \'E impossibile realizzare una macchina termica ciclica in grado di convertire in lavoro tutto il calore assorbito da una sorgente a temperatura costante.
+\begin{proof}[Equivalenza enunciati di Clausius e Kelvin] Dall'enunciato di Clausius del secondo principio della termodinamica, si può ricavare
+\begin{equation}
+    0 \ge \dfrac{Q_1}{T_1} + \dfrac{Q_2}{T_2} \ .
+\end{equation}
+Se il calore $Q_2$ scambiato con il corpo a temperatura $T_2$ è nullo, allora
+\begin{equation}
+     0 \ge \dfrac{Q_1}{T_1} \ ,
+\end{equation}
+e quindi, poiché la temperatura assoluta è una quantità non-negativa, segue che
+\begin{equation}
+    Q_1 = -L \le 0 \ ,
+\end{equation}
+ossia, una macchina che scambia calore con il solo corpo a temperatura $T_1$, assorbe lavoro e cede calore corpo $1$. \'E quindi impossibile realizzare la situazione contraria, cioè una macchina che assorbe calore unicamente dalla sorgente a temperatura costante $T_1$ e produce lavoro $-L = Q_1 > 0$.
+\end{proof}
+
+\begin{definition}[Enunciato di Planck] \'E impossibile realizzare una trasformazione il cui unico risultato sia quello di trasferire calore da un corpo a una temperatura data a un corpo a temperatura maggiore.
 \end{definition}
+\begin{proof}[Equivalenza enunciati di Clausius e Planck] Dall'enunciato di Clausius del secondo principio della termodinamica, si può ricavare
+\begin{equation}
+    0 \ge \dfrac{Q_1}{T_1} + \dfrac{Q_2}{T_2} \ .
+\end{equation}
+Se il lavoro fatto sul sistema è nullo, $L = 0$, allora
+\begin{equation}
+    0 = Q_1 + Q_2 \ ,
+\end{equation}
+e quindi,
+\begin{equation}
+    0 \ge Q_1 \left( \dfrac{1}{T_1} - \dfrac{1}{T_2} \right) \ .
+\end{equation}
+    Se $T_1 > T_2$, segue che $\left(\frac{1}{T_1} - \frac{1}{T_2} \right) < 0$ e quindi $Q_1 = - Q_2 > 0$, cioè il sistema trasferisce il calore dalla sorgente a temperatura maggiore a quella a temperatura minore.
+
+\end{proof}
 
 % ------------------------------------------------------------------------------
 \section{Cicli termodinamici e macchine termiche}
