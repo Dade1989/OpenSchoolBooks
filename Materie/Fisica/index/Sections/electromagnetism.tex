@@ -1,7 +1,214 @@
 
 
-\chapter{Introduzione}
+\chapter{Fondamenti}
 
+\section{Introduzione storica}
+\begin{itemize}
+    \item prime esperienze con cariche elettriche e magneti
+    \item Franklin
+    \item \textbf{Chalres--Augustin de Coulomb} (1736-1806): nel 1784 pubblica nelle su forza tra due cariche elettriche
+    \item \textbf{Alessandro Volta} (1745-1827):
+    \item negli esperimenti del 1802 \textbf{Gian Domenico Romagnosi} (1761-1835) e del 1820 \textbf{Hans Cristina Oersted} (1777-1851) osservano che un la corrente elettrica produce un campo elettrico, interagendo con magneti posti nelle vicinanze
+    \item \textbf{André--Marie Ampère} ripete l'esperimento di Oersted e presenta la legge che lega l'intensità del campo magnetico nello spazio in funzione della corrente elettrica nel filo. Questa legge verrà corretta e completata da Maxwell
+    \item \textbf{Michael Faraday} (1791-1867):
+        \begin{itemize}
+           \item dispositivi che rappresentano i primordi dei motori elettrici
+           \item studi sull'induzione elettromagnetica: induzione tra circuiti (primordi di trasformatore), campo elettrico indotto dal un campo magnetico variabile (ad esempio generato da un magnete in movimento): questo fenomeno fisico viene successivamente formalizzato nella \textbf{legge di Faraday--Neumann--Lenz}
+            \item studi sulla distribuzione di cariche nei conduttori, che portano alla gabbia di Faraday
+        \end{itemize}
+    \item \textbf{James Clerk Maxwell} (1831-1879) 
+    \begin{itemize}
+        \item nel 1861 si accorge di di un termine mancante nella legge di Ampère, la \textbf{corrente di spostamento}. Nel 1865 pubblica le equazioni dell'elettromagnetismo aggiornate, ora note come \textbf{equazioni di Maxwell} in \textit{A Dynamical Thoery of the Electromagnetic Field}, testo nel quale ricava le \textbf{equazioni delle onde per il campo elettromagnetico}.
+        \item nel 1873 pubblica \textit{A Treatise on Electricity and Magnetism} unificando tutte le conoscenze note ad allora di elettromagnetismo
+    \end{itemize}
+    \item \textbf{Heindrik Antoon Lorentz} (1853-1928)
+\end{itemize}
+
+\section{Eseprienze e leggi fondamentali}
+\subsection{Legge di Coulomb}
+La legge di Coulomb esprime la forza tra due \textbf{cariche elettriche puntiformi}. La forza agente sulla carica 2, dovuta alla carica elettrica $q_1$ ha l'espressione
+\begin{equation}
+    \mathbf{F}_{21} = k q_1 q_2 \dfrac{\mathbf{r}_2 - \mathbf{r}_1}{|\mathbf{r}_2 - \mathbf{r}_1|^3} \ . 
+\end{equation}
+dove $k$ è la costante di Coulomb, che può essere riscritta in funzione di una costante del mezzo, definita costante dielettrica,
+\begin{equation}
+    k = \dfrac{1}{4 \pi \varepsilon}
+\end{equation}
+
+\paragraph{Descrizione esperimento.} La forza tra due corpi carichi con carica elettrica moderata è sufficientemente debole da aver richiesto a Coulomb di usare una bilancia di torsione a filo.
+
+\noindent
+La bilancia di torsione viene tarata con dei carichi noti, così da poter mettere in relazione l'angolo di torsione $\theta$ con il momento applicato alla bilancia $M$, $M(\theta)$. Nel caso questa sia una relazione di proporzionalità si può scrivere questa relazione usando la rigidezza torsionale, $\frac{GJ}{L}$,
+\begin{equation}
+    M(\theta) = \dfrac{GJ}{L} \theta \ .
+\end{equation}
+
+\noindent
+Grazie a delle formule di geometria elementari si può ricavare la distanza tra le due sfere in funzione dell'angolo,
+\begin{equation}
+    r = 2 R \sin \frac{\theta}{2} \ ,
+\end{equation}
+dove $R$ è il raggio della bilancia di torsione.
+
+\noindent
+Assumendo che la forza agisca lungo la congiungente dei centri delle due sfere, il momento di questa forza attorno all'asse della bilancia è
+\begin{equation}
+    M = F R \cos \frac{\theta}{2}
+\end{equation}
+
+\noindent
+L'esperimento viene condotto caricando inizialmente le due sfere e riducendo la carica di una delle due sfere di un fattore $\frac{1}{2}$ toccandola con una sfera identica inizialmente scarica.
+
+\subsection{Il principio di sovrapposizione di cause ed effetti}
+In molti casi, nell'ambito dei fenomeni elettromagnetici si osserva un comportamento lineare, riassumibile con il principio di sovrapposizione delle cause e degli effetti.
+
+\subsection{Il campo elettrico, $\mathbf{e}(\mathbf{r})$}
+\paragraph{Definizione operativa con carica di prova.} Il campo elettrico può essere definito da un punto di vista operativo tramite l'uso di una carica elettrica di prova, di carica elettrica nota $q$. Il campo elettrico in ogni punto $\mathbf{r}$ dello spazio può essere definito come il rapporto tra la forza $\textbf{F}(\mathbf{r})$ (misurabile) agente sulla carica di prova posta in $\mathbf{r}$ e la carica elettrica di prova $q^{test}$
+\begin{equation}
+    \mathbf{e}(\mathbf{r}) = \dfrac{\mathbf{F}(\mathbf{r})}{q^{test}} \ .
+\end{equation}
+Non è difficile osservare che questo rapporto è indipendente dalla carica di prova $q^{test}$, essendo la forza $\mathbf{F}$ proporzionale ad essa.
+
+\subsection{Il campo di spostamento, $\mathbf{d}(\mathbf{r})$}
+La legge costitutiva di un mezzo lineare isotropo stabilisce la relazione tra il campo elettrico $\mathbf{e}(\mathbf{r})$ e il campo di spostamento $\mathbf{d}(\mathbf{r})$
+\begin{equation}
+    \mathbf{d}(\mathbf{r}) = \varepsilon(\mathbf{r}) \mathbf{e}(\mathbf{r}) \ .
+\end{equation}
+
+\subsection{Il potenziale del campo elettrico}
+
+
+\subsection{Legge di conservazione della carica elettrica}
+La forma integrale della legge di conservazione della carica elettrica per un volume di controllo fisso $V$ postula che la variazione di carica $Q_V$ all'interno del volume $V$ è uguale al flusso di carica netto entrante $-\Phi_{\partial V}(\mathbf{j})$ nel volume attraverso la sua frontiera $\partial V$,
+\begin{equation}
+    \dfrac{d}{dt} Q_{V} = - \Phi_{\partial V}(\mathbf{j}) \ ,
+\end{equation}
+avendo indicato con $\mathbf{j} = \rho \mathbf{u}$, la densità di corrente elettrica come prodotto della densità di carica per la velocità media locale delle cariche. Essendo la carica totale $Q_V$ la somma di tutte le cariche interne al volume (che per una distribuzione continua prende la foma di integrale $Q_V = \int_V \rho$), si può riscrivere il bilancio integrale come
+\begin{equation}
+    \dfrac{d}{dt} \int_{V} \rho + \oint_{\partial V} \mathbf{j} \cdot \mathbf{\hat{n}} = 0 \ .
+\end{equation}
+Se le grandezze coinvolte hanno una distribuzione sufficientemente regolare, si può ricavare il bilancio di carica elettrica in forma differenziale,
+\begin{equation}
+    \partial_t \rho + \nabla \cdot \mathbf{j} = 0 \ .
+\end{equation}
+
+\subsection{Legge di Gauss per il campo elettrico}
+Sfruttando il principio di sovrapposizione delle cause e degli effetti, la definizione di campo elettrico e la legge di Coulomb per una carica elementare,
+\begin{equation}
+    d \mathbf{d}(\mathbf{r}; \mathbf{r}_0) = \dfrac{1}{4 \pi} \rho(\mathbf{r_0}) \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} dV_0 \ ,
+\end{equation}
+si può scrivere il campo totale nel punto $\mathbf{r}$ generato da tutte le cariche con distribuzione $\rho(\mathbf{r}_0)$ nei punti $\mathbf{r}_0$ del volume $V_0$ come
+\begin{equation}
+    \mathbf{d}(\mathbf{r}) = \int_{V_0} d \mathbf{d}(\mathbf{r}; \mathbf{r}_0 ) = 
+    \int_{V_0} \dfrac{1}{4 \pi} \rho(\mathbf{r_0}) \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} dV_0   \ ,
+\end{equation}
+e il flusso del campo $\mathbf{d}(\mathbf{r})$ attraverso la frontiera del volume $V$ diventa
+\begin{equation}
+\begin{aligned}
+    \Phi_{\partial V}(\mathbf{d}(\mathbf{r}))
+    & = \oint_{\partial V} \mathbf{d}(\mathbf{r}) \cdot \mathbf{\hat{n}}(\mathbf{r}) dS = \\
+    & = \dfrac{1}{4\pi} \oint_{\partial V} \int_{V_0} \rho(\mathbf{r_0}) \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} \cdot \mathbf{\hat{n}}(\mathbf{r}) dV_0 dS = \\
+    & = \dfrac{1}{4\pi}  \int_{V_0} \rho(\mathbf{r}_0) \oint_{\partial V} \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} \cdot \mathbf{\hat{n}}(\mathbf{r}) dS dV_0 = \\
+\end{aligned}
+\end{equation}
+Si riconosce l'integrale dell'angolo solido di una superficie chiusa
+\begin{equation}
+    \oint_{\partial V} \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} \cdot \mathbf{\hat{n}}(\mathbf{r}) dS =: E_{\partial V}(\mathbf{r_0}) = 
+    \begin{cases}
+        4 \pi \qquad \qquad \text{se $\mathbf{r}_0 \in V$} \\
+        2 \pi \qquad \qquad \text{se $\mathbf{r}_0 \in \partial V$} \\
+        0 \ \   \qquad \qquad \text{se $\mathbf{r}_0 \notin V \cup \partial V$} 
+    \end{cases}
+\end{equation}
+Il valore di questo integrale seleziona i punti carichi dello spazio che contribuiscono al flusso netto del campo $\mathbf{d}$ attraverso la frontiera $\partial V$: tra tutti i punti dello spazio, contribuiscono al flusso solo quelli interni alla frontiera $\partial V$,
+\begin{equation}
+\begin{aligned}
+    \Phi_{\partial V}(\mathbf{d}(\mathbf{r}))
+    & = \dfrac{1}{4\pi}  \int_{V_0} \rho(\mathbf{r}_0) \oint_{\partial V} \dfrac{\mathbf{r} - \mathbf{r}_0}{|\mathbf{r} - \mathbf{r}_0|^3} \cdot \mathbf{\hat{n}}(\mathbf{r}) dS dV_0 = \\
+    & = \dfrac{1}{4\pi}  \int_{V_0} \rho(\mathbf{r}_0) E_{\partial V}(\mathbf{r}_0) dV_0 = \\
+    & = \dfrac{1}{4\pi}  \int_{V \cap V_0} \rho(\mathbf{r}_0) \underbrace{E_{\partial V}(\mathbf{r}_0)}_{=4\pi \ \text{, $\mathbf{r}_0 \in V$}} dV_0 
+      + \dfrac{1}{4\pi}  \int_{V_0 \backslash V} \rho(\mathbf{r}_0) \underbrace{ E_{\partial V}(\mathbf{r}_0) }_{=0 \ \text{, $\mathbf{r}_0 \notin V$}} dV_0 = \\
+    & = \int_{V \cap V_0} \rho(\mathbf{r}_0) dV_0 = Q_V^{int}
+\end{aligned}
+\end{equation}
+%
+La legge di Gauss per il flusso del campo di spostamento diventa quindi in forma integrale
+\begin{equation}
+    \Phi_{\partial V}(\mathbf{d}) = Q^{int}_V \ ,
+\end{equation}
+e, se i campi sono sufficientemente regolari, in forma differenziale
+\begin{equation}
+   \nabla \cdot \mathbf{d} = \rho \ .
+\end{equation}
+
+\subsection{Legge di Gauss per il campo magnetico}
+\begin{equation}
+    \Phi_{\partial V}(\mathbf{b}) = 0 \ ,
+\end{equation}
+e, se i campi sono sufficientemente regolari, in forma differenziale
+\begin{equation}
+   \nabla \cdot \mathbf{b} = 0 \ .
+\end{equation}
+
+\subsection{Legge di Faraday--Neumann--Lenz}
+\begin{equation}
+    \Gamma_{\partial S}(\mathbf{e}) + \dot{\Phi}_{S}(\mathbf{b}) = 0
+\end{equation}
+e, se i campi sono sufficientemente regolari, in forma differenziale
+\begin{equation}
+    \nabla \times \mathbf{e} + \partial_t \mathbf{b} = \mathbf{0} \ .
+\end{equation}
+
+\subsection{Legge di Ampère-Maxwell}
+\begin{equation}
+    \Gamma_{\partial S}(\mathbf{h}) - \dot{\Phi}_{S}(\mathbf{d}) = \Phi_{S}(\mathbf{j})
+\end{equation}
+e, se i campi sono sufficientemente regolari, in forma differenziale
+\begin{equation}
+    \nabla \times \mathbf{h} - \partial_t \mathbf{d} = \mathbf{j} \ .
+\end{equation}
+
+
+
+\subsection{Equazioni dell'elettromagnetismo e relatività galileiana}
+
+\paragraph{Equazione di continuità per la carica elettrica}
+\begin{equation}
+    \dfrac{d}{dt} \int_{v_t}  \rho = \oint_{\partial v_t} \underbrace{\rho (\mathbf{u} - \mathbf{u}_b)}_{\mathbf{j}^*} \cdot \mathbf{\hat{n}}
+\end{equation}
+\paragraph{Legge di Gauss per il campo $\mathbf{d}(\mathbf{r})$}
+\begin{equation}
+    \oint_{\partial v_t} \mathbf{d} \cdot \mathbf{\hat{n}} = \int_{v_t} \rho
+\end{equation}
+\paragraph{Legge di Gauss per il campo $\mathbf{b}(\mathbf{r})$}
+\begin{equation}
+    \oint_{\partial v_t} \mathbf{b} \cdot \mathbf{\hat{n}} = 0
+\end{equation}
+\paragraph{Legge di Faraday--Neumann--Lenz}
+\begin{equation}
+\begin{aligned}
+    0 & = \oint_{\partial s_t} \mathbf{e} \cdot \mathbf{\hat{t}} + \dfrac{d}{dt} \int_{s_t} \mathbf{b} \cdot \mathbf{\hat{n}} = \\
+      & = \oint_{\partial s_t} \mathbf{e} \cdot \mathbf{\hat{t}} + \int_{s_t} \partial_t \mathbf{b} \cdot \mathbf{\hat{n}} + \oint_{\partial s_t} \mathbf{u}_b \times \mathbf{b} \cdot \mathbf{\hat{t}} = \ \text{{\color{red}(\dots)}} \ = \\ 
+      & = \int_{s_t} \partial_t \mathbf{b} \cdot \mathbf{\hat{n}} + \oint_{\partial s_t} \left[ \mathbf{e} - \mathbf{b} \times \mathbf{u} \right] \cdot \mathbf{\hat{t}} = \\
+      & = \int_{s_t} \partial_t \mathbf{b} \cdot \mathbf{\hat{n}} + \oint_{\partial s_t} \mathbf{e}^* \cdot \mathbf{\hat{t}} = \\
+\end{aligned}
+\end{equation}
+
+\paragraph{Legge di Ampère--Maxwell}
+\begin{equation}
+\begin{aligned}
+    \oint_{s_t} \mathbf{j} \cdot \mathbf{\hat{n}} & = \oint_{\partial s_t} \mathbf{h} \cdot \mathbf{\hat{t}} - \dfrac{d}{dt} \int_{s_t} \mathbf{d} \cdot \mathbf{\hat{n}} = \\
+      & = \oint_{\partial s_t} \mathbf{h} \cdot \mathbf{\hat{t}} - \int_{s_t} \partial_t \mathbf{d} \cdot \mathbf{\hat{n}} - \oint_{\partial s_t} \mathbf{u}_b \times \mathbf{d} \cdot \mathbf{\hat{t}} = \ \text{{\color{red}(\dots)}} \ = \\ 
+      & = \int_{s_t} \partial_t \mathbf{d} \cdot \mathbf{\hat{n}} + \oint_{\partial s_t} \left[ \mathbf{h} + \mathbf{d} \times \mathbf{u} \right] \cdot \mathbf{\hat{t}} = \\
+      & = \int_{s_t} \partial_t \mathbf{d} \cdot \mathbf{\hat{n}} + \oint_{\partial s_t} \mathbf{h}^* \cdot \mathbf{\hat{t}} = \\
+\end{aligned}
+\end{equation}
+
+
+
+
+\vspace{20pt}
+\paragraph{Schema del capitolo}
 \begin{itemize}
   \item carica e corrente elettrica, magneti:
   \begin{itemize}
@@ -28,8 +235,71 @@
   \item approssimazione circuitale
 \end{itemize}
 
+
 % \section{Carica e corrente elettrica, magneti ed elettromagneti}
 % \section{Magneti}
 % 
 % \chapter{}
 % \chapter{}
+
+\chapter{Approssimazione circuitale}
+
+\section{Circuiti elettrici}
+\subsection{Componenti}
+\subsubsection{Resistore lineare}
+In un materiale la cui legge costitutiva è lineare
+\begin{equation}
+    \mathbf{e} = \rho_R \mathbf{j} \ ,
+\end{equation}
+assumendo proprietà uniformi lungo un tubo di flusso del campo vettoriale, e svolgendo l'integrale di linea lungo il tubo di flusso
+\begin{equation}
+   A v = \int_S \int_\ell \nabla v \cdot \mathbf{\hat{t}} = \int_{V} \mathbf{e} \cdot \mathbf{\hat{t}} = \int_{S} \int_{\ell} \mathbf{v} \cdot \mathbf{\hat{t}} = \int_{\ell}  \int_{S} \rho_R \mathbf{j} \cdot \mathbf{\hat{t}} = \rho_R L i
+\end{equation}
+\begin{equation}
+    v = \dfrac{\rho_R L}{A} \, i = R \, i \ ,
+\end{equation}
+avendo definito $R = \frac{\rho_R L}{A}$ la resistenza elettrica di un materiale con resistività $\rho_R$ di lunghezza $\L$ e sezione $A$.
+
+\subsection{Induttore}
+\begin{equation}
+    v = L \dfrac{di}{dt}
+\end{equation}
+
+\subsection{Condensatore}
+\begin{equation}
+    i = C \dfrac{d v}{dt}
+\end{equation}
+
+\subsection{Leggi ai nodi e leggi alle maglie}
+\subsubsection{Legge ai nodi}
+Dall'equazione della continuità della carica elettrica
+\begin{equation}
+    \dot{Q}_V = - \Phi_{\partial V}(\mathbf{j}) = \sum_k i_k \ ,
+\end{equation}
+se una regione del circuito non ha la capacità di immagazzinare carica elettrica, $\dot{Q}_V = 0$, segue
+\begin{equation}
+    \sum_k i_k = 0 \ .
+\end{equation}
+
+\subsubsection{Legge alle maglie}
+Lungo un circuito chiuso che si trova in una regione dello spazio dove il campo magnetico è assente, la legge di Faraday diventa
+\begin{equation}
+    \oint_{\ell} \mathbf{e} \cdot \mathbf{\hat{t}} = 0 \ , 
+\end{equation}
+e il campo elettrico può essere espresso come gradiente del potenziale elettrico $\mathbf{e} = - \nabla v$, e quindi è possible riscrivere la legge di Faraday
+\begin{equation}
+    0 = \oint_{\ell} \mathbf{e} \cdot \mathbf{\hat{t}} = - \oint_{\ell} \nabla v \cdot \mathbf{\hat{t}} = - \sum_k \int_{\ell_k \subset \ell} \nabla v \cdot \mathbf{\hat{t}} = - \sum_k v_k
+\end{equation}
+
+\subsection{Regimi}
+\subsubsection{Stazionario}
+\subsubsection{Instazionario transitorio}
+\subsubsection{Instazionario periodico}
+
+\section{Circuiti magnetici}
+
+\chapter{Applicazioni}
+
+\chapter{Onde elettromagnetiche}
+
+\chapter{Ottica}

@@ -1,0 +1,144 @@
+
+\chapter{Equazioni di bilancio}
+\section{Bilanci per un mezzo continuo}
+\subsection{Bilanci in forma integrale}
+\subsubsection{Bilanci integrali per un volume materiale}
+I bilanci in forma integrale per un volume materiale rappresentano nient'altro che i principi della meccanica classia:
+\begin{itemize}
+    \item bilancio di massa: conservazione della massa
+    \item bilancio della quantita di moto: secondo principio della dinamica
+    \item bilancio dell'energia totale: primo principio della termodinamica
+\end{itemize}
+\begin{equation}
+\begin{aligned}
+    & \dfrac{d}{dt} \int_{V_t} \rho = 0 \\ 
+    & \dfrac{d}{dt} \int_{V_t} \rho \mathbf{u} = \int_{V_t} \rho \mathbf{g} + \oint_{\partial V_t} \mathbf{t}_n \\
+    & \dfrac{d}{dt} \int_{V_t} \rho e^t = \int_{V_t} \rho \mathbf{g} \cdot \mathbf{u} + \oint_{\partial V_t} \mathbf{t}_n \cdot \mathbf{u} - \oint_{\partial V_t} \mathbf{q} \cdot \mathbf{\hat{n}} \\
+\end{aligned}
+\end{equation}
+\subsubsection{Bilanci per un volume in moto arbitrario}
+Usando le regole per la derivata nel tempo di integrali su volumi mobili {\color{red} REF}
+\begin{equation}
+\begin{aligned}
+    & \dfrac{d}{dt} \int_{v_t} \rho + \oint_{\partial v_t} \rho (\mathbf{u}- \mathbf{u}_b) \cdot \mathbf{\hat{n}} = 0 \\ 
+    & \dfrac{d}{dt} \int_{v_t} \rho \mathbf{u} + \oint_{\partial v_t} \rho \mathbf{u} (\mathbf{u}- \mathbf{u}_b) \cdot \mathbf{\hat{n}} = \int_{v_t} \rho \mathbf{g} + \oint_{\partial v_t} \mathbf{t}_n \\
+    & \dfrac{d}{dt} \int_{v_t} \rho e^t + \oint_{\partial v_t} \rho e^t (\mathbf{u}- \mathbf{u}_b) \cdot \mathbf{\hat{n}} = \int_{v_t} \rho \mathbf{g} \cdot \mathbf{u} + \oint_{\partial v_t} \mathbf{t}_n \cdot \mathbf{u} - \oint_{\partial v_t} \mathbf{q} \cdot \mathbf{\hat{n}} \\
+\end{aligned}
+\end{equation}
+\subsubsection{Bilanci per un volume di controllo fisso}
+Le equazioni per un volume di controllo fisso si ottengono immediatamente da quelle di un volume in moto arbitrario, ponendo la velocità del contorno $\mathbf{u}_b = \mathbf{0}$,
+\begin{equation}
+\begin{aligned}
+    & \dfrac{d}{dt} \int_{V} \rho + \oint_{\partial V} \rho \mathbf{u} \cdot \mathbf{\hat{n}} = 0 \\ 
+    & \dfrac{d}{dt} \int_{V} \rho \mathbf{u} + \oint_{\partial V} \rho \mathbf{u} \mathbf{u} \cdot \mathbf{\hat{n}} = \int_{V} \rho \mathbf{g} + \oint_{\partial V} \mathbf{t}_n \\
+    & \dfrac{d}{dt} \int_{V} \rho e^t + \oint_{\partial V} \rho e^t \mathbf{u} \cdot \mathbf{\hat{n}} = \int_{V} \rho \mathbf{g} \cdot \mathbf{u} + \oint_{\partial V} \mathbf{t}_n \cdot \mathbf{u} - \oint_{\partial V} \mathbf{q} \cdot \mathbf{\hat{n}} \\
+\end{aligned}
+\end{equation}
+
+\subsection{Bilanci in forma differenziale}
+\subsubsection{Bilanci in forma conservativa}
+\begin{equation}
+\begin{aligned}
+    & \partial_t \rho + \nabla \cdot (\rho \mathbf{u}) = 0  &  \text{(massa)} \\
+    & \partial_t \left( \rho \mathbf{u} \right) + \nabla \cdot \left(\rho \mathbf{u} \otimes \mathbf{u} \right) = \rho \mathbf{g} + \nabla \cdot \mathbb{T}  &  \text{(quantità di moto)} \\
+    & \partial_t \left( \rho e^t \right) + \nabla \cdot \left(\rho e^t \mathbf{u}\right) = \rho \mathbf{g} \cdot \mathbf{u} + \nabla \cdot \left( \mathbb{T} \cdot \mathbf{u} \right) - \nabla \cdot \mathbf{q}  &  \text{(energia totale)} \\
+\end{aligned}
+\end{equation}
+\subsubsection{Bilanci in forma convettiva}
+\begin{equation}
+\begin{aligned}
+    & D_t \rho + \rho \nabla \cdot \mathbf{u} = 0 & \text{(massa)} \\
+    & \rho D_t \mathbf{u} = \rho \mathbf{g} + \nabla \cdot \mathbb{T}  & \text{(quantità di moto)} \\
+    & \rho D_t e^t  = \rho \mathbf{g} \cdot \mathbf{u} + \nabla \cdot \left( \mathbb{T} \cdot \mathbf{u} \right) - \nabla \cdot \mathbf{q}  &  \text{(energia totale)} \\
+\end{aligned}
+\end{equation}
+
+\subsubsection{Bilanci dell'energia cinetica e dell'energia interna}
+Si ottiene il bilancio dell'energia cinetica facendo il prodotto scalare dell'equazione della quantità di moto con il campo di velocità
+\begin{equation}
+    \rho D_t \dfrac{|\mathbf{u}|^2}{2} = \rho \mathbf{g} \cdot \mathbf{u} + \left( \nabla \cdot \mathbb{T} \right) \cdot \mathbf{u}  \hfill \text{(energia cinetica)} 
+\end{equation}
+o in forma conservativa
+\begin{equation}
+    \partial_t \left( \rho \dfrac{|\mathbf{u}|^2}{2} \right) + \nabla \cdot \left( \rho \dfrac{|\mathbf{u}|^2}{2} \mathbf{u} \right) = \rho \mathbf{g} \cdot \mathbf{u} + \left( \nabla \cdot \mathbb{T} \right) \cdot \mathbf{u}  \hfill \text{(energia cinetica)} 
+\end{equation}
+
+Ricordando la definizione di energia interna, come differenza tra energia totale ed energia cinetica, $e = e^t - \frac{|\mathbf{u}|^2}{2}$, si può ricavare l'equazione dell'energia intera sottraendo l'equazione dell'energia cinetica all'equazione dell'energia totale,
+\begin{equation}
+    \rho D_t e = \mathbb{T} : \nabla \mathbf{u} - \nabla \cdot \mathbf{q} \hfill \text{(energia interna)}
+\end{equation}
+o in forma conservativa
+\begin{equation}
+    \partial_t \left( \rho e^t \right) + \nabla \cdot \left( \rho e^t \mathbf{u} \right) =  \mathbb{T} : \nabla \mathbf{u} - \nabla \cdot \mathbf{q}   \hfill \text{(energia interna)} 
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Bilanci per un solido}
+
+% ------------------------------------------------------------------------------
+\section{Bilanci per un fluido newtoniano}
+\paragraph{Leggi costitutive}
+\paragraph{Tensore degli sforzi.}
+Il tensore degli sforzi per un fluido newtoniano è la somma di due contributi,
+\begin{equation}
+    \mathbb{T} = - p \mathbb{I} + \mathbb{S} = -p \mathbb{I} + 2 \mu \mathbb{D} + \lambda (\nabla \cdot \mathbf{u})\mathbb{I} \ ,
+\end{equation}
+il contributo della pressione e quello degli sforzi viscosi.
+
+\paragraph{Flusso di calore per conduzione.} Usando la legge di Fourier, il flusso di calore è proporzionale al gradiente dela temperatura, e quindi può essere scritto come
+\begin{equation}
+    \mathbf{q} = - k \nabla T \ .
+\end{equation}
+
+\paragraph{Equazioni di stato.} Servono infine delle relazioni di stato che leghino le grandezze. In particolare, di solito si scelgono delle equazioni di stato che legano le grandezze delle quali non compare la derivata nel tempo, con le grandezze di cui questa derivata compare. Essendo più espliciti, per avere un problema ben definito è necessario definire le relazioni
+\begin{equation}
+\begin{aligned}
+    & p(\rho, e^t) \\
+    & T(\rho, e^t) \\
+    & \dots
+\end{aligned}
+\end{equation}
+
+\subsection{Corrente incomprimibile}
+Il vincolo di incomprimibilità prevede che il volume delle particelle materiali non cambi e di conseguenza nemmeno la loro densità
+\begin{equation}
+    D_t \rho = 0
+\end{equation}
+e di conseguenza, dal bilancio di massa si ottiene il vincolo di incomprimibilità sul campo di velocità
+\begin{equation}
+    \nabla \cdot \mathbf{u} = 0 \ .
+\end{equation}
+Un caso particolare di corrente incomprimibile è la corrente a densità uniforme, $\rho(\mathbf{r},t) = \overline{\rho}$.
+Le altre equazioni di bilancio diventano
+\begin{equation}
+\begin{aligned}
+    & \partial_t \left( \rho \mathbf{u} \right) + \nabla \cdot \left( \rho \mathbf{u} \otimes \mathbf{u} \right) = \rho \mathbf{g} + \nabla \cdot \mathbb{T} \\
+    & \partial_t \left( \rho e^t \right) + \nabla \cdot \left( \rho e^t \mathbf{u} \right) = \rho \mathbf{g} \cdot \mathbf{u} + \nabla \cdot ( \mathbb{T} \cdot \mathbf{u} ) - \nabla \cdot \mathbf{q} \\
+    & \partial_t \left( \rho e   \right) + \nabla \cdot \left( \rho e   \mathbf{u} \right) = - p \underbrace{\nabla \cdot \mathbf{u}}_{=0} + 2 \mu |\mathbb{D}|^2 + \lambda (\nabla \cdot \mathbf{u})^2 - \nabla \cdot \mathbf{q} \\
+\end{aligned}
+\end{equation}
+
+
+% ==============================================================================
+\chapter{Appendice -- Derivate su domini mobili}
+\begin{theorem}[Teorema del trasporto di Reynolds]
+\begin{equation}
+    \dfrac{d}{dt} \int_{v_t} f = \int_{v_t} \dfrac{\partial f}{\partial t} + \oint_{\partial v_t} f \mathbf{u}_b \cdot \mathbf{\hat{n}}
+\end{equation}
+\end{theorem}
+Applicando il teorema del trasporto di Reynolds a:
+\begin{itemize}
+    \item un volume in moto arbitrario
+\begin{equation}
+    \dfrac{d}{dt} \int_{v_t} f = \int_{v_t} \dfrac{\partial f}{\partial t} + \oint_{\partial v_t} f \mathbf{u}_b \cdot \mathbf{\hat{n}}
+\end{equation}
+    \item un volume materiale
+\begin{equation}
+    \dfrac{d}{dt} \int_{V_t} f = \int_{V_t} \dfrac{\partial f}{\partial t} + \oint_{\partial V_t} f \mathbf{u} \cdot \mathbf{\hat{n}}
+\end{equation}
+\end{itemize}
+in un istante in cui i due volumi coincidono $v_t = V_t$, allora $\int_{v_t} \frac{\partial f}{\partial t} = \int_{V_t} \frac{\partial f}{\partial t}$, e quindi si può scrivere
+\begin{equation}
+    \dfrac{d}{dt} \int_{V_t} f = \dfrac{d}{dt} \int_{v_t = V_t} f + \oint_{\partial v_t} f ( \mathbf{u} - \mathbf{u}_b ) \cdot \mathbf{\hat{n}}
+\end{equation}
+

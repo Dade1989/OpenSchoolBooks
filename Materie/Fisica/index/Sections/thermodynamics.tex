@@ -36,32 +36,68 @@
 \end{itemize}
 
 
-% ------------------------------------------------------------------------------
+% ==============================================================================
 \chapter{Principi della termodinamica}\label{thermodynamics:principles}
-\section{Primo principio}
-Il primo principio della termodinamica è il bilancio di energia totale del sistema: la variazione di energia totale di un sistema è uguale alla somma del calore entrante nel sistema dall'ambiente e del lavoro delle forze esterne agenti sul sistema. In forma incrementale
+% ------------------------------------------------------------------------------
+\section{Introduzione}
+\begin{definition}[Termodinamica] La termodinamica può essere definita come la branca della fisica che si occupa dell'\textbf{energia e dei trasferimenti di energia in tutte le sue forme}.
+\end{definition}
+In meccanica vengono trattate le forme di energia cinetica e potenziale, legate al comportamento macroscopico dei sistemi. La termodinamica tratta di sistemi con un numero maggiore -- spesso enorme -- di gradi di libertà, come sistemi continui o composti da elemnti solidi deformabili o fluidi, a livello microscopico costituiti da un numero elevato di parti elementari (molecole, atomi): una descrizione deterministica del comportamento microscopico risulta impossibile, mentre lo studio statistico dei moti microscopici può essere messo in relazione al comportamento macroscopico, riassumibile con grandezze fisiche come pressione, temperatura e densità. All'energia meccanica macroscopica, si somma un contributo di energia interna, dovuto al moto microscopico -- attorno al moto medio, macroscopico -- delle particelle che compongono il sistema.
+
+\begin{definition}[Sistema e ambiente] Quando si affronta un problema in termodinamica, e in generale in fisica, è utile definire il \textbf{sistema} di interesse, identificandone i limiti - o frontiera - e tutto quello che è al di fuori del sistema, definitio \textbf{ambiente}. Sistema e ambiente possono interagire tra di loro, principalmente tramite \textbf{scambi di massa} o \textbf{scambi di energia}.
+\end{definition}
+
+\begin{definition}[Sistema aperti e chiusi] Un sistema \textbf{chiuso} è un sistema che non ha scambi di massa con l'ambiente. Al contrario, un sistema \textbf{aperto} ha scambi di massa con l'ambiente.
+\end{definition}
+
+\begin{definition}[Sistema isolato] Un sistema \textbf{isolato} è un sistema che non ha né scambi di massa né scambi di energia con l'ambiente.
+\end{definition}
+
+% ------------------------------------------------------------------------------
+\section{Principi della termodinamica}
+\subsection{Legge di conservazione della massa}
+Lavoisier formula il principio di conservazione della massa nella sua forma popolare \textit{"Nulla si crea e nulla si distrugge"}. Questo principio è valido in fisica classica, mentre cessa di valere quando si manifestano fenomeni relativistici come scoperto da Einstein, che trova un'equivalenza tra massa ed energia.
+
+\subsection{Primo principio}
+Il primo principio della termodinamica è il \textbf{bilancio di energia totale di un sistema chiuso}: la variazione di energia totale di un sistema è uguale alla somma del calore entrante nel sistema dall'ambiente e del lavoro fatto sul sistema dalle forze esterne agenti su di esso. In forma incrementale
 \begin{equation}
   \Delta E^{tot} = Q^{ext} + L^{ext} \ ,
 \end{equation}
+
+\noindent
+In forma incrementale,
+\begin{equation}
+  d E^{tot} = \delta Q^{ext} + \delta L^{ext} \ ,
+\end{equation}
+{\color{red} $dE$, $\delta Q$,\dots; funzioni di stato,\dots}
+
+\noindent
+In forma differenziale,
 \begin{equation}
   \dot{E}^{tot} = \dot{Q}^{ext} + P^{ext} \ .
 \end{equation}
+dove $\dot{Q}^{ext}$ è il flusso di calore entrante nel sistema e $P^{ext} = \dot{L}^{ext}$ è la potenza delle forze esterne agenti sul sistema.
 %
-Usando il teorema dell'energia cinetica della meccanica,
+\subsubsection{Energia interna}
+Dalla meccanica è noto il teorema dell'energia cinetica,
 \begin{equation}
-  \dot{K} = P^{tot} = P^{ext} + P^{int} \ ,
+  \dot{K} = P^{tot} = P^{ext} + P^{int} \ .
 \end{equation}
-e definendo l'energia interna $U$ del sistema come differenza tra l'energia totale e l'energia cinetica,
+Si definisce quindi l'\textbf{energia interna}, $U$, come la differenza tra l'energia totale e l'energia cinetica del sistema,
 \begin{equation}
-  U := E^{tot} - K \ ,
+  U := E^{tot} - K \ .
 \end{equation}
-si può ricavare un'equazione per il bilancio dell'energia interna
+Sottraendo l'espressione del teorema dell'energia dal primo principio della termodinamica, si ricava l'equazione di bilancio dell'energia interna,
 \begin{equation}
   \dot{U} = \dot{Q}^{ext} - P^{int} \ .
 \end{equation}
 
-\section{Secondo principio}
-Il secondo principio della termodinamica introduce
+\subsection{Secondo principio}
+Il secondo principio della termodinamica rappresenta due tendenze naturali:
+\begin{enumerate}
+    \item la tendenza del calore a trasferire energia da un corpo a temperatura maggiore a un corpo a temperatura più bassa
+    \item la tendenza dell'energia di trasformarsi in forme ``meno nobili'' e meno utilizzabili per produrre lavoro meccanico -- dissipazione
+\end{enumerate}
 Il secondo principio della termodinamica ha diversi enunciati equivalenti, formulati da Clausis, Kelvin e Planck.
 L'enunciato più generale è quello di Clasius, mentre gli enunciati di Kelvin e Planck coinvolgono macchine termiche e quindi, per questi due enunciati, si rimanda al capitolo \ref{thermodynamics:thermal_machines} sulle macchine termiche.
 
@@ -85,34 +121,34 @@ Definendo la temperatura $T := \left(\dfrac{\partial U}{\partial S}\right)_x > 0
   T dS = \delta Q^{ext} + \delta^+ D \ge \delta Q^{ext} \qquad \rightarrow \qquad dS \ge \dfrac{\delta Q^{ext}}{T} \ .
 \end{equation}
 
-\subsection{Conseguenze del secondo principio della termodinamica}
+\subsubsection{Conseguenze del secondo principio della termodinamica}
 Nello scambio di calore tra due sistemi $S_1$, $S_2$, si manifesta un flusso di calore positivo dal corpo a temperatura maggiore a quello a temperatura minore. Chiamando $Q_{21}$ il flusso di calore tra i due sistemi, scegliendo il segno positivo se fa aumentare l'energia del sistema $2$,
 \begin{equation}
 \begin{aligned}
-    &  Q_{21} > 0 \qquad \text{se $T_1 > T_2$} \\ 
-    &  Q_{21} < 0 \qquad \text{se $T_1 < T_2$} \\ 
+    &  Q_{21} \ge 0 \qquad \text{se $T_1 > T_2$} \\ 
+    &  Q_{21} \le 0 \qquad \text{se $T_1 < T_2$} \\ 
 \end{aligned}
 \end{equation}
 possiamo riassumere queste condizioni sulla trasmissione del calore con l'unica relazione
 \begin{equation}
-    Q_{21} \left( \dfrac{1}{T_2} - \dfrac{1}{T_1} \right) > 0 \ ,
+    Q_{21} \left( \dfrac{1}{T_2} - \dfrac{1}{T_1} \right) \ge 0 \ ,
 \end{equation}
 o, introducendo il flusso di calore ``in direzione opposta'' $Q_{12} = -Q_{21}$,
 \begin{equation}
-    \dfrac{Q_{21}}{T_2} + \dfrac{Q_{12}}{T_1} > 0 \ .
+    \dfrac{Q_{21}}{T_2} + \dfrac{Q_{12}}{T_1} \ge 0 \ .
 \end{equation}
 
-\subsection{Integrale di Clausius}
+\subsubsection{Integrale di Clausius}
 Chiamando $\delta Q$ il flusso di calore tra l'ambiente esterno e un sistema omogeneo, positivo se ``entrante'' nel sistema,
 si può scrivere
 \begin{equation}
-    \dfrac{\delta Q}{T} - \dfrac{\delta Q}{T^{ext}} > 0
+    \dfrac{\delta Q}{T} - \dfrac{\delta Q}{T^{ext}} \ge 0
 \end{equation}
 \begin{equation}
     0 = \oint dS \ge \oint \dfrac{\delta Q}{T} \ge \oint \dfrac{\delta Q}{T^{ext}} 
 \end{equation}
 
-\subsection{Secondo principio della dinamica per sistemi non omogenei}
+\subsubsection{Secondo principio della dinamica per sistemi non omogenei}
 
 \begin{equation}
 \begin{aligned}
@@ -124,16 +160,137 @@ si può scrivere
 \end{equation}
 
 
-\section{Terzo principio}
+\subsection{Terzo principio}
 Il terzo principio della termodinamica postula la positività della temperatura
 \begin{equation}
   T := \left(\dfrac{\partial U}{\partial S}\right)_x > 0
 \end{equation}
 
-\section{Principio zero - Equilibrio termico}
+\subsection{Principio zero - Equilibrio termico}
+
+\section{Bilanci per sistemi chiusi}
+I bilanci fondmamentali in forma integrale per un sistema chiuso $\Omega$ sono
+\begin{equation}
+    \dot{M}_{\Omega} = 0
+\end{equation}
+\begin{equation}
+    \dot{\mathbf{Q}}_{\Omega} = \mathbf{R}^{ext}
+\end{equation}
+\begin{equation}
+    \dot{E}^{tot}_{\Omega} = \dot{Q}^{ext} + \dot{P}^{ext}
+\end{equation}
+\begin{equation}
+    \dot{S}_{\Omega} \ge \dfrac{\dot{Q}^{ext}}{T}
+\end{equation}
+
+\section{Bilanci per sistemi aperti}
+Nei bilanci per sistemi aperti compaiono i termini di flusso attraverso la frontiera del sistema
+\begin{equation}
+    \dot{M}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u}^{rel}) = 0
+\end{equation}
+\begin{equation}
+    \dot{\mathbf{Q}}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u} \mathbf{u}^{rel}) = \mathbf{R}^{ext}
+\end{equation}
+\begin{equation}
+    \dot{E}^{tot}_{\Omega} + \Phi_{\partial \Omega}(\rho e^{tot} \mathbf{u}^{rel}) = \dot{Q}^{ext} + \dot{P}^{ext}
+\end{equation}
+\begin{equation}
+    \dot{S}_{\Omega} + \Phi_{\partial \Omega}(\rho s \mathbf{u}^{rel}) \ge \dfrac{\dot{Q}^{ext}}{T}
+\end{equation}
+
 
 % ==============================================================================
-\chapter{Relazioni e coefficienti termodinamici}
+\chapter{Coefficienti e relazioni termodinamiche}
+
+% ------------------------------------------------------------------------------
+\section{Potenziali termodinamici}
+\begin{equation}
+\begin{aligned}
+    dE & = -\delta L^i + \delta Q \\
+       & = -\delta L^{i, \, rev} + T dS \\
+    dE & = \left.\dfrac{\partial E}{\partial x_k}\right|_{S} dx_k + \left.\dfrac{\partial E}{\partial S}\right|_{x_k} dS = \\
+       & = -F_k^{rev} dx_k + T dS
+\end{aligned}
+\end{equation}
+Nel caso di un sistema composto da un volumetto elementare contenente un fluido nel quale le forze interne reversibili sono dovute alla pressione, il lavoro di queste forze si può scrivere come
+\begin{equation}
+\begin{aligned}
+    F_k dx_k & = F_{x,1} dx_1 + F_{x,2} dx_2 + F_{y,1} dy_1 + F_{y,2} dy_2 + F_{z,1} dz_1 + F_{z,2} dz_2 = \\
+    & = p dy dz (dx_2 - dx_1) + p dx dz (dy_2 - dy_1) + p dx dy (dz_2 - dz_1) = \\
+    & = p ( ddx \, dy \, dz + dx \, ddy \, dz + dx \, dy \, ddz ) = \\
+    & = p d ( dx \, dy \, dz ) = p dV
+\end{aligned}
+\end{equation}
+così che l'equazione per il differenziale dell'energia interna può essere scritta come
+\begin{equation}
+   dE = - p \, dV + T \, dS
+\end{equation}
+Usando il principio di conservazione della massa per un sistema chiuso, si possono riscrivere i differenziali delle quantità per unità di massa,
+\begin{equation}
+\begin{aligned}
+    0 = dm & = d ( \rho V ) = V \, d \rho + \rho \, dV \\
+        dV & = d (m v) = \underbrace{dm}_{=0} \, v + m \, d v = m \, d v \\
+           & = d \left( \frac{m}{\rho} \right) = \underbrace{dm}_{=0} \frac{1}{\rho} - m \, \frac{d \, \rho}{\rho^2} = - m \, \frac{d \, \rho}{\rho^2} \\
+        dE & = d (m e) = \underbrace{dm}_{=0} \, e + m \, d e = m \, d e \\
+        dS & = d (m s) = \underbrace{dm}_{=0} \, s + m \, d s = m \, d s 
+\end{aligned}
+\end{equation}
+e quindi l'equazione dell'energia interna
+\begin{equation}
+\begin{aligned}
+    de & = - p \, dv + T \, ds \\
+       & = \frac{p}{\rho^2} \, d\rho + T \, ds \\
+\end{aligned}
+\end{equation}
+Nel caso generale e non specializzato per i fluidi, indicando con $f_k$ le forze per unità di massa,
+\begin{equation}
+    de = - f_k \, d x_k + T \, ds
+\end{equation}
+
+\paragraph{Entalpia.} Viene definita la funzione di stato entalpia,
+\begin{equation}
+    h := e + f_k \, x_k
+\end{equation}
+della quale si può calcolare il differenziale
+\begin{equation}
+    dh = \underbrace{de + f_k \, dx_k}_{ = T \, ds} + x_k \, df_k = x_k \, df_k + T \, ds \ .
+\end{equation}
+
+\paragraph{Energia libera di Helmholtz.} Viene definita la funzione di stato chiamata energia libera di Helmholtz,
+\begin{equation}
+    f := e - T \, s
+\end{equation}
+della quale si può calcolare il differenziale
+\begin{equation}
+    df = \underbrace{de - T \, ds}_{= - f_k \, d x_k } - s \, dT = - f_k \, d x_k - s \, dT \ .
+\end{equation}
+
+\paragraph{Energia libera di Gibbs.} Viene definita la funzione di stato chiamata energia libera di Helmholtz,
+\begin{equation}
+    g := h - T \, s
+\end{equation}
+della quale si può calcolare il differenziale
+\begin{equation}
+    dg = \underbrace{dh - T \, ds}_{= x_k \, d f_k } + s \, dT = x_k \, d f_k - s \, dT \ .
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Coefficienti termodinamici}
+\paragraph{Calore specifico}
+\begin{equation}
+   c_x := T \left(\dfrac{\partial s}{\partial T} \right)_x
+\end{equation}
+\paragraph{Coefficienti di espansione termica}
+\begin{equation}
+    \alpha_x := \dfrac{1}{v} \left(\dfrac{\partial v}{\partial T} \right)_x = - \dfrac{1}{\rho} \left(\dfrac{\partial \rho}{\partial T} \right)_x
+\end{equation}
+\paragraph{Coefficienti di comprimibilità}
+\begin{equation}
+    \beta_x := -\dfrac{1}{v} \left(\dfrac{\partial v}{\partial p} \right)_x = \dfrac{1}{\rho} \left(\dfrac{\partial \rho}{\partial p} \right)_x
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Relazioni termodinamiche}
 
 % ==============================================================================
 \chapter{Stati della materia e leggi costitutive}
@@ -141,7 +298,7 @@ Il terzo principio della termodinamica postula la positività della temperatura
 \section{Stati della materia, variabili termodinamaiche e diagramma di stato}
 % ------------------------------------------------------------------------------
 \section{Gas}
-\subsection{Leggi sui gas: Boyle, Gay-Lussac, Charles}
+\subsection{Leggi sui gas: Boyle, Gay--Lussac, Charles}
 \begin{equation}
     P V = \text{cost} \qquad \text{con $T$ costante (legge di Boyle)}
 \end{equation}
@@ -149,26 +306,138 @@ Il terzo principio della termodinamica postula la positività della temperatura
     \dfrac{V}{T} = \text{cost} \qquad \text{con $P$ costante (legge di Charles)}
 \end{equation}
 \begin{equation}
-    \dfrac{P}{T} = \text{cost} \qquad \text{con $V$ costante (legge di Gay-Lussac)}
+    \dfrac{P}{T} = \text{cost} \qquad \text{con $V$ costante (legge di Gay--Lussac)}
 \end{equation}
 \subsection{Equazione di stato dei gas perfetti}
 \begin{equation}
-    P V = n R T
+    P V = N k_B T
 \end{equation}
-con $n$ numero di moli, $R$ \textbf{costante dei gas}.
+con $N$ numero di molecole nel volume, $k_B$ \textbf{costante di Boltzmann}.
 
-La costante dei gas è legata alla \textbf{costante di Boltzmann} $k_B$ dal \textbf{numero di Avogadro} $N_A$,
+Seguendo la \textbf{legge di Avogadro}, a pressione e temperatura costanti, volumi uguali di gas contengono un numero uguale di molecole, indipendentemente dalla natura del gas stesso.
+La \textbf{mole} viene definita come il numero di particelle di una sostanza, la cui massa totale ha un valore numerico in grammi [$g$] uguale alla massa molecolare espressa in unità di massa atomica [$u$].
+In particolare, il numero di particelle (atomi o molecole) contenute in una mole viene definito \textbf{numero di Avogadro},
 \begin{equation}
-    R = k_B N_A
+    N_A \approx 6.022 \cdot 10^{23} \ .
 \end{equation}
+La relazione quindi tra le unità di misura della massa grammo e unità di massa atomica è
 \begin{equation}
-    P V = n R T = \underbrace{n N_A}_{= N} k_B T = N k_B T
+    1 \, g = N_A \, u \ .
 \end{equation}
-con $N$ numero di particelle (molecole) del sistema.
+%
+Si esplicitano alcune relazioni
+\begin{itemize}
+    \item $N$ numero di molecole
+    \item $m_1$ massa molecolare
+    \item $n$ numero di moli: $n = \frac{N}{N_A}$
+    \item $M_m$ massa molare: $M_m = N_A \, m_1$
+\end{itemize}
+La massa $m$ contenuta in un volume $V$ può essere scritta come
+\begin{equation}
+    m = \rho V = N m_1 = n M_m \ .
+\end{equation}
 
+\noindent
+Usando queste relazioni, la legge di stato dei gas perfetti può essere riscritta in forme diverse
+\begin{equation}
+    P V = \underbrace{N}_{n N_A} k_B T = n \underbrace{N_A k_B}_{R_u} T = n R_u T \ ,
+\end{equation}
+avendo introdotto la \textbf{costante universale dei gas}, $R_u$.
+Usando la relazione $\rho V = n M_m$, la legge dei gas perfetti può essere ulteriormente riscritta come
+\begin{equation}
+   P = \rho R T \ ,
+\end{equation}
+avendo definito la costante del gas preso in considerazione, $R = \frac{R_u}{M_m}$.
+
+
+
+\subsubsection{Energia interna}
+\begin{equation}
+  e = c_v T
+\end{equation}
+\subsubsection{Entalpia interna}
+\begin{equation}
+  h = c_P T
+\end{equation}
+\subsubsection{Rapporto dei calori specifici}
+\begin{equation}
+    \gamma = \frac{c_P}{c_v}
+\end{equation}
+\subsubsection{Relazione di Meyer}
+\begin{equation}
+  c_P - c_v = R
+\end{equation}
+\subsubsection{Espressioni dell'entropia}
+Usando il bilancio di energia interna, $de  = P \frac{d \rho}{\rho^2} + T ds $
+\begin{equation}
+  ds = c_v \frac{dT}{T} - \frac{P}{T \rho} \frac{d \rho}{\rho} =  c_v \frac{dT}{T} - R \frac{d \rho}{\rho}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    & P = \rho R T \\
+    & \rho = \dfrac{P}{RT} \\
+    & T = \dfrac{P}{\rho R} \\
+\end{aligned} \qquad \rightarrow \qquad
+\begin{aligned}
+    & dP = d \rho R T + \rho R dT \\
+    & d \rho = \dfrac{d P}{R T} - \dfrac{P}{R T^2} dT \\
+    & dT = \dfrac{d P}{R \rho} - \dfrac{P}{R \rho^2} d\rho \\
+\end{aligned} \qquad \rightarrow \qquad
+\begin{aligned}
+    & \dfrac{dP}{P} = \dfrac{d \rho}{\rho} + \dfrac{ dT}{T} \\
+    & \dfrac{d \rho}{\rho} = \dfrac{d P}{P} - \dfrac{dT}{T} \\
+    & \dfrac{dT}{T} = \dfrac{d P}{P} - \dfrac{d\rho}{\rho} \\
+\end{aligned}
+\end{equation}
+e quindi
+\begin{equation}\label{eqn:pig-entropy}
+\begin{aligned}
+  ds & =  c_v \frac{dT}{T} - R \frac{d \rho}{\rho} =  \\
+     & =  c_P \frac{dT}{T} - R \frac{d P   }{P   } =  \\
+     & =  c_v \frac{dP}{P} - c_P \frac{d \rho}{\rho} 
+\end{aligned}
+\end{equation}
 \subsection{Equazione di stato di Van der Waals -- equazione di stato dei gas reali}
 
 \subsection{Teoria cinetica dei gas -- cenni}
+\begin{equation}
+\begin{aligned}
+    & \Delta t = \dfrac{\Delta x}{v_x} \\
+    & \Delta I^{(1)}_x = 2 m v_x \\
+    & \Delta F^{(1)}_x = \dfrac{\Delta I^{(1)}_x}{2 \Delta t} \\
+    & p^{(1)}_x = \dfrac{\Delta F^{(1)}_x}{\Delta y \Delta z} = \dfrac{\Delta I^{(1)}_x}{2 \Delta t \Delta y \Delta z} 
+          = \dfrac{m v_x^2}{\Delta x \Delta y \Delta z}
+\end{aligned}
+\end{equation}
+Per $N$ particelle di massa uguale che non interagiscono tra di loro, è sufficiente sommare il contributo di tutte le particelle,
+\begin{equation}
+    \sum_{k=1}^N m v_{x,k}^2 = N m \overline{v_x^2} \ ,
+\end{equation}
+dove $\overline{v_x^2}$ è la media del quadrato della componente in direzione $x$ della velocità delle particelle. Si può quindi scrivere
+\begin{equation}
+    p_x = \dfrac{N \, m}{\Delta x \Delta y \Delta z} \overline{ v_x^2 } \ ,
+\end{equation}
+dove il rapporto è il rapporto tra la massa interna al volume e le dimensioni del volume stesso, ossia la densità $\rho$.
+In caso di sistema omogeneo nel quale non ci sono direzioni preferenziali, la media di tutte le componenti cartesiane della velocità ha lo stesso valore, uguale a $\frac{1}{3}$ della media del quadrato del modulo della velocità,
+\begin{equation}
+   \overline{|\mathbf{v}|^2} = 
+    \overline{v_x^2 + v_y^2 + v_z^2} = \overline{v_x^2} + \overline{v_y^2} + \overline{v_z^2} = 3 \overline{v_x^2} \ . 
+\end{equation}
+La pressione può essere scritta quindi in funzione dell'energia cinetica del gas nel volume
+\begin{equation}
+    p V = N m \frac{v^2}{3} = \dfrac{2}{3} N \dfrac{1}{2} m \overline{v^2} = \dfrac{2}{3} N \overline{k}
+\end{equation}
+
+\noindent
+Confrontando quest'ultima espressione con la legge di stato dei gas perfetti,
+\begin{equation}
+   p V = n R_u T = N k_B T \ ,
+\end{equation}
+si può ricavare il legame tra l'energia cinetica media $\overline{k}$ delle particelle e la temperatura $T$
+\begin{equation}
+    \overline{k} = k_B \, T \ ,
+\end{equation}
+tramite la costante di Boltzmann, $k_B$.
 
 \subsubsection{Equipartizione dell'energia}
 
@@ -182,11 +451,216 @@ con $N$ numero di particelle (molecole) del sistema.
 % ------------------------------------------------------------------------------
 \section{Miscele}
 % ------------------------------------------------------------------------------
-\section{Vapore e aria umida}
+\section{Vapore acqueo}
+% ------------------------------------------------------------------------------
+\section{Aria umida}
 
 % ==============================================================================
-\chapter{Macchine termiche}\label{thermodynamics:thermal_machines}
+\chapter{Trasformazioni teromdinamiche e componenti termo-meccanici}\label{thermodynamics:thermal_machines}
 % ------------------------------------------------------------------------------
+\section{Trasformazioni termodinamiche}
+\subsection{Piani delle fasi}
+\begin{definition}[Piano $P-V$ di Clapeyron]
+\end{definition}
+\begin{definition}[Piano $T-S$]
+\end{definition}
+\begin{definition}[Piano $h-S$ di Mollier]
+\end{definition}
+
+\section{Trasformazioni termodinamiche per gas perfetti}
+\subsection{Trasformazione isoterma} Due stati termodinamici $1$, $2$ collegati da una trasformazione isoterma $T_1 = T_2 = \overline{T}$, 
+\begin{equation}
+\begin{aligned}
+  & P_1 = \rho_1 R T_1 = \rho_1 R \overline{T} \\
+  & P_2 = \rho_2 R T_2 = \rho_2 R \overline{T}
+\end{aligned} \qquad \rightarrow \qquad 
+  \dfrac{P_2}{P_1} = \dfrac{\rho_2}{\rho_1}
+\end{equation}
+Una trasformazione isoterma è quella coinvolta nella legge di Boyle.
+\subsection{Trasformazione isobara} $P_1 = P_2 = \overline{P}$
+\begin{equation}
+\begin{aligned}
+    & \overline{P} = P_1 = \rho_1 R T_1 \\
+    & \overline{P} = P_2 = \rho_2 R T_2
+\end{aligned} \qquad \rightarrow \qquad 
+    \dfrac{\rho_2}{\rho_1} = \dfrac{T_1}{T_2}
+\end{equation}
+Una trasformazione isobara è quella coinvolta nella legge di Charles.
+\subsection{Trasformazione isocora} Una trasformazione isocora avviene a volume specifico, e quindi a densità, costanti, $\rho_1 = \rho_2 = \overline{\rho}$
+\begin{equation}
+\begin{aligned}
+    & P_1 = \rho_1 R T_1  = \overline{\rho} R T_1 \\
+    & P_2 = \rho_2 R T_2  = \overline{\rho} R T_2
+\end{aligned} \qquad \rightarrow \qquad 
+    \dfrac{P_2}{P_1} = \dfrac{T_2}{T_1}
+\end{equation}
+Una trasformazione isocora è quella coinvolta nella legge di Gay--Lussac.
+
+\subsection{Trasformazione adiabatica ideale -- isentropica} Per un fluido, si può scrivere il bilancio di energia interna come
+\begin{equation}
+\begin{aligned}
+    dU & = - \delta L^{int} + \delta Q^{ext} = \\
+       & = - \delta L^{int,r} + \delta D + \delta Q^{ext} = \\
+       & = - P dv + T ds
+\end{aligned}
+\end{equation}
+In assenza di dissipazione, $\delta D = 0$, e trasmissionde del calore, $\delta Q^{ext} = 0$, la variazione di entropia è nulla, $ds = 0$.
+Per un gas perfetto si possono usare le relazioni (\ref{eqn:pig-entropy}). Ad esempio
+\begin{equation}
+    0 = ds = c_v \dfrac{dP}{P} - c_P \dfrac{ d\rho}{\rho}
+    \qquad \rightarrow \qquad
+    \dfrac{dP}{P} = \gamma \dfrac{d\rho}{\rho}
+\end{equation}
+e tramite integrazione
+\begin{equation}
+    \ln \dfrac{P}{P_0} = \gamma \ln \dfrac{\rho}{\rho_0} \qquad \rightarrow \qquad 
+    \dfrac{P}{P_0} = \left( \dfrac{\rho}{\rho_0} \right)^{\gamma} \qquad \rightarrow \qquad
+    \dfrac{P}{\rho^\gamma} =  \dfrac{P_0}{\rho_0^\gamma} = \text{cost. lungo un'adiabatica}
+\end{equation}
+Usando la legge dei gas perfetti si possono ottenere le relazioni tra pressione, temperatura e densità
+\begin{equation}\label{eqn:pig-isentropic}
+    \dfrac{P}{\rho^\gamma} = \text{cost.} \quad , \qquad
+    \dfrac{T}{\rho^{\gamma-1}} = \text{cost.} \quad , \qquad
+    \dfrac{P^{\gamma-1}}{T^{\gamma}} = \text{cost.} 
+\end{equation}
+
+% ------------------------------------------------------------------------------
+\section{Esempi di componenti termo-meccanici}
+{\color{red} Sistemi aperti e chiusi}
+\subsection{Turbine}
+\paragraph{Esempi di applicazione.}
+\paragraph{Bilanci.}
+    \begin{equation}
+    \begin{aligned}
+        & \dot{M}_{\Omega}^{tot} + \Phi_{\partial \Omega}(\rho \mathbf{u}^{rel}) = 0 \\
+        & \dot{E}_{\Omega}^{tot} + \Phi_{\partial \Omega}(\rho e^{tot} \mathbf{u}^{rel}) = \dot{Q}^{ext} + P^{ext} \\
+    \end{aligned}
+    \end{equation}
+    Assumendo trascurabili i termini instazionari, gli sforzi viscosi rispetto a quelli di pressione
+    \begin{equation}
+        \dot{m} \left( h_2 - h_1 \right) = \dot{Q}^{ext} + P^{mec} \ ,
+    \end{equation}
+dove $h^t := h + \frac{|\mathbf{u}|^2}{2}$ è l'entalpia totale, somma dell'entalpia e dell'energia cinetica per unità di massa. Nel caso il contributo cinetico sia trascurabile rispetto a quello dell'entalpia interna, si può assumere $h^t \approx h$. 
+
+\noindent
+Una turbina estrae potenza meccanica $P^{mec} < 0$ dal fluido di lavoro, la cui entalpia diminuisce tra la sezione di ingresso e di uscita della turbina. Assumendo una trasformazione adiabatica ideale (e quindi isentropica) si può dimostrare che insieme all'entalpia diminuiscono anche temperatura e pressione.
+\paragraph{Trasformazioni termodinamiche.} Assumendo scambi di calore con l'esterno trascurabili $\dot{Q}^{ext} \approx 0$, si può scrivere 
+    \begin{equation}
+        \dot{m} \left( h_2 - h_1 \right) = P^{mec} \ .
+    \end{equation}
+Se si assume un fluido ideale, si può fare riferimento alle formule per l'entalpia
+\begin{equation}
+    h = c_P T \ ,
+\end{equation}
+e legare lo stato di ingresso a quello di uscita con l'equazione delle trasformazioni isentropiche (\ref{eqn:pig-isentropic}), e definendo il rapporto di espansione
+\begin{equation}
+    \beta := \dfrac{P_1}{P_2} \ .
+\end{equation}
+Noto il rapporto di espansione, si può ricavare il rapporto tra le temperature e le densità
+\begin{equation}
+    \dfrac{T_2}{T_1} = \dfrac{1}{\beta^{\frac{\gamma-1}{\gamma}}}  \quad , \qquad 
+    \dfrac{\rho_2}{\rho_1} = \dfrac{1}{\beta^{\frac{1}{\gamma}}}
+\end{equation}
+
+\paragraph{Osservazioni tecniche.}
+{\color{red} Temperatura massima in turbina rappresenta un limite tecnico, dovuto alla resistenza dei materiali sottoposti a sollecitazioni meccaniche ad alta temperatura.}
+
+\subsection{Compressori}
+\paragraph{Esempi di applicazione.}
+\paragraph{Bilanci.} I bilanci che governano un compressore sono identici a quelli che governano una turbina, anche se il funzionamento è quello inverso: un compressore assorbe potenza meccanica $P^{mec} > 0$ per aumentare l'entalpia (e la temperatura e la pressione) del fluido di lavoro. Trascurando gli effetti instazionari, viscosi e il flusso di calore con l'esterno, si può quindi scrivere
+\begin{equation}
+   \dot{m} (h_2^t - h_1^t) = P^{mec} \ .
+\end{equation}
+\paragraph{Trasformazioni termodinamiche.}
+\paragraph{Osservazioni tecniche.}
+
+\subsection{Pompe a liquido}
+\paragraph{Esempi.}
+\paragraph{Bilanci.} Semplificando i bilanci,
+\begin{equation}
+\begin{aligned}
+    & \dot{M}_{\Omega}^{tot} + \Phi_{\partial \Omega}(\rho \mathbf{u}^{rel}) = 0 \\
+    & \dot{E}_{\Omega}^{tot} + \Phi_{\partial \Omega}(\rho e^{tot} \mathbf{u}^{rel}) = \dot{Q}^{ext} + P^{ext} \\
+\end{aligned}
+\end{equation}
+nel caso di regime stazionario
+\begin{equation}
+\begin{aligned}
+    & \partial_t ( \rho e^t ) + \nabla \cdot ( \rho e^t \mathbf{u} ) = \rho \mathbf{g} \cdot \mathbf{u} + \nabla \cdot (\mathbb{T} \cdot \mathbf{u}) - \nabla \cdot \mathbf{q} \\
+\end{aligned}
+\end{equation}
+\begin{equation}
+    \dfrac{d}{dt} \int_{v_t} \rho e^t + \oint_{v_t} \rho e^t \mathbf{u} \cdot \mathbf{\hat{n}} = \int_{v_t} \rho \mathbf{g} \cdot \mathbf{u} + \oint_{\partial v_t} \mathbf{t}_n \cdot \mathbf{u} - \oint_{\partial v_t} \mathbf{q} \cdot \mathbf{\hat{n}}
+\end{equation}
+Separando il contorno nelle sezioni di ingresso $S_1$, di uscita $S_2$ e superficie solida $S_s$, si può scrivere
+\begin{equation}
+    \dfrac{d}{dt} \int_{v_t} \rho e^t + \oint_{S_1} \left( \rho e^t \mathbf{u} \cdot \mathbf{\hat{n}} - \mathbf{t}_n \cdot \mathbf{u} \right) + \oint_{S_2} \left( \rho e^t \mathbf{u} \cdot \mathbf{\hat{n}} - \mathbf{t}_n \cdot \mathbf{u} \right)  = \int_{S_s} \rho \mathbf{g} \cdot \mathbf{u} + \oint_{\partial v_t} \mathbf{t}_n \cdot \mathbf{u} - \oint_{\partial v_t} \mathbf{q} \cdot \mathbf{\hat{n}}
+\end{equation}
+Ora, (a) trascurando gli effetti instazionari, (b) trascurando gli effetti viscosi sulle superfici di ingresso e uscita, $\mathbf{t}_n = - p \mathbf{\hat{n}}$, (c) trascurando la potenza delle forze di volume, e riconoscendo (d) nell'integrale di $\mathbf{t}_n \cdot \mathbf{u}$ su $S_s$ la potenza delle forze esterne sul sistema $P^{ext}$ e (e) nell'integrale di $-\mathbf{q} \cdot \mathbf{\hat{n}}$ il calore entrante nel sistema per unità di tempo $\dot{Q}^{ext}$, si può scrivere
+\begin{equation}
+    \underbrace{\dfrac{d}{dt} \int_{v_t} \rho e^t}_{=0 \, (a)} + \oint_{S_1} \underbrace{\left( \rho e^t + p \right)}_{=\rho h^t} \mathbf{u} \cdot \mathbf{\hat{n}} + \oint_{S_2}  \underbrace{\left( \rho e^t + p \right)}_{=\rho h_t} \mathbf{u} \cdot \mathbf{\hat{n}} =  \underbrace{\int_{S_s}\rho \mathbf{g} \cdot \mathbf{u}}_{=0 \, (c)} + \underbrace{\oint_{\partial v_t} \mathbf{t}_n \cdot \mathbf{u}}_{=P^{ext} \, (d)} \underbrace{- \oint_{\partial v_t} \mathbf{q} \cdot \mathbf{\hat{n}}}_{\dot{Q}^{ext} \, (e)}
+\end{equation}
+e mettendo insieme i termini di flusso di entalpia totale nel flusso netto uscente $\Phi_{\partial v_t}$,
+\begin{equation}
+    \Phi_{\partial v_t}(\rho h^t \mathbf{u}) = P^{ext} + \dot{Q}^{ext} \ ,
+\end{equation}
+e nel caso si considerino delle pompe ideali nel quale lo scambio di calore è trascurabile, $\dot{Q}^{ext} = 0$,
+\begin{equation}
+    \Phi_{\partial v_t}(\rho h^t \mathbf{u}) = P^{ext} \ .
+\end{equation}
+
+Se il fluido è incomprimibile, dal bilancio di energia interna ({\color{red} REF}), il flusso netto di energia risulta essere nullo
+\begin{equation}
+    \Phi_{\partial v_t}(\rho e \mathbf{u}) = \oint_{\partial v_t} \rho e \mathbf{u} \cdot \mathbf{\hat{n}} = P^{ext} \ ,
+\end{equation}
+e quindi, sottraendo questo bilancio da quello dell'entalpia totale,
+\begin{equation}
+    \Phi_{\partial v_t}\left( \left( p + \rho \frac{|\mathbf{u}|^2}{2} \right) \mathbf{u} \right) = \oint_{\partial v_t} \rho \left( p + \rho \frac{|\mathbf{u}|^2}{2}\right) \cdot \mathbf{\hat{n}} = P^{ext} \ ,
+\end{equation}
+Infine, se il contributo di energia cinetica è trascurabile rispetto a quello di pressione,
+\begin{equation}
+    \Phi_{\partial v_t}\left( p \mathbf{u} \right) = \oint_{\partial v_t} p \mathbf{u} \cdot \mathbf{\hat{n}} = P^{ext} \ ,
+\end{equation}
+o, mettendo in evidenza le superfici di ingresso e di uscita, assumento proprietà costanti sulle sezioni,
+\begin{equation}
+    \sum_i p_i \dot{V}_i = P^{ext} \ ,
+\end{equation}
+cioè la potenza fornita alla pompa si trasforma nella somma algebrica delle pressioni sulle sezioni di ingresso e uscita, pesate per il flusso volumetrico, $\dot{V}_i > 0$ per flussi uscenti dal componente. Nel caso ci siano solo una sezione di ingresso $S_1$ e di uscita $S_2$, la continuità della massa per fluidi con densità costante prevede
+\begin{equation}
+    0 = \dot{m}_1 + \dot{m}_2 = \overline{\rho} (\dot{V}_2 + \dot{V}_1) \qquad \rightarrow \qquad \dot{V}_1 = - \dot{V}_2 := - \dot{V}
+\end{equation}
+e quindi
+\begin{equation}
+    \dot{V} \left( p_2 - p_1 \right) = P^{ext} \ .
+\end{equation}
+
+\subsection{Camera di combustione}
+In camera di combustione avviene la reazione chimica di combustione,
+\begin{equation}
+    2 C_a H_b + (4a+b) O_2 \rightarrow 2a CO_2 + b H_2 O \ .
+\end{equation}
+una reazione esotermica che rilascia il calore necessario al funzionamento delle macchine termiche a combustione.
+\paragraph{Esempi di applicazione.}
+\paragraph{Bilanci.}
+\paragraph{Trasformazioni termodinamiche.}
+\paragraph{Osservazioni tecniche.}
+
+\subsection{Scambiatore di calore}
+\paragraph{Esempi di applicazione.}
+\paragraph{Bilanci.}
+\paragraph{Trasformazioni termodinamiche.}
+\paragraph{Osservazioni tecniche.}
+
+\subsection{Condensatore}
+\paragraph{Esempi di applicazione.}
+\paragraph{Bilanci.}
+\paragraph{Trasformazioni termodinamiche.}
+\paragraph{Osservazioni tecniche.}
+
+% ==============================================================================
+\chapter{Cicli termodinamici e macchine terminche}\label{thermodynamics:thermal_machines}
+% ------------------------------------------------------------------------------
+\section{Introduzione ai cicli termodinamici}
 \begin{definition}[Ciclo termodinamico] Un ciclo termodinamico è un insieme di trasformazioni termodinamiche che riporta il sistema allo stato di partenza.
 \end{definition}
 Trascurando i termini dinamici, $E^{tot} = K + U \simeq U$, il primo principio della termodinamica
@@ -260,7 +734,7 @@ si può scrivere
 \end{equation}
 
 % ------------------------------------------------------------------------------
-\section{Enunciati del secondo principio della termodinamica di Kelvin-Planck e Clausius}
+\section{Enunciati del secondo principio: Kelvin e Planck}
 
 \begin{definition}[Enunciato di Kelvin] \'E impossibile realizzare una macchina termica ciclica in grado di convertire in lavoro tutto il calore assorbito da una sorgente a temperatura costante.
 \end{definition}
@@ -300,10 +774,75 @@ e quindi,
 % ------------------------------------------------------------------------------
 \section{Cicli termodinamici e macchine termiche}
 \subsection{Cicli termodinamici diretti}
+
 \subsubsection{Ciclo Otto}
+\paragraph{Storia e applicazioni.} {\color{red} Motori industriali}
+\paragraph{Analisi del sistema e ciclo termodinamico}
+
+Ciclo reale:
+\begin{itemize}
+    \item aspirazione
+    \item compressione adiabatica
+    \item combustione
+    \item espansione adiabatica
+    \item scarico 
+\end{itemize}
+
+Ciclo ideale:
+\begin{itemize}
+    \item compressione adiabatica
+    \item trasformazione isocora
+    \item espansione adiabatica
+    \item trasformazione isocora
+\end{itemize}
+
 \subsubsection{Ciclo Diesel}
+\paragraph{Storia e applicazioni.} {\color{red} Motori industriali}
+\paragraph{Analisi del sistema e ciclo termodinamico}
+
+Ciclo reale:
+\begin{itemize}
+    \item aspirazione
+    \item compressione adiabatica
+    \item combustione
+    \item espansione adiabatica
+    \item scarico 
+\end{itemize}
+
+Ciclo ideale:
+\begin{itemize}
+    \item compressione adiabatica
+    \item trasformazione isobara
+    \item espansione adiabatica
+    \item trasformazione isocora
+\end{itemize}
+
 \subsubsection{Ciclo Joule-Brayton}
+\paragraph{Storia e applicazioni.} {\color{red} Turbine a ciclo aperto: motori aeronautici; turbine a ciclo chiuso: conversione energia da termica a elettrica}
+\paragraph{Analisi del sistema e ciclo termodinamico}
+Ciclo ideale:
+\begin{itemize}
+    \item compressione adiabatica
+    \item riscaldamento isobaro
+    \item espansione adiabatica
+    \item raffreddamento isobaro
+\end{itemize}
+
 \subsubsection{Ciclo Rankine}
+\paragraph{Storia e applicazioni.} {\color{red} Produzione di energia (conversione da termica ad elettrica) nelle centrali termoelettriche, con turbine a \textbf{vapore}.}
+\paragraph{Analisi del sistema e ciclo termodinamico.}
+Ciclo ideale:
+\begin{itemize}
+    \item compressione adiabatica, con una pompa ad acqua
+    \item riscaldamento isobaro, in un bollitore
+    \item espansione adiabatica, nella turbina a vapore
+    \item raffreddamento isobaro, in un condensatore
+\end{itemize}
+\paragraph{Ciclo di Rankine con vapore surriscaldato.} Per evitare una formazione eccessiva di frazione liquida negli ultimi stadi della turbina, e ridurre problemi di corrosione, il riscaldamento del vapore non si limita da arrivare al vapore saturo ma riscalda ulteriormente il fluido, nella regione di vapore surriscaldato.
+\paragraph{Ciclo di Rankine con riscaldamento multiplo.}
+\paragraph{Ciclo di Rankine con rigenerazione.} La rigenerazione prevede l'uso di turbine in serie, dalle quali viene sottratto calore per pre-riscaldare e ridurre quindi il calore netto richiesto dal bollitore.
+\paragraph{Ciclo combinato.} Le centrali termoelettriche più moderne prevedono un ciclo combinato di un ciclo a gas Joule-Brayton e di un ciclo Rankine a vapore: in particolare, il calore rilasciato dal ciclo a gas viene ceduto al ciclo a vapore.
+
 % ------------------------------------------------------------------------------
 \subsection{Cicli termodinamici inversi}
 
