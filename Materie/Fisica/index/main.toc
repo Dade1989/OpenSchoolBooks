@@ -478,37 +478,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {18.1}Introduzione storica}{83}{section.18.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.2}Eseprienze e leggi fondamentali}{84}{section.18.2}%
+\contentsline {section}{\numberline {18.2}Esperienze}{84}{section.18.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.1}Legge di Coulomb}{84}{subsection.18.2.1}%
+\contentsline {section}{\numberline {18.3}Eseprienze e leggi fondamentali}{84}{section.18.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.3.1}Legge di Coulomb}{84}{subsection.18.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Descrizione esperimento.}{84}{paragraph*.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.2}Il principio di sovrapposizione di cause ed effetti}{84}{subsection.18.2.2}%
+\contentsline {subsection}{\numberline {18.3.2}Il principio di sovrapposizione di cause ed effetti}{84}{subsection.18.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.3}Il campo elettrico, $\mathbf {e}(\mathbf {r})$}{84}{subsection.18.2.3}%
+\contentsline {subsection}{\numberline {18.3.3}Il campo elettrico, $\mathbf {e}(\mathbf {r})$}{85}{subsection.18.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione operativa con carica di prova.}{84}{paragraph*.65}%
+\contentsline {paragraph}{Definizione operativa con carica di prova.}{85}{paragraph*.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.4}Il campo di spostamento, $\mathbf {d}(\mathbf {r})$}{85}{subsection.18.2.4}%
+\contentsline {subsection}{\numberline {18.3.4}Il campo di spostamento, $\mathbf {d}(\mathbf {r})$}{85}{subsection.18.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.5}Il potenziale del campo elettrico}{85}{subsection.18.2.5}%
+\contentsline {subsection}{\numberline {18.3.5}Il potenziale del campo elettrico}{85}{subsection.18.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.6}Legge di conservazione della carica elettrica}{85}{subsection.18.2.6}%
+\contentsline {subsection}{\numberline {18.3.6}Legge di conservazione della carica elettrica}{85}{subsection.18.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.7}Legge di Gauss per il campo elettrico}{85}{subsection.18.2.7}%
+\contentsline {subsection}{\numberline {18.3.7}Legge di Gauss per il campo elettrico}{85}{subsection.18.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.8}Legge di Gauss per il campo magnetico}{86}{subsection.18.2.8}%
+\contentsline {subsection}{\numberline {18.3.8}Legge di Gauss per il campo magnetico}{86}{subsection.18.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.9}Legge di Faraday--Neumann--Lenz}{86}{subsection.18.2.9}%
+\contentsline {subsection}{\numberline {18.3.9}Legge di Faraday--Neumann--Lenz}{86}{subsection.18.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.10}Legge di Ampère-Maxwell}{86}{subsection.18.2.10}%
+\contentsline {subsection}{\numberline {18.3.10}Legge di Ampère-Maxwell}{86}{subsection.18.3.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.2.11}Equazioni dell'elettromagnetismo e relatività galileiana}{86}{subsection.18.2.11}%
+\contentsline {section}{\numberline {18.4}Equazioni dell'elettromagnetismo e relatività galileiana}{87}{section.18.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Equazione di continuità per la carica elettrica}{86}{paragraph*.66}%
+\contentsline {paragraph}{Equazione di continuità per la carica elettrica}{87}{paragraph*.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {d}(\mathbf {r})$}{86}{paragraph*.67}%
+\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {d}(\mathbf {r})$}{87}{paragraph*.67}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {b}(\mathbf {r})$}{87}{paragraph*.68}%
 \defcounter {refsection}{0}\relax 
@@ -548,53 +550,59 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {20}Applicazioni}{91}{chapter.20}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {20.1}Strumenti per la misura di grandezze elettromagnetiche}{91}{section.20.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {20.2}Trasformatori, motori e generatori}{91}{section.20.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {21}Onde elettromagnetiche}{93}{chapter.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}La struttura della materia -- cenni}{95}{part.7}%
+\contentsline {chapter}{\numberline {22}Ottica}{95}{chapter.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {22}Cronologia}{97}{chapter.22}%
+\contentsline {part}{\numberline {VII}La struttura della materia -- cenni}{97}{part.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fluorescenza e fosforescenza.}{97}{paragraph*.72}%
+\contentsline {chapter}{\numberline {23}Cronologia}{99}{chapter.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi su radioattività}{97}{paragraph*.73}%
+\contentsline {paragraph}{Fluorescenza e fosforescenza.}{99}{paragraph*.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi su tubi a vuoto e raggi}{97}{paragraph*.74}%
+\contentsline {paragraph}{Studi su radioattività}{99}{paragraph*.73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi sulla struttura della materia}{98}{paragraph*.75}%
+\contentsline {paragraph}{Studi su tubi a vuoto e raggi}{99}{paragraph*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {23}Radioattività}{101}{chapter.23}%
+\contentsline {paragraph}{Studi sulla struttura della materia}{100}{paragraph*.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23.1}Storia}{101}{section.23.1}%
+\contentsline {chapter}{\numberline {24}Radioattività}{103}{chapter.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23.2}Decadimenti nucleari}{101}{section.23.2}%
+\contentsline {section}{\numberline {24.1}Storia}{103}{section.24.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.1}Decadimento-$\alpha $}{101}{subsection.23.2.1}%
+\contentsline {section}{\numberline {24.2}Decadimenti nucleari}{103}{section.24.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.2}Decadimento-$\beta $}{101}{subsection.23.2.2}%
+\contentsline {subsection}{\numberline {24.2.1}Decadimento-$\alpha $}{103}{subsection.24.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.3}Decadimento-$\gamma $}{101}{subsection.23.2.3}%
+\contentsline {subsection}{\numberline {24.2.2}Decadimento-$\beta $}{103}{subsection.24.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.4}Emissione di neutroni}{102}{subsection.23.2.4}%
+\contentsline {subsection}{\numberline {24.2.3}Decadimento-$\gamma $}{103}{subsection.24.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.5}Emissione di protoni}{102}{subsection.23.2.5}%
+\contentsline {subsection}{\numberline {24.2.4}Emissione di neutroni}{104}{subsection.24.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {23.2.6}Fissione spontanea}{102}{subsection.23.2.6}%
+\contentsline {subsection}{\numberline {24.2.5}Emissione di protoni}{104}{subsection.24.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {24}Struttura della materia}{103}{chapter.24}%
+\contentsline {subsection}{\numberline {24.2.6}Fissione spontanea}{104}{subsection.24.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esperimento di Thomson.}{103}{paragraph*.76}%
+\contentsline {chapter}{\numberline {25}Struttura della materia}{105}{chapter.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esperimento di Millikan.}{104}{paragraph*.77}%
+\contentsline {paragraph}{Esperimento di Thomson.}{105}{paragraph*.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VIII}Relatività di Einstein -- cenni}{105}{part.8}%
+\contentsline {paragraph}{Esperimento di Millikan.}{106}{paragraph*.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IX}Meccanica quantistica -- cenni}{107}{part.9}%
+\contentsline {part}{\numberline {VIII}Relatività di Einstein -- cenni}{107}{part.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{109}{chapter*.78}%
+\contentsline {part}{\numberline {IX}Meccanica quantistica -- cenni}{109}{part.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{111}{section*.79}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{111}{chapter*.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{111}{section*.80}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{113}{section*.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{111}{appendix.alph1.Alph1}%
+\contentsline {chapter}{Appendices}{113}{section*.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{113}{appendix.alph1.Alph1}%
 \contentsfinish 
