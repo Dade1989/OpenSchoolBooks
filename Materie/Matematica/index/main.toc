@@ -360,13 +360,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {17.3}Teoremi}{71}{section.17.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.4}Integrali fondamentali}{72}{section.17.4}%
+\contentsline {section}{\numberline {17.4}Integrali fondamentali}{73}{section.17.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.5}Regole di integrazione}{72}{section.17.5}%
+\contentsline {section}{\numberline {17.5}Regole di integrazione}{73}{section.17.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {17.5.1}Integrazione per parti}{72}{subsection.17.5.1}%
+\contentsline {subsection}{\numberline {17.5.1}Integrazione per parti}{73}{subsection.17.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {17.5.2}Integrazione con sostituzione}{72}{subsection.17.5.2}%
+\contentsline {subsection}{\numberline {17.5.2}Integrazione con sostituzione}{73}{subsection.17.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {VII}Equazioni differenziali ordinarie}{75}{part.7}%
 \defcounter {refsection}{0}\relax 
