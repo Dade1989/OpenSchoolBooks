@@ -918,6 +918,30 @@ che equivale alla costanza del momento angolare
 \begin{equation}
     \mathbf{L} = \mu \mathbf{r} \times \dot{\mathbf{r}} = \mu r^2 \dot{\theta} \mathbf{\hat{n}} \ .
 \end{equation}
+\paragraph{Traiettoria, $r(\theta)$.} Si definisce $z := \frac{1}{r}$, e calcolando le derivate di $r$
+\begin{equation}
+    \dot{r} = \dfrac{d r}{d \theta} \dot{\theta} = - z^{-2} z'(\theta) \dot{\theta} = - \ell z'(\theta) 
+\end{equation}
+poiché
+\begin{equation}
+    \dot{\theta} = \ell r^{-2} \qquad \rightarrow \qquad \ddot{\theta} = -2 \ell r^{-3} \dot{r} \ .
+\end{equation}
+Derivando un'altra volta
+\begin{equation}
+    \ddot{r} = - \ell z''(\theta) \dot{\theta} = - \ell^2 z(\theta) z''(\theta)\ .
+\end{equation}
+Sostituendo nella componente radiale dell'equazione di moto
+\begin{equation}
+    - \ell^2 z^2(\theta) z''(\theta) - \ell^2 z^3(\theta) + \mu z^2(\theta) = 0 \ ,
+\end{equation}
+e dividendo per $z^2(\theta)$
+\begin{equation}
+    z''(\theta) + z(\theta) = \frac{\mu}{\ell^2} \ ,
+\end{equation}
+la cui soluzione è
+\begin{equation}
+    \dfrac{1}{r(\theta)} = z(\theta) = A \, \cos \theta + B \, \sin \theta + \frac{\mu}{\ell^2} \ .
+\end{equation}
 
 \subsubsection{Leggi di Keplero}
 \begin{theorem}[Prima legge di Keplero] L'orbita di un pianeta è un'ellisse e il Sole si trova in uno dei due fuochi.
@@ -926,7 +950,7 @@ che equivale alla costanza del momento angolare
 \end{theorem}
 L'area elementare $dA$ descritta da uno spostamento $d \mathbf{r}$ vale
 \begin{equation}
-   d A \mathbf{\hat{n}} = \frac{1}{2} \mathbf{r} \times d \mathbf{r} \ .
+    d A \mathbf{\hat{n}} = \frac{1}{2} \mathbf{r} \times d \mathbf{r}\ .
 \end{equation}
 La velocità areolare è quindi
 \begin{equation}
