@@ -166,29 +166,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Equazioni cardinali della dinamica}{39}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Moto di un punto materiale}{39}{subsection.8.2.1}%
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Prima equazione cardinale -- quantità di moto}{39}{paragraph*.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Seconda equazione cardinale -- momento della quantità di moto}{39}{paragraph*.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Terza equazione cardinale -- energia cinetica}{40}{paragraph*.12}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Moto di un punto materiale}{40}{subsection.8.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Prima equazione cardinale -- quantità di moto}{40}{paragraph*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Seconda equazione cardinale -- momento della quantità di moto}{40}{paragraph*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Terza equazione cardinale -- energia cinetica}{40}{paragraph*.15}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.2.2}Moto di un sistema di punti materiali}{40}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prima equazione cardinale}{40}{paragraph*.13}%
+\contentsline {paragraph}{Prima equazione cardinale}{40}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Seconda equazione cardinale}{40}{paragraph*.14}%
+\contentsline {paragraph}{Seconda equazione cardinale}{41}{paragraph*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Terza equazione cardinale}{42}{paragraph*.15}%
+\contentsline {paragraph}{Terza equazione cardinale}{42}{paragraph*.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.2.3}Moto di un corpo rigido}{42}{subsection.8.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prima equazione cardinale}{42}{paragraph*.16}%
+\contentsline {paragraph}{Prima equazione cardinale}{42}{paragraph*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Seconda equazione cardinale}{42}{paragraph*.17}%
+\contentsline {paragraph}{Seconda equazione cardinale}{42}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Terza equazione cardinale}{42}{paragraph*.18}%
+\contentsline {paragraph}{Terza equazione cardinale}{42}{paragraph*.21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Moti notevoli ed esempi}{43}{chapter.9}%
 \defcounter {refsection}{0}\relax 
@@ -218,391 +224,397 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.3}Moto dei corpi celesti}{46}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IV}Meccanica del continuo -- cenni}{47}{part.4}%
+\contentsline {subsection}{\numberline {9.3.1}Problema dei due corpi}{46}{subsection.9.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Equazioni di bilancio}{49}{chapter.10}%
+\contentsline {subsubsection}{\numberline {9.3.1.1}Leggi di Keplero}{46}{subsubsection.9.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Bilanci per un mezzo continuo}{49}{section.10.1}%
+\contentsline {subsection}{\numberline {9.3.2}Problema dei tre corpi -- cenni}{47}{subsection.9.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Bilanci in forma integrale}{49}{subsection.10.1.1}%
+\contentsline {part}{\numberline {IV}Meccanica del continuo -- cenni}{49}{part.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.1.1}Bilanci integrali per un volume materiale}{49}{subsubsection.10.1.1.1}%
+\contentsline {chapter}{\numberline {10}Equazioni di bilancio}{51}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.1.2}Bilanci per un volume in moto arbitrario}{49}{subsubsection.10.1.1.2}%
+\contentsline {section}{\numberline {10.1}Bilanci per un mezzo continuo}{51}{section.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.1.3}Bilanci per un volume di controllo fisso}{50}{subsubsection.10.1.1.3}%
+\contentsline {subsection}{\numberline {10.1.1}Bilanci in forma integrale}{51}{subsection.10.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Bilanci in forma differenziale}{50}{subsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {10.1.1.1}Bilanci integrali per un volume materiale}{51}{subsubsection.10.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.2.1}Bilanci in forma conservativa}{50}{subsubsection.10.1.2.1}%
+\contentsline {subsubsection}{\numberline {10.1.1.2}Bilanci per un volume in moto arbitrario}{51}{subsubsection.10.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.2.2}Bilanci in forma convettiva}{50}{subsubsection.10.1.2.2}%
+\contentsline {subsubsection}{\numberline {10.1.1.3}Bilanci per un volume di controllo fisso}{52}{subsubsection.10.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {10.1.2.3}Bilanci dell'energia cinetica e dell'energia interna}{50}{subsubsection.10.1.2.3}%
+\contentsline {subsection}{\numberline {10.1.2}Bilanci in forma differenziale}{52}{subsection.10.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Bilanci per un solido}{50}{section.10.2}%
+\contentsline {subsubsection}{\numberline {10.1.2.1}Bilanci in forma conservativa}{52}{subsubsection.10.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Bilanci per un fluido newtoniano}{50}{section.10.3}%
+\contentsline {subsubsection}{\numberline {10.1.2.2}Bilanci in forma convettiva}{52}{subsubsection.10.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Leggi costitutive}{50}{paragraph*.19}%
+\contentsline {subsubsection}{\numberline {10.1.2.3}Bilanci dell'energia cinetica e dell'energia interna}{52}{subsubsection.10.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Tensore degli sforzi.}{50}{paragraph*.20}%
+\contentsline {section}{\numberline {10.2}Bilanci per un solido}{52}{section.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Flusso di calore per conduzione.}{51}{paragraph*.21}%
+\contentsline {section}{\numberline {10.3}Bilanci per un fluido newtoniano}{52}{section.10.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Equazioni di stato.}{51}{paragraph*.22}%
+\contentsline {paragraph}{Leggi costitutive}{52}{paragraph*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3.1}Corrente incomprimibile}{51}{subsection.10.3.1}%
+\contentsline {paragraph}{Tensore degli sforzi.}{52}{paragraph*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Appendice -- Derivate su domini mobili}{53}{chapter.11}%
+\contentsline {paragraph}{Flusso di calore per conduzione.}{53}{paragraph*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {V}Termodinamica}{55}{part.5}%
+\contentsline {paragraph}{Equazioni di stato.}{53}{paragraph*.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Principi della termodinamica}{59}{chapter.12}%
+\contentsline {subsection}{\numberline {10.3.1}Corrente incomprimibile}{53}{subsection.10.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Introduzione}{59}{section.12.1}%
+\contentsline {chapter}{\numberline {11}Appendice -- Derivate su domini mobili}{55}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Principi della termodinamica}{59}{section.12.2}%
+\contentsline {part}{\numberline {V}Termodinamica}{57}{part.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.1}Legge di conservazione della massa}{59}{subsection.12.2.1}%
+\contentsline {chapter}{\numberline {12}Principi della termodinamica}{61}{chapter.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Primo principio}{60}{subsection.12.2.2}%
+\contentsline {section}{\numberline {12.1}Introduzione}{61}{section.12.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.2.2.1}Energia interna}{60}{subsubsection.12.2.2.1}%
+\contentsline {section}{\numberline {12.2}Principi della termodinamica}{61}{section.12.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.3}Secondo principio}{60}{subsection.12.2.3}%
+\contentsline {subsection}{\numberline {12.2.1}Legge di conservazione della massa}{61}{subsection.12.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.2.3.1}Conseguenze del secondo principio della termodinamica}{61}{subsubsection.12.2.3.1}%
+\contentsline {subsection}{\numberline {12.2.2}Primo principio}{62}{subsection.12.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.2.3.2}Integrale di Clausius}{61}{subsubsection.12.2.3.2}%
+\contentsline {subsubsection}{\numberline {12.2.2.1}Energia interna}{62}{subsubsection.12.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {12.2.3.3}Secondo principio della dinamica per sistemi non omogenei}{62}{subsubsection.12.2.3.3}%
+\contentsline {subsection}{\numberline {12.2.3}Secondo principio}{62}{subsection.12.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.4}Terzo principio}{62}{subsection.12.2.4}%
+\contentsline {subsubsection}{\numberline {12.2.3.1}Conseguenze del secondo principio della termodinamica}{63}{subsubsection.12.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.5}Principio zero - Equilibrio termico}{62}{subsection.12.2.5}%
+\contentsline {subsubsection}{\numberline {12.2.3.2}Integrale di Clausius}{63}{subsubsection.12.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Bilanci per sistemi chiusi}{62}{section.12.3}%
+\contentsline {subsubsection}{\numberline {12.2.3.3}Secondo principio della dinamica per sistemi non omogenei}{64}{subsubsection.12.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.4}Bilanci per sistemi aperti}{62}{section.12.4}%
+\contentsline {subsection}{\numberline {12.2.4}Terzo principio}{64}{subsection.12.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Coefficienti e relazioni termodinamiche}{63}{chapter.13}%
+\contentsline {subsection}{\numberline {12.2.5}Principio zero - Equilibrio termico}{64}{subsection.12.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.1}Potenziali termodinamici}{63}{section.13.1}%
+\contentsline {section}{\numberline {12.3}Bilanci per sistemi chiusi}{64}{section.12.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Entalpia.}{64}{paragraph*.23}%
+\contentsline {section}{\numberline {12.4}Bilanci per sistemi aperti}{64}{section.12.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Energia libera di Helmholtz.}{64}{paragraph*.24}%
+\contentsline {chapter}{\numberline {13}Coefficienti e relazioni termodinamiche}{65}{chapter.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Energia libera di Gibbs.}{64}{paragraph*.25}%
+\contentsline {section}{\numberline {13.1}Potenziali termodinamici}{65}{section.13.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.2}Coefficienti termodinamici}{64}{section.13.2}%
+\contentsline {paragraph}{Entalpia.}{66}{paragraph*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Calore specifico}{64}{paragraph*.26}%
+\contentsline {paragraph}{Energia libera di Helmholtz.}{66}{paragraph*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Coefficienti di espansione termica}{64}{paragraph*.27}%
+\contentsline {paragraph}{Energia libera di Gibbs.}{66}{paragraph*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Coefficienti di comprimibilità}{64}{paragraph*.28}%
+\contentsline {section}{\numberline {13.2}Coefficienti termodinamici}{66}{section.13.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.3}Relazioni termodinamiche}{64}{section.13.3}%
+\contentsline {paragraph}{Calore specifico}{66}{paragraph*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Stati della materia e leggi costitutive}{65}{chapter.14}%
+\contentsline {paragraph}{Coefficienti di espansione termica}{66}{paragraph*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.1}Stati della materia, variabili termodinamaiche e diagramma di stato}{65}{section.14.1}%
+\contentsline {paragraph}{Coefficienti di comprimibilità}{66}{paragraph*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.2}Gas}{65}{section.14.2}%
+\contentsline {section}{\numberline {13.3}Relazioni termodinamiche}{66}{section.13.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.1}Leggi sui gas: Boyle, Gay--Lussac, Charles}{65}{subsection.14.2.1}%
+\contentsline {chapter}{\numberline {14}Stati della materia e leggi costitutive}{67}{chapter.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.2}Equazione di stato dei gas perfetti}{65}{subsection.14.2.2}%
+\contentsline {section}{\numberline {14.1}Stati della materia, variabili termodinamaiche e diagramma di stato}{67}{section.14.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.2.1}Energia interna}{66}{subsubsection.14.2.2.1}%
+\contentsline {section}{\numberline {14.2}Gas}{67}{section.14.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.2.2}Entalpia interna}{66}{subsubsection.14.2.2.2}%
+\contentsline {subsection}{\numberline {14.2.1}Leggi sui gas: Boyle, Gay--Lussac, Charles}{67}{subsection.14.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.2.3}Rapporto dei calori specifici}{66}{subsubsection.14.2.2.3}%
+\contentsline {subsection}{\numberline {14.2.2}Equazione di stato dei gas perfetti}{67}{subsection.14.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.2.4}Relazione di Meyer}{66}{subsubsection.14.2.2.4}%
+\contentsline {subsubsection}{\numberline {14.2.2.1}Energia interna}{68}{subsubsection.14.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.2.5}Espressioni dell'entropia}{66}{subsubsection.14.2.2.5}%
+\contentsline {subsubsection}{\numberline {14.2.2.2}Entalpia interna}{68}{subsubsection.14.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.3}Equazione di stato di Van der Waals -- equazione di stato dei gas reali}{67}{subsection.14.2.3}%
+\contentsline {subsubsection}{\numberline {14.2.2.3}Rapporto dei calori specifici}{68}{subsubsection.14.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.4}Teoria cinetica dei gas -- cenni}{67}{subsection.14.2.4}%
+\contentsline {subsubsection}{\numberline {14.2.2.4}Relazione di Meyer}{68}{subsubsection.14.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {14.2.4.1}Equipartizione dell'energia}{67}{subsubsection.14.2.4.1}%
+\contentsline {subsubsection}{\numberline {14.2.2.5}Espressioni dell'entropia}{68}{subsubsection.14.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Gradi di libertà delle molecole}{67}{paragraph*.29}%
+\contentsline {subsection}{\numberline {14.2.3}Equazione di stato di Van der Waals -- equazione di stato dei gas reali}{69}{subsection.14.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.3}Liquidi}{67}{section.14.3}%
+\contentsline {subsection}{\numberline {14.2.4}Teoria cinetica dei gas -- cenni}{69}{subsection.14.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.4}Solidi}{67}{section.14.4}%
+\contentsline {subsubsection}{\numberline {14.2.4.1}Equipartizione dell'energia}{69}{subsubsection.14.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.5}Miscele}{67}{section.14.5}%
+\contentsline {paragraph}{Gradi di libertà delle molecole.}{70}{paragraph*.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.6}Vapore acqueo}{67}{section.14.6}%
+\contentsline {section}{\numberline {14.3}Liquidi}{70}{section.14.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.7}Aria umida}{67}{section.14.7}%
+\contentsline {section}{\numberline {14.4}Solidi}{70}{section.14.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}Trasformazioni teromdinamiche e componenti termo-meccanici}{69}{chapter.15}%
+\contentsline {section}{\numberline {14.5}Miscele}{70}{section.14.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.1}Trasformazioni termodinamiche}{69}{section.15.1}%
+\contentsline {section}{\numberline {14.6}Vapore acqueo}{70}{section.14.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.1.1}Piani delle fasi}{69}{subsection.15.1.1}%
+\contentsline {section}{\numberline {14.7}Aria umida}{70}{section.14.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.2}Trasformazioni termodinamiche per gas perfetti}{69}{section.15.2}%
+\contentsline {chapter}{\numberline {15}Trasformazioni teromdinamiche e componenti termo-meccanici}{71}{chapter.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.1}Trasformazione isoterma}{69}{subsection.15.2.1}%
+\contentsline {section}{\numberline {15.1}Trasformazioni termodinamiche}{71}{section.15.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.2}Trasformazione isobara}{69}{subsection.15.2.2}%
+\contentsline {subsection}{\numberline {15.1.1}Piani delle fasi}{71}{subsection.15.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.3}Trasformazione isocora}{69}{subsection.15.2.3}%
+\contentsline {section}{\numberline {15.2}Trasformazioni termodinamiche per gas perfetti}{71}{section.15.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.2.4}Trasformazione adiabatica ideale -- isentropica}{70}{subsection.15.2.4}%
+\contentsline {subsection}{\numberline {15.2.1}Trasformazione isoterma}{71}{subsection.15.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15.3}Esempi di componenti termo-meccanici}{70}{section.15.3}%
+\contentsline {subsection}{\numberline {15.2.2}Trasformazione isobara}{71}{subsection.15.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.1}Turbine}{70}{subsection.15.3.1}%
+\contentsline {subsection}{\numberline {15.2.3}Trasformazione isocora}{71}{subsection.15.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi di applicazione.}{70}{paragraph*.30}%
+\contentsline {subsection}{\numberline {15.2.4}Trasformazione adiabatica ideale -- isentropica}{72}{subsection.15.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{70}{paragraph*.31}%
+\contentsline {section}{\numberline {15.3}Esempi di componenti termo-meccanici}{72}{section.15.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trasformazioni termodinamiche.}{70}{paragraph*.32}%
+\contentsline {subsection}{\numberline {15.3.1}Turbine}{72}{subsection.15.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni tecniche.}{71}{paragraph*.33}%
+\contentsline {paragraph}{Esempi di applicazione.}{72}{paragraph*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.2}Compressori}{71}{subsection.15.3.2}%
+\contentsline {paragraph}{Bilanci.}{72}{paragraph*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi di applicazione.}{71}{paragraph*.34}%
+\contentsline {paragraph}{Trasformazioni termodinamiche.}{72}{paragraph*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{71}{paragraph*.35}%
+\contentsline {paragraph}{Osservazioni tecniche.}{73}{paragraph*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trasformazioni termodinamiche.}{71}{paragraph*.36}%
+\contentsline {subsection}{\numberline {15.3.2}Compressori}{73}{subsection.15.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni tecniche.}{71}{paragraph*.37}%
+\contentsline {paragraph}{Esempi di applicazione.}{73}{paragraph*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.3}Pompe a liquido}{71}{subsection.15.3.3}%
+\contentsline {paragraph}{Bilanci.}{73}{paragraph*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi.}{71}{paragraph*.38}%
+\contentsline {paragraph}{Trasformazioni termodinamiche.}{73}{paragraph*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{71}{paragraph*.39}%
+\contentsline {paragraph}{Osservazioni tecniche.}{73}{paragraph*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.4}Camera di combustione}{73}{subsection.15.3.4}%
+\contentsline {subsection}{\numberline {15.3.3}Pompe a liquido}{73}{subsection.15.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi di applicazione.}{73}{paragraph*.40}%
+\contentsline {paragraph}{Esempi.}{73}{paragraph*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{73}{paragraph*.41}%
+\contentsline {paragraph}{Bilanci.}{73}{paragraph*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trasformazioni termodinamiche.}{73}{paragraph*.42}%
+\contentsline {subsection}{\numberline {15.3.4}Camera di combustione}{75}{subsection.15.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni tecniche.}{73}{paragraph*.43}%
+\contentsline {paragraph}{Esempi di applicazione.}{75}{paragraph*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.5}Scambiatore di calore}{73}{subsection.15.3.5}%
+\contentsline {paragraph}{Bilanci.}{75}{paragraph*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi di applicazione.}{73}{paragraph*.44}%
+\contentsline {paragraph}{Trasformazioni termodinamiche.}{75}{paragraph*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{73}{paragraph*.45}%
+\contentsline {paragraph}{Osservazioni tecniche.}{75}{paragraph*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trasformazioni termodinamiche.}{73}{paragraph*.46}%
+\contentsline {subsection}{\numberline {15.3.5}Scambiatore di calore}{75}{subsection.15.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni tecniche.}{73}{paragraph*.47}%
+\contentsline {paragraph}{Esempi di applicazione.}{75}{paragraph*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {15.3.6}Condensatore}{73}{subsection.15.3.6}%
+\contentsline {paragraph}{Bilanci.}{75}{paragraph*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi di applicazione.}{73}{paragraph*.48}%
+\contentsline {paragraph}{Trasformazioni termodinamiche.}{75}{paragraph*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bilanci.}{73}{paragraph*.49}%
+\contentsline {paragraph}{Osservazioni tecniche.}{75}{paragraph*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trasformazioni termodinamiche.}{73}{paragraph*.50}%
+\contentsline {subsection}{\numberline {15.3.6}Condensatore}{75}{subsection.15.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni tecniche.}{73}{paragraph*.51}%
+\contentsline {paragraph}{Esempi di applicazione.}{75}{paragraph*.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {16}Cicli termodinamici e macchine terminche}{75}{chapter.16}%
+\contentsline {paragraph}{Bilanci.}{75}{paragraph*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.1}Introduzione ai cicli termodinamici}{75}{section.16.1}%
+\contentsline {paragraph}{Trasformazioni termodinamiche.}{75}{paragraph*.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.2}Macchina ideale di Carnot}{76}{section.16.2}%
+\contentsline {paragraph}{Osservazioni tecniche.}{75}{paragraph*.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.3}Enunciati del secondo principio: Kelvin e Planck}{76}{section.16.3}%
+\contentsline {chapter}{\numberline {16}Cicli termodinamici e macchine terminche}{77}{chapter.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16.4}Cicli termodinamici e macchine termiche}{77}{section.16.4}%
+\contentsline {section}{\numberline {16.1}Introduzione ai cicli termodinamici}{77}{section.16.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.4.1}Cicli termodinamici diretti}{77}{subsection.16.4.1}%
+\contentsline {section}{\numberline {16.2}Macchina ideale di Carnot}{78}{section.16.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {16.4.1.1}Ciclo Otto}{77}{subsubsection.16.4.1.1}%
+\contentsline {section}{\numberline {16.3}Enunciati del secondo principio: Kelvin e Planck}{78}{section.16.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storia e applicazioni.}{77}{paragraph*.52}%
+\contentsline {section}{\numberline {16.4}Cicli termodinamici e macchine termiche}{79}{section.16.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{77}{paragraph*.53}%
+\contentsline {subsection}{\numberline {16.4.1}Cicli termodinamici diretti}{79}{subsection.16.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {16.4.1.2}Ciclo Diesel}{77}{subsubsection.16.4.1.2}%
+\contentsline {subsubsection}{\numberline {16.4.1.1}Ciclo Otto}{79}{subsubsection.16.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storia e applicazioni.}{77}{paragraph*.54}%
+\contentsline {paragraph}{Storia e applicazioni.}{79}{paragraph*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{78}{paragraph*.55}%
+\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{79}{paragraph*.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {16.4.1.3}Ciclo Joule-Brayton}{78}{subsubsection.16.4.1.3}%
+\contentsline {subsubsection}{\numberline {16.4.1.2}Ciclo Diesel}{79}{subsubsection.16.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storia e applicazioni.}{78}{paragraph*.56}%
+\contentsline {paragraph}{Storia e applicazioni.}{79}{paragraph*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{78}{paragraph*.57}%
+\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{80}{paragraph*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {16.4.1.4}Ciclo Rankine}{78}{subsubsection.16.4.1.4}%
+\contentsline {subsubsection}{\numberline {16.4.1.3}Ciclo Joule-Brayton}{80}{subsubsection.16.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storia e applicazioni.}{78}{paragraph*.58}%
+\contentsline {paragraph}{Storia e applicazioni.}{80}{paragraph*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico.}{78}{paragraph*.59}%
+\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico}{80}{paragraph*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ciclo di Rankine con vapore surriscaldato.}{78}{paragraph*.60}%
+\contentsline {subsubsection}{\numberline {16.4.1.4}Ciclo Rankine}{80}{subsubsection.16.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ciclo di Rankine con riscaldamento multiplo.}{78}{paragraph*.61}%
+\contentsline {paragraph}{Storia e applicazioni.}{80}{paragraph*.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ciclo di Rankine con rigenerazione.}{78}{paragraph*.62}%
+\contentsline {paragraph}{Analisi del sistema e ciclo termodinamico.}{80}{paragraph*.62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ciclo combinato.}{78}{paragraph*.63}%
+\contentsline {paragraph}{Ciclo di Rankine con vapore surriscaldato.}{80}{paragraph*.63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {16.4.2}Cicli termodinamici inversi}{78}{subsection.16.4.2}%
+\contentsline {paragraph}{Ciclo di Rankine con riscaldamento multiplo.}{80}{paragraph*.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {17}Trasmissione del calore}{79}{chapter.17}%
+\contentsline {paragraph}{Ciclo di Rankine con rigenerazione.}{80}{paragraph*.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.1}Conduzione}{79}{section.17.1}%
+\contentsline {paragraph}{Ciclo combinato.}{80}{paragraph*.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.2}Convezione}{79}{section.17.2}%
+\contentsline {subsection}{\numberline {16.4.2}Cicli termodinamici inversi}{80}{subsection.16.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17.3}Irraggiamento}{79}{section.17.3}%
+\contentsline {chapter}{\numberline {17}Trasmissione del calore}{81}{chapter.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VI}Elettromagnetismo}{81}{part.6}%
+\contentsline {section}{\numberline {17.1}Conduzione}{81}{section.17.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {18}Fondamenti}{83}{chapter.18}%
+\contentsline {section}{\numberline {17.2}Convezione}{81}{section.17.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.1}Introduzione storica}{83}{section.18.1}%
+\contentsline {section}{\numberline {17.3}Irraggiamento}{81}{section.17.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.2}Esperienze}{84}{section.18.2}%
+\contentsline {part}{\numberline {VI}Elettromagnetismo}{83}{part.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.3}Eseprienze e leggi fondamentali}{84}{section.18.3}%
+\contentsline {chapter}{\numberline {18}Fondamenti}{85}{chapter.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.1}Legge di Coulomb}{84}{subsection.18.3.1}%
+\contentsline {section}{\numberline {18.1}Introduzione storica}{85}{section.18.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Descrizione esperimento.}{84}{paragraph*.64}%
+\contentsline {section}{\numberline {18.2}Esperienze}{86}{section.18.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.2}Il principio di sovrapposizione di cause ed effetti}{84}{subsection.18.3.2}%
+\contentsline {section}{\numberline {18.3}Eseprienze e leggi fondamentali}{86}{section.18.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.3}Il campo elettrico, $\mathbf {e}(\mathbf {r})$}{85}{subsection.18.3.3}%
+\contentsline {subsection}{\numberline {18.3.1}Legge di Coulomb}{86}{subsection.18.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione operativa con carica di prova.}{85}{paragraph*.65}%
+\contentsline {paragraph}{Descrizione esperimento.}{86}{paragraph*.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.4}Il campo di spostamento, $\mathbf {d}(\mathbf {r})$}{85}{subsection.18.3.4}%
+\contentsline {subsection}{\numberline {18.3.2}Il principio di sovrapposizione di cause ed effetti}{86}{subsection.18.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.5}Il potenziale del campo elettrico}{85}{subsection.18.3.5}%
+\contentsline {subsection}{\numberline {18.3.3}Il campo elettrico, $\mathbf {e}(\mathbf {r})$}{87}{subsection.18.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.6}Legge di conservazione della carica elettrica}{85}{subsection.18.3.6}%
+\contentsline {paragraph}{Definizione operativa con carica di prova.}{87}{paragraph*.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.7}Legge di Gauss per il campo elettrico}{85}{subsection.18.3.7}%
+\contentsline {subsection}{\numberline {18.3.4}Il campo di spostamento, $\mathbf {d}(\mathbf {r})$}{87}{subsection.18.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.8}Legge di Gauss per il campo magnetico}{86}{subsection.18.3.8}%
+\contentsline {subsection}{\numberline {18.3.5}Il potenziale del campo elettrico}{87}{subsection.18.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.9}Legge di Faraday--Neumann--Lenz}{86}{subsection.18.3.9}%
+\contentsline {subsection}{\numberline {18.3.6}Legge di conservazione della carica elettrica}{87}{subsection.18.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {18.3.10}Legge di Ampère-Maxwell}{86}{subsection.18.3.10}%
+\contentsline {subsection}{\numberline {18.3.7}Legge di Gauss per il campo elettrico}{87}{subsection.18.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18.4}Equazioni dell'elettromagnetismo e relatività galileiana}{87}{section.18.4}%
+\contentsline {subsection}{\numberline {18.3.8}Legge di Gauss per il campo magnetico}{88}{subsection.18.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Equazione di continuità per la carica elettrica}{87}{paragraph*.66}%
+\contentsline {subsection}{\numberline {18.3.9}Legge di Faraday--Neumann--Lenz}{88}{subsection.18.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {d}(\mathbf {r})$}{87}{paragraph*.67}%
+\contentsline {subsection}{\numberline {18.3.10}Legge di Ampère-Maxwell}{88}{subsection.18.3.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {b}(\mathbf {r})$}{87}{paragraph*.68}%
+\contentsline {section}{\numberline {18.4}Equazioni dell'elettromagnetismo e relatività galileiana}{89}{section.18.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Legge di Faraday--Neumann--Lenz}{87}{paragraph*.69}%
+\contentsline {paragraph}{Equazione di continuità per la carica elettrica}{89}{paragraph*.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Legge di Ampère--Maxwell}{87}{paragraph*.70}%
+\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {d}(\mathbf {r})$}{89}{paragraph*.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Schema del capitolo}{87}{paragraph*.71}%
+\contentsline {paragraph}{Legge di Gauss per il campo $\mathbf {b}(\mathbf {r})$}{89}{paragraph*.71}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {19}Approssimazione circuitale}{89}{chapter.19}%
+\contentsline {paragraph}{Legge di Faraday--Neumann--Lenz}{89}{paragraph*.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.1}Circuiti elettrici}{89}{section.19.1}%
+\contentsline {paragraph}{Legge di Ampère--Maxwell}{89}{paragraph*.73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.1}Componenti}{89}{subsection.19.1.1}%
+\contentsline {paragraph}{Schema del capitolo}{89}{paragraph*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.1.1}Resistore lineare}{89}{subsubsection.19.1.1.1}%
+\contentsline {chapter}{\numberline {19}Approssimazione circuitale}{91}{chapter.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.2}Induttore}{89}{subsection.19.1.2}%
+\contentsline {section}{\numberline {19.1}Circuiti elettrici}{91}{section.19.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.3}Condensatore}{89}{subsection.19.1.3}%
+\contentsline {subsection}{\numberline {19.1.1}Componenti}{91}{subsection.19.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.4}Leggi ai nodi e leggi alle maglie}{89}{subsection.19.1.4}%
+\contentsline {subsubsection}{\numberline {19.1.1.1}Resistore lineare}{91}{subsubsection.19.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.4.1}Legge ai nodi}{89}{subsubsection.19.1.4.1}%
+\contentsline {subsection}{\numberline {19.1.2}Induttore}{91}{subsection.19.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.4.2}Legge alle maglie}{90}{subsubsection.19.1.4.2}%
+\contentsline {subsection}{\numberline {19.1.3}Condensatore}{91}{subsection.19.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {19.1.5}Regimi}{90}{subsection.19.1.5}%
+\contentsline {subsection}{\numberline {19.1.4}Leggi ai nodi e leggi alle maglie}{91}{subsection.19.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.5.1}Stazionario}{90}{subsubsection.19.1.5.1}%
+\contentsline {subsubsection}{\numberline {19.1.4.1}Legge ai nodi}{91}{subsubsection.19.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.5.2}Instazionario transitorio}{90}{subsubsection.19.1.5.2}%
+\contentsline {subsubsection}{\numberline {19.1.4.2}Legge alle maglie}{92}{subsubsection.19.1.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {19.1.5.3}Instazionario periodico}{90}{subsubsection.19.1.5.3}%
+\contentsline {subsection}{\numberline {19.1.5}Regimi}{92}{subsection.19.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19.2}Circuiti magnetici}{90}{section.19.2}%
+\contentsline {subsubsection}{\numberline {19.1.5.1}Stazionario}{92}{subsubsection.19.1.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {20}Applicazioni}{91}{chapter.20}%
+\contentsline {subsubsection}{\numberline {19.1.5.2}Instazionario transitorio}{92}{subsubsection.19.1.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20.1}Strumenti per la misura di grandezze elettromagnetiche}{91}{section.20.1}%
+\contentsline {subsubsection}{\numberline {19.1.5.3}Instazionario periodico}{92}{subsubsection.19.1.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20.2}Trasformatori, motori e generatori}{91}{section.20.2}%
+\contentsline {section}{\numberline {19.2}Circuiti magnetici}{92}{section.19.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {21}Onde elettromagnetiche}{93}{chapter.21}%
+\contentsline {chapter}{\numberline {20}Applicazioni}{93}{chapter.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {22}Ottica}{95}{chapter.22}%
+\contentsline {section}{\numberline {20.1}Strumenti per la misura di grandezze elettromagnetiche}{93}{section.20.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VII}La struttura della materia -- cenni}{97}{part.7}%
+\contentsline {section}{\numberline {20.2}Trasformatori, motori e generatori}{93}{section.20.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {23}Cronologia}{99}{chapter.23}%
+\contentsline {chapter}{\numberline {21}Onde elettromagnetiche}{95}{chapter.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fluorescenza e fosforescenza.}{99}{paragraph*.72}%
+\contentsline {chapter}{\numberline {22}Ottica}{97}{chapter.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi su radioattività}{99}{paragraph*.73}%
+\contentsline {part}{\numberline {VII}La struttura della materia -- cenni}{99}{part.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi su tubi a vuoto e raggi}{99}{paragraph*.74}%
+\contentsline {chapter}{\numberline {23}Cronologia}{101}{chapter.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Studi sulla struttura della materia}{100}{paragraph*.75}%
+\contentsline {paragraph}{Fluorescenza e fosforescenza.}{101}{paragraph*.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {24}Radioattività}{103}{chapter.24}%
+\contentsline {paragraph}{Studi su radioattività}{101}{paragraph*.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24.1}Storia}{103}{section.24.1}%
+\contentsline {paragraph}{Studi su tubi a vuoto e raggi}{101}{paragraph*.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24.2}Decadimenti nucleari}{103}{section.24.2}%
+\contentsline {paragraph}{Studi sulla struttura della materia}{102}{paragraph*.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.1}Decadimento-$\alpha $}{103}{subsection.24.2.1}%
+\contentsline {chapter}{\numberline {24}Radioattività}{105}{chapter.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.2}Decadimento-$\beta $}{103}{subsection.24.2.2}%
+\contentsline {section}{\numberline {24.1}Storia}{105}{section.24.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.3}Decadimento-$\gamma $}{103}{subsection.24.2.3}%
+\contentsline {section}{\numberline {24.2}Decadimenti nucleari}{105}{section.24.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.4}Emissione di neutroni}{104}{subsection.24.2.4}%
+\contentsline {subsection}{\numberline {24.2.1}Decadimento-$\alpha $}{105}{subsection.24.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.5}Emissione di protoni}{104}{subsection.24.2.5}%
+\contentsline {subsection}{\numberline {24.2.2}Decadimento-$\beta $}{105}{subsection.24.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {24.2.6}Fissione spontanea}{104}{subsection.24.2.6}%
+\contentsline {subsection}{\numberline {24.2.3}Decadimento-$\gamma $}{105}{subsection.24.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {25}Struttura della materia}{105}{chapter.25}%
+\contentsline {subsection}{\numberline {24.2.4}Emissione di neutroni}{106}{subsection.24.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esperimento di Thomson.}{105}{paragraph*.76}%
+\contentsline {subsection}{\numberline {24.2.5}Emissione di protoni}{106}{subsection.24.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esperimento di Millikan.}{106}{paragraph*.77}%
+\contentsline {subsection}{\numberline {24.2.6}Fissione spontanea}{106}{subsection.24.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {VIII}Relatività di Einstein -- cenni}{107}{part.8}%
+\contentsline {chapter}{\numberline {25}Struttura della materia}{107}{chapter.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {IX}Meccanica quantistica -- cenni}{109}{part.9}%
+\contentsline {paragraph}{Esperimento di Thomson.}{107}{paragraph*.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{111}{chapter*.78}%
+\contentsline {paragraph}{Esperimento di Millikan.}{108}{paragraph*.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{113}{section*.79}%
+\contentsline {part}{\numberline {VIII}Relatività di Einstein -- cenni}{109}{part.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{113}{section*.80}%
+\contentsline {part}{\numberline {IX}Meccanica quantistica -- cenni}{111}{part.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Prima appendice}{113}{appendix.alph1.Alph1}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibilografia}}{113}{chapter*.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Indice}}{115}{section*.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{115}{section*.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Prima appendice}{115}{appendix.alph1.Alph1}%
 \contentsfinish 

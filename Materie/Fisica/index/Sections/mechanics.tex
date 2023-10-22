@@ -202,7 +202,7 @@ Queste quantità sono \textbf{grandezze additive}.
 \end{equation}
 \subsubsection{Momento della quantità di moto}
 \begin{equation}
-    \mathbf{\Gamma}_0 = \left(\mathbf{r} - \mathbf{r}_0 \right) \times \mathbf{Q}
+    \mathbf{\Gamma}_H = \left(\mathbf{r} - \mathbf{r}_H \right) \times \mathbf{Q}
 \end{equation}
 \subsubsection{Energia cinetica}
 \begin{equation}
@@ -216,7 +216,7 @@ Queste quantità sono \textbf{grandezze additive}.
 \end{equation}
 \subsubsection{Momento della quantità di moto}
 \begin{equation}
-    \mathbf{\Gamma}_O = \sum_{i} \mathbf{\Gamma}_{O,i} = \sum_i \left( \mathbf{r}_i - \mathbf{r}_0 \right) \times \mathbf{Q}_i
+    \mathbf{\Gamma}_H = \sum_{i} \mathbf{\Gamma}_{H,i} = \sum_i \left( \mathbf{r}_i - \mathbf{r}_H \right) \times \mathbf{Q}_i
 \end{equation}
 \subsubsection{Energia cinetica}
 \begin{equation}
@@ -331,8 +331,8 @@ essendo $\mu_d$ il coefficiente di attrito dinamico, tipico delle superfici (e d
 
 % ------------------------------------------------------------------------------
 \section{Momento di una forza}
-\begin{definition}[Momento di una forza] Il momento di una forza rispetto a un \textbf{polo} $O$, $\mathbf{M}_O$, viene definito coem il prodotto vettoriale tra il raggio $\Delta \mathbf{r}_{OP} = \mathbf{r}_P - \mathbf{r}_O$ tra il polo e il punto di applicazione e la forza $\mathbf{F}$,
-    \begin{equation} \mathbf{M}_O = \Delta \mathbf{r}_{OP} \times \mathbf{F} \ .
+\begin{definition}[Momento di una forza] Il momento di una forza rispetto a un \textbf{polo} $H$, $\mathbf{M}_H$, viene definito coem il prodotto vettoriale tra il raggio $\Delta \mathbf{r}_{HP} = \mathbf{r}_P - \mathbf{r}_H$ tra il polo e il punto di applicazione e la forza $\mathbf{F}$,
+    \begin{equation} \mathbf{M}_H = \Delta \mathbf{r}_{HP} \times \mathbf{F} \ .
     \end{equation}
 \end{definition}
 
@@ -521,6 +521,21 @@ o in forma differenziale
 % ------------------------------------------------------------------------------
 \section{Equazioni cardinali della dinamica}
 % ------------------------------------------------------------------------------
+Dai principi della dinamica è possibile ricavare tre equazioni cardinali della dinamica, valide per ogni sistema meccanico.
+\paragraph{Prima equazione cardinale -- quantità di moto}
+\begin{equation}
+    \dot{\mathbf{Q}} = \mathbf{R}^{ext}
+\end{equation}
+\paragraph{Seconda equazione cardinale -- momento della quantità di moto}
+\begin{equation}
+    \dot{\boldsymbol{\Gamma}}_H = - \dot{\mathbf{x}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext}
+\end{equation}
+\paragraph{Terza equazione cardinale -- energia cinetica}
+\begin{equation}
+    \dot{K} = P^{tot}
+\end{equation}
+Nelle sezioni successive, queste equazioni vengono ricavate dai principi della dinamica per i diversi modelli dei sistemi meccanici.
+
 \subsection{Moto di un punto materiale}
 \paragraph{Prima equazione cardinale -- quantità di moto}
 \begin{equation}
@@ -528,13 +543,13 @@ o in forma differenziale
 \end{equation}
 
 \paragraph{Seconda equazione cardinale -- momento della quantità di moto}
-\begin{equation} \mathbf{M}_O = \mathbf{r} \times \mathbf{Q} \end{equation}
+\begin{equation} \mathbf{M}_H = \mathbf{r} \times \mathbf{Q} \end{equation}
 \begin{equation}
 \begin{aligned}
-    \dfrac{d}{dt} \mathbf{\Gamma}_O
-    & = \dfrac{d}{dt} \left( (\mathbf{r} - \mathbf{r}_O ) \times \mathbf{Q} \right) = \\
-    & = \dot{\mathbf{r}} \times \mathbf{Q} - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{r} \times \dot{\mathbf{Q}} = \\
-    & = \underbrace{\dot{\mathbf{r}} \times m \dot{\mathbf{r}}}_{=\mathbf{0}} - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{r} \times \mathbf{R}^{ext} = - \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{M}_O^{ext} \ .
+    \dfrac{d}{dt} \mathbf{\Gamma}_H
+    & = \dfrac{d}{dt} \left( (\mathbf{r} - \mathbf{r}_H ) \times \mathbf{Q} \right) = \\
+    & = \dot{\mathbf{r}} \times \mathbf{Q} - \dot{\mathbf{r}}_H \times \mathbf{Q} + \mathbf{r} \times \dot{\mathbf{Q}} = \\
+    & = \underbrace{\dot{\mathbf{r}} \times m \dot{\mathbf{r}}}_{=\mathbf{0}} - \dot{\mathbf{r}}_H \times \mathbf{Q} + \mathbf{r} \times \mathbf{R}^{ext} = - \dot{\mathbf{r}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext} \ .
 \end{aligned}
 \end{equation}
 \paragraph{Terza equazione cardinale -- energia cinetica}
@@ -571,30 +586,30 @@ Sommando le equazioni di tutti i punti, si ottiene
 \paragraph{Seconda equazione cardinale}
 \begin{equation}
 \begin{aligned}
-    & \dfrac{d}{dt} \left( (\mathbf{r}_i-\mathbf{r}_O) \times m_i \dot{\mathbf{r}}_i \right) = (\mathbf{r}_i-\mathbf{r}_O) \times \mathbf{R}^{ext,i}_i \\
-    & ( \dot{\mathbf{r}}_i - \dot{\mathbf{r}}_O ) \times m_i \dot{\mathbf{r}}_i + (\mathbf{r}_i-\mathbf{r}_O) \times m_i \ddot{\mathbf{r}}_i =  (\mathbf{r}_i-\mathbf{r}_O) \times \left( \mathbf{R}^{ext}_i + \sum_{j\ne i} \mathbf{F}_{ij} \right) \\
-    & \sum_i (\mathbf{r}_i-\mathbf{r}_O) \times m_i \ddot{\mathbf{r}}_i = \dot{\mathbf{r}}_O \times \mathbf{Q} + \mathbf{M}_O^{ext}
+    & \dfrac{d}{dt} \left( (\mathbf{r}_i-\mathbf{r}_H) \times m_i \dot{\mathbf{r}}_i \right) = (\mathbf{r}_i-\mathbf{r}_H) \times \mathbf{R}^{ext,i}_i \\
+    & ( \dot{\mathbf{r}}_i - \dot{\mathbf{r}}_H ) \times m_i \dot{\mathbf{r}}_i + (\mathbf{r}_i-\mathbf{r}_H) \times m_i \ddot{\mathbf{r}}_i =  (\mathbf{r}_i-\mathbf{r}_H) \times \left( \mathbf{R}^{ext}_i + \sum_{j\ne i} \mathbf{F}_{ij} \right) \\
+    & \sum_i (\mathbf{r}_i-\mathbf{r}_H) \times m_i \ddot{\mathbf{r}}_i = \dot{\mathbf{r}}_H \times \mathbf{Q} + \mathbf{M}_H^{ext}
 \end{aligned}
 \end{equation}
 %
 Per sistemi rigidi, per i quali vale $\mathbf{v}_i - \mathbf{v}_j = \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_j)$
 \begin{equation}
 \begin{aligned}
-    \mathbf{\Gamma}_O & = \sum_{i} \left( \mathbf{r}_i - \mathbf{r}_O \right) \times m_i \mathbf{v}_i = \\
-    & = \sum_i \left( \mathbf{r}_i - \mathbf{r}_G + \mathbf{r}_G - \mathbf{r}_O \right) \times m_i \left[ \mathbf{v}_G + \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_G) \right] = \\
+    \mathbf{\Gamma}_H & = \sum_{i} \left( \mathbf{r}_i - \mathbf{r}_H \right) \times m_i \mathbf{v}_i = \\
+    & = \sum_i \left( \mathbf{r}_i - \mathbf{r}_G + \mathbf{r}_G - \mathbf{r}_H \right) \times m_i \left[ \mathbf{v}_G + \mathbf{\Omega} \times (\mathbf{r}_i - \mathbf{r}_G) \right] = \\
     & = \underbrace{\sum_i m_i (\mathbf{r}_i - \mathbf{r}_G)}_{m \mathbf{r}_G - m \mathbf{r}_G=\mathbf{0}} \times \mathbf{v}_G +
-        \underbrace{\sum_i m_i}_{=m} (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{v}_G + \\
+        \underbrace{\sum_i m_i}_{=m} (\mathbf{r}_G - \mathbf{r}_H) \times \mathbf{v}_G + \\
     & \quad + (\mathbf{r}_G - \mathbf{r}_0) \times \bigg( \mathbf{\Omega} \times \underbrace{\sum_i m_i (\mathbf{r}_i - \mathbf{r}_G)}_{m \mathbf{r}_G - m \mathbf{r}_G=\mathbf{0}} \bigg)
     \underbrace{- \sum_i m_i (\mathbf{r}_i - \mathbf{r}_G ) \times [ (\mathbf{r}_i - \mathbf{r}_G ) \times }_{=\mathbb{I}_G} \mathbf{\Omega} ]
 \end{aligned}
 \end{equation}
 \begin{equation}
-    \mathbf{\Gamma}_O = (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{Q} + \mathbb{I}_G \cdot \mathbf{\Omega}
+    \mathbf{\Gamma}_H = (\mathbf{r}_G - \mathbf{r}_H) \times \mathbf{Q} + \mathbb{I}_G \cdot \mathbf{\Omega}
 \end{equation}
 \begin{equation}
 \begin{aligned}
-    \dfrac{d}{dt} \left( (\mathbf{r}_G - \mathbf{r}_O) \times \mathbf{Q}  \right) & = ( \mathbf{v}_G - \dot{\mathbf{r}}_O ) \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_O) \times \dot{\mathbf{Q}} = \\
-    & = - \dot{\mathbf{r}}_O \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_O) \times \dot{\mathbf{Q}}
+    \dfrac{d}{dt} \left( (\mathbf{r}_G - \mathbf{r}_H) \times \mathbf{Q}  \right) & = ( \mathbf{v}_G - \dot{\mathbf{r}}_H ) \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_H) \times \dot{\mathbf{Q}} = \\
+    & = - \dot{\mathbf{r}}_H \times \mathbf{Q} + (\mathbf{r}_G - \mathbf{r}_H) \times \dot{\mathbf{Q}}
 \end{aligned}
 \end{equation}
 \begin{equation}
@@ -857,10 +872,72 @@ Usando la seconda equazione cardinale della dinamica
 \section{Moto dei corpi celesti}
 Per ragioni di importanza storica, e per la rilevanza che ha avuto la \textit{dinamica celeste} negli sviluppi della dinamica, viene riservata un'intera sezione al moto dei corpi celesti.
 
-{\color{red}
-\begin{itemize}
-    \item legge di gravitazione universale di Newton
-    \item moto dei due corpi
-    \item moto dei tre corpi -- cenni: punti lagrangiani, telescopio Webb 
-\end{itemize}
-}
+\subsection{Problema dei due corpi}
+La forza agente su un pianeta di massa $m$ è
+\begin{equation}
+    \mathbf{F} = - \dfrac{G \, M \, m}{r^2} \mathbf{\hat{r}}
+\end{equation}
+e quindi l'equazione del moto del pianeta è
+\begin{equation}
+    m \ddot{\mathbf{r}} = - \dfrac{G \, M \, m}{r^2} \mathbf{\hat{r}}
+    \qquad \rightarrow \qquad
+    \ddot{\mathbf{r}} = - \mu \dfrac{\mathbf{r}}{|\mathbf{r}|^3}
+\end{equation}
+L'orbita descritta dal pianeta è un'orbita piana. \'E possibile dimostrare questa affermazione, dimostrando che il vettore $\mathbf{n} = \mathbf{r} \times \dot{\mathbf{r}}$ è costante.
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dt} \mathbf{n}
+    & = \dfrac{d}{dt} \left( \mathbf{r} \times \dot{\mathbf{r}} \right) = \\
+    & = \underbrace{\dot{\mathbf{r}} \times \dot{\mathbf{r}}}_{=\mathbf{0}} + \mathbf{r} \times \ddot{\mathbf{r}} = \\
+    & = - \mu \mathbf{r} \times \dfrac{\mathbf{r}}{|\mathbf{r}|^3} = \mathbf{0}
+\end{aligned}
+\end{equation}
+\'E quindi possibile usare un sistema di coordinate polari.
+
+\noindent
+Usando le coordinate polari,
+\begin{equation}
+\begin{aligned}
+    & \mathbf{r} = r \, \mathbf{\hat{r}} \\
+    & \dot{\mathbf{r}} = \dot{r} \, \mathbf{\hat{r}} + r \dot{\theta} \boldsymbol{\hat{\theta}} \\
+    & \ddot{\mathbf{r}} = \left( \ddot{r} - r \dot{\theta}^2 \right) \, \mathbf{\hat{r}} + \left( 2 \dot{r} \dot{\theta} + r \ddot{\theta} \right) \, \boldsymbol{\hat{\theta}} \\
+\end{aligned}
+\end{equation}
+si può scrivere l'equazione del moto in componenti
+\begin{equation}
+\begin{aligned}
+    & r:      \quad \ddot{r} - r \dot{\theta}^2 + \frac{\mu}{r^2} = 0 \\
+    & \theta: \quad 2 \dot{r} \dot{\theta} + r \ddot{\theta} = 0 \\
+\end{aligned}
+\end{equation}
+La seconda, moltiplicata per $r$, si può scrivere
+\begin{equation}
+    0 = r \left( 2 \dot{r} \dot{\theta} + r \ddot{\theta}\right) = \dfrac{d}{dt} \left( r^2 \dot{\theta} \right ) \ ,
+\end{equation}
+che equivale alla costanza del momento angolare
+\begin{equation}
+    \mathbf{L} = \mu \mathbf{r} \times \dot{\mathbf{r}} = \mu r^2 \dot{\theta} \mathbf{\hat{n}} \ .
+\end{equation}
+
+\subsubsection{Leggi di Keplero}
+\begin{theorem}[Prima legge di Keplero] L'orbita di un pianeta è un'ellisse e il Sole si trova in uno dei due fuochi.
+\end{theorem}
+\begin{theorem}[Seconda legge di Keplero] La velocità areolare di un pianeta è costante lungo la sua orbita.
+\end{theorem}
+L'area elementare $dA$ descritta da uno spostamento $d \mathbf{r}$ vale
+\begin{equation}
+   d A \mathbf{\hat{n}} = \frac{1}{2} \mathbf{r} \times d \mathbf{r} \ .
+\end{equation}
+La velocità areolare è quindi
+\begin{equation}
+    \dot{A} \mathbf{\hat{n}} = \dfrac{d A}{d t} \mathbf{\hat{n}} = \dfrac{1}{2} \mathbf{r} \times \dot{\mathbf{r}} \ .
+\end{equation}
+Questo vettore è esattamente il vettore $\mathbf{n}$ che è stato dimostrato essere costante in precedenza.
+
+
+\begin{theorem}[Terza legge di Keplero] I quadrati dei periodi di due orbite sono proporzionali al cubo dei loro assi maggiori.
+\end{theorem}
+
+\subsection{Problema dei tre corpi -- cenni}
+
+

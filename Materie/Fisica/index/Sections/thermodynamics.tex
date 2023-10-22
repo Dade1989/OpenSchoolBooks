@@ -56,7 +56,7 @@ In meccanica vengono trattate le forme di energia cinetica e potenziale, legate 
 % ------------------------------------------------------------------------------
 \section{Principi della termodinamica}
 \subsection{Legge di conservazione della massa}
-Lavoisier formula il principio di conservazione della massa nella sua forma popolare \textit{"Nulla si crea e nulla si distrugge"}. Questo principio è valido in fisica classica, mentre cessa di valere quando si manifestano fenomeni relativistici come scoperto da Einstein, che trova un'equivalenza tra massa ed energia.
+Lavoisier formula il principio di conservazione della massa nella sua forma popolare \textit{"Nulla si crea e nulla si distrugge"}. Questo principio è valido in fisica classica, mentre cessa di valere quando si manifestano fenomeni relativistici come scoperto da Einstein, per i quali si manifesta un'equivalenza tra massa ed energia.
 
 \subsection{Primo principio}
 Il primo principio della termodinamica è il \textbf{bilancio di energia totale di un sistema chiuso}: la variazione di energia totale di un sistema è uguale alla somma del calore entrante nel sistema dall'ambiente e del lavoro fatto sul sistema dalle forze esterne agenti su di esso. In forma incrementale
@@ -398,6 +398,7 @@ e quindi
 \end{aligned}
 \end{equation}
 \subsection{Equazione di stato di Van der Waals -- equazione di stato dei gas reali}
+{\color{red} \dots}
 
 \subsection{Teoria cinetica dei gas -- cenni}
 \begin{equation}
@@ -435,14 +436,28 @@ Confrontando quest'ultima espressione con la legge di stato dei gas perfetti,
 \end{equation}
 si può ricavare il legame tra l'energia cinetica media $\overline{k}$ delle particelle e la temperatura $T$
 \begin{equation}
-    \overline{k} = k_B \, T \ ,
+    \overline{k} = \dfrac{3}{2} k_B \, T \ ,
 \end{equation}
 tramite la costante di Boltzmann, $k_B$.
 
 \subsubsection{Equipartizione dell'energia}
+Il principio di equipartizione dell'energia fu proposto da \textbf{John James Waterston} nel 1854, e successivamente ripreso da \textbf{Maxwell} e \textbf{Boltzmann}. Questo principio permette di generalizzare l'espressione dell'energia cinetica media delle particelle ottenuta nella sezione precedente, e prevede che i contributi all'energia cinetica dei gradi di libertà attivi delle molecole siano uguali tra di loro, e pari a 
+\begin{equation}
+    \overline{k}_{1 gdl} = \dfrac{1}{2} k_B T \ ,
+\end{equation}
+cosicché l'energia cinetica risulta
+\begin{equation}
+    \overline{k} = n_{gdl} \, \overline{k}_{1 gdl} = \dfrac{n_{gdl}}{2} k_B T \ .
+\end{equation}
 
-\paragraph{Gradi di libertà delle molecole}
-
+\paragraph{Gradi di libertà delle molecole.}
+Le molecole possono avere gradi di libertà traslazionali, rotazionali e vibrazionali. In generale, a temperature moderate sono attivi solo i gradi di libertà traslazionali e rotazionali, mentre a temperature elevate si attivano i gradi di libertà vibrazionali {\color{red} (\dots)}. Concentrandoci sulle temperature moderate, possiamo distinguere
+\begin{itemize}
+    \item gas monoatomico, $n_{gdl} = 3$: la molecola monoatomica ha 3 gradi di libertà, corrispondenti alle traslazione nelle tre direzioni spaziali
+    \item gas biatomico con molecola rigida, $n_{gdl} = 5$: la molecola biatomica ha 5 gradi di libertà, corrispondenti alla traslazione di un suo punto nelle 3 direzioni spaziali, e alle 2 rotazioni attorno agli assi perpendicolari alla congiungente dei due atomi
+    \item gas $n$-atomico ($n \ge 3$) con molecola rigida, $n_{gdl} = 6$: in generale, se non sono composte da atomi tutti allineati, le molecole $n$-dimensionali hanno 6 gradi di libertà, corrispondenti alle 3 traslazioni e alle 3 rotazioni che caratterizzano lo stato di un corpo rigido qualsiasi
+\end{itemize}
+{\color{red} A temperature elevate, il numero di gradi di libertà e il numero di contributi all'energia cinetica media dipende anche dalla struttura della molecola.}
 
 % ------------------------------------------------------------------------------
 \section{Liquidi}
