@@ -449,12 +449,30 @@ Quando si progetta e si calcolano i parametri di un modello, bisogna prestare at
 % ------------------------------------------------------------------------------
 \section{Campionamento e stime}
 
-\section{Progetto di esperimenti}
-
+% ------------------------------------------------------------------------------
 \section{Regressione}
+Lo scopo della regressione è trovare un'approssimazione di una funzione, noti un insieme di valori di variabili indipendenti e valore della funzione. Dato un \textit{training set} $ D = \{ \mathbf{x}_i, y_i\}_{i=1:N}$ si vuole trovare una funzione $\hat{y}(\mathbf{x}; \boldsymbol{\theta}$ che sia una buona approssimazione della funzione che ha prodotto i dati del training set $D$. La funzione cercata è una funzione parametrica, rispetto ai parametri $\boldsymbol{\theta}$: il valore di questi parametri viene calcolato tramite un processo di ottimizzazione che spesso coincide con la ricerca del minimo di una funzione di perdita, \textit{loss function}.
 
+\noindent
+Un esempio di loss function da ottimizzare è l'errore quadratico medio,
+\begin{equation}
+    E := \dfrac{1}{N} \sum_{n=1}^{N} \left( y_i - \hat{y}(\mathbf{x}_i; \boldsymbol{\theta}) \right)^2
+\end{equation}
+
+\subsection{Compromesso bias--varianza}
+Dato il training set $D = \{ (x_i, y_i) \}_{i=1:N}$, si suppone che esista una funzione $y = f(x) + \varepsilon$, dove $\varepsilon$ è un disturbo che ha media nulla e varianza $\sigma^2$. Lo scopo della regressione è quello di trovare una funzione $\hat{f}(x; D)$ che approssimi la funzione che ha prodotto i dati del training set nel migliore modo possibile. Di solito il concetto di ``miglior modo possibile'' coincide nella minimizzazione dell'errore quadratico medio
+\begin{equation}
+\begin{aligned}
+    & \mathbb{E}_{D,\varepsilon}\left[ \left(y - \hat{f}(x;D)\right)^2 \right] = \\
+    & \ = \mathbb{E}_{D}\left[ \left(f(x) + \varepsilon - \hat{f}(x;D)\right)^2 \right] = \\
+    & \ = \mathbb{E}_{D}\left[ \left( f(x) - \hat{f}(x;D) \right)^2 \right] + \mathbb{E} \left[ \varepsilon  \right]
+\end{aligned}
+\end{equation}
+
+% ------------------------------------------------------------------------------
 \section{Classificazione}
 
+% ------------------------------------------------------------------------------
 \section{Teoria della decisione}
 {\color{red}
 \begin{itemize}
@@ -462,7 +480,30 @@ Quando si progetta e si calcolano i parametri di un modello, bisogna prestare at
     \item ottimizzazione di una policy
 \end{itemize}}
 
+% ------------------------------------------------------------------------------
 \section{Conferma o confutazione di ipotesi}
+
+\subsection{Test di Fisher}
+\begin{definition}[Ipotesi nulla, $H_0$] L'ipotesi nulla è l'ipotesi di cui si vuole verificare la validità tramite le osservazioni di una variabile casuale, $X$.
+\end{definition}
+Il metodo di Fisher prevede che:
+\begin{itemize}
+    \item sia nota la distribuzione di probabilità della variabile casuale $X$ sotto l'ipotesi $H_0$, che può essere scritta sinteticamente come la probabilità condizionale, $p(X|H_0)$
+    \item sia noto il \textbf{valore di significatività} $\alpha$
+\end{itemize}
+
+\begin{example}[Progettazione di un esperimento]
+\end{example}
+
+\subsection{Test di Neyman--Pearson}
+Il metodo di Neyman--Pearson prevede la formulazione di due ipotesi, l'ipotesi nulla $H_0$ e un'ipotesi alternativa $H_1$, e la scelta di un valore di significatività del test $\alpha$.
+
+\begin{example}[Test medico per malattie]
+\end{example}
+
+% ------------------------------------------------------------------------------
+\section{Progetto di esperimenti}
+
 
 % ==============================================================================
 \chapter{Processi casuali}

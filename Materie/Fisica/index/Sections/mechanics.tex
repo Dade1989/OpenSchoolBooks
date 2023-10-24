@@ -943,6 +943,63 @@ la cui soluzione è
     \dfrac{1}{r(\theta)} = z(\theta) = A \, \cos \theta + B \, \sin \theta + \frac{\mu}{\ell^2} \ .
 \end{equation}
 
+\begin{equation}
+    r(\theta) = \frac{1}{A \cos \theta + B \sin \theta + \frac{\mu}{\ell^2}} 
+\end{equation}
+Allineando l'asse dal quale si misurano gli angoli con la direzione individuata da fuoco e perielio,
+\begin{equation}
+    r'(\theta) = - \dfrac{-A \sin \theta + B \cos \theta}{\left(A \cos \theta + B \sin \theta + \frac{\mu}{\ell^2}\right)^2}
+\end{equation}
+\begin{equation}
+    0 = r'(\theta=\pi) = \dfrac{B}{\left(A  + \frac{\mu}{\ell^2}\right)^2} \qquad \rightarrow \qquad B = 0
+\end{equation}
+E quindi si può riscrivere l'equazione della traiettoria come
+\begin{equation}
+\begin{aligned}
+    r(\theta) \left( A \cos \theta + \frac{\mu}{\ell^2} \right) = 1 \\ 
+    r(\theta) \left( 1 - \frac{-A \ell^2}{\mu} \cos \theta \right) = \frac{\ell^2}{\mu} \\ 
+\end{aligned}
+\end{equation}
+Confrontando questa espressione con l'espressione generale in coordinate polari di un'ellisse, $r (1 - e \cos \theta) = a \sqrt{1 - e^2}$
+\begin{equation}
+    a - c = r_{min} = r(\theta = \pi) = \dfrac{1}{-A + \frac{\mu}{\ell^2}} = a - c = a ( 1 - e)
+\end{equation}
+Per un ellisse, si trova l'afelio per $\theta = 0$
+\begin{equation}
+    a + c = r_{max} = r(\theta = 0) = \dfrac{1}{A + \frac{\mu}{\ell^2}} \ ,
+\end{equation}
+Così che si può trovare la lunghezza dell'asse maggiore $2a$ in relazione delle costanti $\mu$, $\ell$
+\begin{equation}
+   2 a = r_{min} + r_{max} = \dfrac{1}{\frac{\mu}{\ell^2} - A} + \dfrac{1}{\frac{\mu}{\ell^2} + A} =
+    \dfrac{2 \frac{\mu}{\ell^2}}{\left( \frac{\mu}{\ell^2}  \right)^2 - A^2} = \dfrac{2 \, \frac{\ell^2}{\mu}}{1 - A^2 \left( \frac{\ell^2}{\mu} \right)^2}
+\end{equation}
+\begin{equation}
+    1 - A^2 \left( \dfrac{\ell^2}{\mu} \right)^2 = \frac{\ell^2}{\mu a}
+\end{equation}
+\begin{equation}
+    A = \mp \frac{\mu}{\ell^2} \sqrt{1 - \frac{\ell^2}{\mu a}}
+\end{equation}
+
+\begin{equation}
+    e = \dfrac{- A \ell^2}{\mu} = \sqrt{ 1 - \frac{\ell^2}{\mu \, a}}
+\end{equation}
+\begin{equation}
+    a ( 1 - e^2 ) = a \frac{\ell^2}{\mu a} = \frac{\ell^2}{\mu} \ ,
+\end{equation}
+cosicché
+\begin{equation}
+    \ell = \sqrt{\mu a (1-e^2)}
+\end{equation}
+
+% \begin{equation}
+% \begin{aligned}
+%     & r(\theta) ( 1 - e \cos \theta ) = a ( 1 - e^2 ) \\
+%     & z(\theta)  = \dfrac{ 1 - e \cos \theta } { a ( 1 - e^2 ) }
+% \end{aligned}
+% \end{equation}
+
+
+
 \subsubsection{Leggi di Keplero}
 \begin{theorem}[Prima legge di Keplero] L'orbita di un pianeta è un'ellisse e il Sole si trova in uno dei due fuochi.
 \end{theorem}
@@ -961,6 +1018,9 @@ Questo vettore è esattamente il vettore $\mathbf{n}$ che è stato dimostrato es
 
 \begin{theorem}[Terza legge di Keplero] I quadrati dei periodi di due orbite sono proporzionali al cubo dei loro assi maggiori.
 \end{theorem}
+\begin{equation}
+    T = \frac{A}{\dot{A}} = \dfrac{\pi a b}{\dfrac{1}{2} \ell} = \dfrac{2 \pi a \sqrt{a^2 - c^2}}{\ell} = \dfrac{2 \pi a^2 \sqrt{1 - e^2}}{\ell} = \dfrac{2 \pi a^2 \sqrt{1-e^2}}{\sqrt{\mu a }\sqrt{1-e^2}} = \frac{2\pi}{\sqrt{\mu}} a^{\frac{3}{2}}
+\end{equation}
 
 \subsection{Problema dei tre corpi -- cenni}
 

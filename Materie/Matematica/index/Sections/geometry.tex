@@ -25,7 +25,9 @@ Introduzione storica:
 % ------------------------------------------------------------------------------
 \section{Geometria nel piano}
 % ------------------------------------------------------------------------------
-\subsection{Coordinate cartesiane}
+\subsection{Coordinate}
+\subsubsection{Coordinate cartesiane}
+\subsubsection{Coordinate polari}
 \subsection{Punto, distanze, retta}
 \begin{definition}[Punto]
 Dato un sistema di coordinate cartesiane, un punto $P$ nel piano è individuato dalle sue due coordinate $(x,y)$.
@@ -105,6 +107,13 @@ Scegliendo il fuoco $F(0, d)$ e la retta $r: y=-d$, si ricava l'equazione della 
     \rightarrow \qquad 4d y = x^2 \qquad \rightarrow \qquad y = \dfrac{1}{4d} x^2 \ .
 \end{equation}
 
+\paragraph{Coordinate polari.} In coordinate polari, con l'origine nel fuoco della parabola
+\begin{equation}
+    r = r \cos \theta + 2d
+\qquad \rightarrow \qquad
+    r ( 1 - \cos \theta ) = 2d \ .
+\end{equation}
+
 \subsubsection{Ellisse}
 \begin{definition}[Ellisse] Insieme dei punti $P$ del piano la cui somma delle distanze da due punti $F_1$, $F_2$, chiamati \textbf{fuochi} dell'ellisse, è costante.
     \begin{equation}
@@ -129,6 +138,34 @@ Definendo $b^2 := a^2 - c^2 > 0$, si può riscrivere l'equazione dell'ellisse co
   \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1 \ .
 \end{equation}
 
+\paragraph{Coordinate polari.} Secgliendo un sistema di coordinate polari, con l'origine nel fuoco $(x,y)=(-c,0)$,
+{\color{red}
+\begin{equation}
+\begin{cases}
+    r \cos \theta = x + c \\
+    r \sin \theta = y     \\
+\end{cases}
+\qquad \rightarrow \qquad
+\begin{cases}
+    x^2 = r^2 \cos^2 \theta - 2 r c \cos \theta + c^2 \\
+    y^2 = r^2 \sin^2 \theta  \\
+\end{cases}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+    & (a^2-c^2) x^2 + a^2y^2 = a^2 (a^2-c^2) \\ 
+    &  (r^2 \cos^2 \theta - 2 r c \cos \theta + c^2)  + \dfrac{a^2}{a^2-c^2} r^2 \sin^2 \theta = a^2\\ 
+\end{aligned}
+\end{equation}
+}
+\begin{equation}
+\begin{aligned}
+    & \rho + \sqrt{\rho^2 \sin^2 \theta + (2c-\rho \cos \theta)^2 } = 2a \\
+    & \rho^2 - 4 a \rho + 4 a^2 = \underbrace{\rho^2 \sin^2 \theta  + \rho^2 \cos^2 \theta}_{= \rho^2} - 4 c \rho \cos \theta + 4c^2 \\
+    & \rho \left( 1 - \frac{c}{a} \cos \theta \right) = a^2 - c^2 & \left( 0 \le e=\frac{c}{a} < 1 \right) \\
+    & \rho \left( 1 - e \cos \theta \right) = a ( 1 - e^2 )
+\end{aligned}
+\end{equation}
 
 \subsubsection{Iperbole}
 \begin{definition}[Iperbole] Insieme dei punti $P$ del piano la cui differenza delle distanze da due punti $F_1$, $F_2$, chiamati \textbf{fuochi} dell'ellisse, è costante in valore assoluto.
@@ -153,6 +190,31 @@ Definendo $b^2 := c^2 - a^2 > 0$, si può riscrivere l'equazione dell'ellisse co
 \begin{equation}
   \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1 \ .
 \end{equation}
+
+\paragraph{Coordinate polari.} Secgliendo un sistema di coordinate polari, con l'origine nel fuoco $(x,y)=(-c,0)$,
+\begin{equation}
+\begin{aligned}
+    & \left| \rho - \sqrt{\rho^2 \sin^2 \theta + (2c-\rho \cos \theta)^2 } \right| = 2a \\
+    &   \rho - \sqrt{\rho^2 \sin^2 \theta + (2c-\rho \cos \theta)^2 }   = \mp 2a \\
+    & \rho^2 \pm 4 a \rho + 4 a^2 = \underbrace{\rho^2 \sin^2 \theta  + \rho^2 \cos^2 \theta}_{= \rho^2} - 4 c \rho \cos \theta + 4c^2 \\
+    & \pm a \rho + a^2 = - 4 c \rho \cos \theta + c^2 \\
+    & \rho \left( 1 \pm \frac{c}{a} \cos \theta \right) = \mp a \left( 1 - \frac{c^2}{a^2} \right) & \left( \ e = \frac{c}{a} > 1 \right) \\
+    & \rho \left( 1 \pm e \cos \theta \right) = \mp a \left( 1 - e^2 \right)  \\
+\end{aligned}
+\end{equation}
+Esistono due soluzioni, corrispondenti ai due rami dell'iperbole. Scegliendo i segni:
+\begin{itemize}
+    \item superiori
+        \begin{equation}
+            \rho = \dfrac{a(e^2-1)}{1 + e \cos \theta} \ ,
+        \end{equation}
+        il raggio è continuo e positivo per i valori di $\theta \in [-\overline{\theta}, \overline{\theta}]$ con $\cos \overline{\theta} = -\frac{1}{e}$
+    \item inferiori
+        \begin{equation}
+            \rho = \dfrac{a(e^2-1)}{e \cos \theta - 1} \ ,
+        \end{equation}
+        il raggio è continuo e positivo per i valori di $\theta \in [-\overline{\theta}, \overline{\theta}]$ con $\cos \overline{\theta} = \frac{1}{e}$
+\end{itemize}
 
 % ------------------------------------------------------------------------------
 \section{Geometria nello spazio}

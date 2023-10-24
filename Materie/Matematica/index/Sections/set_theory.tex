@@ -1,4 +1,5 @@
 
+% ==============================================================================
 \chapter{Logica}
 
 % ------------------------------------------------------------------------------
@@ -246,6 +247,7 @@ e della seconda legge,
 
 % ==============================================================================
 \chapter{Insiemistica}
+% ------------------------------------------------------------------------------
 \section{Definizioni di base}
 \begin{definition}[Insieme] Un insieme è un gruppo di elementi, oggetti che possono essere di qualsiasi tipo.
 \end{definition}
@@ -284,11 +286,112 @@ Si è soliti indicare gli insiemi con lettere maiuscole. Un insieme $S$ può ess
 \end{equation}
 \end{example}
 
+\begin{notation}[Elemento contenuto o non contenuto in un insieme] Per indicare che un elemento $x$ appartiene all'insieme $A$ si usa la notazione $x \in A$. Per indicare che non vi appartiene, $x \notin A$.
+\end{notation}
+
+\begin{definition}[Insieme vuoto, $\emptyset$] L'insieme vuoto è l'insieme che non contiene elementi.
+\end{definition}
+
+\begin{definition}[Sottoinsieme] Dati un insieme $A$ e $B$, si definisce $B$ un sottoinsieme di $A$ se ogni elemento di $B$ appartiene anche ad $A$,
+    \begin{equation}
+        B \subseteq A \qquad \Leftrightarrow \qquad x \in B \rightarrow x \in A , \ \forall x \in B
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Insieme delle parti] L'insieme delle parti $\mathcal{P}(A)$ dell'insieme $A$ è l'insieme di tutti i sottoinsiemi, propri e impropri dell'insieme $A$,
+    \begin{equation}
+        \mathcal{P}(A) = \left\{ S | S \subseteq A \right\}
+    \end{equation}
+\end{definition}
+\begin{example} Dato l'insieme $A = \{a, b, c \}$, l'insieme delle parti è
+    \begin{equation}
+        \mathcal{P}(A) = \left\{ S | S \subseteq A \right\} = \left\{ \emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, A \right\}
+    \end{equation} 
+\end{example}
+
+\begin{definition}[Prodotto cartesiano di due insiemi] Il prodotto cartesiano $A \times B$ dei due insiemi $A$, $B$ è l'insieme di tutte le \textbf{coppie ordinate} $(a, b)$ con il primo elemento appartenente al primo insieme $a \in A$ e il secondo elemento appartenente al secondo insieme $b \in B$,
+    \begin{equation}
+        A \times B = \left\{ (a,b) | a \in A, \, b \in B \right\}
+    \end{equation}
+\end{definition}
+\begin{definition}[Prodotto cartesiano di $n$ insiemi] Il prodotto cartesiano $A_1 \times A_2 \times \dots \times \dots A_n$ degli $n$ insiemi $A_i$, $i = 1:n$, è l'insieme di tutte le \textbf{liste ordinate} $(a_1, a_2, \dots, a_n)$ con $a_i \in A_i$
+    \begin{equation}
+        A_1 \times A_2 \times \dots \times A_n = \left\{ (a_1, a_2, \dots, a_n) | a_i \in A_i, \ i=1:n \right\}
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Insieme universo o insieme ambiente] Dato un insieme $A$, o una lista di insiemi $A_i$, $i=1:N$, si può definire un insieme universo $U$ un qualsiasi insieme che contiene $A$, o ogni insieme della lista $A_i$, come sottoinsieme proprio o improprio,
+    \begin{equation}
+        A_i \subseteq U \ .
+    \end{equation}
+\end{definition}
+
+% ------------------------------------------------------------------------------
 \section{Operazioni}
+\begin{definition}[Unione] L'insieme $A \cup B$ unione degli insiemi $A$, $B$ è l'insieme che contiene gli elementi che appartengono anche all'insieme $A$ o all'insieme $B$,
+    \begin{equation}
+        A \cup B = \{ x | x \in A \lor x \in B \} \ .
+    \end{equation}
+\end{definition}
 
+\begin{definition}[Intersezione] L'insieme $A \cap B$ intersezione degli insiemi $A$, $B$ è l'insieme che contiene gli elementi che appartengono sia all'insieme $A$ sia all'insieme $B$,
+    \begin{equation}
+        A \cap B = \{ x | x \in A \land x \in B \} \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Differenza] L'insieme $A \backslash B$ differenza degli insiemi $A$, $B$ è l'insieme che contiene gli elementi che appartengono ad $A$ ma non a $B$
+    \begin{equation}
+        A \backslash B = \{ x | x \in A \land x \notin B \} \ .
+    \end{equation}
+\end{definition}
+La differenza $B \backslash A$ in generale è diversa da $A \backslash B$
+
+\begin{definition}[Differenza simmetrica] L'insieme $A \Delta B$ differenza simmetrica degli insiemi $A$, $B$ è l'insieme degli elementi che sono contenuti in uno solo dei due insiemi
+    \begin{equation}
+        A \Delta B = \{ x | ( x \in A \land x \notin B ) \lor ( x \in B \land x \notin A ) \} \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Insieme complementare] Dato l'insieme $A$ e l'insieme universo $U$, si definisce l'insieme complementare $A^{C(U)}$ di $A$ in $U$ come l'insieme di tutti gli elementi di $U$ che non appartengono ad $A$
+    \begin{equation}
+        A^{C(U)} = \{ x | x \in U \land x \notin A \}
+    \end{equation}
+\end{definition}
+\'E immediato dimostrare dalle definizioni, che vale $A^{C(U)} = U \backslash A$.
+
+
+% ------------------------------------------------------------------------------
 \section{Funzioni}
+\begin{definition}[Funzione] Dati due insiemi $A$, $B$, si definisce \textbf{funzione} dall'insieme $A$ all'insieme $B$ una relazione $f: A \rightarrow B$ che lega a ogni elemento di $A$ uno e un solo elemento di $B$
+\end{definition}
+Se la funzione $f: A \rightarrow B$ lega l'elemento $a \in A$ all'elemento $b \in B$, si può scrivere $f(a) = b$. In particolare si può definire $b$ come immagine di $a$ tramite la funzione $f$.
 
+\begin{definition}[Funzione suriettiva] Si definisce una funzione suriettiva, se ogni elemento di $B$ è immagine di un elemento di $A$,
+    \begin{equation}
+        \text{Per }\forall b \in B \quad \exists a \in A \quad \text{t.c.} \quad f(a) = b \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Funzione iniettiva] Si definisce una funzione iniettiva, se elementi distinti di $A$ hanno immagini distinte in $B$,
+    \begin{equation}
+        \text{Per }\forall a_1, a_2 \in A, \ a_1 \neq a_2 \quad \Rightarrow \quad f(a_1) \neq f(a_2) \ .
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Funzione biunivoca o biiettiva] Una funzione biunivoca è una funzione sia suriettiva, sia iniettiva.
+\end{definition}
+Una funzione biunivoca crea un legame \text{uno a uno} tra gli elementi dei due insiemi, rendendo possibile identificare ogni elemento di un insieme con un elemento dell'altro insieme.
+
+\begin{definition}[Funzione composta] Dati tre insiemi $A$, $B$, $C$, e due funzioni $f: A \rightarrow  B$, $g: B \rightarrow C$, si definisce la funzione comoposta $g \circ f: A \rightarrow C$, la funzione
+    \begin{equation}
+        g \circ f (a) = g( f(a) )
+    \end{equation}
+\end{definition}
+
+% ==============================================================================
 \chapter{Insiemi numerici}
+% ------------------------------------------------------------------------------
 \section{Insieme dei numeri naturali, $\mathbb{N}$}
 \begin{equation}
     \mathbb{N} = \{ 0, 1, 2, 3, \dots \}
@@ -299,6 +402,7 @@ Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme de
     \item moltiplicazione
 \end{itemize}
 
+% ------------------------------------------------------------------------------
 \section{Insieme dei numeri interi, $\mathbb{Z}$}
 \begin{equation}
     \mathbb{Z} = \{ \dots, -3, -2, -1, 0, 1, 2, 3, \dots \}
@@ -310,6 +414,7 @@ Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme de
     \item moltiplicazione
 \end{itemize}
 
+% ------------------------------------------------------------------------------
 \section{Insieme dei numeri razionali, $\mathbb{Q}$}
 \begin{equation}
     \mathbb{Q} = \left\{ x | x = \dfrac{m}{n}, \ m \in \mathbb{Z}, \ n \in \mathbb{Z}\backslash\{0\} \right\}
@@ -322,7 +427,7 @@ Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme de
     \item divisione, esclusa la divisione per $0$
 \end{itemize}
 
-
+% ------------------------------------------------------------------------------
 \section{Insieme dei numeri reali, $\mathbb{R}$}
 Esistono dei numeri che non possono essere rappresentati come frazioni di numeri interi. Alcuni di questi numeri compaiono in semplici problemi di geometria, come il calcolo della lunghezza della diagonale di un quadrato di lato unitario  $\sqrt{2}$ o la lunghezza della circonferenza con raggio unitario $\pi$.
 
@@ -370,6 +475,7 @@ Dall'ultima espressione, dobbiamo concludere che il numero $n$ ha un fattore $p$
 Dobbiamo concludedere che la tesi sia vera, e che quindi il numero $\sqrt{p}$, con $p$ primo, è un numero irrazionale.
 \end{example}
 
+% ------------------------------------------------------------------------------
 \section{Insieme dei numeri complessi, $\mathbb{C}$}
 \begin{equation}
     \mathbb{C} = \left\{ z | z = x + i y, \ x, y \in \mathbb{R} \right\}

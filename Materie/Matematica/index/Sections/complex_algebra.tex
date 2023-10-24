@@ -41,7 +41,7 @@ e quindi
 \begin{equation}
   e^{i \theta} = \cos \theta + i \sin \theta \ .
 \end{equation}
-Dimostrazione:
+\begin{proof}[Dimostrazione con le serie di Taylor]
 \begin{equation}
 \begin{array}{rll}
    \cos \theta  & = \sum_{n=0}^{\infty} (-1)^n \dfrac{\theta^{2n}}{(2n)!} & = 1 - \dfrac{\theta^2}{2} + \dfrac{\theta^4}{4!} + \dots \\
@@ -51,8 +51,25 @@ Dimostrazione:
   & & = \cos \theta + i \sin \theta \ .
 \end{array}
 \end{equation}
+\end{proof}
+%
+\begin{proof}[Dimostrazione con la derivata] Si definisce la funzione con variabile reale $\theta \in \mathbb{R}$ e valori complessi $f: \mathbb{R} \rightarrow \mathbb{C}$, $f(\theta) = \cos \theta + i \sin \theta$, e si calcola la derivata rispetto alla variabile indipedente $\theta$
+\begin{equation}
+    \dfrac{d}{d \theta} \left( \cos \theta + i \sin \theta \right) = -\sin \theta + i \cos \theta = i \left( \cos \theta + i \sin \theta \right)
+\end{equation}
+    La funzione $f(\theta) = \cos \theta + i \sin \theta$ soddisfa quindi l'equazione differenziale
+\begin{equation}
+    \dfrac{d}{d \theta} f(\theta) = i f(\theta) \ ,
+\end{equation}
+    con condizione $f(0) = 1$. Essendo questo un problema lineare, se esiste, esiste una sola soluazione. Si può dimostrare che questa equazione è soddisfatta anche dalla funzione a variabile reale e valori complessi $g: \mathbb{R} \rightarrow \mathbb{C}$, $g(\theta) = e^{i\theta}$, la cui derivata è $g'(\theta) = i e^{i\theta} = i g(\theta)$.
 
+    \noindent
+    Possiamo quindi concludere l'uguaglianza tra le due funzioni $g(\theta) = f(\theta)$, $e^{i \theta} = \cos \theta + i \sin \theta$.
+\end{proof}
+
+% ------------------------------------------------------------------------------
 \section{Operazioni con i numeri complessi}
+In questa sezione vengono presentate le operazioni algebriche con i numeri complessi, osservando come convenga la forma cartesiana per somma e differenza, mentre la forma polare per prodotti, divisioni e soprattutto potenze e radici.
 
 \subsection{Somma e differenza}
 \begin{equation}
@@ -73,7 +90,17 @@ Dimostrazione:
 \end{equation}
 
 \subsection{Esponenziali e logaritmi}
-\dots
+\begin{equation}
+\begin{aligned}
+    e^z
+    & = e^{x+i y} = e^x \, e^{i y} = e^x \left( \cos y + i \sin y \right) \\
+    & = e^{r e^{i\theta}} = e^{r \left( \cos \theta + i \sin \theta \right)} = e^{r \cos \theta} e^{i \, r \, \sin \theta} = e^{r \cos \theta} \left[ \cos(r \sin \theta) + i \sin (r \sin \theta) \right]
+\end{aligned}
+\end{equation}
+%
+\begin{equation}
+    \ln z = \ln \left( r e^{i \theta} \right) = \ln r + \ln e^{i \theta} = \ln r + i \, \theta
+\end{equation}
 
 % ==============================================================================
 \chapter{Calcolo complesso}\label{ch:complex-calculus}
