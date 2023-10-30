@@ -245,26 +245,36 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 
 % ---------------------------------------------------------------------------------------
 \section{Definizioni}
-\begin{definition}[Rapporto incrementale]
+\begin{definition}[Rapporto incrementale] Il rapporto incrementale della funzione reale a valori reali $f: \mathbb{R} \rightarrow \mathbb{R}$ di un incremento $\Delta x$ attorno al valore $x$ della variabile indipendente è definito come il rapporto della differenza del valore della funzione e del valore dell'incremento,
 \begin{equation}
-    \dfrac{f(x+\Delta x) - f(x)}{\Delta x}
+    \Delta f (x; \Delta x) := \dfrac{f(x+\Delta x) - f(x)}{\Delta x} \ .
 \end{equation}
 \end{definition}
 
-\begin{definition}[Derivata]
+\begin{definition}[Derivata]\label{def:derivative}
+La derivata della funzione reale a valori reali $f: \mathbb{R} \rightarrow \mathbb{R}$ è una funzione reale a valori reali, denotata $\frac{d f}{dx}$, o $f'(x)$, e definita in ogni punto come il limite del rapporto incrementale per valori dell'incremento che tendono a $0$,
 \begin{equation}
-  f'(x) = \dfrac{d }{dx} f(x) := \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) - f(x)}{\Delta x}
+  f'(x) = \dfrac{d }{dx} f(x) := \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) - f(x)}{\Delta x} \ .
 \end{equation}
 \end{definition}
 
-\begin{definition}
+\begin{definition}[Funzione derivabile]\label{def:differentiable-fcn} Una funzione $f: \Omega \in \mathbb{R} \rightarrow \mathbb{R}$ è \textbf{derivabile in un punto} $x$ se esiste il limite del rapporto incrementale, $\Delta f[x, \Delta x]$. La funzione è \textbf{derivabile in un intervallo} $I$, se è derivabile in tutti per tutti i valori di $x$ compresi nell'intervallo $I$.
 \end{definition}
 
 \paragraph{Interpretazione geometrica.}
+La derivata della funzione $f(x)$ ha un'interpretazione geometrica immediata, se si rappresenta nel piano cartesiano il grafico della funzione, $y = f(x)$. Il valore della derivata $f'(x)$ coincide con la pendenza della retta tangente al grafico della funzione $y = f(x)$, nel punto $(x,y) = (x, f(x))$.
+
+{\color{red}
+\begin{itemize}
+    \item relazione con la secante
+    \item grafico (.gif?) per valore puntuale, con limite della secante alla tangente
+    \item grafico (.gif?) per funzione
+\end{itemize}
+}
 
 % ---------------------------------------------------------------------------------------
 \section{Regole di derivazione}
-\subsection{Regole}
+Usando la definizione di derivata (\ref{def:derivative}) si possono dimostrare le seguenti regole per il calcolo delle derivate.
 \paragraph{Derivata della somma di due funzioni e il prodotto per uno scalare}
 \begin{equation}
 \begin{aligned}
@@ -293,18 +303,35 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 
 \subsection{Dimostrazioni}
 
-\paragraph{Derivata della somma di due funzioni}
-\paragraph{Derivata del prodotto di due funzioni}
+\begin{proof}[Derivata della combinazione lineare di due funzioni]
+{\small
+\begin{equation}
+\begin{aligned}
+    \dfrac{d}{dx} \left( \alpha f(x) + \beta g(x) \right) & = 
+    \lim_{\Delta x \rightarrow 0} \dfrac{\alpha f(x+\Delta x) + \beta g(x+\Delta x) - \left[ \alpha f(x) + \beta g(x) \right] }{\Delta x} =  \\
+    & = \lim_{\Delta x \rightarrow 0} \left[ \alpha \dfrac{f(x+\Delta x) - f(x)}{\Delta x} + \beta \dfrac{g(x+\Delta x) - g(x) }{\Delta x} \right] =  \\
+    & = \alpha \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) - f(x)}{\Delta x} + \beta \lim_{\Delta x \rightarrow 0} \dfrac{g(x+\Delta x) - g(x) }{\Delta x} =  \\
+    & = \alpha f'(x) + \beta g'(x) \ .
+\end{aligned}
+\end{equation}
+}
+\end{proof}
+\begin{proof}[Derivata del prodotto di due funzioni]
+{\small
 \begin{equation}
 \begin{aligned}
 \dfrac{d}{dx} \left(f(x) g(x) \right) & =
      \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x)g(x) }{\Delta x} =  \\
  & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
  & = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) g(x+\Delta x) - f(x+\Delta x) g(x) + f(x+\Delta x) g(x) - f(x)g(x) }{\Delta x} =  \\
-    & = \lim_{\Delta x \rightarrow 0} f(x+\Delta x) \dfrac{ g(x+\Delta x) - g(x)}{\Delta x} + \lim_{\Delta x \rightarrow 0} \dfrac{ f(x+\Delta x)  - f(x) }{\Delta x} g(x) =  f'(x)g(x) + f(x)g'(x) \ .
+    & = \lim_{\Delta x \rightarrow 0} f(x+\Delta x) \dfrac{ g(x+\Delta x) - g(x)}{\Delta x} + \lim_{\Delta x \rightarrow 0} \dfrac{ f(x+\Delta x)  - f(x) }{\Delta x} g(x) = \\
+    & = f'(x)g(x) + f(x)g'(x) \ .
 \end{aligned}
 \end{equation}
-\paragraph{Derivata del rapporto di due funzioni}
+}
+\end{proof}
+\begin{proof}[Derivata del rapporto di due funzioni]
+{\small
 \begin{equation}
 \begin{aligned}
     \dfrac{d}{dx} \left(\dfrac{f(x)}{ g(x)} \right) & =
@@ -315,7 +342,9 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
     & = \dfrac{f'(x) g(x)}{g^2(x)} - \dfrac{f(x)g'(x)}{g^2(x)} = \dfrac{f'(x)g(x) - f(x) g'(x)}{g^2(x)}
 \end{aligned}
 \end{equation}
-\paragraph{Derivata di una funzione composta}
+}
+\end{proof}
+\begin{proof}[Derivata di una funzione composta]
 \begin{equation}
 \begin{aligned}
     \dfrac{d}{dx} f(g(x)) & =
@@ -325,6 +354,7 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
     & = f'(g(x)) \, g'(x) \ .
 \end{aligned}
 \end{equation}
+\end{proof}
 
 % ---------------------------------------------------------------------------------------
 \section{Teoremi}
@@ -387,6 +417,7 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 \section{Derivate fondamentali}
 \begin{center}
     \begin{tabular}{lll}
+        & \textbf{funzione} & \textbf{derivata} \\
         Potenza      & $f(x) = x^a$       & $f'(x) = a x^{a-1}$    \\
         Esponenziale & $f(x) = e^x$       & $f'(x) = e^x$          \\
         Logaritmo    & $f(x) = \ln x$     & $f'(x) = \frac{1}{x}$  \\
@@ -453,8 +484,11 @@ Per dimostrare che la serie è limitata superiormente, dimostriamo che $a_n < 3$
 \end{equation}
 \end{proof}
 
+% ------------------------------------------------------------------------------
 \section{Derivate di ordine superiore}
+Poiché la derivata $f'(x)$ di una funzione $f: \mathbb{R} \rightarrow \mathbb{R}$ è una funzione $f': \mathbb{R} \rightarrow \mathbb{R}$, si può calcolare la derivata della funzione $f'(x)$
 
+% ------------------------------------------------------------------------------
 \section{Espansioni in serie di Taylor e MacLaurin}\label{ch:taylor}
 \begin{definition}[Serie di Taylor] La serie di Taylor di una funzione $f(x)$ centrata in $x=x_0$ è la serie polinomiale
 \begin{equation}
@@ -476,9 +510,10 @@ La serie di Taylor troncata alla $n$-esima potenza,
 \begin{definition}[Serie di MacLaurin] La serie di MacLaurin di una funzione $f(x)$ è definita come la sua serie di Taylor centrata in $x=0$.
 \end{definition}
 
-
+% ------------------------------------------------------------------------------
 \section{Applicazioni}
-\subsection{Punti in cui $f'(x) = 0$: punti di estremo locale e flessi orizzontali}
+\subsection{Studio funzione}
+\subsubsection{Punti in cui $f'(x) = 0$: punti di estremo locale e flessi orizzontali}
 Per una funzione derivabile, i punti in cui si annulla la derivata prima di una funzione $f(x)$ possono essere:
 \begin{itemize}
     \item punti di massimo locale
@@ -510,9 +545,33 @@ Per una funzione derivabile, i punti in cui si annulla la derivata prima di una 
     \end{itemize}
 \end{theorem}
 
-\subsection{Punti in cui $f''(x) = 0$: punti di flesso}
+\subsubsection{Punti in cui $f''(x) = 0$: punti di flesso}
 
-\subsection{Studio funzione}
+\begin{example}[Studio di funzione] Si vuole studiare la funzione $f(x) = \frac{e^x}{x-1}$
+    \newline\textbf{Dominio.}
+    \newline\textbf{Limiti all'infinito e agli eventuali punti di discontinuità.}
+    \newline\textbf{Ricerca minimi e massimi locali}
+\end{example}
+
+\subsection{Ottimizzazione libera e vincolata}
+Il tipico problema di ottimizzazione consiste nella ricerca di un massimo o un minimo di una funzione,
+\begin{equation}
+    \mathbf{x}^* = \underset{\mathbf{x}}{\text{argmax}} \, f(\mathbf{x}) \ .
+\end{equation}
+Questa ricerca può essere soggetta a vincoli sulla variabile indipendente, che in generale possono essere:
+\begin{itemize}
+    \item valori estremi della variabile
+    \item vincoli di uguaglianza della forma $\mathbf{g}(\mathbf{x}) = \mathbf{0}$
+    \item vincoli di disuguaglianza della forma $\mathbf{h}(\mathbf{x}) \ge \mathbf{0}$
+\end{itemize}
+
+\subsubsection{Ottimizzazione libera}
+
+\subsubsection{Ottimizzazione vincolata}
+
+\paragraph{Medoto dei moltiplicatori di Lagrange per vincoli di uguaglianza}
+
+
 
 % =======================================================================================
 \chapter{Integrali}\label{ch:integrals}
@@ -536,16 +595,19 @@ con $\xi_i \in [x_{i-1}, x_i]$.
 
 \paragraph{Interpretazione geometrica}
 
-\begin{definition}[Integrale indefinito]
-\end{definition}
-
-\section{Proprietà}
+\paragraph{Proprietà degli integrali definiti}
 \begin{equation}\label{prop:integral:linearity:1}
     \int_{x=a}^{b} \left[ A f(x) + B g(x) \right] dx = A \int_{x=a}^{b} f(x) dx + B \int_{x=a}^{b} g(x) dx
 \end{equation}
 \begin{equation}\label{prop:integral:linearity:2}
     \int_{x=a}^{b} f(x) dx = \int_{x=a}^{c} f(x) dx + \int_{x=c}^{b} f(x) dx
 \end{equation}
+
+\begin{definition}[Integrale indefinito] Si può definire l'integrale indefinito di una funzione come l'integrale definito funzione del secondo estremo dell'intervallo, con il primo estremo fissato, 
+    \begin{equation}
+        \int_{t=a}^{x} f(t) \, dt = F(x) + c \ ,
+    \end{equation}
+\end{definition}
 
 % ------------------------------------------------------------------------------
 \section{Teoremi}
@@ -592,7 +654,7 @@ con $\xi_i \in [x_{i-1}, x_i]$.
 \end{proof}
 
 
-\begin{theorem}[Teorema fondamentale del calcolo infinitesimale] 
+\begin{theorem}[Teorema fondamentale del calcolo infinitesimale]\label{thm:fundamental-calculus}
     \begin{equation}
         \dfrac{d}{dx} \int_{t=a}^{x} f(t) dt = f(x)
     \end{equation}
@@ -612,6 +674,17 @@ con $\xi_i \in [x_{i-1}, x_i]$.
 
 % ------------------------------------------------------------------------------
 \section{Integrali fondamentali}
+Partendo della tabella delle derivate fondamentali, si può usare il teorema fondamentale del calcolo infinitesimale (\ref{thm:fundamental-calculus}) per ``invertire l'operazione'' e ottenere una tabella di integrali fondamentali.
+\begin{center}
+    \begin{tabular}{lll}
+        & \textbf{funzione} & \textbf{primitiva} \\
+        Potenza      & $f(x) = x^a \, , \quad a \ne -1$ & $F(x) = \frac{1}{a+1} x^{a+1} + c$ \\
+        Logaritmo    & $f(x) = \frac{1}{x}$             & $F(x) = \ln{|x|} + c$       \\
+        Esponenziale & $f(x) = e^x$                     & $F(x) = e^x + c$          \\
+        Seno         & $f(x) = \sin x$                  & $F(x) =-\cos x + c$       \\
+        Coseno       & $f(x) = \cos x$                  & $F(x) = \sin x + c$       \\
+    \end{tabular}
+\end{center}
 
 \section{Regole di integrazione}
 \subsection{Integrazione per parti}
