@@ -393,13 +393,29 @@ Una funzione biunivoca crea un legame \text{uno a uno} tra gli elementi dei due 
 \chapter{Insiemi numerici}
 % ------------------------------------------------------------------------------
 \section{Insieme dei numeri naturali, $\mathbb{N}$}
+L'insieme dei numeri naturali,
 \begin{equation}
-    \mathbb{N} = \{ 0, 1, 2, 3, \dots \}
+    \mathbb{N} = \{ 0, 1, 2, 3, \dots \} \ ,
 \end{equation}
+contiene i numeri intuitivamente usati per \textbf{contare} (o \textbf{ordinare}), e possono essere interpretati come il risultato del \textbf{processo di astrazione}, che associa a un gruppo di oggetti il suo numero.
+
+\paragraph{Cenni storici.} Dal punto di vista storico, il processo di astrazione che ha portato al concetto di unità -- il numero 1 -- e dei suoi multipli -- i numeri naturali maggiori di 1 --, viene fatto risalire all'epoca preistorica, ed esistono diversi reperti storici che testimoniano il loro uso in Mesopotamia e in Egitto nel III millennio a.C.
+L'introduzione del \textbf{numero 0} avviene inizialmente nelle civiltà mediterranee come segnaposto, e succssivamente in India tra il VI e VII secolo d.C. come numero nel sistema decimale posizionale formulato in India e diffusosi tra le popolazioni persiane e arabe.
+
+
+\paragraph{Operazioni chiuse.}
 Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri naturali:
 \begin{itemize}
-    \item addizione
-    \item moltiplicazione
+    \item addizione, $+$
+    \item moltiplicazione, $\times$
+\end{itemize}
+Queste due operazioni hanno le seguenti proprietà:
+\begin{itemize}
+    \item commutatività: $a+b=b+a$, $a \times b = b \times a$
+    \item associatività: $a+(b+c)=(a+b)+c$, $a \times (b \times c) =(a\times b) \times c$
+    \item esistenza dell'elemento identità: il numero 0 è l'elemento identità dell'addizione $a+0=a$, il numero 1 è l'elemento neutro della moltiplicazione $a \times 1 = a$
+    \item distributività della moltiplicazione sull'addizione $a\times(b+c)=a\times b+a\times c$
+    \item {\color{red} Fattorizzazione dello zero: se $a \times b = 0$ allora almeno uno dei due fattori è uguale a zero.}
 \end{itemize}
 
 % ------------------------------------------------------------------------------
@@ -407,18 +423,26 @@ Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme de
 \begin{equation}
     \mathbb{Z} = \{ \dots, -3, -2, -1, 0, 1, 2, 3, \dots \}
 \end{equation}
+\paragraph{Cenni storici.}
+{\color{red} 1700? Eulero?}
+\paragraph{Operazioni chiuse.}
 Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri interi:
 \begin{itemize}
-    \item addizione
-    \item sottrazione
-    \item moltiplicazione
+    \item addizione, $+$
+    \item sottrazione, $-$
+    \item moltiplicazione, $\times$
 \end{itemize}
 
 % ------------------------------------------------------------------------------
 \section{Insieme dei numeri razionali, $\mathbb{Q}$}
 \begin{equation}
-    \mathbb{Q} = \left\{ x | x = \dfrac{m}{n}, \ m \in \mathbb{Z}, \ n \in \mathbb{Z}\backslash\{0\} \right\}
+    \mathbb{Q} = \left\{ x \big| x = \dfrac{m}{n}, \ m \in \mathbb{Z}, \ n \in \mathbb{Z}\backslash\{0\} \right\}
 \end{equation}
+
+\paragraph{Cenni storici.}
+{\color{red} Egitto e Grecia}
+
+\paragraph{Operazioni chiuse.}
 Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme dei numeri razionali:
 \begin{itemize}
     \item addizione
@@ -427,9 +451,58 @@ Si possono definire alcune operazioni chiuse ({\color{red} DEF}) sull'insieme de
     \item divisione, esclusa la divisione per $0$
 \end{itemize}
 
+\paragraph{Equivalenza con i numeri decimali con parte periodica.} L'insieme dei numeri razionali è equivalente all'insieme dei numeri con parte decimale periodica. In altre parole, ogni numero razionale in forma decimale ha una parte decimale periodica e ogni numero che ha una parte decimale periodica è un numero razionale.
+
+\begin{proof}[Dimostrazione: decimale periodico $\Rightarrow$ razionale]
+Sia $n$ un numero con parte intera $a$, prima parte decimale $d_1 \dots d_{q}$ e parte periodica $d_{q+1}\dots d_{q+p}$
+\begin{equation}
+   n = a,d_1 d_2 \dots d_q d_{q+1} \dots d_{q+p} d_{q+1} \dots d_{q+p} \dots = 
+       a,d_1 d_2 \dots d_q \, \overline{ d_{q+1} \dots d_{q+p} } \ . 
+\end{equation}
+Si vuole dimostrare che $n$ è un numero razionale, cioè può essere scritto come frazione di due numeri interi. Sottraendo la parte non periodica,
+\begin{equation}
+    \tilde{n} = 0, \underbrace{00 \dots 0}_{q} \overline{d_{q+1} \dots d_{q+p}} \ ,
+\end{equation}
+e moltiplicando per $10^{-p}$, si ottiene
+\begin{equation}
+    \tilde{n} \cdot 10^{-p} = 0, \underbrace{0 \dots 0}_{q+p} \, \overline{d_{q+1} \dots d_{q+p}} \ ,
+\end{equation}
+e sottraendo le due
+\begin{equation}
+    \tilde{n} ( 1 - 10^{-p} ) = 0, \underbrace{00 \dots 0}_{q} d_{q+1} \dots d_{q+p} = d_{q+1}\dots d_{q+p} \cdot 10^{-p-q} \ .
+\end{equation}
+Esplicitando $\tilde{n}$, risulta evidente come $\tilde{n}$ possa essere scritta come frazione di due numeri interi
+\begin{equation}
+    \tilde{n} = \dfrac{ d_{q+1}\dots d_{q+p} }{ 10^{q+p} - 10^{q} } \ .
+\end{equation}
+\end{proof}
+
+\begin{example}
+    Il numero $n = 0.2\overline{16}$ si può scrivere come $\frac{2}{10} + 0.0\overline{16}$. Il numero $0.0\overline{16}$ può essere scritto ($q=1$, $p=2$) come
+    \begin{equation}
+        0.0\overline{16} = \dfrac{16}{10^3-10^{1}} = \dfrac{16}{990} \ ,
+    \end{equation}
+e quindi $n = \frac{2}{10} + \frac{16}{990} = \frac{214}{990}$.
+\end{example}
+
+\begin{proof}[Dimostrazione: decimale periodico $\Leftarrow$ razionale]
+\end{proof}
+
 % ------------------------------------------------------------------------------
 \section{Insieme dei numeri reali, $\mathbb{R}$}
-Esistono dei numeri che non possono essere rappresentati come frazioni di numeri interi. Alcuni di questi numeri compaiono in semplici problemi di geometria, come il calcolo della lunghezza della diagonale di un quadrato di lato unitario  $\sqrt{2}$ o la lunghezza della circonferenza con raggio unitario $\pi$.
+
+Esistono dei numeri che non possono essere rappresentati come frazioni di numeri interi, che vengono quindi definiti \textbf{irrazionali}. Facendo riferimento al paragrafo precedente, si può quindi dire che esistono dei numeri che, scritti in forma decimale, hanno una parte decimale non periodica.
+
+\begin{definition}[Insieme dei numeri reali, $\mathbb{R}$]
+L'unione dei numeri razionali e dei numeri irrazionali è l'insieme dei numeri reali.
+\end{definition}
+
+\paragraph{Cenni storici.} Alcuni di questi numeri compaiono in semplici problemi di geometria, come il calcolo della lunghezza della diagonale di un quadrato di lato unitario  $\sqrt{2}$ o la lunghezza della circonferenza con raggio unitario $\pi$.
+
+{\color{red}
+\paragraph{Operazioni chiuse.}
+\paragraph{Numeri reali come limite dei numeri razionali.}
+}
 
 \begin{example}[Irrazionalità di $\sqrt{2}$] Si vuole dimostrare che il numero $\sqrt{2}$ è irrazionale, e quindi non essere scritto come rapporto di due numeri interi $m$, $n$. La dimostrazione procede per assurdo: supponiamo che la tesi sia falsa, e arriviamo a una contraddizione.
 

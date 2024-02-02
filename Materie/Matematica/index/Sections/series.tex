@@ -75,6 +75,62 @@ e per il limite $n \rightarrow +\infty$, si ottiene
 \end{equation}
 \end{definition}
 
+Si vuole dimostrare che le due definizioni sono tra di loro equivalenti, confrontando i valori della serie troncata e della funzione $\left(1 + \frac{1}{n}\right)^n$
+\begin{equation}
+\begin{aligned}
+    s_n & := \sum_{k=0}^{n} \dfrac{1}{k!} \\
+    t_n & := \left( 1+ \frac{1}{n}  \right)^n
+\end{aligned}
+\end{equation}
+\begin{proof}[$t_n \le s_n$] Usando il teorema binomiale
+\begin{equation}
+\begin{aligned}
+    t_n = \left( 1 + \dfrac{1}{n} \right)^n 
+    & = \sum_{k=0}^{n} \binom{n}{k} 1^{n-k} \left(\dfrac{1}{n} \right)^{k} = \\
+    & = 1 + n \, \dfrac{1}{n} + \dfrac{n(n-1)}{2} \, \dfrac{1}{n^2} +  \dfrac{n(n-1)(n-2)}{2 \cdot 3} \, \dfrac{1}{n^3} + \dots = \\
+    & = 1 + 1 + \frac{1}{2} \left( 1 - \frac{1}{n} \right) +  \dfrac{1}{3!} \left( 1-\frac{1}{n} \right) \left( 1-\frac{2}{n} \right) + \dots = \\
+    & < 1 + 1 + \dfrac{1}{2} + \dfrac{1}{3!} + \dots = \sum_{k=0}^{n} \frac{1}{k!} = s_n
+\end{aligned}
+\end{equation}
+\end{proof}
+\begin{proof}[$t_n \ge s_n$]
+Si prende un numero $m < n$ fissato, e si definisce
+{\small
+\begin{equation}
+\begin{aligned}
+    t_{n,m} & := \left( 1 + \dfrac{1}{n} \right)^m \\
+    & = \sum_{k=0}^{m} \binom{m}{k} 1^{n-k} \left(\dfrac{1}{n} \right)^{k} = \\
+    & = 1 + 1 + \frac{1}{2} \left( 1 - \frac{1}{n} \right) +  \dfrac{1}{3!} \left( 1-\frac{1}{n} \right) \left( 1-\frac{2}{n} \right) + \dots \\
+    & \quad \dots + \dfrac{1}{m!}\left(1-\frac{1}{n}\right) \dots \left(1-\frac{m-1}{n}\right) = \\
+    & < t_n \\
+    s_m & = 1 + 1 + \dfrac{1}{2} + \dots + \dfrac{1}{m!}
+\end{aligned}
+\end{equation}
+}
+Fissando $m$ e facendo tendere all'infinito $n$, $n \rightarrow \infty$
+\begin{equation}
+    \lim_{n \rightarrow \infty} t_n > \lim_{n \rightarrow \infty} t_{n,m} = 1 + 1 + \dfrac{1}{2} + \dots \dfrac{1}{m!} = \sum_{k=0}^{m} \dfrac{1}{k!} = s_m
+\end{equation}
+\end{proof}
+
+\begin{proof}[Conclusioni]
+Sapendo che
+    \begin{equation}
+        \begin{cases}
+            s_n > t_n \\
+            s_n < \lim_{m \rightarrow \infty} t_m
+        \end{cases} \qquad \rightarrow \qquad
+        \begin{cases}
+            \text{limsup}_{n\rightarrow\infty} s_n \ge \text{limsup}_{n\rightarrow\infty} t_n \\
+            s_n \le \text{liminf}_{n\rightarrow\infty} t_n \\
+        \end{cases}
+    \end{equation}
+e ricordando che $\limsup \ge \liminf$ si può scrivere
+\begin{equation}
+    \limsup_{n\rightarrow\infty} t_n \ge \liminf_{n\rightarrow\infty} t_n \ge \limsup_{n\rightarrow\infty} s_n \ge \limsup_{n\rightarrow\infty} t_n \ .
+\end{equation}
+\end{proof}
+
 % ==============================================================================
 \chapter{Serie di funzioni}
 % ------------------------------------------------------------------------------

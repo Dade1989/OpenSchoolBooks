@@ -1,0 +1,145 @@
+
+\chapter{Calcolo delle variazioni}
+
+\begin{definition}[Funzionale] Un funzionale può essere definito come una funzione che ha come argomento una funzione.
+\end{definition}
+
+\begin{definition}[Funzionale azione]
+\begin{equation}
+    F = \int_{x_0}^{x_1} f(x, y(x), y'(x)) dx
+\end{equation}
+\end{definition}
+
+\noindent
+{\color{red}
+Ci si può ricondurre sempre a un'espressione di $f$ che dipende unicamente da $x, y(x), y'(x)$, con la funzione $y(x)$ vettoriale.
+}
+
+\begin{definition}[Variazione di una funzione] Definiamo variazione di una funzione $y(x)$, la famiglia di funzioni $y(x) + \varepsilon q(x)$, per $\forall q(x)$ in modo tale che $y(x) + \varepsilon q(x)$ soddisfi i vincoli ai quali è soggetta $y(x)$.
+\end{definition}
+
+\begin{definition}[Variazione di un funzionale]
+Definiamo la variazione del funzionale $F$, \textbf{per ogni funzione} $q(x)$,
+\begin{equation}
+    \delta F := \lim_{\varepsilon \rightarrow 0} \dfrac{1}{\varepsilon} \left[ \int_{x_0}^{x_1} f(x, y(x)+\varepsilon q(x), y'(x)+\varepsilon q'(x)) dx - \int_{x_0}^{x_1} f(x, y(x), y'(x)) dx \right] 
+\end{equation}
+\end{definition}
+{\small
+\begin{equation}
+\begin{aligned}
+    \delta F & := \lim_{\varepsilon \rightarrow 0} \dfrac{1}{\varepsilon} \left[ \int_{x_0}^{x_1} f(x, y(x)+\varepsilon q(x), y'(x)+\varepsilon q'(x)) dx - \int_{x_0}^{x_1} f(x, y(x), y'(x)) dx \right] = \\
+     & = \lim_{\varepsilon \rightarrow 0} \dfrac{1}{\varepsilon} \int_{x_0}^{x_1} \left[  f(x, y(x)+\varepsilon q(x), y'(x)+\varepsilon q'(x)) - f(x, y(x), y'(x)) dx \right] = \\
+     & = \lim_{\varepsilon \rightarrow 0} \dfrac{1}{\varepsilon} \int_{x_0}^{x_1} \left[  f(x, y(x), y'(x)) + \varepsilon \left( \dfrac{\partial f}{\partial y} q(x) + \dfrac{\partial f}{\partial y'} q'(x) \right) + o(\varepsilon) - f(x, y(x), y'(x)) dx \right] = \\
+     & = \int_{x_0}^{x_1} \left[ \dfrac{\partial f}{\partial y} q(x) + \dfrac{\partial f}{\partial y'} q'(x) \right] dx = \\
+     & = \left[ q(x) \dfrac{\partial f}{\partial y'} \right]\bigg|_{x_0}^{x_1} + \int_{x_0}^{x_1} \left[ \dfrac{\partial f}{\partial y} - \dfrac{d}{dx}\dfrac{\partial f}{\partial y'} \right] q(x) dx \ .
+\end{aligned}
+\end{equation}
+}
+
+\paragraph{Stazionarietà della variazione, $\delta F = 0$.}
+Se si impone $\delta F = 0$ \textbf{per ogni funzione} $q(x)$, seguono le condizioni
+\begin{equation}
+\begin{cases}
+    \dfrac{d}{dx} \dfrac{\partial f}{\partial y'} - \dfrac{\partial f}{\partial y} = 0 \qquad , \qquad x \in [x_0, x_1] \\
+    q(x_0) \dfrac{\partial f}{\partial y'}\bigg|_{x=x_0} = 0 \\
+    q(x_1) \dfrac{\partial f}{\partial y'}\bigg|_{x=x_1} = 0 \\
+\end{cases}
+\end{equation}
+
+\noindent
+Se i valori della funzione $y(x)$ negli estremi dell'intervallo $[x_0, x_1]$ sono noti e fissi, la variazione della funzione in quei punti è nulla, e quindi $q(x_0) = q(x_1) = 0$. In questo caso, non ci sono condizioni sui valori di $\frac{\partial f}{\partial y'}$ in quei punti.
+
+\begin{definition}[Equazione di Euler--Lagrange]
+L'equazione
+\begin{equation}
+    \dfrac{d}{dx} \dfrac{\partial f}{\partial y'} - \dfrac{\partial f}{\partial y} = 0 \qquad , \qquad x \in [x_0, x_1] \\
+\end{equation}
+è definita equazione di Euler--Lagrange.
+\end{definition}
+
+\paragraph{Identità di Beltrami: caso particolare $\partial f/\partial x = 0$.}
+Nel caso in cui la funzione $f$ non dipenda esplicitamente dalla variabile $x$, si può scrivere
+\begin{equation}
+    \dfrac{d}{dx} f = \dfrac{\partial f}{\partial y} y' +  \dfrac{\partial f}{\partial y'} y'' \quad \rightarrow \quad
+    \dfrac{\partial f}{\partial y} y' = \dfrac{d}{dx} f -  \dfrac{\partial f}{\partial y'} y''  \ .
+\end{equation}
+Moltiplicando per $y'$ l'equazione di Euler--Lagrange, e sostituendo l'espressione di $\frac{\partial f}{\partial y} y'$
+\begin{equation}
+\begin{aligned}
+    0 & = y' \dfrac{d}{dx} \dfrac{\partial f}{\partial y'} - \dfrac{d}{dx} f + y'' \dfrac{\partial f}{\partial y'} = \\
+      & = \dfrac{d}{dx} \left( y' \dfrac{\partial f}{\partial y'} \right) - \dfrac{d}{dx} f 
+      & = \dfrac{d}{dx} \left( y' \dfrac{\partial f}{\partial y'} - \dfrac{d}{dx} f \right)
+\end{aligned}
+\end{equation}
+e integrando in $x$ si ottiene quella che viene definita identità di Beltrami
+\begin{equation}
+    y' \dfrac{\partial f}{\partial y'} - f = c \ , 
+\end{equation}
+dove $c$ è una costante di integrazione da determinare con le informazioni specifiche del problema.
+
+\begin{example}[Brachistocrona]
+    Si vuole determinare l'equazione della curva immersa in un campo gravitazionale uniforme $\mathbf{g}$ che rende minimo il tempo impiegato da un corpo di massa $m$ per raggiungere il punto $B$ a partire dal punto $A$.
+
+\noindent
+Il tempo impiegato è la somma di tutti i tempi elementari
+    \begin{equation}
+        T = \int_{0}^{T} dt \ .
+    \end{equation}
+    La lunghezza $d \ell = \sqrt{1 + (y'(x))^2} dx$ percorsa in un intervallo di tempo elementare $dt$ vale
+    \begin{equation}
+        d \ell = |\mathbf{v}| dt \quad \rightarrow \quad dx = \dfrac{v}{\sqrt{1+(y'(x))^2}} dt ,
+    \end{equation}
+dove $\mathbf{v}$ è la velocità del corpo nell'istante di tempo $t$. Per mettere in relazione la velocità con la posizione nello spazio del corpo, si fa riferimento al principio di conservazione dell'energia meccanica in assenza di forze conservative,
+    \begin{equation}
+        E = \frac{1}{2} m |\mathbf{v}|^2 + m g y = E_0 = m g y_A
+    \end{equation} 
+    \begin{equation}
+        \rightarrow \qquad v = \sqrt{2 g ( y_A - y(x))} \ .
+    \end{equation}
+    Si può quindi riscrivere l'integrale del tempo impiegato in funzione della variabile $x$
+    \begin{equation}
+        T = \int_{x_A}^{x_B} \dfrac{\sqrt{1+y'^2}}{\sqrt{2 g (y_A-y)}} dx
+    \end{equation}
+    Si definisce la variabile $z(x):= y_A - y$, $z'(x) = -y'(x)$ e si riconosce quindi la lagrangiana 
+    \begin{equation}
+        f(x,z(x),z'(x)) = \dfrac{\sqrt{1+z'^2}}{\sqrt{2 g z}} \ ,
+    \end{equation}
+    che non dipende esplicitamente dalla variabile $x$. Si può usare quindi l'identità di Beltrami per risolvere il problema della minimizzazione del funzionale $T$ che rappresenta il tempo impeigato. Si calcola la derivata parziale,
+    \begin{equation}
+        \dfrac{\partial f}{\partial z'} = \dfrac{1}{\sqrt{2 g z}} \dfrac{1}{2}\left( 1 + z'^2 \right)^{-\frac{1}{2}} \cdot 2 z'
+    \end{equation}
+    per inserirne l'espressione nell'identità di Beltrami
+    \begin{equation}
+    \begin{aligned}
+        c & = z' \dfrac{1}{\sqrt{2gz}} \left( 1 + z'^2 \right)^{-\frac{1}{2}} z' - \frac{1}{\sqrt{2 g z}} \left( 1 + z'^2 \right)^{\frac{1}{2}} = \\
+        & =  \frac{1}{\sqrt{2gz}} \left( 1 + z'^2 \right)^{-\frac{1}{2}} \left( z'^2 - 1 - z'^2 \right) = \\
+        & = -\frac{1}{\sqrt{2gz}} \left( 1 + z'^2 \right)^{-\frac{1}{2}}  \\
+    \end{aligned}
+    \end{equation}
+    Si ottiene quindi l'equazione differenziale
+    \begin{equation}
+       z ( 1 + z'^2) = C^2 \ .
+    \end{equation}
+    Questa equazione può essere risolta usando il cambio di variabili
+    \begin{equation}
+    \begin{cases}
+        x = A \left[ \phi - \sin \phi \right] \\
+        z = A \left[ 1 - \cos \phi \right]
+    \end{cases}
+    \end{equation}
+    \begin{equation}
+        z'(x) = \dfrac{d z}{dx} = \dfrac{dz}{d\phi} \dfrac{d\phi}{dx} = A \sin \phi \dfrac{1}{A(1-\cos \phi)} = \dfrac{\sin \phi}{1- \cos \phi}
+    \end{equation}
+    \begin{equation}
+        C^2 = A \left( 1 - \cos \phi \right) \left( 1 + \dfrac{\sin^2 \phi}{(1-\cos\phi)^2} \right) = A \dfrac{1-2\cos\phi + \cos^2 \phi + \sin^2 \phi}{1-\cos\phi} = A \dfrac{2 (1-\cos \phi)}{(1-\cos \phi)} = 2A \ .
+    \end{equation}
+
+    Punto $A = (0,0) = (x(0), z(0))$
+    Punto $B = (0,0) = (x_B, z_B)$
+    La variabile $A$ va determinata imponendo il passaggio per $B$, insieme al valore $\phi^*$
+\end{example}
+
+
+
+
+

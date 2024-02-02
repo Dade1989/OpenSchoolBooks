@@ -1,4 +1,18 @@
 
+% ==============================================================================
+\begin{definition}[Termodinamica] La termodinamica è la branca della fisica che studia l'energia e gli scambi di energia in tutte le sue forme.
+\end{definition}
+
+% ------------------------------------------------------------------------------
+\section*{Argomenti}
+\paragraph{I principi della termodinamica.}
+\paragraph{Potenziali e relazioni termodinamiche.}
+\paragraph{Gli stati della materia.}
+\paragraph{Macchine termiche.}
+\paragraph{La trasmissione del calore.}
+
+% ------------------------------------------------------------------------------
+\section*{Cronologia}
 \begin{itemize}
     \item \textbf{Robert Boyle} (1627-1691) formula una teoria atomistica della materia. Compie studi sulle pompe ad aria insieme a \textbf{Robert Hooke}, usate negli esperimenti sulle proprietà dei gas, che gli permettono di formulare la legge che prenderà il suo nome e e che formula la relazione inversa tra pressione e volume occupato da un gas a temperatura costante.
     \item Newcomen (1664-1729) presenta la sua macchina a vapore, come prima applicazione industriale del vapore.
@@ -171,31 +185,23 @@ Il terzo principio della termodinamica postula la positività della temperatura
 \section{Bilanci per sistemi chiusi}
 I bilanci fondmamentali in forma integrale per un sistema chiuso $\Omega$ sono
 \begin{equation}
-    \dot{M}_{\Omega} = 0
-\end{equation}
-\begin{equation}
-    \dot{\mathbf{Q}}_{\Omega} = \mathbf{R}^{ext}
-\end{equation}
-\begin{equation}
-    \dot{E}^{tot}_{\Omega} = \dot{Q}^{ext} + \dot{P}^{ext}
-\end{equation}
-\begin{equation}
-    \dot{S}_{\Omega} \ge \dfrac{\dot{Q}^{ext}}{T}
+\begin{aligned}
+    & \dfrac{d}{dt}{M}_{\Omega} = 0 & \text{(massa)} \\
+    & \dfrac{d}{dt}{\mathbf{Q}}_{\Omega} = \mathbf{R}^{ext} & \text{(quantità di moto)} \\
+    & \dfrac{d}{dt}{E}^{tot}_{\Omega} = \dot{Q}^{ext} + \dot{P}^{ext} & \text{(energia totale)} \\
+    & \dfrac{d}{dt}{S}_{\Omega} \ge \dfrac{\dot{Q}^{ext}}{T} & \text{(entropia)} \\
+\end{aligned}
 \end{equation}
 
 \section{Bilanci per sistemi aperti}
 Nei bilanci per sistemi aperti compaiono i termini di flusso attraverso la frontiera del sistema
 \begin{equation}
-    \dot{M}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u}^{rel}) = 0
-\end{equation}
-\begin{equation}
-    \dot{\mathbf{Q}}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u} \mathbf{u}^{rel}) = \mathbf{R}^{ext}
-\end{equation}
-\begin{equation}
-    \dot{E}^{tot}_{\Omega} + \Phi_{\partial \Omega}(\rho e^{tot} \mathbf{u}^{rel}) = \dot{Q}^{ext} + \dot{P}^{ext}
-\end{equation}
-\begin{equation}
-    \dot{S}_{\Omega} + \Phi_{\partial \Omega}(\rho s \mathbf{u}^{rel}) \ge \dfrac{\dot{Q}^{ext}}{T}
+\begin{aligned}
+    & \dfrac{d}{dt}{M}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u}^{rel}) = 0 & \text{(massa)} \\
+    & \dfrac{d}{dt}{\mathbf{Q}}_{\Omega} + \Phi_{\partial \Omega}(\rho \mathbf{u} \mathbf{u}^{rel}) = \mathbf{R}^{ext} & \text{(quantità di moto)} \\
+    & \dfrac{d}{dt}{E}^{tot}_{\Omega} + \Phi_{\partial \Omega}(\rho e^{tot} \mathbf{u}^{rel}) = \dot{Q}^{ext} + \dot{P}^{ext} & \text{(energia totale)} \\
+    & \dfrac{d}{dt}{S}_{\Omega} + \Phi_{\partial \Omega}(\rho s \mathbf{u}^{rel}) \ge \dfrac{\dot{Q}^{ext}}{T} & \text{(entropia)}
+\end{aligned}
 \end{equation}
 
 

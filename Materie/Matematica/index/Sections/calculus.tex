@@ -1,7 +1,87 @@
 
+% =======================================================================================
+\chapter{Funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$}
+
+In questo capitolo vengono elencate alcune funzioni elementari.
+
+\section{Definizioni}
+\begin{definition}[Funzioni pari e dispari]
+\end{definition}
+
+
+\begin{definition}[Funzione invertibile e funzione inversa]
+\end{definition}
+
+\section{Funzioni elementari}
+\subsection{Potenza}
+$f(x) = x^a$
+\subsection{Radice}
+{\color{red} Inversa della potenza. Dominio? Nel caso in cui la potenza non sia una funzione invertibile, quale ramo?}
+$f(x) = \sqrt[a]{x}$
+\subsection{Esponenziale}
+$f(x) = a^x$
+$f(x) = e^x$
+\subsection{Logaritmo}
+{\color{red} Inversa dell'esponenziale. Dominio \dots}
+
+
+\subsection{Funzioni armoniche}
+{\color{red} Dalla geometria \dots}
+
+\noindent
+Vengono definite le funzioni \textit{seno} e \textit{coseno},
+\begin{equation}
+\begin{aligned}
+    \sin x &= \frac{\overline{PH}}{R} \\
+    \cos x &= \frac{\overline{OH}}{R} \\
+\end{aligned}
+\end{equation}
+Viene defita la funzione \textit{tangente}, per valori della variabile indipendente $x \neq \dfrac{\pi}{2} + n \pi$, $n \in \mathbb{Z}$,
+\begin{equation}
+    \tan x = \frac{\overline{PH}}{\overline{OH}} = \frac{\sin x}{\cos x}
+\end{equation}
+
+\subsubsection{Proprietà}
+\paragraph{Identità fondamentale.} Usando il teorema di Pitagora, è immediato dimostrare l'identità fondamentale delle funzioni armoniche,
+\begin{equation}
+    \sin^2 x + \cos^2 x = 1 \ .
+\end{equation}
+
+\paragraph{Funzioni armoniche di somme e differenze.}
+{\color{red} Dimostrazione geometrica}
+\begin{equation}
+\begin{aligned}
+    \cos(x \mp y) & = \cos x \cos y \pm \sin x \sin y \\
+    \sin(x \mp y) & = \sin x \cos y \mp \sin y \cos x \\
+\end{aligned}
+\end{equation}
+
+\paragraph{Altre identità}
+\textit{Formule di Werner}
+\begin{equation}
+\begin{aligned}
+    \cos x \cos y & = \dfrac{1}{2} \left[ \cos(x-y) + \cos(x+y) \right] \\
+    \sin x \sin y & = \dfrac{1}{2} \left[ \cos(x-y) - \cos(x+y) \right] \\
+    \sin x \cos y & = \dfrac{1}{2} \left[ \sin(x-y) + \sin(x+y) \right] \\
+\end{aligned}
+\end{equation}
+
+\noindent
+\textit{Formule di prostaferesi} Definendo $x-y = p$, $x+y = q$, cosicché $x = \frac{p+q}{2}$, $y = \frac{q-p}{2}$
+\begin{equation}
+\begin{aligned}
+    \cos p + \cos q & = 2 \cos\left(\dfrac{p+q}{2}\right) \cos\left(\dfrac{q-p}{2}\right) \\
+    \cos p - \cos q & = 2 \sin\left(\dfrac{p+q}{2}\right) \sin\left(\dfrac{q-p}{2}\right) \\
+    \cos p + \cos q & = 2 \sin\left(\dfrac{p+q}{2}\right) \cos\left(\dfrac{q-p}{2}\right) \\
+\end{aligned}
+\end{equation}
+
+
+
+\subsection{Funzioni iperboliche}
 
 % =======================================================================================
-\chapter{Funzioni $f:\mathbb{R} \rightarrow \mathbb{R}$ e limiti}
+\chapter{Limiti di funzioni reali}
 
 % ---------------------------------------------------------------------------------------
 \section{Cenni di topologia per l'analisi}
@@ -299,6 +379,7 @@ Usando la definizione di derivata (\ref{def:derivative}) si possono dimostrare l
 \end{equation}
 \paragraph{Derivata della funzione inversa}
 \begin{equation}
+    \dfrac{d}{dx} f^{-1}(x) = \dfrac{1}{\dfrac{d f}{d y}\bigg|_{y=f(x)}}
 \end{equation}
 
 \subsection{Dimostrazioni}
@@ -353,6 +434,20 @@ Usando la definizione di derivata (\ref{def:derivative}) si possono dimostrare l
     & = \dots \\
     & = f'(g(x)) \, g'(x) \ .
 \end{aligned}
+\end{equation}
+\end{proof}
+
+\begin{proof}[Derivata della funzione inversa] Per dimostrare la formula della derivata della funzione inversa $f^{-1}(x)$ della funzione $f(x)$, si sfrutta la definizione
+\begin{equation}
+    f(y) = x \quad , \quad f^{-1}(x) = y \qquad \rightarrow \qquad x = f(f^{-1}(x)) \ .
+\end{equation}
+Si calcola la derivata rispetto a $x$ dell'ultima relazione, usando la regola di derivazione delle funzioni composte
+\begin{equation}
+    \frac{d}{dx} x = \frac{d}{dx} \left( f(f^{-1}(x)) \right) \qquad \rightarrow \qquad
+    1 = \dfrac{d f}{d y}\bigg|_{y=f(x)} \dfrac{d f^{-1}(x)}{dx} 
+\end{equation}
+\begin{equation}
+    \rightarrow \qquad \dfrac{d}{dx} f^{-1}(x) = \dfrac{1}{\dfrac{d f}{d y}\bigg|_{y=f(x)}}
 \end{equation}
 \end{proof}
 
